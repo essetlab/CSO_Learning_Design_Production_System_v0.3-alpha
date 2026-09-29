@@ -1,0 +1,12 @@
+id: CMP-PERSPECTIVE-01
+version: 0.3.0-alpha
+status: prototype
+purpose: Shared evidence scene plus perspective interpretation and bounded evidence-versus-assumption feedback.
+desktop_transform: shared-scene-plus-adjacent-interpretation-pane
+mobile_transform: scene-then-stacked-perspective-disclosures-then-interpretation
+required_objects:
+- BLK-PERSPECTIVE-01
+- INT-LABELED-GRAPHIC-01
+- BLK-QUESTION-01
+- BLK-FEEDBACK-01
+- BLK-TAKEAWAY-01

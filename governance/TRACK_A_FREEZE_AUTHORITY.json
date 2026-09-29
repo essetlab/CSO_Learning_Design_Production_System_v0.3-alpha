@@ -1,0 +1,17 @@
+{
+  "decision": "TRACK_A_REVISION_1_FROZEN_FOR_PROTOTYPE_IMPLEMENTATION",
+  "authority": "User in this chat conveying ChatGPT architectural review",
+  "boundary": "Track A is an assessment/readiness rehearsal, not an independent competence-certification system. The learner/reviewer produces a readiness recommendation against transparent criteria. Runtime structural completion, route selection or deterministic feedback must never be represented as independent professional competence judgment, certification, organizational authorization, public-plan approval or formal assessor decision. A simulated/deterministic reviewer may demonstrate the assessment contract only when clearly labelled as simulated.",
+  "status_limit": "IMPLEMENTED_PENDING_MANUAL_VALIDATION",
+  "registered_status_limit": "PROTOTYPE",
+  "no_GR_number_assigned": true,
+  "scope": "Approved Revision 1 plus locked assessment boundary only",
+  "prohibited": [
+    "Track B",
+    "PM stress testing",
+    "HRBA reconstruction",
+    "Golden Reference acceptance",
+    "candidate promotion",
+    "real competence certification"
+  ]
+}

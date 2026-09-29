@@ -1,0 +1,1361 @@
+{
+  "provenance": "Automated headless Google Chrome. No native zoom, actual screen reader, physical keyboard or independent semantic judgment claimed.",
+  "checks": [
+    {
+      "name": "1920x1080 blank Continue disabled",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 only two authored fields",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus inspect-TA-E01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus inspect-TA-E02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus inspect-TA-E03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus inspect-TA-E04",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus state-TA-K01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K01-TA-E01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K01-TA-E02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K01-TA-E03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K01-TA-E04",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-access_not_tested",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-influence_not_demonstrated",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-claim_conflicts_with_record",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-receipt_unverified",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-authority_unclear",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-evidence_scope_limited",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus priority-TA-K01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus state-TA-K02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K02-TA-E01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K02-TA-E02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K02-TA-E03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K02-TA-E04",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-access_not_tested",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-influence_not_demonstrated",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-claim_conflicts_with_record",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-receipt_unverified",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-authority_unclear",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-evidence_scope_limited",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus priority-TA-K02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus state-TA-K03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K03-TA-E01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K03-TA-E02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K03-TA-E03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K03-TA-E04",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-access_not_tested",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-influence_not_demonstrated",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-claim_conflicts_with_record",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-receipt_unverified",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-authority_unclear",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-evidence_scope_limited",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus priority-TA-K03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus route",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus rationale",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus next_step_note",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 draft recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus record-initial",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 initial captured",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 initial recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus inspect-consequence",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus request-clarification",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 clarification invalidates",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 stale recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus inspect-TA-E03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus state-TA-K01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K01-TA-E01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K01-TA-E02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K01-TA-E03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K01-TA-E04",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-access_not_tested",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-influence_not_demonstrated",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-claim_conflicts_with_record",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-receipt_unverified",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-authority_unclear",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K01-evidence_scope_limited",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus priority-TA-K01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus state-TA-K02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K02-TA-E01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K02-TA-E02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K02-TA-E03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K02-TA-E04",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-access_not_tested",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-influence_not_demonstrated",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-claim_conflicts_with_record",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-receipt_unverified",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-authority_unclear",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K02-evidence_scope_limited",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus priority-TA-K02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus state-TA-K03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K03-TA-E01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K03-TA-E02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K03-TA-E03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus link-TA-K03-TA-E04",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-access_not_tested",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-influence_not_demonstrated",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-claim_conflicts_with_record",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-receipt_unverified",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-authority_unclear",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus gap-TA-K03-evidence_scope_limited",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus priority-TA-K03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus route",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus rationale",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus next_step_note",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus disposition",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus confirm-TA-K01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus confirm-TA-K02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus confirm-TA-K03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus record-current",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 rereview record",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus inspect-comparison",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 complete practice",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 immutable initial",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 completed recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "bad": []
+      }
+    },
+    {
+      "name": "1920x1080 reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus revise",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 revise disables immediately",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus confirm-TA-K01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus confirm-TA-K02",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus confirm-TA-K03",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus record-current",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus inspect-comparison",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus show-text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 full export and practice boundary",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus open-TA-K01-TA-E01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 keyboard focus return-TA-E01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 source return focus",
+      "passed": true
+    },
+    {
+      "name": "text edit immediately hides stale current outcome 1920",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 stress no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "bad": []
+      }
+    },
+    {
+      "name": "1920x1080 stress reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 stress reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 stress reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "overlimit 1920 recovery exact",
+      "passed": true
+    },
+    {
+      "name": "overlimit retained 1920",
+      "passed": true
+    },
+    {
+      "name": "pasted HTML inert 1920",
+      "passed": true
+    },
+    {
+      "name": "offline live input 1920",
+      "passed": true
+    },
+    {
+      "name": "1440x900 blank Continue disabled",
+      "passed": true
+    },
+    {
+      "name": "1440x900 only two authored fields",
+      "passed": true
+    },
+    {
+      "name": "1440x900 draft recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1440x900 initial captured",
+      "passed": true
+    },
+    {
+      "name": "1440x900 initial recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1440x900 clarification invalidates",
+      "passed": true
+    },
+    {
+      "name": "1440x900 stale recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1440x900 rereview record",
+      "passed": true
+    },
+    {
+      "name": "1440x900 complete practice",
+      "passed": true
+    },
+    {
+      "name": "1440x900 immutable initial",
+      "passed": true
+    },
+    {
+      "name": "1440x900 completed recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1440x900 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "1440x900 no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "bad": []
+      }
+    },
+    {
+      "name": "1440x900 reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "1440x900 reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "1440x900 reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1440x900 revise disables immediately",
+      "passed": true
+    },
+    {
+      "name": "1440x900 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "1440x900 full export and practice boundary",
+      "passed": true
+    },
+    {
+      "name": "1440x900 source return focus",
+      "passed": true
+    },
+    {
+      "name": "text edit immediately hides stale current outcome 1440",
+      "passed": true
+    },
+    {
+      "name": "1440x900 stress no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "bad": []
+      }
+    },
+    {
+      "name": "1440x900 stress reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "1440x900 stress reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "1440x900 stress reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "overlimit 1440 recovery exact",
+      "passed": true
+    },
+    {
+      "name": "overlimit retained 1440",
+      "passed": true
+    },
+    {
+      "name": "pasted HTML inert 1440",
+      "passed": true
+    },
+    {
+      "name": "offline live input 1440",
+      "passed": true
+    },
+    {
+      "name": "1024x768 blank Continue disabled",
+      "passed": true
+    },
+    {
+      "name": "1024x768 only two authored fields",
+      "passed": true
+    },
+    {
+      "name": "1024x768 draft recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1024x768 initial captured",
+      "passed": true
+    },
+    {
+      "name": "1024x768 initial recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1024x768 clarification invalidates",
+      "passed": true
+    },
+    {
+      "name": "1024x768 stale recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1024x768 rereview record",
+      "passed": true
+    },
+    {
+      "name": "1024x768 complete practice",
+      "passed": true
+    },
+    {
+      "name": "1024x768 immutable initial",
+      "passed": true
+    },
+    {
+      "name": "1024x768 completed recovery exact",
+      "passed": true
+    },
+    {
+      "name": "1024x768 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "1024x768 no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "bad": []
+      }
+    },
+    {
+      "name": "1024x768 reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "1024x768 reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "1024x768 reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1024x768 revise disables immediately",
+      "passed": true
+    },
+    {
+      "name": "1024x768 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "1024x768 full export and practice boundary",
+      "passed": true
+    },
+    {
+      "name": "1024x768 source return focus",
+      "passed": true
+    },
+    {
+      "name": "text edit immediately hides stale current outcome 1024",
+      "passed": true
+    },
+    {
+      "name": "1024x768 stress no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "bad": []
+      }
+    },
+    {
+      "name": "1024x768 stress reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "1024x768 stress reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "1024x768 stress reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "overlimit 1024 recovery exact",
+      "passed": true
+    },
+    {
+      "name": "overlimit retained 1024",
+      "passed": true
+    },
+    {
+      "name": "pasted HTML inert 1024",
+      "passed": true
+    },
+    {
+      "name": "offline live input 1024",
+      "passed": true
+    },
+    {
+      "name": "768x1024 blank Continue disabled",
+      "passed": true
+    },
+    {
+      "name": "768x1024 only two authored fields",
+      "passed": true
+    },
+    {
+      "name": "768x1024 draft recovery exact",
+      "passed": true
+    },
+    {
+      "name": "768x1024 initial captured",
+      "passed": true
+    },
+    {
+      "name": "768x1024 initial recovery exact",
+      "passed": true
+    },
+    {
+      "name": "768x1024 clarification invalidates",
+      "passed": true
+    },
+    {
+      "name": "768x1024 stale recovery exact",
+      "passed": true
+    },
+    {
+      "name": "768x1024 rereview record",
+      "passed": true
+    },
+    {
+      "name": "768x1024 complete practice",
+      "passed": true
+    },
+    {
+      "name": "768x1024 immutable initial",
+      "passed": true
+    },
+    {
+      "name": "768x1024 completed recovery exact",
+      "passed": true
+    },
+    {
+      "name": "768x1024 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "768x1024 no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "bad": []
+      }
+    },
+    {
+      "name": "768x1024 reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "768x1024 reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "768x1024 reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "768x1024 revise disables immediately",
+      "passed": true
+    },
+    {
+      "name": "768x1024 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "768x1024 full export and practice boundary",
+      "passed": true
+    },
+    {
+      "name": "768x1024 source return focus",
+      "passed": true
+    },
+    {
+      "name": "text edit immediately hides stale current outcome 768",
+      "passed": true
+    },
+    {
+      "name": "768x1024 stress no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "bad": []
+      }
+    },
+    {
+      "name": "768x1024 stress reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "768x1024 stress reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "768x1024 stress reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "overlimit 768 recovery exact",
+      "passed": true
+    },
+    {
+      "name": "overlimit retained 768",
+      "passed": true
+    },
+    {
+      "name": "pasted HTML inert 768",
+      "passed": true
+    },
+    {
+      "name": "offline live input 768",
+      "passed": true
+    },
+    {
+      "name": "390x844 blank Continue disabled",
+      "passed": true
+    },
+    {
+      "name": "390x844 only two authored fields",
+      "passed": true
+    },
+    {
+      "name": "390x844 draft recovery exact",
+      "passed": true
+    },
+    {
+      "name": "390x844 initial captured",
+      "passed": true
+    },
+    {
+      "name": "390x844 initial recovery exact",
+      "passed": true
+    },
+    {
+      "name": "390x844 clarification invalidates",
+      "passed": true
+    },
+    {
+      "name": "390x844 stale recovery exact",
+      "passed": true
+    },
+    {
+      "name": "390x844 rereview record",
+      "passed": true
+    },
+    {
+      "name": "390x844 complete practice",
+      "passed": true
+    },
+    {
+      "name": "390x844 immutable initial",
+      "passed": true
+    },
+    {
+      "name": "390x844 completed recovery exact",
+      "passed": true
+    },
+    {
+      "name": "390x844 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "390x844 no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "bad": []
+      }
+    },
+    {
+      "name": "390x844 reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "390x844 reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "390x844 reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "390x844 revise disables immediately",
+      "passed": true
+    },
+    {
+      "name": "390x844 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "390x844 full export and practice boundary",
+      "passed": true
+    },
+    {
+      "name": "390x844 source return focus",
+      "passed": true
+    },
+    {
+      "name": "text edit immediately hides stale current outcome 390",
+      "passed": true
+    },
+    {
+      "name": "390x844 stress no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "bad": []
+      }
+    },
+    {
+      "name": "390x844 stress reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "390x844 stress reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "390x844 stress reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "overlimit 390 recovery exact",
+      "passed": true
+    },
+    {
+      "name": "overlimit retained 390",
+      "passed": true
+    },
+    {
+      "name": "pasted HTML inert 390",
+      "passed": true
+    },
+    {
+      "name": "offline live input 390",
+      "passed": true
+    },
+    {
+      "name": "320x568 blank Continue disabled",
+      "passed": true
+    },
+    {
+      "name": "320x568 only two authored fields",
+      "passed": true
+    },
+    {
+      "name": "320x568 draft recovery exact",
+      "passed": true
+    },
+    {
+      "name": "320x568 initial captured",
+      "passed": true
+    },
+    {
+      "name": "320x568 initial recovery exact",
+      "passed": true
+    },
+    {
+      "name": "320x568 clarification invalidates",
+      "passed": true
+    },
+    {
+      "name": "320x568 stale recovery exact",
+      "passed": true
+    },
+    {
+      "name": "320x568 rereview record",
+      "passed": true
+    },
+    {
+      "name": "320x568 complete practice",
+      "passed": true
+    },
+    {
+      "name": "320x568 immutable initial",
+      "passed": true
+    },
+    {
+      "name": "320x568 completed recovery exact",
+      "passed": true
+    },
+    {
+      "name": "320x568 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "320x568 no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "bad": []
+      }
+    },
+    {
+      "name": "320x568 reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "320x568 reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "320x568 reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "320x568 revise disables immediately",
+      "passed": true
+    },
+    {
+      "name": "320x568 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "320x568 full export and practice boundary",
+      "passed": true
+    },
+    {
+      "name": "320x568 source return focus",
+      "passed": true
+    },
+    {
+      "name": "text edit immediately hides stale current outcome 320",
+      "passed": true
+    },
+    {
+      "name": "320x568 stress no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "bad": []
+      }
+    },
+    {
+      "name": "320x568 stress reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "320x568 stress reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "320x568 stress reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "overlimit 320 recovery exact",
+      "passed": true
+    },
+    {
+      "name": "overlimit retained 320",
+      "passed": true
+    },
+    {
+      "name": "pasted HTML inert 320",
+      "passed": true
+    },
+    {
+      "name": "offline live input 320",
+      "passed": true
+    },
+    {
+      "name": "844x390 blank Continue disabled",
+      "passed": true
+    },
+    {
+      "name": "844x390 only two authored fields",
+      "passed": true
+    },
+    {
+      "name": "844x390 draft recovery exact",
+      "passed": true
+    },
+    {
+      "name": "844x390 initial captured",
+      "passed": true
+    },
+    {
+      "name": "844x390 initial recovery exact",
+      "passed": true
+    },
+    {
+      "name": "844x390 clarification invalidates",
+      "passed": true
+    },
+    {
+      "name": "844x390 stale recovery exact",
+      "passed": true
+    },
+    {
+      "name": "844x390 rereview record",
+      "passed": true
+    },
+    {
+      "name": "844x390 complete practice",
+      "passed": true
+    },
+    {
+      "name": "844x390 immutable initial",
+      "passed": true
+    },
+    {
+      "name": "844x390 completed recovery exact",
+      "passed": true
+    },
+    {
+      "name": "844x390 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "844x390 no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "scroll": 844,
+        "bad": []
+      }
+    },
+    {
+      "name": "844x390 reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "844x390 reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "844x390 reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "844x390 revise disables immediately",
+      "passed": true
+    },
+    {
+      "name": "844x390 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "844x390 full export and practice boundary",
+      "passed": true
+    },
+    {
+      "name": "844x390 source return focus",
+      "passed": true
+    },
+    {
+      "name": "text edit immediately hides stale current outcome 844",
+      "passed": true
+    },
+    {
+      "name": "844x390 stress no page horizontal dependency/clipped content",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "scroll": 844,
+        "bad": []
+      }
+    },
+    {
+      "name": "844x390 stress reachable rationale",
+      "passed": true
+    },
+    {
+      "name": "844x390 stress reachable next_step_note",
+      "passed": true
+    },
+    {
+      "name": "844x390 stress reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "overlimit 844 recovery exact",
+      "passed": true
+    },
+    {
+      "name": "overlimit retained 844",
+      "passed": true
+    },
+    {
+      "name": "pasted HTML inert 844",
+      "passed": true
+    },
+    {
+      "name": "offline live input 844",
+      "passed": true
+    },
+    {
+      "name": "native tab traversal state-TA-K01",
+      "passed": true
+    },
+    {
+      "name": "native tab traversal rationale",
+      "passed": true
+    },
+    {
+      "name": "native tab traversal next_step_note",
+      "passed": true
+    },
+    {
+      "name": "native tab traversal record-initial",
+      "passed": true
+    },
+    {
+      "name": "native tab traversal device-consent",
+      "passed": true
+    },
+    {
+      "name": "invalid source focus and association",
+      "passed": true
+    },
+    {
+      "name": "no JS honest fallback",
+      "passed": true
+    },
+    {
+      "name": "complete offline-text exercise",
+      "passed": true
+    },
+    {
+      "name": "real profile restart explicit durable resume",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "tests/track-a-implementation/1920x1080-initial.png",
+    "tests/track-a-implementation/1920x1080.png",
+    "tests/track-a-implementation/1920x1080-stress.png",
+    "tests/track-a-implementation/1440x900-initial.png",
+    "tests/track-a-implementation/1440x900.png",
+    "tests/track-a-implementation/1440x900-stress.png",
+    "tests/track-a-implementation/1024x768-initial.png",
+    "tests/track-a-implementation/1024x768.png",
+    "tests/track-a-implementation/1024x768-stress.png",
+    "tests/track-a-implementation/768x1024-initial.png",
+    "tests/track-a-implementation/768x1024.png",
+    "tests/track-a-implementation/768x1024-stress.png",
+    "tests/track-a-implementation/390x844-initial.png",
+    "tests/track-a-implementation/390x844.png",
+    "tests/track-a-implementation/390x844-stress.png",
+    "tests/track-a-implementation/320x568-initial.png",
+    "tests/track-a-implementation/320x568.png",
+    "tests/track-a-implementation/320x568-stress.png",
+    "tests/track-a-implementation/844x390-initial.png",
+    "tests/track-a-implementation/844x390.png",
+    "tests/track-a-implementation/844x390-stress.png"
+  ],
+  "browser": "154.0.8037.58",
+  "passed": true
+}

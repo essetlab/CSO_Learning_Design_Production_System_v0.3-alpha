@@ -1,0 +1,42 @@
+[
+  {
+    "command": [
+      "node",
+      "tests/run_gr03_browser_validation.cjs"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-run_gr03_browser_validation.log"
+  },
+  {
+    "command": [
+      "node",
+      "tests/run_gr05_browser_validation.cjs"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-run_gr05_browser_validation.log"
+  },
+  {
+    "command": [
+      "node",
+      "tests/run_gr05_keyboard_resilience.cjs"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-run_gr05_keyboard_resilience.log"
+  },
+  {
+    "command": [
+      "node",
+      "tests/run_gr06_browser.cjs"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-run_gr06_browser.log"
+  },
+  {
+    "command": [
+      "node",
+      "tests/run_gr06_recovery.cjs"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-run_gr06_recovery.log"
+  }
+]

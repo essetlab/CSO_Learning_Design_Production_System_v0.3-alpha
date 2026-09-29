@@ -1,0 +1,611 @@
+{
+  "designation": "SYNTHETIC SEMANTIC-REVIEW EVIDENCE ONLY — not model answers, not real plans, not runtime inputs",
+  "human_judgment": "PENDING_ARCHITECTURAL_REVIEW",
+  "case_contract": "TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+  "positive_examples": [
+    {
+      "id": "P01",
+      "purpose": "Revise then proceed only to supervised rehearsal, with unresolved real-use checks",
+      "initial": {
+        "bundle_version": 1,
+        "mappings": {
+          "TA-K01": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "access_not_tested"
+            ],
+            "gap_priority": "during_supervised_step"
+          },
+          "TA-K02": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E03",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "evidence_scope_limited"
+            ],
+            "gap_priority": "before_real_use"
+          },
+          "TA-K03": {
+            "state": "conflicting",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E03",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              },
+              {
+                "artifact_id": "TA-E04",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "claim_conflicts_with_record",
+              "receipt_unverified"
+            ],
+            "gap_priority": "before_next_step"
+          }
+        },
+        "route": "revise",
+        "rationale": "The rehearsal shows a specific influence on timing, but the self-review overclaims receipt and public approval. Correct those claims before the next supervised step.",
+        "next_step_note": "Ask the learner to distinguish preparation from receipt and name the planning team’s authority; reconsider the corrected account with the tutor."
+      },
+      "current": {
+        "bundle_version": 2,
+        "mappings": {
+          "TA-K01": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "access_not_tested"
+            ],
+            "gap_priority": "during_supervised_step"
+          },
+          "TA-K02": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "evidence_scope_limited"
+            ],
+            "gap_priority": "before_real_use"
+          },
+          "TA-K03": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E03",
+                "version": 2,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E04",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "receipt_unverified"
+            ],
+            "gap_priority": "before_real_use"
+          }
+        },
+        "route": "proceed",
+        "rationale": "The clarification now respects authority and distinguishes preparation from receipt. Together with the rehearsal, this supports another supervised practice conversation, not unsupervised work or verified public response.",
+        "next_step_note": "The tutor should test accessible explanation and understanding in the next rehearsal; verify a safe response route before any real use."
+      },
+      "disposition": "amend_recommendation",
+      "unresolved": [
+        "Disability access not rehearsed",
+        "No real delivery or receipt evidence"
+      ]
+    },
+    {
+      "id": "P02",
+      "purpose": "Retain revise after clarification; credible not-yet without forced prose",
+      "initial": {
+        "bundle_version": 1,
+        "mappings": {
+          "TA-K01": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "access_not_tested"
+            ],
+            "gap_priority": "during_supervised_step"
+          },
+          "TA-K02": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E03",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "evidence_scope_limited"
+            ],
+            "gap_priority": "before_real_use"
+          },
+          "TA-K03": {
+            "state": "conflicting",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E03",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              },
+              {
+                "artifact_id": "TA-E04",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "claim_conflicts_with_record",
+              "receipt_unverified"
+            ],
+            "gap_priority": "before_next_step"
+          }
+        },
+        "route": "revise",
+        "rationale": "The bundle does not yet demonstrate accessible account-back. A clear plan and a timing change are useful, but supervised evidence of explaining and checking understanding is still needed.",
+        "next_step_note": "Ask the tutor to observe an accessible account-back rehearsal and review the learner’s response before judging readiness again."
+      },
+      "current": {
+        "bundle_version": 2,
+        "mappings": {
+          "TA-K01": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "access_not_tested"
+            ],
+            "gap_priority": "during_supervised_step"
+          },
+          "TA-K02": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "evidence_scope_limited"
+            ],
+            "gap_priority": "before_real_use"
+          },
+          "TA-K03": {
+            "state": "insufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E03",
+                "version": 2,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E04",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "receipt_unverified"
+            ],
+            "gap_priority": "before_next_step"
+          }
+        },
+        "route": "revise",
+        "rationale": "The bundle does not yet demonstrate accessible account-back. A clear plan and a timing change are useful, but supervised evidence of explaining and checking understanding is still needed.",
+        "next_step_note": "Ask the tutor to observe an accessible account-back rehearsal and review the learner’s response before judging readiness again."
+      },
+      "disposition": "retain_recommendation",
+      "unresolved": [
+        "Correction is intention, not observed account-back"
+      ]
+    },
+    {
+      "id": "P03",
+      "purpose": "Seek tutor review without pretending public authorization exists",
+      "initial": {
+        "bundle_version": 1,
+        "mappings": {
+          "TA-K01": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "access_not_tested"
+            ],
+            "gap_priority": "during_supervised_step"
+          },
+          "TA-K02": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E03",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "evidence_scope_limited"
+            ],
+            "gap_priority": "before_real_use"
+          },
+          "TA-K03": {
+            "state": "conflicting",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E03",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              },
+              {
+                "artifact_id": "TA-E04",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "claim_conflicts_with_record",
+              "receipt_unverified"
+            ],
+            "gap_priority": "before_next_step"
+          }
+        },
+        "route": "seek_review",
+        "rationale": "The learner’s approval and receipt claims conflict with the role check. I can flag that boundary, but a tutor should review readiness for the supervised step.",
+        "next_step_note": "Send the conflicting criterion and source versions to the tutor in a real review process; here, request the exercise clarification and retain the record."
+      },
+      "current": {
+        "bundle_version": 2,
+        "mappings": {
+          "TA-K01": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "access_not_tested"
+            ],
+            "gap_priority": "during_supervised_step"
+          },
+          "TA-K02": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "evidence_scope_limited"
+            ],
+            "gap_priority": "before_real_use"
+          },
+          "TA-K03": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E03",
+                "version": 2,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E04",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "receipt_unverified"
+            ],
+            "gap_priority": "before_real_use"
+          }
+        },
+        "route": "seek_review",
+        "rationale": "The clarification resolves the stated authority confusion, but I want tutor review of the planned understanding check before recommending the supervised step. It does not establish actual receipt.",
+        "next_step_note": "Ask the tutor to review the account-back plan; the learner can prepare a fictional spoken summary while awaiting review."
+      },
+      "disposition": "retain_recommendation",
+      "unresolved": [
+        "Tutor review not actually sent or received"
+      ]
+    },
+    {
+      "id": "P04",
+      "purpose": "Defer with precise missing evidence and reconsideration trigger",
+      "initial": {
+        "bundle_version": 1,
+        "mappings": {
+          "TA-K01": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "access_not_tested"
+            ],
+            "gap_priority": "during_supervised_step"
+          },
+          "TA-K02": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E03",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "evidence_scope_limited"
+            ],
+            "gap_priority": "before_real_use"
+          },
+          "TA-K03": {
+            "state": "missing",
+            "links": [
+              {
+                "artifact_id": "TA-E04",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "receipt_unverified"
+            ],
+            "gap_priority": "before_next_step"
+          }
+        },
+        "route": "defer",
+        "rationale": "I need evidence of how the learner explains a response and checks understanding before recommending this next step. The current record documents preparation rather than that performance.",
+        "next_step_note": "Arrange a short supervised demonstration with the tutor, then reconsider this criterion; retain the existing participation evidence."
+      },
+      "current": {
+        "bundle_version": 2,
+        "mappings": {
+          "TA-K01": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E01",
+                "version": 1,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "access_not_tested"
+            ],
+            "gap_priority": "during_supervised_step"
+          },
+          "TA-K02": {
+            "state": "sufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E02",
+                "version": 1,
+                "role": "supports"
+              }
+            ],
+            "gap_markers": [
+              "evidence_scope_limited"
+            ],
+            "gap_priority": "before_real_use"
+          },
+          "TA-K03": {
+            "state": "insufficient",
+            "links": [
+              {
+                "artifact_id": "TA-E03",
+                "version": 2,
+                "role": "supports"
+              },
+              {
+                "artifact_id": "TA-E04",
+                "version": 1,
+                "role": "limits_or_contradicts"
+              }
+            ],
+            "gap_markers": [
+              "receipt_unverified"
+            ],
+            "gap_priority": "before_next_step"
+          }
+        },
+        "route": "defer",
+        "rationale": "The corrected intention is relevant but does not demonstrate the explanation or understanding check. I would defer my recommendation until a short supervised demonstration is available.",
+        "next_step_note": "Ask the tutor for a bounded demonstration and re-review its observation alongside this clarification."
+      },
+      "disposition": "retain_recommendation",
+      "unresolved": [
+        "Criterion evidence still insufficient for this reviewer’s recommendation"
+      ]
+    }
+  ],
+  "negative_counterexamples": [
+    {
+      "id": "N01",
+      "title": "Artifact-count assessment",
+      "claim": "Four documents are present, so every criterion is sufficient.",
+      "dimensions": "H01,H03,H10",
+      "expected_human_critique": "Reject as semantic evidence: counts do not prove capability."
+    },
+    {
+      "id": "N02",
+      "title": "Receipt and authority confusion",
+      "claim": "Awra approved the plan and a drafted message proves everyone received a response.",
+      "dimensions": "H02,H04,H05",
+      "expected_human_critique": "Reject: directly overclaims what the supplied record establishes."
+    },
+    {
+      "id": "N03",
+      "title": "Suppressed contradiction",
+      "claim": "Remove E03 and its conflicting claim from the first record so the plan looks ready.",
+      "dimensions": "H02,H07",
+      "expected_human_critique": "Reject: preserve historical contradictions and exact source versions."
+    },
+    {
+      "id": "N04",
+      "title": "Stale approval",
+      "claim": "Keep the old acknowledged assessment active after the source version changes.",
+      "dimensions": "H07,H10",
+      "expected_human_critique": "Reject: current assessment invalidates, even if the chosen route remains the same."
+    },
+    {
+      "id": "N05",
+      "title": "Indefinite defer",
+      "claim": "Wait until everything is perfect.",
+      "dimensions": "H06,H08,H09",
+      "expected_human_critique": "Reject: lacks a proportionate evidence request, owner and reconsideration trigger."
+    },
+    {
+      "id": "N06",
+      "title": "Word/keyword pseudo-grading",
+      "claim": "The answer has enough words and includes rights-holder, so mark the reviewer competent.",
+      "dimensions": "H03,H09,H10",
+      "expected_human_critique": "Reject: structural bounds and vocabulary cannot grant competence."
+    },
+    {
+      "id": "N07",
+      "title": "Forced proceed",
+      "claim": "Revise and seek review are wrong because Continue requires proceeding.",
+      "dimensions": "H05,H08,H10",
+      "expected_human_critique": "Reject: practice completion is independent of readiness route."
+    },
+    {
+      "id": "N08",
+      "title": "False external assessor",
+      "claim": "The app says a qualified tutor approved this work although nobody reviewed it.",
+      "dimensions": "H05,H10",
+      "expected_human_critique": "Reject: deterministic guidance is not independent assessment."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.work-section { margin-block:var(--space-5); padding:var(--space-5); background:var(--color-surface-paper); border:var(--border-standard) solid var(--color-border-soft); border-radius:var(--radius-surface); }
+.work-section h3 { font-size:var(--type-section-heading); color:var(--color-brand-navy); }
+.work-section blockquote { border-left:var(--space-1) solid var(--color-border-soft); padding-left:var(--space-4); margin:var(--space-4) 0; }
+.work-field { margin-block:var(--space-4); }
+.work-field label,.work-section>label { display:block; font-weight:700; margin-bottom:var(--space-2); }
+.work-field textarea,.work-section select { box-sizing:border-box; width:100%; min-width:0; padding:var(--space-3); border:var(--border-standard) solid var(--color-text-secondary); border-radius:var(--radius-control); color:var(--color-text-primary); background:var(--color-surface-paper); font:inherit; }
+.work-field textarea { resize:vertical; min-height:var(--space-20); overflow-wrap:anywhere; }
+.work-section select { min-height:var(--touch-minimum); }
+.work-hint,.work-meta { color:var(--color-text-secondary); margin-block:var(--space-2); }
+.work-evidence { min-width:0; border:0; padding:0; margin-top:var(--space-4); }
+.work-evidence legend { font-weight:700; }
+.work-evidence-item label { display:flex; align-items:flex-start; gap:var(--space-3); padding-block:var(--space-3); cursor:pointer; min-height:var(--touch-minimum); }
+.work-evidence-item input { flex:none; margin-top:var(--space-1); }
+.work-pair { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--space-5); }
+.work-pair>div { padding:var(--space-3); background:var(--color-surface-canvas); min-width:0; }
+.work-copy { white-space:pre-wrap; overflow-wrap:anywhere; }
+.work-package { white-space:pre-wrap; overflow-wrap:anywhere; font:inherit; padding:var(--space-4); background:var(--color-surface-paper); border:var(--border-standard) solid var(--color-border-soft); }
+@media(max-width:48rem) { .work-pair {grid-template-columns:minmax(0,1fr);} }
+@media(max-width:30rem) { .work-section {padding:var(--space-3);} }

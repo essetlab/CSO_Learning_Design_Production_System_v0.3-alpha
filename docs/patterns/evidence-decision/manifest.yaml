@@ -1,0 +1,8 @@
+id: IP-EVIDENCE-DECISION-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: pattern
+ownership: Evidence to differentiated interpretation to accountable decision to update
+  and review; structural checks never semantic grading.
+cross_course_validation: not-yet-tested
+frozen_contract: prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json

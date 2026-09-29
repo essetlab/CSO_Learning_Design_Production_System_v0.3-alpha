@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "reference": "GR-04",
+  "exact_locked_render_match": true,
+  "candidate_sha256": "dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193",
+  "expected_sha256": "dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193",
+  "external_python_packages_required": false,
+  "errors": []
+}
+

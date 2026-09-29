@@ -1,0 +1,215 @@
+{
+  "GR-02": {
+    "h1_count": 1,
+    "shell_placeholder": true,
+    "static_shell_markup_present": false,
+    "local_css_exists": true,
+    "dependencies": [
+      [
+        "../../tokens/tokens.css",
+        true
+      ],
+      [
+        "../../foundations/base.css",
+        true
+      ],
+      [
+        "../../foundations/accessibility.css",
+        true
+      ],
+      [
+        "../../foundations/motion.css",
+        true
+      ],
+      [
+        "../../shell/course-shell.css",
+        true
+      ],
+      [
+        "../../ui/button/button.css",
+        true
+      ],
+      [
+        "../../ui/option-group/option-group.css",
+        true
+      ],
+      [
+        "../../ui/status/status.css",
+        true
+      ],
+      [
+        "../../ui/save-state/save-state.css",
+        true
+      ],
+      [
+        "../../interactions/choice/choice.css",
+        true
+      ],
+      [
+        "../../compositions/editorial/editorial.css",
+        true
+      ],
+      [
+        "reference.css",
+        true
+      ],
+      [
+        "../../shell/course-shell.js",
+        true
+      ],
+      [
+        "../../interactions/choice/single-choice-feedback.js",
+        true
+      ]
+    ],
+    "choice_keys_match": true
+  },
+  "GR-04": {
+    "h1_count": 1,
+    "shell_placeholder": true,
+    "static_shell_markup_present": false,
+    "local_css_exists": true,
+    "dependencies": [
+      [
+        "../../tokens/tokens.css",
+        true
+      ],
+      [
+        "../../foundations/base.css",
+        true
+      ],
+      [
+        "../../foundations/accessibility.css",
+        true
+      ],
+      [
+        "../../foundations/motion.css",
+        true
+      ],
+      [
+        "../../shell/course-shell.css",
+        true
+      ],
+      [
+        "../../ui/button/button.css",
+        true
+      ],
+      [
+        "../../ui/option-group/option-group.css",
+        true
+      ],
+      [
+        "../../ui/status/status.css",
+        true
+      ],
+      [
+        "../../ui/save-state/save-state.css",
+        true
+      ],
+      [
+        "../../interactions/judgement/judgement.css",
+        true
+      ],
+      [
+        "../../compositions/editorial/editorial.css",
+        true
+      ],
+      [
+        "../../compositions/evidence-decision/evidence-decision.css",
+        true
+      ],
+      [
+        "../../templates/scenario/scenario.css",
+        true
+      ],
+      [
+        "../../shell/course-shell.js",
+        true
+      ],
+      [
+        "../../interactions/judgement/single-choice-feedback.js",
+        true
+      ]
+    ],
+    "choice_keys_match": true,
+    "strongest_option_present": true
+  },
+  "GR-01": {
+    "h1_count": 1,
+    "shell_placeholder": true,
+    "static_shell_markup_present": false,
+    "local_css_exists": true,
+    "dependencies": [
+      [
+        "../../tokens/tokens.css",
+        true
+      ],
+      [
+        "../../foundations/base.css",
+        true
+      ],
+      [
+        "../../foundations/accessibility.css",
+        true
+      ],
+      [
+        "../../foundations/motion.css",
+        true
+      ],
+      [
+        "../../shell/course-shell.css",
+        true
+      ],
+      [
+        "../../ui/button/button.css",
+        true
+      ],
+      [
+        "../../ui/link/link.css",
+        true
+      ],
+      [
+        "../../ui/status/status.css",
+        true
+      ],
+      [
+        "../../ui/save-state/save-state.css",
+        true
+      ],
+      [
+        "../../practice/practice-focus/practice-focus.css",
+        true
+      ],
+      [
+        "../../compositions/immersive/immersive.css",
+        true
+      ],
+      [
+        "../../templates/course-entry/course-entry.css",
+        true
+      ],
+      [
+        "../../shell/course-shell.js",
+        true
+      ],
+      [
+        "../../practice/practice-focus/practice-focus.js",
+        true
+      ],
+      [
+        "../../assets/courses/hrba/AST-HRBA-GR01-HERO-EXISTING-01.png",
+        true
+      ]
+    ],
+    "practice_focus_options": 5
+  },
+  "shared_reference_counts": {
+    "tokens": 3,
+    "shell_css": 3,
+    "shell_js": 3,
+    "button": 3
+  },
+  "status": "pass",
+  "errors": []
+}
+

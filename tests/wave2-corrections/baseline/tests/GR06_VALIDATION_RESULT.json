@@ -1,0 +1,268 @@
+{
+  "reference": "GR-06",
+  "status": "IMPLEMENTED_PENDING_MANUAL_VALIDATION",
+  "final_status": "IMPLEMENTED_PENDING_MANUAL_VALIDATION",
+  "automated_pass": true,
+  "candidate_status": "PROTOTYPE",
+  "golden_reference_accepted": false,
+  "subsequent_reference_started": false,
+  "freeze_commit": "4c2ce06",
+  "branch": "gate8/wave2/gr06-evidence-to-decision",
+  "counts": {
+    "model": 72,
+    "state_integration": 16,
+    "browser": 336,
+    "recovery": 65,
+    "static": 25,
+    "commands": 41,
+    "GR03_browser": 423,
+    "GR05_browser": 321,
+    "GR05_keyboard_resilience": 84,
+    "GR05_model": 31,
+    "shared_state_service": 17
+  },
+  "matrix": [
+    {
+      "id": "V01",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_STATIC_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V02",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V03",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V04",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V05",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V06",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V07",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V08",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V09",
+      "status": "AUTOMATED_PASS_SEMANTIC_REVIEW_PENDING",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Criterion-specific reasons and unresolved follow-up pass structural bounds. Quality awaits independent H01\u2013H09 review."
+    },
+    {
+      "id": "V10",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V11",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V12",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_BROWSER_RESULTS.json",
+        "tests/GR06_RECOVERY_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V13",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V14",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_STATE_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json",
+        "tests/GR06_RECOVERY_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V15",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_STATE_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json",
+        "tests/GR06_RECOVERY_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V16",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_STATE_RESULTS.json",
+        "tests/GR06_BROWSER_RESULTS.json",
+        "tests/GR06_RECOVERY_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V17",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_BROWSER_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V18",
+      "status": "PENDING_DIRECT_MANUAL",
+      "evidence": [],
+      "note": "Genuine Chrome 200% not performed; no CSS/device-scale substitution."
+    },
+    {
+      "id": "V19",
+      "status": "AUTOMATED_KEYBOARD_PASS_DIRECT_CHECKS_PENDING",
+      "evidence": [
+        "tests/GR06_BROWSER_RESULTS.json",
+        "tests/GR06_RECOVERY_RESULTS.json"
+      ],
+      "note": "Keyboard-only flow, focus and accessibility-tree checks pass. Actual screen-reader use and physical-mobile software keyboard remain pending."
+    },
+    {
+      "id": "V20",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_BROWSER_RESULTS.json",
+        "tests/GR06_RECOVERY_RESULTS.json",
+        "tests/GR06_STATE_RESULTS.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    },
+    {
+      "id": "V21",
+      "status": "PENDING_INDEPENDENT_H01_H09_REVIEW",
+      "evidence": [
+        "tests/GR06_MODEL_RESULTS.json",
+        "tests/GR06_STATIC_RESULTS.json"
+      ],
+      "note": "Four substantive synthetic fixtures and five negative counterexamples prepared and structurally validated; no semantic approval claimed."
+    },
+    {
+      "id": "V22",
+      "status": "AUTOMATED_PASS",
+      "evidence": [
+        "tests/GR06_REGRESSION_COMMANDS.json",
+        "tests/GR06_STATIC_RESULTS.json",
+        "tests/gr03-browser-validation-gr06-regression.json",
+        "tests/gr05-browser-gr06-regression.json",
+        "tests/GR05_KEYBOARD_RESILIENCE_RESULTS.json",
+        "tests/GR05_MODEL_RESULTS.json",
+        "tests/GR05_STATE_SERVICE_RESULTS.json",
+        "tests/GR06_EVIDENCE_CONSISTENCY.json",
+        "tests/package-integrity.json"
+      ],
+      "note": "Named assertions in linked reports; automated scope only."
+    }
+  ],
+  "manual": [
+    {
+      "id": "V18",
+      "check": "Genuine Chrome 200%",
+      "status": "PENDING",
+      "provenance": "No direct performance or user attestation received"
+    },
+    {
+      "id": "V19-screen-reader",
+      "check": "Actual screen-reader walkthrough",
+      "status": "PENDING",
+      "provenance": "Accessibility-tree snapshot is automated evidence only"
+    },
+    {
+      "id": "V19-mobile",
+      "check": "Physical mobile software keyboard",
+      "status": "PENDING",
+      "provenance": "Desktop viewport emulation is automated evidence only"
+    },
+    {
+      "id": "V21",
+      "check": "Independent H01\u2013H09 instructional/HRBA review",
+      "status": "PENDING",
+      "provenance": "No independent reviewer judgment received"
+    }
+  ],
+  "semantic_review_packet": "golden-references/GR-06/GR-06_SEMANTIC_REVIEW_PACKET.md",
+  "semantic_fixture": "tests/gr06-semantic-fixtures.json",
+  "manual_checklist": "golden-references/GR-06/MANUAL_VALIDATION.md",
+  "compatibility": {
+    "G06_03_gap": false,
+    "GR01_GR04_exact_locks": "PASS",
+    "GR05_default_DOM_and_settled_PNG_bytes": "PASS",
+    "SVC_LEARNING_STATE_01": "UNCHANGED"
+  },
+  "regression_note": "GR03 runner emits a generic overall FAIL because it does not import earlier native manual evidence. Its automated_pass is true, all 423 named checks pass, and governed GR03 status is unchanged.",
+  "package_integrity": "tests/package-integrity.json",
+  "recorded_at": "2026-09-28T23:35:35.812596+00:00"
+}

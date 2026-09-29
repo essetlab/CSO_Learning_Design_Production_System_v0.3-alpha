@@ -1,0 +1,463 @@
+{
+  "status": "PASS",
+  "changed_baseline_files": [
+    "README.md",
+    "golden-references/GR-05/GR-05_BUILD_MANIFEST.json",
+    "golden-references/GR-05/exercise.txt",
+    "golden-references/GR-05/index.html",
+    "golden-references/GR-06/GR-06_BUILD_MANIFEST.json",
+    "golden-references/GR-06/GR-06_RESULT_SUMMARY.md",
+    "golden-references/GR-06/MANUAL_VALIDATION.md",
+    "interactions/build-repair/build-repair.js",
+    "tests/GR06_EVIDENCE_CONSISTENCY.json",
+    "tests/GR06_MANUAL_EVIDENCE.json",
+    "tests/GR06_STATIC_RESULTS.json",
+    "tests/GR06_VALIDATION_RESULT.json",
+    "tests/check_gr06_evidence.py",
+    "tests/run_gr05_keyboard_resilience.cjs",
+    "tests/run_gr06_browser.cjs",
+    "tests/run_gr06_recovery.cjs",
+    "tests/test_template_schema.py",
+    "tools/build_gr05.py",
+    "tools/record_gr06_handoff.py",
+    "validators/validate_gr06.py",
+    "validators/validate_repository.py"
+  ],
+  "checks": [
+    {
+      "name": "Production, registries and frozen inputs unchanged except exact GR05 punctuation",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Exact W2-C03 source/output normalization proof",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained README.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained golden-references/GR-05/GR-05_BUILD_MANIFEST.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained golden-references/GR-05/exercise.txt",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained golden-references/GR-05/index.html",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained golden-references/GR-06/GR-06_BUILD_MANIFEST.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained golden-references/GR-06/GR-06_RESULT_SUMMARY.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained golden-references/GR-06/MANUAL_VALIDATION.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained interactions/build-repair/build-repair.js",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tests/GR06_EVIDENCE_CONSISTENCY.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tests/GR06_MANUAL_EVIDENCE.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tests/GR06_STATIC_RESULTS.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tests/GR06_VALIDATION_RESULT.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tests/check_gr06_evidence.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tests/run_gr05_keyboard_resilience.cjs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tests/run_gr06_browser.cjs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tests/run_gr06_recovery.cjs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tests/test_template_schema.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tools/build_gr05.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained tools/record_gr06_handoff.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained validators/validate_gr06.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical bytes retained validators/validate_repository.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical review/fixture unchanged WAVE_2_CONSOLIDATED_SYSTEM_REVIEW_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical review/fixture unchanged WAVE_2_OBJECT_DISPOSITION_MATRIX_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical review/fixture unchanged WAVE_2_REMAINING_COVERAGE_AND_NEXT_REFERENCES_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical review/fixture unchanged WAVE_2_SYSTEM_REVIEW.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical review/fixture unchanged tests/gr05-example-work.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical review/fixture unchanged tests/gr05-v25-semantic-review-fixture.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Historical review/fixture unchanged tests/gr06-semantic-fixtures.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Original ZIP unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash docs/ai-build-contract.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash docs/resource-first-workflow.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash docs/system-gap-process.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash docs/TEMPLATE_SCHEMA_RECONCILIATION.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash governance/validation-policy.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash schemas/golden-reference.schema.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/EXPERIENCE_DIFFERENTIATION_BRIEF_TEMPLATE.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash schemas/experience-differentiation-brief.schema.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash governance/accessibility-resilience-baseline.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash locked-build-specs/GR-01_LOCKED_BUILD_v0.1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-03_VALIDATION_MATRIX_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-05_VALIDATION_MATRIX_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-06_VALIDATION_MATRIX_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-05_DETERMINISTIC_LEARNING_DESIGN_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-05_RESOURCE_FIRST_PREFLIGHT_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-05_RESOURCE_INVENTORY_v0.1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-06_DETERMINISTIC_LEARNING_DESIGN_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-06_RESOURCE_FIRST_PREFLIGHT_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash prototype-specs/GR-06_RESOURCE_INVENTORY_v0.1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash WAVE_2_CONSOLIDATED_SYSTEM_REVIEW_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash WAVE_2_OBJECT_DISPOSITION_MATRIX_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash WAVE_2_REMAINING_COVERAGE_AND_NEXT_REFERENCES_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash WAVE_2_SYSTEM_REVIEW.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash docs/GR03_SCHEMA_RECONCILIATION_PROPOSAL.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash Repository_Alpha_Materialization_Report_v0.2-alpha.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash Repository_Rebuild_Review_and_Duplicate_Build_Preparation_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash Baseline_Reconciliation_and_System_Correction_Report_v0.2.2-alpha.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash tests/gr06-semantic-fixtures.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash golden-references/GR-06/GR-06_SEMANTIC_REVIEW_PACKET.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Index target/hash tests/wave2-review/consistency-results.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Capability governed, no assumed numbering or track permission",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "All mandated experience families retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "All 15 candidate statuses unchanged; recommendations not promotions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Navigation dependency remains existing shell, not invented object",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "GR03 and GR05 governed passes unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "GR06 remains pending only three direct technical checks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "H01-H09 ChatGPT semantic PASS provenance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Valid JSON schema component.schema.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Valid JSON schema episode.schema.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Valid JSON schema experience-differentiation-brief.schema.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Valid JSON schema golden-reference.schema.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current regression tests/wave2-corrections/REGRESSION_COMMANDS.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current regression tests/wave2-corrections/VALIDATOR_REGRESSION.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current regression tests/wave2-corrections/REPOSITORY_VALIDATION.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current regression tests/wave2-corrections/GR05_ENCODING_BROWSER.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current regression tests/wave2-corrections/GR05_KEYBOARD_RESILIENCE_RESULTS.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current regression tests/wave2-corrections/GR06_BROWSER_RESULTS.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current regression tests/wave2-corrections/GR06_RECOVERY_RESULTS.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current regression tests/gr03-browser-validation-bounded-corrections.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current regression tests/gr05-browser-bounded-corrections.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Branch and HEAD preserved",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

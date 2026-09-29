@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "errors": [],
+  "checked_references": [
+    "GR-02",
+    "GR-04",
+    "GR-01"
+  ]
+}

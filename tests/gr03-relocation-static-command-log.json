@@ -1,0 +1,123 @@
+{
+  "commands": [
+    {
+      "executable": "C:\\Python314\\python.exe",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"pass\",\n  \"checked\": [\n    \"GR-01\",\n    \"GR-04\"\n  ],\n  \"external_python_packages_required\": false,\n  \"errors\": []\n}",
+      "arguments": [
+        "-X",
+        "utf8",
+        "validators/validate_repository.py"
+      ]
+    },
+    {
+      "executable": "C:\\Python314\\python.exe",
+      "exit_code": 0,
+      "output": "{\n  \"GR-02\": {\n    \"h1_count\": 1,\n    \"shell_placeholder\": true,\n    \"static_shell_markup_present\": false,\n    \"local_css_exists\": true,\n    \"dependencies\": [\n      [\n        \"../../tokens/tokens.css\",\n        true\n      ],\n      [\n        \"../../foundations/base.css\",\n        true\n      ],\n      [\n        \"../../foundations/accessibility.css\",\n        true\n      ],\n      [\n        \"../../foundations/motion.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.css\",\n        true\n      ],\n      [\n        \"../../ui/button/button.css\",\n        true\n      ],\n      [\n        \"../../ui/option-group/option-group.css\",\n        true\n      ],\n      [\n        \"../../ui/status/status.css\",\n        true\n      ],\n      [\n        \"../../ui/save-state/save-state.css\",\n        true\n      ],\n      [\n        \"../../interactions/choice/choice.css\",\n        true\n      ],\n      [\n        \"../../compositions/editorial/editorial.css\",\n        true\n      ],\n      [\n        \"reference.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.js\",\n        true\n      ],\n      [\n        \"../../interactions/choice/single-choice-feedback.js\",\n        true\n      ]\n    ],\n    \"choice_keys_match\": true\n  },\n  \"GR-04\": {\n    \"h1_count\": 1,\n    \"shell_placeholder\": true,\n    \"static_shell_markup_present\": false,\n    \"local_css_exists\": true,\n    \"dependencies\": [\n      [\n        \"../../tokens/tokens.css\",\n        true\n      ],\n      [\n        \"../../foundations/base.css\",\n        true\n      ],\n      [\n        \"../../foundations/accessibility.css\",\n        true\n      ],\n      [\n        \"../../foundations/motion.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.css\",\n        true\n      ],\n      [\n        \"../../ui/button/button.css\",\n        true\n      ],\n      [\n        \"../../ui/option-group/option-group.css\",\n        true\n      ],\n      [\n        \"../../ui/status/status.css\",\n        true\n      ],\n      [\n        \"../../ui/save-state/save-state.css\",\n        true\n      ],\n      [\n        \"../../interactions/judgement/judgement.css\",\n        true\n      ],\n      [\n        \"../../compositions/editorial/editorial.css\",\n        true\n      ],\n      [\n        \"../../compositions/evidence-decision/evidence-decision.css\",\n        true\n      ],\n      [\n        \"../../templates/scenario/scenario.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.js\",\n        true\n      ],\n      [\n        \"../../interactions/judgement/single-choice-feedback.js\",\n        true\n      ]\n    ],\n    \"choice_keys_match\": true,\n    \"strongest_option_present\": true\n  },\n  \"GR-01\": {\n    \"h1_count\": 1,\n    \"shell_placeholder\": true,\n    \"static_shell_markup_present\": false,\n    \"local_css_exists\": true,\n    \"dependencies\": [\n      [\n        \"../../tokens/tokens.css\",\n        true\n      ],\n      [\n        \"../../foundations/base.css\",\n        true\n      ],\n      [\n        \"../../foundations/accessibility.css\",\n        true\n      ],\n      [\n        \"../../foundations/motion.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.css\",\n        true\n      ],\n      [\n        \"../../ui/button/button.css\",\n        true\n      ],\n      [\n        \"../../ui/link/link.css\",\n        true\n      ],\n      [\n        \"../../ui/status/status.css\",\n        true\n      ],\n      [\n        \"../../ui/save-state/save-state.css\",\n        true\n      ],\n      [\n        \"../../practice/practice-focus/practice-focus.css\",\n        true\n      ],\n      [\n        \"../../compositions/immersive/immersive.css\",\n        true\n      ],\n      [\n        \"../../templates/course-entry/course-entry.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.js\",\n        true\n      ],\n      [\n        \"../../practice/practice-focus/practice-focus.js\",\n        true\n      ],\n      [\n        \"../../assets/courses/hrba/AST-HRBA-GR01-HERO-EXISTING-01.png\",\n        true\n      ]\n    ],\n    \"practice_focus_options\": 5\n  },\n  \"shared_reference_counts\": {\n    \"tokens\": 3,\n    \"shell_css\": 3,\n    \"shell_js\": 3,\n    \"button\": 3\n  },\n  \"status\": \"pass\",\n  \"errors\": []\n}",
+      "arguments": [
+        "-X",
+        "utf8",
+        "tests/run_static_smoke.py"
+      ]
+    },
+    {
+      "executable": "C:\\Python314\\python.exe",
+      "exit_code": 0,
+      "output": "{\n  \"h1_count\": 1,\n  \"perspective_controls\": 3,\n  \"perspective_panels\": 3,\n  \"interpretation_options\": 4,\n  \"local_css_empty\": true,\n  \"shell_placeholder\": true,\n  \"content_limits\": {\n    \"perspective_label\": 8,\n    \"observation\": 45,\n    \"interpretation\": 45,\n    \"limitation\": 35,\n    \"answer_option\": 28,\n    \"feedback\": 65\n  },\n  \"content_word_counts\": {\n    \"perspective_label\": [\n      1,\n      1,\n      1\n    ],\n    \"observation\": [\n      16,\n      25,\n      23\n    ],\n    \"interpretation\": [\n      23,\n      14,\n      14\n    ],\n    \"limitation\": [\n      20,\n      13,\n      15\n    ],\n    \"answer_option\": [\n      15,\n      9,\n      15,\n      18\n    ],\n    \"feedback\": [\n      29,\n      40,\n      27,\n      36\n    ]\n  },\n  \"status\": \"pass\",\n  \"errors\": []\n}",
+      "arguments": [
+        "-X",
+        "utf8",
+        "validators/validate_gr03.py"
+      ]
+    },
+    {
+      "executable": "C:\\Python314\\python.exe",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"pass\",\n  \"reference\": \"GR-01\",\n  \"exact_locked_render_match\": true,\n  \"candidate_sha256\": \"27fc55b9471e09d2c9f245b9cb0116592e2340668056ddbdf181b0548d096da2\",\n  \"expected_sha256\": \"27fc55b9471e09d2c9f245b9cb0116592e2340668056ddbdf181b0548d096da2\",\n  \"external_python_packages_required\": false,\n  \"errors\": []\n}",
+      "arguments": [
+        "-X",
+        "utf8",
+        "tools/validate_locked_build.py",
+        "locked-build-specs/GR-01_LOCKED_BUILD_v0.1.json",
+        "golden-references/GR-01/index.html"
+      ]
+    },
+    {
+      "executable": "C:\\Python314\\python.exe",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"pass\",\n  \"reference\": \"GR-04\",\n  \"exact_locked_render_match\": true,\n  \"candidate_sha256\": \"dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193\",\n  \"expected_sha256\": \"dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193\",\n  \"external_python_packages_required\": false,\n  \"errors\": []\n}",
+      "arguments": [
+        "-X",
+        "utf8",
+        "tools/validate_locked_build.py",
+        "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json",
+        "golden-references/GR-04/index.html"
+      ]
+    },
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "exit_code": 0,
+      "output": "",
+      "arguments": [
+        "--check",
+        "practice\\practice-focus\\practice-focus.js"
+      ]
+    },
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "exit_code": 0,
+      "output": "",
+      "arguments": [
+        "--check",
+        "shell\\course-shell.js"
+      ]
+    },
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "exit_code": 0,
+      "output": "",
+      "arguments": [
+        "--check",
+        "tests\\run_gr03_browser_validation.cjs"
+      ]
+    },
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "exit_code": 0,
+      "output": "",
+      "arguments": [
+        "--check",
+        "tests\\gr03_content_stress.cjs"
+      ]
+    },
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "exit_code": 0,
+      "output": "",
+      "arguments": [
+        "--check",
+        "interactions\\labeled-graphic\\labeled-graphic.js"
+      ]
+    },
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "exit_code": 0,
+      "output": "",
+      "arguments": [
+        "--check",
+        "interactions\\choice\\single-choice-feedback.js"
+      ]
+    },
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "exit_code": 0,
+      "output": "",
+      "arguments": [
+        "--check",
+        "interactions\\judgement\\single-choice-feedback.js"
+      ]
+    }
+  ],
+  "date": "2026-09-28T19:58:51.6292778+03:00",
+  "root": "D:\\CSO_Learning_Design_Production_System_v0.3-alpha"
+}

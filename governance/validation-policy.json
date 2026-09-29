@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "authority": "User-authorized Wave-2 bounded corrections W2-C01/C06",
+  "supported_build_modes": ["LOCKED_BUILD", "CONSTRAINED_BUILD", "EXPLORATORY_BUILD"],
+  "authority_levels": ["LOCKED", "CONSTRAINED", "EXPLORATORY"],
+  "restriction_modes": ["PROHIBITED", "STOP_AND_ESCALATE"],
+  "existing_reference_exemptions": ["GR-01", "GR-02", "GR-03", "GR-04", "GR-05", "GR-06"],
+  "future_required_fields": ["build_mode", "authority", "experience_differentiation_brief"],
+  "dependency_aliases": {
+    "UI-NAV-CONTROLS-01": {
+      "owner": "SHELL-GR-W1-01",
+      "document": "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "pointer": "/system_objects/shared_ui/3",
+      "decision": "Historical dependency label for Previous/Continue navigation supplied by the existing course shell. Not an independently registered UI object; accepted only at this frozen reference location. New references must name SHELL-GR-W1-01."
+    }
+  }
+}

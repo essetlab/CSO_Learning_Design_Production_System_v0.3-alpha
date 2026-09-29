@@ -1,0 +1,7 @@
+id: TPL-CONCEPT-01
+version: 0.2.0-alpha
+status: prototype
+composition_options:
+- CMP-EDITORIAL-01
+compatible_interactions:
+- INT-CHOICE-01

@@ -1,0 +1,511 @@
+{
+  "version": "0.1",
+  "recorded_date": "2026-09-29",
+  "current_review_outcome": "WAVE_2_PASS_WITH_BOUNDED_CORRECTIONS",
+  "outcome_accepted_by": "ChatGPT, explicitly conveyed by user",
+  "authority_precedence": [
+    "Explicit Track A Revision 1 freeze and implementation authorization: governance/TRACK_A_FREEZE_AUTHORITY.json; earlier authority retained outside that bounded scope",
+    "Frozen build inputs and exact locked contracts within their scope",
+    "Current registries and shared schemas/validation policy",
+    "Historical reviews and proposal text as evidence, not current permission"
+  ],
+  "gate_architecture_recovery": {
+    "full_original_gate_1_8_source": "NOT_RECOVERED",
+    "original_GR_number_allocation": "NOT_RECOVERED",
+    "current_rule": "Future coverage is governed by capability until an authoritative historical numbering source is located.",
+    "no_invented_numbering": true,
+    "no_mandatory_four_separate_builds": true
+  },
+  "current_artifacts": [
+    {
+      "path": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json",
+      "role": "Latest explicit ChatGPT governance update, conveyed by user",
+      "status": "CURRENT",
+      "sha256": "69a6f14ad4e9d1374d301df299f9ee784effea10540c69dd585d6b1c30b4cf24"
+    },
+    {
+      "path": "docs/ai-build-contract.md",
+      "role": "Shared assembly/authority boundary",
+      "status": "CURRENT",
+      "sha256": "eb8d2177c59beb59b6685e5945db456839b38d1cd389b8c84aadc97393339958"
+    },
+    {
+      "path": "docs/resource-first-workflow.md",
+      "role": "Resource-first preflight",
+      "status": "CURRENT",
+      "sha256": "97c1202bda402df5d359fd2043b89354dfd4f939078f09032cf69ed5e1846bfc"
+    },
+    {
+      "path": "docs/system-gap-process.md",
+      "role": "System Gap escalation",
+      "status": "CURRENT",
+      "sha256": "1166162e73538e9ab90497801c739e019fd66382c32b2f750afea663a63dfa64"
+    },
+    {
+      "path": "docs/TEMPLATE_SCHEMA_RECONCILIATION.md",
+      "role": "Accepted canonical structured template compatibility",
+      "status": "CURRENT",
+      "sha256": "867c3f5ee914a4a0f3a867c472ebb1a714f1657ef3970c24185d89263c02a802"
+    },
+    {
+      "path": "governance/validation-policy.json",
+      "role": "Current ID/variant/build/authority validation and scoped historical alias",
+      "status": "CURRENT",
+      "sha256": "b11bee97ff7b87be99b0a2aa126e4718d78aedafe5084932ea179a1574cbfbcb"
+    },
+    {
+      "path": "schemas/golden-reference.schema.json",
+      "role": "One authoritative Golden Reference schema; episode schema delegates",
+      "status": "CURRENT",
+      "sha256": "c716c8dd8ab6a5c60874cb78d4163e343276557f5864940eeb26531096c7ec8f"
+    },
+    {
+      "path": "prototype-specs/EXPERIENCE_DIFFERENTIATION_BRIEF_TEMPLATE.md",
+      "role": "Mandatory future experience differentiation specification",
+      "status": "CURRENT",
+      "sha256": "ed83202597e5d969128ee68fa2a36bd04bbace4e02dff3498f1f8f551862dce8"
+    },
+    {
+      "path": "schemas/experience-differentiation-brief.schema.json",
+      "role": "Machine-readable future differentiation contract",
+      "status": "CURRENT",
+      "sha256": "26a0429cf155d4fc79f66ced27755c7c2a57912041910730d38f226a6906dc50"
+    },
+    {
+      "path": "governance/accessibility-resilience-baseline.json",
+      "role": "Universal/conditional future validation declaration",
+      "status": "CURRENT",
+      "sha256": "0c36812439edb0db60de9e590ba30a83f9eb61a9adb1fb598f17ae60595978ef"
+    },
+    {
+      "path": "locked-build-specs/GR-01_LOCKED_BUILD_v0.1.json",
+      "role": "D3 locked build and rendering authority",
+      "status": "LOCKED",
+      "sha256": "be987fc4883c038ea6f63721a5fc27208f84f21325ca3a72492a30f80b553822"
+    },
+    {
+      "path": "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json",
+      "role": "D3 locked build and rendering authority",
+      "status": "LOCKED",
+      "sha256": "2d93d907c0ae94be9d64c1bdec328d25aecfccd439cefc1032ee6608a86df5a5"
+    },
+    {
+      "path": "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "role": "GR-03 frozen build inputs; original proposal/permission labels are historical within the frozen content",
+      "status": "FROZEN",
+      "sha256": "c7ffcb50399e1595a58deddb46cc87e75a47320804fcbf54abf4ee5f8142d397"
+    },
+    {
+      "path": "prototype-specs/GR-03_VALIDATION_MATRIX_v0.1.md",
+      "role": "GR-03 frozen build inputs; original proposal/permission labels are historical within the frozen content",
+      "status": "FROZEN",
+      "sha256": "1fd529db5f24afd263f94af3c0081818f8ad912e3fb43d7c2d70db32e28154dc"
+    },
+    {
+      "path": "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "role": "GR-05 frozen build inputs; original proposal/permission labels are historical within the frozen content",
+      "status": "FROZEN",
+      "sha256": "6984c281878ed26fe3fa8533d5e43ed8859fda8dd1d49da29f9dccd9539efd75"
+    },
+    {
+      "path": "prototype-specs/GR-05_VALIDATION_MATRIX_v0.1.md",
+      "role": "GR-05 frozen build inputs; original proposal/permission labels are historical within the frozen content",
+      "status": "FROZEN",
+      "sha256": "cae68ac9f9e9fc8cd5a5b34ec889e21349b0ea72114023e26149a54ff74e660e"
+    },
+    {
+      "path": "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "role": "GR-06 frozen build inputs; original proposal/permission labels are historical within the frozen content",
+      "status": "FROZEN",
+      "sha256": "9a08501d5e43182f2a1a84bbb27d6b7f8239b84cb0c05028f737fc0de14288d9"
+    },
+    {
+      "path": "prototype-specs/GR-06_VALIDATION_MATRIX_v0.1.md",
+      "role": "GR-06 frozen build inputs; original proposal/permission labels are historical within the frozen content",
+      "status": "FROZEN",
+      "sha256": "60e85b4efcc89fc06840854685356d39d6c3dbd2bdd57ad858dae6cb3bfd9928"
+    },
+    {
+      "path": "prototype-specs/GR-05_DETERMINISTIC_LEARNING_DESIGN_v0.1.md",
+      "role": "GR-05 accepted Revision 2 design/resource decisions; no new reinterpretation",
+      "status": "ACCEPTED_FROZEN_INPUT",
+      "sha256": "bf8424bb6e18b0f1d55cbc90bb70b564a3198321247f6c792c48899db14f9df1"
+    },
+    {
+      "path": "prototype-specs/GR-05_RESOURCE_FIRST_PREFLIGHT_v0.1.md",
+      "role": "GR-05 accepted Revision 2 design/resource decisions; no new reinterpretation",
+      "status": "ACCEPTED_FROZEN_INPUT",
+      "sha256": "c287478d4875d92a42ab82344f69d096b37cd7dffb5310796d3707d61d72d22d"
+    },
+    {
+      "path": "prototype-specs/GR-05_RESOURCE_INVENTORY_v0.1.json",
+      "role": "GR-05 accepted Revision 2 design/resource decisions; no new reinterpretation",
+      "status": "ACCEPTED_FROZEN_INPUT",
+      "sha256": "13e9608d816fb4d8b17b9ccb91ad4506a4716feb36619752c89f81355dd1ca3a"
+    },
+    {
+      "path": "prototype-specs/GR-06_DETERMINISTIC_LEARNING_DESIGN_v0.1.md",
+      "role": "GR-06 accepted Revision 2 design/resource decisions; no new reinterpretation",
+      "status": "ACCEPTED_FROZEN_INPUT",
+      "sha256": "4a76ae8e8aec95051606447a18b98a2131f1ae60b84eda91537dd81c90d80fbe"
+    },
+    {
+      "path": "prototype-specs/GR-06_RESOURCE_FIRST_PREFLIGHT_v0.1.md",
+      "role": "GR-06 accepted Revision 2 design/resource decisions; no new reinterpretation",
+      "status": "ACCEPTED_FROZEN_INPUT",
+      "sha256": "2890a755bde6c65a88bb13b493e8508ffa64d68db4a3872771418a78315010f6"
+    },
+    {
+      "path": "prototype-specs/GR-06_RESOURCE_INVENTORY_v0.1.json",
+      "role": "GR-06 accepted Revision 2 design/resource decisions; no new reinterpretation",
+      "status": "ACCEPTED_FROZEN_INPUT",
+      "sha256": "c84a41ec08ba19291cf58d859b2e54750c6535d267327a920ea5da75bc09b226"
+    },
+    {
+      "path": "governance/TRACK_A_FREEZE_AUTHORITY.json",
+      "role": "Current explicit Track A freeze and implementation authority",
+      "status": "CURRENT",
+      "sha256": "126c72006fc2893a769fd69a34a0326b1f4e5995bbc8fb5accdf4e0ead0a2105"
+    },
+    {
+      "path": "prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "role": "Exact frozen Track A learning/content/state contract",
+      "status": "ACCEPTED_FROZEN_INPUT",
+      "sha256": "e3271be534980f10e38ba1835a97f6e49291b2afdd24fc5ea09613cca56cf043"
+    },
+    {
+      "path": "prototype-specs/TRACK_A_VALIDATION_MATRIX_v0.1.md",
+      "role": "Frozen Track A validation authority",
+      "status": "ACCEPTED_FROZEN_INPUT",
+      "sha256": "fd21c15bb93441db4a2905ca71ddd50a7d5b8d4b1753cc65e210ad63daf88be6"
+    },
+    {
+      "path": "tests/track-a-implementation/VALIDATION_RESULT.json",
+      "role": "Current Track A governed result with separate evidence provenance",
+      "status": "IMPLEMENTED_PENDING_MANUAL_VALIDATION",
+      "sha256": "03adc5af801f26b477507260cd191904a6685c5c7d7e7ef5e7ad7b5db6ad9cdf"
+    }
+  ],
+  "references": {
+    "GR-01": {
+      "status": "D3_LOCKED_BUILD",
+      "authority": "locked-build-specs/GR-01_LOCKED_BUILD_v0.1.json",
+      "scope": "Course entry; lock does not imply new acceptance decision"
+    },
+    "GR-02": {
+      "status": "WAVE_1_EXISTING_BASELINE",
+      "authority": "golden-references/GR-02/spec.yaml",
+      "scope": "Concept/choice/feedback; transitional template string retained; no new acceptance claimed"
+    },
+    "GR-03": {
+      "status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+      "authority": "golden-references/GR-03/GR-03_BUILD_MANIFEST.json",
+      "scope": "Guided interpretation; refresh persistence observation remains outside frozen contract"
+    },
+    "GR-04": {
+      "status": "D3_LOCKED_BUILD",
+      "authority": "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json",
+      "scope": "Professional judgment; exact default render and behavior protected"
+    },
+    "GR-05": {
+      "status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+      "authority": "tests/GR05_VALIDATION_RESULT.json",
+      "scope": "Deep repair; prior pass contained punctuation encoding defect, corrected later under W2-C03",
+      "semantic": "V05/V25 PASS, ChatGPT review reported by user",
+      "direct": "V21/V23/V22-mobile PASS, user-attested"
+    },
+    "GR-06": {
+      "status": "IMPLEMENTED_PENDING_MANUAL_VALIDATION",
+      "authority": "tests/GR06_VALIDATION_RESULT.json",
+      "scope": "Evidence to interpretation to decision to update to review",
+      "semantic": "H01\u2013H09 PASS, ChatGPT review explicitly reported by user",
+      "direct": "Native Chrome 200% PASS, user-attested; actual screen reader and physical-mobile software keyboard PENDING"
+    },
+    "TRACK-A": {
+      "status": "IMPLEMENTED_PENDING_MANUAL_VALIDATION",
+      "authority": "tests/track-a-implementation/VALIDATION_RESULT.json",
+      "scope": "Assessment/readiness rehearsal; no inferred GR number",
+      "semantic": "H01\u2013H10 PENDING independent review",
+      "direct": "Native Chrome 200%, actual screen reader, physical-mobile software keyboard PENDING",
+      "burden": "V19 observed burden/differentiation PENDING",
+      "assessment_boundary": "No independent competence judgment, certification or organizational/public authorization"
+    }
+  },
+  "candidates": [
+    {
+      "id": "BLK-PERSPECTIVE-01",
+      "registry_status": "prototype",
+      "implementation": null,
+      "review_recommendation": "REVISE BEFORE APPROVAL",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "INT-LABELED-GRAPHIC-01",
+      "registry_status": "prototype",
+      "implementation": null,
+      "review_recommendation": "REVISE BEFORE APPROVAL",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "CMP-PERSPECTIVE-01",
+      "registry_status": "prototype",
+      "implementation": null,
+      "review_recommendation": "RETAIN AS PROTOTYPE",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "IP-INTERPRET-01",
+      "registry_status": "prototype",
+      "implementation": null,
+      "review_recommendation": "REVISE BEFORE APPROVAL",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "IP-PERSPECTIVE-01",
+      "registry_status": "prototype",
+      "implementation": null,
+      "review_recommendation": "REVISE BEFORE APPROVAL",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "IP-BUILD-REPAIR-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "docs/patterns/build-repair/manifest.yaml",
+      "review_recommendation": "READY FOR APPROVAL CANDIDATE",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "BLK-WORK-ARTIFACT-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "learning-blocks/work-artifact/manifest.yaml",
+      "review_recommendation": "REVISE BEFORE APPROVAL",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "INT-BUILD-REPAIR-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "interactions/build-repair/manifest.yaml",
+      "review_recommendation": "REVISE BEFORE APPROVAL",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "CMP-REPAIR-STUDIO-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "compositions/repair-studio/manifest.yaml",
+      "review_recommendation": "RETAIN AS PROTOTYPE",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "TPL-DEEP-WORKSPACE-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "templates/deep-workspace/manifest.yaml",
+      "review_recommendation": "REVISE BEFORE APPROVAL",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "SVC-LEARNING-STATE-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "state/learning-state/manifest.yaml",
+      "review_recommendation": "READY FOR APPROVAL CANDIDATE",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "BLK-EVIDENCE-LEDGER-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "learning-blocks/evidence-ledger/manifest.yaml",
+      "review_recommendation": "RETAIN AS PROTOTYPE",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "INT-EVIDENCE-DECISION-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "interactions/evidence-decision/manifest.yaml",
+      "review_recommendation": "RETAIN AS PROTOTYPE",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "IP-EVIDENCE-DECISION-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "docs/patterns/evidence-decision/manifest.yaml",
+      "review_recommendation": "RETAIN AS PROTOTYPE",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "CMP-EVIDENCE-DECISION-01",
+      "registry_status": "prototype",
+      "implementation": null,
+      "review_recommendation": "RETAIN AS PROTOTYPE",
+      "authority": "Registries retain literal existing statuses; recommendation is not promotion"
+    },
+    {
+      "id": "BLK-ASSESSMENT-BUNDLE-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "learning-blocks/assessment-bundle/manifest.yaml",
+      "review_recommendation": "PENDING SYSTEM REVIEW; no promotion",
+      "authority": "governance/TRACK_A_FREEZE_AUTHORITY.json"
+    },
+    {
+      "id": "INT-READINESS-REVIEW-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "interactions/readiness-review/manifest.yaml",
+      "review_recommendation": "PENDING SYSTEM REVIEW; no promotion",
+      "authority": "governance/TRACK_A_FREEZE_AUTHORITY.json"
+    },
+    {
+      "id": "IP-READINESS-GATE-01",
+      "registry_status": "PROTOTYPE",
+      "implementation": "docs/patterns/readiness-gate/manifest.yaml",
+      "review_recommendation": "PENDING SYSTEM REVIEW; no promotion",
+      "authority": "governance/TRACK_A_FREEZE_AUTHORITY.json"
+    }
+  ],
+  "remaining_gate8_capability_coverage": [
+    {
+      "capability": "Assessment",
+      "existing": "GR05/06 structural self-review and separately reviewed synthetic examples",
+      "remaining": "Representative integrated capability/evidence assessment with explicit human/assessor roles; structural completion is not competence.",
+      "grouping": "Track A proposed"
+    },
+    {
+      "capability": "Practice/application",
+      "existing": "GR05 authored repair; GR06 reasoned and adapted action",
+      "remaining": "Own-context transfer, return with practice evidence and retained portfolio lifecycle remain unproven.",
+      "grouping": "Track B proposed"
+    },
+    {
+      "capability": "Feedback/remediation",
+      "existing": "GR02/03/04 authored feedback; GR05/06 revision and unresolved follow-up",
+      "remaining": "Assessment-linked remediation/reconsideration and peer evidence dialogue need representative coverage.",
+      "grouping": "A/B proposed"
+    },
+    {
+      "capability": "Decision/gate",
+      "existing": "GR04 judgment; GR06 trial/verify/retain/escalate with authority boundaries",
+      "remaining": "Integrated readiness gate over learner evidence with proportionate proceed/revise/review/defer consequences.",
+      "grouping": "Track A proposed"
+    },
+    {
+      "capability": "Completion",
+      "existing": "Reference-level structural completion, stale-review invalidation and acknowledgment",
+      "remaining": "Course/practice lifecycle completion semantics must distinguish progress, competence, delivery and consent.",
+      "grouping": "Capability governed"
+    },
+    {
+      "capability": "Responsive/accessibility/resilience",
+      "existing": "Automated cross-reference responsive/stress/state tests; GR03/05 scoped manual attestations",
+      "remaining": "GR06 screen-reader and physical-mobile direct checks; every future reference declares universal and conditional baseline; no cross-reference transfer of passes.",
+      "grouping": "Universal/conditional, not a separate mandatory build"
+    },
+    {
+      "capability": "Related experience families: portfolio, bridge, peer dialogue, contribution",
+      "existing": "Local recovery and export only; no live Hub handoff or peer workflow proved",
+      "remaining": "Provenance, consent, receipt/failure/retry, roles, moderation, update/withdrawal and accessible lifecycle coverage; mock is not live integration.",
+      "grouping": "Track B proposed; split only for demonstrable independent lifecycle need"
+    }
+  ],
+  "tracks": {
+    "A": "IMPLEMENTED_PENDING_MANUAL_VALIDATION",
+    "B": "PROPOSED_NOT_AUTHORIZED"
+  },
+  "historical_evidence": [
+    {
+      "path": "WAVE_2_CONSOLIDATED_SYSTEM_REVIEW_v0.1.md",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "ba73aa406a6cadc00cdc474344d92ee21329cb543f619b1001118f7105353445"
+    },
+    {
+      "path": "WAVE_2_OBJECT_DISPOSITION_MATRIX_v0.1.md",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "4bffd87cd09c9fe37d426ef7d760e9ed52b6c282df3a9bdd9498ea34d268b3b4"
+    },
+    {
+      "path": "WAVE_2_REMAINING_COVERAGE_AND_NEXT_REFERENCES_v0.1.md",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "3148e80050398bcd9eb65d3f5ff57df3806da593709f7d3b2d2ae493c8bec603"
+    },
+    {
+      "path": "WAVE_2_SYSTEM_REVIEW.json",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "e74e42a8b919cc85b463b343edc210e5f17cc3c6c57516ba41c079b2373be0fa"
+    },
+    {
+      "path": "docs/GR03_SCHEMA_RECONCILIATION_PROPOSAL.md",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "12c860b29bc9aa7f6529fc28c46cbcc0966de340380de904da92e6a032bb42c3"
+    },
+    {
+      "path": "Repository_Alpha_Materialization_Report_v0.2-alpha.md",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "b677007d3554d459bf39397f78796f1fb1f31d66169f660c46a9293a7fa43214"
+    },
+    {
+      "path": "Repository_Rebuild_Review_and_Duplicate_Build_Preparation_v0.1.md",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "8efa5c4aeea5d347961c8f1035bbc01380f8c93ebb61a01c830444abf7b3609c"
+    },
+    {
+      "path": "Baseline_Reconciliation_and_System_Correction_Report_v0.2.2-alpha.md",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "9a38e514c3c726622e535d80d8bade274b9e457cf310abfd48116b11ad37b966"
+    },
+    {
+      "path": "tests/gr06-semantic-fixtures.json",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "bb7cc3431afe354eb2a50a127c9c3d8f3061e70a09979086f1acc1c1518a03e4"
+    },
+    {
+      "path": "golden-references/GR-06/GR-06_SEMANTIC_REVIEW_PACKET.md",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "0356fb7c5f07d25679edd3f0fe7452ecde8004b8063443103873baeb76c758ef"
+    },
+    {
+      "path": "tests/wave2-review/consistency-results.json",
+      "role": "Preserved historical evidence; current authority/status overlays supersede any earlier pending/proposal language",
+      "status": "HISTORICAL_NOT_CURRENT_DECISION",
+      "sha256": "9cc8c97b4817a35dbe5b273a7389648ab3005135c06cabfbb975a35980c865ca"
+    }
+  ],
+  "review_baseline_archive": "package/WAVE_2_Consolidated_System_Review_v0.1.zip",
+  "historical_snapshot": "tests/wave2-corrections/BASELINE.json",
+  "scope_limits": {
+    "golden_reference_accepted": false,
+    "candidate_promotions": false,
+    "system_v1_freeze": false,
+    "new_reference": false,
+    "PM_stress": false,
+    "HRBA_reconstruction": false,
+    "track_a_prototype": "AUTHORIZED_FROZEN_REVISION_1_ONLY"
+  },
+  "future_specification_rule": "Every new reference requires experience_differentiation_brief, build_mode and authority. GR01\u201306 frozen inputs remain unchanged. Structural validation is not architectural approval.",
+  "latest_authority": "governance/TRACK_A_FREEZE_AUTHORITY.json",
+  "GR06_design_learning": "Architecture works, but too lengthy/dense for likely production: too many nested stages/tabs, open-ended prompts, selections and repeated authored responses. Upper acceptable authored-work burden, not a future course-screen template. Track A must substantially reduce writing and differ in rhythm.",
+  "track_a_specification_package": {
+    "status": "TRACK_A_REVISION_1_FROZEN_FOR_PROTOTYPE_IMPLEMENTATION",
+    "implementation_authorized": true,
+    "freeze_commit": "d4e72e3a898e63ec084288925155781c4c58fce3",
+    "historical_note": "Proposal-era no-build/proposed fields within the frozen package are historical; explicit freeze authority supersedes them only for the authorized prototype. Content, burden and learning architecture remain frozen.",
+    "files": {
+      "prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json": "e3271be534980f10e38ba1835a97f6e49291b2afdd24fc5ea09613cca56cf043",
+      "prototype-specs/TRACK_A_DETERMINISTIC_LEARNING_DESIGN_v0.1.md": "7334e04300b45a6f687084280ed9ba37b0af67850da489d675f7f8e275c1a242",
+      "prototype-specs/TRACK_A_EXPERIENCE_DIFFERENTIATION_BRIEF_v0.1.json": "2a44ceefd64619ff143da092d39b1f496f561ce06ab76f7944faccb0c21af883",
+      "prototype-specs/TRACK_A_EXPERIENCE_DIFFERENTIATION_BRIEF_v0.1.md": "ed0fdb797fdfc0bcc8f96feaaf73e8a2028e4414a8617781274f767270784547",
+      "prototype-specs/TRACK_A_RESEARCH_AND_SOURCE_NOTES_v0.1.md": "3d07654f6192de4773924f61cd2657b573709cf858f3ee627b96f280ef8cf631",
+      "prototype-specs/TRACK_A_RESOURCE_FIRST_PREFLIGHT_v0.1.md": "68c4cd925c65cafa0d792b0850fa76831c260c4a5bfec7dcd15fdf82ff1cdda9",
+      "prototype-specs/TRACK_A_RESOURCE_INVENTORY_v0.1.json": "5994b9245a0e589cbb638c3136fbcf9ed01b696c73b42788fd3d5017e033e7f7",
+      "prototype-specs/TRACK_A_SEMANTIC_REVIEW_FIXTURES_v0.1.json": "2e94209cb695f02b06eb7067d0a962749a9acf4b8c22d0e61399994bd2772769",
+      "prototype-specs/TRACK_A_VALIDATION_MATRIX_v0.1.md": "fd21c15bb93441db4a2905ca71ddd50a7d5b8d4b1753cc65e210ad63daf88be6",
+      "prototype-specs/TRACK_A_VALIDATION_PLAN_v0.1.json": "6bc141e02f954733df27ab333757c7c055786c21a6e3c8029b1a3ebc10954fc1"
+    }
+  },
+  "track_a_coverage_note": "Track A provides an implemented rehearsal for assessment/readiness, feedback/remediation and reconsideration. It does not establish assessment validity or independently assessed competence. Human validation remains pending. Remaining Gate-8 coverage is capability-governed; no unrecovered GR numbering or Track B authorization is inferred."
+}

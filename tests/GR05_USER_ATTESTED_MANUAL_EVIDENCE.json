@@ -1,0 +1,37 @@
+{
+  "reference": "GR-05",
+  "recorded_at_utc": "2026-09-28T20:44:17.420559+00:00",
+  "provenance": {
+    "source": "Explicit user message in this Codex chat requesting V25 packet preparation",
+    "attestor": "User",
+    "statement": "The remaining direct technical checks have now been completed by the user and PASS: V21 genuine Chrome 200%, V23 actual screen-reader walkthrough, and the physical-mobile software-keyboard portion of V22.",
+    "performed_by_codex": false,
+    "independently_verified_by_codex": false,
+    "completion_date": "Not separately supplied",
+    "environment_details": "Browser/reader/device versions not supplied in this attestation",
+    "attachments_reviewed_for_this_attestation": []
+  },
+  "checks": [
+    {
+      "id": "V21",
+      "result": "PASS",
+      "evidence_type": "USER_ATTESTATION",
+      "scope": "Genuine Chrome 200%"
+    },
+    {
+      "id": "V23",
+      "result": "PASS",
+      "evidence_type": "USER_ATTESTATION",
+      "scope": "Actual screen-reader walkthrough"
+    },
+    {
+      "id": "V22",
+      "result": "PASS",
+      "evidence_type": "USER_ATTESTATION",
+      "scope": "Physical-mobile software-keyboard portion only; prior automated keyboard evidence remains separate"
+    }
+  ],
+  "automated_evidence": "Preserved unchanged in original automated result files; these attestations are not automated results.",
+  "remaining_review": "V25 ChatGPT HRBA judgment and related V05 instructional-depth disposition remain pending.",
+  "final_status": "IMPLEMENTED_PENDING_MANUAL_VALIDATION"
+}

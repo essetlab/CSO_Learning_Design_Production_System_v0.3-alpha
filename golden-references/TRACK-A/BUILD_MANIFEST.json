@@ -1,0 +1,27 @@
+{
+  "reference": "TRACK-A",
+  "status": "IMPLEMENTED_PENDING_MANUAL_VALIDATION",
+  "freeze_commit": "d4e72e3a898e63ec084288925155781c4c58fce3",
+  "contract": "prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+  "contract_sha256": "e3271be534980f10e38ba1835a97f6e49291b2afdd24fc5ea09613cca56cf043",
+  "candidates": [
+    "BLK-ASSESSMENT-BUNDLE-01",
+    "INT-READINESS-REVIEW-01",
+    "IP-READINESS-GATE-01"
+  ],
+  "candidate_status": "PROTOTYPE",
+  "variants": {
+    "CMP-EVIDENCE-DECISION-01": "readiness-review",
+    "TPL-SCENARIO-01": "readiness-review"
+  },
+  "state_service": "SVC-LEARNING-STATE-01 unchanged",
+  "result": "../../tests/track-a-implementation/VALIDATION_RESULT.json",
+  "pending": [
+    "V15",
+    "V16",
+    "V17",
+    "V19",
+    "V20"
+  ],
+  "semantic": "H01\u2013H10 PENDING; structural fixture execution is separate"
+}

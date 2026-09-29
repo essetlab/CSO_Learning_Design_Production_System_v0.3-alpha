@@ -1,0 +1,266 @@
+{
+  "checks": [
+    {
+      "name": "blank and inspections alone never complete",
+      "passed": true
+    },
+    {
+      "name": "all routes structurally viable, no semantic pass: proceed",
+      "passed": true
+    },
+    {
+      "name": "all routes structurally viable, no semantic pass: revise",
+      "passed": true
+    },
+    {
+      "name": "all routes structurally viable, no semantic pass: seek_review",
+      "passed": true
+    },
+    {
+      "name": "all routes structurally viable, no semantic pass: defer",
+      "passed": true
+    },
+    {
+      "name": "mapping state missing true0",
+      "passed": true
+    },
+    {
+      "name": "mapping state missing false1",
+      "passed": true
+    },
+    {
+      "name": "mapping state sufficient true1",
+      "passed": true
+    },
+    {
+      "name": "mapping state insufficient false0",
+      "passed": true
+    },
+    {
+      "name": "mapping state conflicting true2",
+      "passed": true
+    },
+    {
+      "name": "mapping state conflicting false1",
+      "passed": true
+    },
+    {
+      "name": "reject invalid mapping r=>r.links.push({...r.links[0]})",
+      "passed": true
+    },
+    {
+      "name": "reject invalid mapping r=>r.links[0].id='unknown'",
+      "passed": true
+    },
+    {
+      "name": "reject invalid mapping r=>r.links[0].version=99",
+      "passed": true
+    },
+    {
+      "name": "reject invalid mapping r=>r.links[0].role='grade'",
+      "passed": true
+    },
+    {
+      "name": "reject invalid mapping r=>r.gaps.push('unknown')",
+      "passed": true
+    },
+    {
+      "name": "reject invalid mapping r=>r.priority='now'",
+      "passed": true
+    },
+    {
+      "name": "words 35/35",
+      "passed": true
+    },
+    {
+      "name": "words 36/35",
+      "passed": true
+    },
+    {
+      "name": "words 45/45",
+      "passed": true
+    },
+    {
+      "name": "words 46/45",
+      "passed": true
+    },
+    {
+      "name": "characters 600",
+      "passed": true
+    },
+    {
+      "name": "characters 601",
+      "passed": true
+    },
+    {
+      "name": "T ",
+      "passed": true
+    },
+    {
+      "name": "T ...",
+      "passed": true
+    },
+    {
+      "name": "T a",
+      "passed": true
+    },
+    {
+      "name": "T ab",
+      "passed": true
+    },
+    {
+      "name": "T ሀሁ",
+      "passed": true
+    },
+    {
+      "name": "T 中 文",
+      "passed": true
+    },
+    {
+      "name": "T <b>inert</b>",
+      "passed": true
+    },
+    {
+      "name": "optional note capped and conditional note required",
+      "passed": true
+    },
+    {
+      "name": "clarification timing once and old links stale",
+      "passed": true
+    },
+    {
+      "name": "immediate field invalidation route",
+      "passed": true
+    },
+    {
+      "name": "immediate field invalidation rationale",
+      "passed": true
+    },
+    {
+      "name": "immediate field invalidation next_step_note",
+      "passed": true
+    },
+    {
+      "name": "immediate field invalidation disposition",
+      "passed": true
+    },
+    {
+      "name": "row invalidation state",
+      "passed": true
+    },
+    {
+      "name": "row invalidation links",
+      "passed": true
+    },
+    {
+      "name": "row invalidation gaps",
+      "passed": true
+    },
+    {
+      "name": "row invalidation priority",
+      "passed": true
+    },
+    {
+      "name": "whitespace equivalent retains review and revision",
+      "passed": true
+    },
+    {
+      "name": "explicit revise invalidates before edit",
+      "passed": true
+    },
+    {
+      "name": "amend requires substantive difference, version refresh alone insufficient",
+      "passed": true
+    },
+    {
+      "name": "association order alone is not substantive amendment",
+      "passed": true
+    },
+    {
+      "name": "predicate necessary E",
+      "passed": true
+    },
+    {
+      "name": "predicate necessary M",
+      "passed": true
+    },
+    {
+      "name": "predicate necessary J",
+      "passed": true
+    },
+    {
+      "name": "predicate necessary C",
+      "passed": true
+    },
+    {
+      "name": "predicate necessary U",
+      "passed": true
+    },
+    {
+      "name": "predicate necessary R",
+      "passed": true
+    },
+    {
+      "name": "predicate necessary F",
+      "passed": true
+    },
+    {
+      "name": "restore rejects corruption s=>s.COMPLETE=true",
+      "passed": true
+    },
+    {
+      "name": "restore rejects corruption s=>s.schema=2",
+      "passed": true
+    },
+    {
+      "name": "restore rejects corruption s=>s.firstRecord.sources[0].fingerprint='forged'",
+      "passed": true
+    },
+    {
+      "name": "restore rejects corruption s=>s.currentRecord.revision--",
+      "passed": true
+    },
+    {
+      "name": "restore rejects corruption s=>s.rows['TA-K01'].links[0].id='unknown'",
+      "passed": true
+    },
+    {
+      "name": "restore rejects corruption s=>s.reviewed['TA-K01']='stale'",
+      "passed": true
+    },
+    {
+      "name": "restore rejects corruption s=>s.firstRecord.bundleVersion=2",
+      "passed": true
+    },
+    {
+      "name": "overlimit and IME retained without completion",
+      "passed": true
+    },
+    {
+      "name": "retained text export covers exact history and current limitations",
+      "passed": true
+    },
+    {
+      "name": "approved fixture structural trajectory P01",
+      "passed": true
+    },
+    {
+      "name": "approved fixture structural trajectory P02",
+      "passed": true
+    },
+    {
+      "name": "approved fixture structural trajectory P03",
+      "passed": true
+    },
+    {
+      "name": "approved fixture structural trajectory P04",
+      "passed": true
+    },
+    {
+      "name": "semantic examples are separate from runtime",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "semantic_quality": "NOT_ASSESSED"
+}

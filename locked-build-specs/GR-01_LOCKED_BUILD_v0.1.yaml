@@ -1,0 +1,156 @@
+reference_id: GR-01
+spec_version: 0.1.0
+build_mode: LOCKED_BUILD
+determinism: D3
+system_version: 0.2.1-alpha
+instructional_pattern: IP-ENTRY-01
+template:
+  id: TPL-COURSE-ENTRY-01
+  variant: editorial-split-illustrated
+composition: CMP-IMMERSIVE-01
+shell:
+  id: SHELL-GR-W1-01
+  variant: immersive
+  skip_label: Skip to course opening
+  course_title: Human Rights-Based Approach in CSO Practice
+  course_context: Course entry
+  progress_label: Ready to begin
+  progress_percent: 3
+  drawer_eyebrow: HRBA COURSE
+  menu:
+    - label: Course opening
+      href: '#main'
+    - label: Learning journey
+      href: '#journey'
+    - label: My practice focus
+      href: '#practice-focus'
+content:
+  document_title: GR-01 · Magnetic Course Entry
+  vertical_marker: HUMAN RIGHTS-BASED APPROACH
+  eyebrow: CSO LEARNING HUB · HUMAN RIGHTS-BASED APPROACH
+  course_name: Human Rights-Based Approach in CSO Practice
+  headline:
+    first_line: Ask better questions.
+    emphasis_line: Make stronger decisions.
+  proposition: >-
+    Use a practical rights lens to notice who is affected, who may be left out,
+    who should be heard, who has responsibility, and what should change after people participate.
+  context_line: >-
+    Built for local and grassroots CSO practitioners working with real project constraints,
+    communities, partners and public actors.
+  primary_cta: Start the course
+  primary_href: '#journey'
+  secondary_action: See how the learning journey works
+  secondary_href: '#journey'
+  question_thread:
+    aria_label: Five practical questions the course will help you use
+    intro: A practical rights lens
+    items:
+      - Who is affected?
+      - Who may be left out?
+      - Who should be heard?
+      - Who has responsibility?
+      - What should change?
+  chapter:
+    number: '01'
+    label: BEGIN WITH PRACTICE
+  journey:
+    kicker: THE LEARNING JOURNEY
+    heading: Start from real work. Build the judgement to act differently.
+    intro: >-
+      The course moves from recognising rights issues in everyday CSO work to making stronger
+      design, implementation and evidence decisions.
+    items:
+      - number: '01'
+        title: Notice
+        body: See who is affected, excluded or unheard.
+      - number: '02'
+        title: Interpret
+        body: Examine responsibility, participation and power.
+      - number: '03'
+        title: Decide
+        body: Make safer, more accountable project choices.
+      - number: '04'
+        title: Apply
+        body: Carry useful decisions and tools back into practice.
+  practice_focus:
+    kicker: MY PRACTICE · OPTIONAL
+    heading: What would be most useful to strengthen in your work?
+    support: Choose one if it helps you focus your learning, or start without selecting. You can change this later.
+    legend: Choose an optional practice focus
+    storage_key: gr01-practice-focus
+    empty_status: No practice focus selected — that is completely fine.
+    clear_label: Clear my focus
+    completion_dependency: false
+    assessment_dependency: false
+    options:
+      - number: '01'
+        value: Improve participation and inclusion
+        label: Improve participation and inclusion
+      - number: '02'
+        value: Strengthen advocacy and accountability
+        label: Strengthen advocacy and accountability
+      - number: '03'
+        value: Design stronger projects
+        label: Design stronger projects
+      - number: '04'
+        value: Use evidence and feedback better
+        label: Use evidence and feedback better
+      - number: '05'
+        value: Connect HRBA more clearly to daily work
+        label: Connect HRBA more clearly to daily work
+  close:
+    aria_label: Start course
+    kicker: READY WHEN YOU ARE
+    heading: You do not need legal expertise to begin.
+    body: Start with the questions. The course will help you use them in realistic CSO decisions.
+asset:
+  id: AST-HRBA-GR01-HERO-EXISTING-01
+  src: ../../assets/courses/hrba/AST-HRBA-GR01-HERO-EXISTING-01.png
+  alt: >-
+    Three local CSO practitioners pause on a highland path at sunrise. One holds a notebook,
+    another studies a community map, and the group looks ahead along the path.
+  width: 1648
+  height: 928
+  crop:
+    desktop: 72% center
+    mobile: 71% center
+behavior:
+  completion: ungated
+  start_always_available: true
+  practice_focus_optional: true
+  practice_focus_persistence: local_if_available
+responsive:
+  desktop: editorial-split
+  tablet: editorial-split-compressed
+  mobile: text-first-then-visual
+  small_phone: preserve-start-before-optional-content
+accessibility:
+  target: WCAG-2.2-AA
+  one_h1: true
+  keyboard: required
+  focus_visible: required
+  reduced_motion: required
+  hero_alt_required: true
+  vertical_marker_nonessential: true
+locked_dependencies:
+  styles:
+    - ../../tokens/tokens.css
+    - ../../foundations/base.css
+    - ../../foundations/accessibility.css
+    - ../../foundations/motion.css
+    - ../../shell/course-shell.css
+    - ../../ui/button/button.css
+    - ../../ui/link/link.css
+    - ../../ui/status/status.css
+    - ../../ui/save-state/save-state.css
+    - ../../practice/practice-focus/practice-focus.css
+    - ../../compositions/immersive/immersive.css
+    - ../../templates/course-entry/course-entry.css
+  scripts:
+    - ../../shell/course-shell.js
+    - ../../practice/practice-focus/practice-focus.js
+local_css_allowed: false
+new_components_allowed: false
+new_tokens_allowed: false
+asset_substitution_allowed: false

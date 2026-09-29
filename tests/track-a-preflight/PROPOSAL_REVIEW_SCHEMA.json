@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Track A proposal structural review schema (not a runtime payload schema)",
+  "type": "object",
+  "required": [
+    "contract",
+    "build_mode",
+    "authority",
+    "capability",
+    "distinction",
+    "case",
+    "criteria",
+    "mapping",
+    "decision_routes",
+    "authoring",
+    "roles",
+    "feedback",
+    "sequence",
+    "state",
+    "predicates",
+    "completion",
+    "representation",
+    "responsive",
+    "content_maxima",
+    "objects",
+    "validation_matrix",
+    "experience_differentiation_brief",
+    "specification_only"
+  ],
+  "properties": {
+    "contract": {
+      "type": "object",
+      "required": [
+        "reference",
+        "status",
+        "prototype_implementation_authorized"
+      ],
+      "properties": {
+        "reference": {
+          "const": "TRACK-A"
+        },
+        "status": {
+          "const": "PROPOSED_NOT_FROZEN"
+        },
+        "prototype_implementation_authorized": {
+          "const": false
+        }
+      }
+    },
+    "authority": {
+      "type": "object"
+    },
+    "case": {
+      "type": "object"
+    },
+    "mapping": {
+      "type": "object"
+    },
+    "authoring": {
+      "type": "object"
+    },
+    "roles": {
+      "type": "object"
+    },
+    "feedback": {
+      "type": "object"
+    },
+    "state": {
+      "type": "object"
+    },
+    "predicates": {
+      "type": "object"
+    },
+    "completion": {
+      "type": "object"
+    },
+    "representation": {
+      "type": "object"
+    },
+    "responsive": {
+      "type": "object"
+    },
+    "content_maxima": {
+      "type": "object"
+    },
+    "objects": {
+      "type": "object"
+    },
+    "specification_only": {
+      "const": true
+    },
+    "criteria": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "decision_routes": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4
+    }
+  }
+}

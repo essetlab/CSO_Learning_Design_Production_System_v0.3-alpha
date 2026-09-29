@@ -1,0 +1,124 @@
+{
+  "reference": "",
+  "professional_capability": "",
+  "dominant_learner_action": "",
+  "emotional_cognitive_rhythm": "",
+  "visual_interaction_metaphor": "",
+  "density_scroll_expectation": "",
+  "reference_work_balance": "",
+  "authored_writing_burden": "",
+  "desktop_mobile_transformation": "",
+  "magnetic_experience_moment": "",
+  "reuse_rationale": "",
+  "difference_from_recent_references": "",
+  "validation_baseline": {
+    "id": "W2-ACCESSIBILITY-RESILIENCE-BASELINE",
+    "universal": {
+      "U01": {
+        "method": "",
+        "evidence": "",
+        "owner": ""
+      },
+      "U02": {
+        "method": "",
+        "evidence": "",
+        "owner": ""
+      },
+      "U03": {
+        "method": "",
+        "evidence": "",
+        "owner": ""
+      },
+      "U04": {
+        "method": "",
+        "evidence": "",
+        "owner": ""
+      },
+      "U05": {
+        "method": "",
+        "evidence": "",
+        "owner": ""
+      },
+      "U06": {
+        "method": "",
+        "evidence": "",
+        "owner": ""
+      },
+      "U07": {
+        "method": "",
+        "evidence": "",
+        "owner": ""
+      },
+      "U08": {
+        "method": "",
+        "evidence": "",
+        "owner": ""
+      }
+    },
+    "conditional": {
+      "C01": {
+        "applies": false,
+        "rationale": "",
+        "validation": {
+          "method": "",
+          "evidence": "",
+          "owner": ""
+        }
+      },
+      "C02": {
+        "applies": false,
+        "rationale": "",
+        "validation": {
+          "method": "",
+          "evidence": "",
+          "owner": ""
+        }
+      },
+      "C03": {
+        "applies": false,
+        "rationale": "",
+        "validation": {
+          "method": "",
+          "evidence": "",
+          "owner": ""
+        }
+      },
+      "C04": {
+        "applies": false,
+        "rationale": "",
+        "validation": {
+          "method": "",
+          "evidence": "",
+          "owner": ""
+        }
+      },
+      "C05": {
+        "applies": false,
+        "rationale": "",
+        "validation": {
+          "method": "",
+          "evidence": "",
+          "owner": ""
+        }
+      },
+      "C06": {
+        "applies": false,
+        "rationale": "",
+        "validation": {
+          "method": "",
+          "evidence": "",
+          "owner": ""
+        }
+      },
+      "C07": {
+        "applies": false,
+        "rationale": "",
+        "validation": {
+          "method": "",
+          "evidence": "",
+          "owner": ""
+        }
+      }
+    }
+  }
+}

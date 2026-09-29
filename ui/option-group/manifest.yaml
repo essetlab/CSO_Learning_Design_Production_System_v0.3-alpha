@@ -1,0 +1,8 @@
+id: UI-OPTION-GROUP-01
+version: 0.2.0-alpha
+status: repo-alpha-ready
+scope: global
+implementation: option-group.css
+variants:
+- plain
+- lettered

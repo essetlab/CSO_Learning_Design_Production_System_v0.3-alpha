@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Golden Reference / Episode Spec",
+  "type": "object",
+  "required": [
+    "id",
+    "system_version",
+    "instructional_pattern",
+    "template",
+    "composition",
+    "components",
+    "completion"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "system_version": {
+      "type": "string"
+    },
+    "instructional_pattern": {
+      "type": "string"
+    },
+    "template": {
+      "$ref": "#/$defs/templateReference"
+    },
+    "composition": {
+      "type": "string"
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "completion": {
+      "type": "string"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "templateReference": {
+      "description": "Canonical structured template reference; string shorthand is accepted transitionally and interpreted as an id with no variant.",
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "id"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "variant": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "string",
+          "minLength": 1,
+          "deprecated": true
+        }
+      ]
+    }
+  }
+}

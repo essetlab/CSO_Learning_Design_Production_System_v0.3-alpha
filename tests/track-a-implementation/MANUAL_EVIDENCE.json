@@ -1,0 +1,49 @@
+{
+  "reference": "TRACK-A",
+  "status": "PENDING",
+  "checks": [
+    {
+      "id": "V15",
+      "title": "Genuine Chrome 200% \u2014 direct",
+      "requirement": "Native indicator plus full map\u2192recommend\u2192consequence\u2192U01\u2192reconsider\u2192ack\u2192revise/re-review flow; inspect full feedback and reachable Continue; user/direct evidence only.",
+      "status": "PENDING_DIRECT_OR_INDEPENDENT_REVIEW",
+      "evidence": [],
+      "provenance": "Not performed; no attestation received"
+    },
+    {
+      "id": "V16",
+      "title": "Actual screen reader \u2014 direct",
+      "requirement": "Reader/OS/browser/version/performer; criterion/source reading order, link roles, changed version, missing/conflicting state, gap priority, not-yet consequence, current/historical outcomes, truthful practice completion.",
+      "status": "PENDING_DIRECT_OR_INDEPENDENT_REVIEW",
+      "evidence": [],
+      "provenance": "Not performed; no attestation received"
+    },
+    {
+      "id": "V17",
+      "title": "Physical-mobile keyboard \u2014 direct",
+      "requirement": "Device/OS/browser/performer; two text fields, caret/focus/scroll under software keyboard, long paste, error, dismissal, reconsideration and Continue reachability.",
+      "status": "PENDING_DIRECT_OR_INDEPENDENT_REVIEW",
+      "evidence": [],
+      "provenance": "Not performed; no attestation received"
+    },
+    {
+      "id": "V19",
+      "title": "Burden and differentiation \u2014 human",
+      "requirement": "Observe 8\u201312 minute hypothesis and two-field/80-word current ceiling; record actual navigation/effort. Reject nested stage tabs, repeated criterion essays or studio-like scrolling even if tests pass.",
+      "status": "PENDING_DIRECT_OR_INDEPENDENT_REVIEW",
+      "evidence": [],
+      "provenance": "Not performed; no attestation received"
+    },
+    {
+      "id": "V20",
+      "title": "Independent semantic H01\u2013H10",
+      "requirement": "Human review each positive fixture and negative counterexample; no automated semantic PASS. All ten dimensions require verdict/rationale and exact fixture hash.",
+      "status": "PENDING_DIRECT_OR_INDEPENDENT_REVIEW",
+      "evidence": [],
+      "provenance": "Not performed; no attestation received"
+    }
+  ],
+  "user_attestations": [],
+  "independent_semantic_judgments": [],
+  "prior_reference_attestations_transfer": false
+}

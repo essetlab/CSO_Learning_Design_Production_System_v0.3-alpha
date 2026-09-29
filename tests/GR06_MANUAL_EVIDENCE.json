@@ -1,0 +1,121 @@
+{
+  "reference": "GR-06",
+  "status": "TWO_TECHNICAL_CHECKS_PENDING",
+  "checks": [
+    {
+      "id": "V19-screen-reader",
+      "check": "Actual screen-reader walkthrough",
+      "status": "PENDING",
+      "provenance": "Accessibility-tree snapshot is automated evidence only"
+    },
+    {
+      "id": "V19-mobile",
+      "check": "Physical mobile software keyboard",
+      "status": "PENDING",
+      "provenance": "Desktop viewport emulation is automated evidence only"
+    }
+  ],
+  "human_dimensions": [
+    {
+      "id": "H01",
+      "status": "PASS",
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "authority_record": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    },
+    {
+      "id": "H02",
+      "status": "PASS",
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "authority_record": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    },
+    {
+      "id": "H03",
+      "status": "PASS",
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "authority_record": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    },
+    {
+      "id": "H04",
+      "status": "PASS",
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "authority_record": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    },
+    {
+      "id": "H05",
+      "status": "PASS",
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "authority_record": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    },
+    {
+      "id": "H06",
+      "status": "PASS",
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "authority_record": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    },
+    {
+      "id": "H07",
+      "status": "PASS",
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "authority_record": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    },
+    {
+      "id": "H08",
+      "status": "PASS",
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "authority_record": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    },
+    {
+      "id": "H09",
+      "status": "PASS",
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "authority_record": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    }
+  ],
+  "attestations": [
+    {
+      "status": "PASS",
+      "dimensions": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09"
+      ],
+      "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+      "reported_by": "User in this chat",
+      "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+      "statement": "GR-06 H01\u2013H09 independent semantic review is now PASS; do not continue to report it as pending.",
+      "review_date": "Not separately supplied; recorded from user governance update on 2026-09-29",
+      "reviewed_hashes": {
+        "tests/gr06-semantic-fixtures.json": "bb7cc3431afe354eb2a50a127c9c3d8f3061e70a09979086f1acc1c1518a03e4",
+        "golden-references/GR-06/GR-06_SEMANTIC_REVIEW_PACKET.md": "0356fb7c5f07d25679edd3f0fe7452ecde8004b8063443103873baeb76c758ef"
+      }
+    }
+  ],
+  "automated_evidence_separate": true,
+  "direct_technical_attestations": [
+    {
+      "id": "V18",
+      "status": "PASS",
+      "provenance": "USER_ATTESTED",
+      "statement": "native Chrome 200% = PASS, user-attested",
+      "performed_by": "User (as attested in request)",
+      "test_date": null,
+      "device_browser_details": null,
+      "Codex_performed": false
+    }
+  ]
+}

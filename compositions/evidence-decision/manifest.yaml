@@ -1,0 +1,19 @@
+id: CMP-EVIDENCE-DECISION-01
+version: 0.2.0-alpha
+status: prototype
+mobile_transform: evidence-then-decision
+variants:
+- id: source-interpretation-decision-update
+  status: PROTOTYPE
+  opt_in: true
+  ownership: Arrangement only; no state/completion authority
+  compatibility: Existing default markup, labels, selectors and behavior unchanged
+- id: readiness-review
+  status: PROTOTYPE
+  opt_in: true
+  ownership: Arrangement only
+  compatible_interactions:
+  - INT-READINESS-REVIEW-01
+  compatibility: All existing defaults and variants unchanged
+  implementation:
+    css: readiness-review.css

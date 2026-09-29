@@ -1,0 +1,19 @@
+id: GR-06
+system_version: 0.3-alpha
+build_mode: CONSTRAINED_BUILD
+instructional_pattern: IP-EVIDENCE-DECISION-01
+template:
+  id: TPL-DEEP-WORKSPACE-01
+  variant: evidence-decision
+composition: CMP-EVIDENCE-DECISION-01
+composition_variant: source-interpretation-decision-update
+components:
+- SHELL-GR-W1-01
+- UI-SAVE-STATE-01
+- BLK-EVIDENCE-LEDGER-01
+- INT-EVIDENCE-DECISION-01
+- SVC-LEARNING-STATE-01
+completion: E && I && D && U && A && R && F
+prototype_contract: ../../prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+local_css_allowed: false
+candidate_objects_status: PROTOTYPE

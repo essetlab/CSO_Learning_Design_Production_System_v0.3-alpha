@@ -1,0 +1,195 @@
+{
+  "reference": "GR-05",
+  "final_status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+  "target_status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+  "candidate_status": "PROTOTYPE",
+  "golden_reference_accepted": false,
+  "GR06_started": false,
+  "automated_pass": true,
+  "user_direction": "Close GR-05 at Wave 2 system review pass; candidates stay PROTOTYPE; GR-06 preflight only authorized separately.",
+  "counts": {
+    "browser": 321,
+    "keyboard_resilience": 84,
+    "model": 31,
+    "state_service": 17,
+    "static": 22,
+    "regression_commands": 30,
+    "GR03_browser_stress": 423
+  },
+  "matrix": [
+    {
+      "id": "V01",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V02",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V03",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V04",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V05",
+      "status": "PASS_REVIEW_REPORTED",
+      "note": "V05 PASS from ChatGPT architectural/HRBA review, communicated by the user; separate from automated and user-performed technical checks.",
+      "review_evidence": "tests/GR05_ARCHITECTURAL_REVIEW_DECISION.json"
+    },
+    {
+      "id": "V06",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V07",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V08",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V09",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V10",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V11",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V12",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V13",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V14",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V15",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V16",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V17",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V18",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V19",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V20",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V21",
+      "status": "PASS_USER_ATTESTED",
+      "note": "Genuine Chrome 200%; performed and reported by the user, not independently performed or verified by Codex.",
+      "manual_evidence": "tests/GR05_USER_ATTESTED_MANUAL_EVIDENCE.json"
+    },
+    {
+      "id": "V22",
+      "status": "PASS_USER_ATTESTED",
+      "note": "Physical-mobile software-keyboard portion only; prior automated keyboard evidence remains separate; performed and reported by the user, not independently performed or verified by Codex.",
+      "manual_evidence": "tests/GR05_USER_ATTESTED_MANUAL_EVIDENCE.json"
+    },
+    {
+      "id": "V23",
+      "status": "PASS_USER_ATTESTED",
+      "note": "Actual screen-reader walkthrough; performed and reported by the user, not independently performed or verified by Codex.",
+      "manual_evidence": "tests/GR05_USER_ATTESTED_MANUAL_EVIDENCE.json"
+    },
+    {
+      "id": "V24",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V25",
+      "status": "PASS_REVIEW_REPORTED",
+      "note": "V25 PASS from ChatGPT architectural/HRBA review, communicated by the user; separate from automated and user-performed technical checks.",
+      "review_evidence": "tests/GR05_ARCHITECTURAL_REVIEW_DECISION.json"
+    },
+    {
+      "id": "V26",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V27",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V28",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V29",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    },
+    {
+      "id": "V30",
+      "status": "AUTOMATED_PASS",
+      "note": "See per-assertion browser, model/service, static and command evidence; automated scope only."
+    }
+  ],
+  "evidence": [
+    "tests/gr05-browser-review-handoff.json",
+    "tests/GR05_KEYBOARD_RESILIENCE_RESULTS.json",
+    "tests/GR05_MODEL_RESULTS.json",
+    "tests/GR05_STATE_SERVICE_RESULTS.json",
+    "tests/GR05_STATIC_RESULTS.json",
+    "tests/GR05_REGRESSION_COMMANDS.json",
+    "tests/gr03-browser-validation-gr05-regression.json",
+    "tests/gr05-defect-log.md",
+    "golden-references/GR-05/MANUAL_VALIDATION.md",
+    "tests/GR05_USER_ATTESTED_MANUAL_EVIDENCE.json",
+    "golden-references/GR-05/GR-05_V25_REVIEW_PACKET.md",
+    "tests/GR05_ARCHITECTURAL_REVIEW_DECISION.json",
+    "golden-references/GR-05/GR-05_V25_SEMANTIC_REVIEW_PACKET.md",
+    "tests/gr05-v25-semantic-review-fixture.json",
+    "tests/GR05_V25_SEMANTIC_FIXTURE_CHECKS.json"
+  ],
+  "integrity_receipt": "tests/package-integrity.json",
+  "pending_manual": {}
+}

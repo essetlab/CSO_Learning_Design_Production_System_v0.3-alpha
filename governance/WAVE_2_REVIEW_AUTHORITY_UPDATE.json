@@ -1,0 +1,59 @@
+{
+  "recorded_date": "2026-09-29",
+  "authority": "User message authorizing Wave-2 bounded corrections and conveying ChatGPT review",
+  "review_outcome": "WAVE_2_PASS_WITH_BOUNDED_CORRECTIONS",
+  "outcome_accepted": true,
+  "historical_review": "WAVE_2_SYSTEM_REVIEW.json",
+  "GR06_semantic_review": {
+    "status": "PASS",
+    "dimensions": [
+      "H01",
+      "H02",
+      "H03",
+      "H04",
+      "H05",
+      "H06",
+      "H07",
+      "H08",
+      "H09"
+    ],
+    "reviewer": "ChatGPT independent instructional/HRBA semantic review",
+    "reported_by": "User in this chat",
+    "provenance": "CHATGPT_REVIEW_REPORTED_BY_USER",
+    "statement": "GR-06 H01\u2013H09 independent semantic review is now PASS; do not continue to report it as pending.",
+    "review_date": "Not separately supplied; recorded from user governance update on 2026-09-29",
+    "reviewed_hashes": {
+      "tests/gr06-semantic-fixtures.json": "bb7cc3431afe354eb2a50a127c9c3d8f3061e70a09979086f1acc1c1518a03e4",
+      "golden-references/GR-06/GR-06_SEMANTIC_REVIEW_PACKET.md": "0356fb7c5f07d25679edd3f0fe7452ecde8004b8063443103873baeb76c758ef"
+    }
+  },
+  "GR06_direct_technical_checks": {
+    "V18_genuine_Chrome_200": "PENDING_USER_ATTESTATION",
+    "V19_actual_screen_reader": "PENDING_USER_ATTESTATION",
+    "V19_physical_mobile_software_keyboard": "PENDING_USER_ATTESTATION"
+  },
+  "remaining_coverage_authority": "Capability-governed until an authoritative historical numbering source is located. No mandatory four separate GR07/08/09/10 builds may be inferred.",
+  "tracks_A_B": "PROPOSED_GROUPINGS_NOT_AUTHORIZED",
+  "authorized_corrections": [
+    "W2-C01",
+    "W2-C02",
+    "W2-C03",
+    "W2-C06"
+  ],
+  "not_authorized": [
+    "W2-C04",
+    "W2-C07",
+    "W2-C08",
+    "W2-C09",
+    "W2-C10",
+    "W2-C11",
+    "Track A",
+    "Track B",
+    "new Golden Reference",
+    "PM stress testing",
+    "HRBA reconstruction"
+  ],
+  "candidate_promotions": false,
+  "golden_reference_accepted": false,
+  "scope": "Current decision overlay; historical review and semantic fixtures remain unchanged."
+}

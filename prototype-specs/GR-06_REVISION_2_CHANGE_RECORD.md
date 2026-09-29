@@ -1,0 +1,14 @@
+> FROZEN FOR PROTOTYPE IMPLEMENTATION by explicit user approval. Revision 2 is authoritative. Earlier pending wording below is historical. Three candidates and two opt-in variants authorized at PROTOTYPE only.
+
+# GR-06 revision 2 — bounded architectural corrections
+
+Status: **PROPOSED_FOR_ARCHITECTURAL_REVIEW — NOT FROZEN**. No implementation or registration authorized. The machine-readable contract remains version 0.1 with revision incremented to 2; restore identity now specifies contractRevision=2 for any future build.
+
+1. Replaced interchangeable I01/I02 claims with `primary_interpretation` and `alternative_or_unresolved_interpretation`. Both retain informing and limiting/counterevidence links, authored interpretation, limitation and confidence. The alternative can be an unresolved question; equal likelihood or contradiction is not required. The existing claim field’s 55-word cap and limitation’s 40-word cap remain.
+2. Added `escalate` — seek authorization or system action — alongside trial, verify and retain. All six authored decision fields remain mandatory with unchanged maxima. Responsibility/action prompts now expose Awra’s boundary, authorization and what may proceed while awaiting a decision. Structural completion does not grade the route as correct.
+3. Replaced the proposed repair-studio composition with an opt-in `source-interpretation-decision-update` variant of existing CMP-EVIDENCE-DECISION-01. TPL-DEEP-WORKSPACE-01 is proposed only through a configurable `evidence-decision` variant, preserving GR-05 defaults. Existing GR-04 selectors/render/behavior must remain unchanged. Compatibility is a future implementation gate, not a claimed tested extension; if it cannot hold, report G06-03 and return to architecture. SVC-LEARNING-STATE-01 is unchanged.
+4. Added nine explicit human semantic dimensions H01–H09 and strengthened learner Q01–Q04 prompts. Required human fixtures cover retained/changed/escalated decisions and unresolved alternatives. Negative cases expose prevalence claims, receipt assumptions, false symmetry, assumed authority and cosmetic revision. No keyword or AI grading is introduced.
+
+Preserved: all five exact initial evidence records, their numbers/source scopes/limitations, exact U01, fictional case framing, all existing word maxima and T, evidence-update release, immutable v1, revision invalidation, completion expression `E && I && D && U && A && R && F`, plain-text input and shared retention boundaries. I and D predicates now name the revised roles/routes; other predicate requirements are unchanged.
+
+BLK-EVIDENCE-LEDGER-01, INT-EVIDENCE-DECISION-01 and IP-EVIDENCE-DECISION-01 are **PROPOSED_NOT_REGISTERED**. No candidate files/registrations or runtime edits were created. Review the exact contract JSON, deterministic specification and validation matrix together before final freeze.

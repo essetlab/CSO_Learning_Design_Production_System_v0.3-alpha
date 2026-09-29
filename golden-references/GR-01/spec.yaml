@@ -1,0 +1,20 @@
+id: GR-01
+system_version: 0.2.1-alpha
+instructional_pattern: IP-ENTRY-01
+template:
+  id: TPL-COURSE-ENTRY-01
+  variant: editorial-split-illustrated
+composition: CMP-IMMERSIVE-01
+components:
+- SHELL-GR-W1-01
+- BLK-EXPLAIN-01
+- BLK-QUESTION-01
+- UI-BUTTON-01
+- UI-LINK-01
+- PRA-FOCUS-01
+- UI-SAVE-STATE-01
+completion: ungated
+assets:
+- AST-HRBA-GR01-HERO-EXISTING-01
+locked_build_spec: ../../locked-build-specs/GR-01_LOCKED_BUILD_v0.1.yaml
+local_css_allowed: false

@@ -1,0 +1,87 @@
+{
+  "contract": {
+    "id": "GR03-AUTHORING-CONTRACT-01",
+    "version": "0.1",
+    "status": "FROZEN_FOR_PROTOTYPE_BUILD",
+    "golden_reference_id": "GR-03",
+    "title": "Guided Interpretation — Power & Perspective",
+    "build_mode": "CONSTRAINED_BUILD",
+    "system_version": "0.3-alpha"
+  },
+  "authority": {
+    "screen_learning_meaning": "LOCKED",
+    "case_facts": "LOCKED",
+    "interaction_structure": "LOCKED",
+    "completion_logic": "LOCKED",
+    "accessibility_contract": "LOCKED",
+    "responsive_transformation": "LOCKED",
+    "system_object_ids": "LOCKED",
+    "microcopy": "CONSTRAINED",
+    "approved_asset_selection": "CONSTRAINED",
+    "visual_composition_within_approved_objects": "CONSTRAINED",
+    "new_component_creation": "PROHIBITED",
+    "new_token_creation": "PROHIBITED",
+    "new_interaction_pattern_creation": "PROHIBITED",
+    "new_asset_generation": "STOP_AND_ESCALATE"
+  },
+  "instructional_pattern": {
+    "primary": "IP-INTERPRET-01",
+    "supporting": "IP-PERSPECTIVE-01",
+    "sequence": [
+      "shared_situation",
+      "notice_evidence",
+      "explore_perspectives",
+      "interpret",
+      "distinguish_evidence_from_assumption",
+      "review_feedback",
+      "optional_revision",
+      "takeaway"
+    ]
+  },
+  "system_objects": {
+    "learning_blocks": [
+      "BLK-PERSPECTIVE-01",
+      "BLK-QUESTION-01",
+      "BLK-FEEDBACK-01",
+      "BLK-TAKEAWAY-01"
+    ],
+    "interaction": "INT-LABELED-GRAPHIC-01",
+    "composition": "CMP-PERSPECTIVE-01",
+    "shared_ui": [
+      "UI-BUTTON-01",
+      "UI-OPTION-GROUP-01",
+      "UI-STATUS-01",
+      "UI-NAV-CONTROLS-01"
+    ]
+  },
+  "content_limits": {
+    "authority": "Already-frozen GR-03 Validation Matrix; restored from the user's architectural review instruction on 2026-09-28. These are synchronized requirements, not newly designed limits.",
+    "unit": "words",
+    "maximum_words": {
+      "perspective_label": 8,
+      "observation": 45,
+      "interpretation": 45,
+      "limitation": 35,
+      "answer_option": 28,
+      "feedback": 65
+    },
+    "validation": "At each maximum: coherent desktop and mobile layout, complete readable text, no clipping or horizontal page scrolling, usable controls, no destructive overlap. Synthetic substitutions are test-only."
+  },
+  "completion": {
+    "expression": "all_perspectives_visited && interpretation_submitted && feedback_viewed",
+    "requires_best_supported_option": false,
+    "revision_optional": true
+  },
+  "responsive": {
+    "desktop": "shared_scene_plus_adjacent_interpretation_pane",
+    "mobile": "scene_then_stacked_disclosures_then_interpretation"
+  },
+  "asset": {
+    "id": "AST-HRBA-GR03-VOICE-SAFETY-EXISTING-01",
+    "status": "approved-source-asset-for-prototype",
+    "course": "HRBA",
+    "path": "assets/courses/hrba/AST-HRBA-GR03-VOICE-SAFETY-EXISTING-01.webp",
+    "provenance": "Existing HRBA R&D image generated 2026-07-02 for voice-and-safety / power interpretation; reused after VA-012 binary was not directly retrievable in current project file surface."
+  },
+  "status": "FROZEN_FOR_PROTOTYPE_BUILD"
+}

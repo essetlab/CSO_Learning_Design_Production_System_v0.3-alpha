@@ -1,0 +1,21 @@
+/* Opt-in composition only. Existing GR04/GR06 selectors/defaults untouched. */
+.readiness-page {max-width:var(--width-standard);margin:auto;padding:var(--space-6);overflow-wrap:anywhere;}
+.readiness-page h1 {font-size:var(--type-episode-heading);font-family:var(--font-display);}
+.readiness-page h2 {font-size:var(--type-question);}
+.readiness-review {display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:var(--space-6);align-items:start;}
+.readiness-review section {min-width:0;}
+.readiness-dossier {grid-column:1;grid-row:1;}
+.readiness-criteria {grid-column:2;grid-row:1;}
+.readiness-recommendation,.readiness-history,.readiness-retention {grid-column:1/-1;}
+.readiness-review details {border-top:1px solid var(--color-border-soft);padding:var(--space-4) 0;}
+.readiness-review summary {cursor:pointer;padding:var(--space-2) 0;font-weight:600;}
+.readiness-review label {display:block;margin:var(--space-3) 0;}
+.readiness-review select,.readiness-review textarea {display:block;width:100%;max-width:100%;min-width:0;font:inherit;color:var(--color-text-primary);background:var(--color-surface-paper);border:1px solid var(--color-text-secondary);padding:var(--space-3);}
+.readiness-review textarea {min-height:var(--space-20);resize:vertical;}
+.readiness-review button {margin:var(--space-2) var(--space-2) var(--space-2) 0;white-space:normal;max-width:100%;}
+.readiness-review input[type=checkbox] {margin-right:var(--space-2);}
+.readiness-review fieldset {min-width:0;margin:var(--space-3) 0;border:1px solid var(--color-border-soft);padding:var(--space-3);}
+.readiness-review pre {white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;}
+.readiness-status {grid-column:1/-1;border-left:var(--space-1) solid var(--color-brand-teal);padding:var(--space-3);background:var(--color-surface-mint);}
+.readiness-comparison {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--space-6);}
+@media(max-width:48rem) {.readiness-review,.readiness-comparison {display:block;}.readiness-page {padding:var(--space-4);}}

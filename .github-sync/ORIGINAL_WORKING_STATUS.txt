@@ -1,0 +1,202 @@
+ M PACKAGE_MANIFEST.json
+ M WAVE_2_CURRENT_AUTHORITY.json
+ M WAVE_2_CURRENT_AUTHORITY.md
+ M compositions/evidence-decision/manifest.yaml
+ M registries/components.json
+ M registries/components.yaml
+ M registries/compositions.json
+ M registries/compositions.yaml
+ M registries/patterns.json
+ M registries/patterns.yaml
+ M registries/templates.json
+ M registries/templates.yaml
+ M templates/scenario/manifest.yaml
+ M tests/package-integrity.json
+ M tests/test_governed_references.py
+ M tests/test_template_schema.py
+ M tests/wave2-corrections/VALIDATOR_REGRESSION.json
+ M tools/apply_track_a_authority.py
+ M validators/validate_gr06.py
+ M validators/validate_repository.py
+?? TRACK_A_IMPLEMENTATION_RESULT.md
+?? compositions/evidence-decision/readiness-review.css
+?? docs/patterns/readiness-gate/README.md
+?? docs/patterns/readiness-gate/manifest.yaml
+?? golden-references/TRACK-A/BUILD_MANIFEST.json
+?? golden-references/TRACK-A/MANUAL_VALIDATION.md
+?? golden-references/TRACK-A/RESULT_SUMMARY.md
+?? golden-references/TRACK-A/SEMANTIC_REVIEW_PACKET.md
+?? golden-references/TRACK-A/exercise.txt
+?? golden-references/TRACK-A/index.html
+?? golden-references/TRACK-A/spec.yaml
+?? interactions/readiness-review/README.md
+?? interactions/readiness-review/manifest.yaml
+?? interactions/readiness-review/model.js
+?? interactions/readiness-review/readiness-review.js
+?? learning-blocks/assessment-bundle/README.md
+?? learning-blocks/assessment-bundle/assessment-bundle.js
+?? learning-blocks/assessment-bundle/manifest.yaml
+?? package/GR06_Implementation_Review.zip
+?? package/TRACK_A_Implementation_Review_v0.1.zip
+?? package/TRACK_A_Specification_Review_v0.1.zip
+?? package/WAVE_2_Bounded_Corrections_Review_v0.1.zip
+?? package/WAVE_2_Consolidated_System_Review_v0.1.zip
+?? templates/scenario/readiness-review.js
+?? tests/check_track_a_evidence.py
+?? tests/gr03-browser-validation-track-a-regression.json
+?? tests/gr03-screenshots/track-a-regression-1024x768-feedback-A-completed.png
+?? tests/gr03-screenshots/track-a-regression-1024x768-initial.png
+?? tests/gr03-screenshots/track-a-regression-1440x900-feedback-A-completed.png
+?? tests/gr03-screenshots/track-a-regression-1440x900-initial.png
+?? tests/gr03-screenshots/track-a-regression-1920x1080-feedback-A-completed.png
+?? tests/gr03-screenshots/track-a-regression-1920x1080-initial.png
+?? tests/gr03-screenshots/track-a-regression-320x568-feedback-A-completed.png
+?? tests/gr03-screenshots/track-a-regression-320x568-initial.png
+?? tests/gr03-screenshots/track-a-regression-390x844-feedback-A-completed.png
+?? tests/gr03-screenshots/track-a-regression-390x844-initial.png
+?? tests/gr03-screenshots/track-a-regression-768x1024-feedback-A-completed.png
+?? tests/gr03-screenshots/track-a-regression-768x1024-initial.png
+?? tests/gr03-screenshots/track-a-regression-delayed-image-completed.png
+?? tests/gr03-screenshots/track-a-regression-image-failure-1440x900-feedback-A-completed.png
+?? tests/gr03-screenshots/track-a-regression-image-failure-1440x900.png
+?? tests/gr03-screenshots/track-a-regression-image-failure-390x844-feedback-A-completed.png
+?? tests/gr03-screenshots/track-a-regression-image-failure-390x844.png
+?? tests/gr03-screenshots/track-a-regression-keyboard-1440x900-complete.png
+?? tests/gr03-screenshots/track-a-regression-keyboard-390x844-complete.png
+?? tests/gr03-screenshots/track-a-regression-reduced-motion-feedback-A-completed.png
+?? tests/gr03-screenshots/track-a-regression-stress-1024x768-feedback-completed.png
+?? tests/gr03-screenshots/track-a-regression-stress-1024x768-initial.png
+?? tests/gr03-screenshots/track-a-regression-stress-1440x900-feedback-completed.png
+?? tests/gr03-screenshots/track-a-regression-stress-1440x900-initial.png
+?? tests/gr03-screenshots/track-a-regression-stress-1920x1080-feedback-completed.png
+?? tests/gr03-screenshots/track-a-regression-stress-1920x1080-initial.png
+?? tests/gr03-screenshots/track-a-regression-stress-320x568-feedback-completed.png
+?? tests/gr03-screenshots/track-a-regression-stress-320x568-initial.png
+?? tests/gr03-screenshots/track-a-regression-stress-390x844-feedback-completed.png
+?? tests/gr03-screenshots/track-a-regression-stress-390x844-initial.png
+?? tests/gr03-screenshots/track-a-regression-stress-768x1024-feedback-completed.png
+?? tests/gr03-screenshots/track-a-regression-stress-768x1024-initial.png
+?? tests/gr05-browser-track-a-regression.json
+?? tests/gr05-screenshots/track-a-regression-1024x768-comparison.png
+?? tests/gr05-screenshots/track-a-regression-1024x768-complete.png
+?? tests/gr05-screenshots/track-a-regression-1024x768-draft.png
+?? tests/gr05-screenshots/track-a-regression-1440x900-comparison.png
+?? tests/gr05-screenshots/track-a-regression-1440x900-complete.png
+?? tests/gr05-screenshots/track-a-regression-1440x900-draft.png
+?? tests/gr05-screenshots/track-a-regression-1920x1080-comparison.png
+?? tests/gr05-screenshots/track-a-regression-1920x1080-complete.png
+?? tests/gr05-screenshots/track-a-regression-1920x1080-draft.png
+?? tests/gr05-screenshots/track-a-regression-320x568-comparison.png
+?? tests/gr05-screenshots/track-a-regression-320x568-complete.png
+?? tests/gr05-screenshots/track-a-regression-320x568-draft.png
+?? tests/gr05-screenshots/track-a-regression-390x844-comparison.png
+?? tests/gr05-screenshots/track-a-regression-390x844-complete.png
+?? tests/gr05-screenshots/track-a-regression-390x844-draft.png
+?? tests/gr05-screenshots/track-a-regression-768x1024-comparison.png
+?? tests/gr05-screenshots/track-a-regression-768x1024-complete.png
+?? tests/gr05-screenshots/track-a-regression-768x1024-draft.png
+?? tests/gr05-screenshots/track-a-regression-844x390-comparison.png
+?? tests/gr05-screenshots/track-a-regression-844x390-complete.png
+?? tests/gr05-screenshots/track-a-regression-844x390-draft.png
+?? tests/gr05-screenshots/track-a-regression-max-content-comparison.png
+?? tests/gr05-screenshots/track-a-regression-max-content-complete.png
+?? tests/gr05-screenshots/track-a-regression-max-content-draft.png
+?? tests/run_track_a_browser.cjs
+?? tests/run_track_a_regression.py
+?? tests/run_track_a_resilience.cjs
+?? tests/test_track_a_model.mjs
+?? tests/test_track_a_state.mjs
+?? tests/track-a-implementation/1024x768-initial.png
+?? tests/track-a-implementation/1024x768-stress.png
+?? tests/track-a-implementation/1024x768.png
+?? tests/track-a-implementation/1440x900-initial.png
+?? tests/track-a-implementation/1440x900-stress.png
+?? tests/track-a-implementation/1440x900.png
+?? tests/track-a-implementation/1920x1080-initial.png
+?? tests/track-a-implementation/1920x1080-stress.png
+?? tests/track-a-implementation/1920x1080.png
+?? tests/track-a-implementation/320x568-initial.png
+?? tests/track-a-implementation/320x568-stress.png
+?? tests/track-a-implementation/320x568.png
+?? tests/track-a-implementation/390x844-initial.png
+?? tests/track-a-implementation/390x844-stress.png
+?? tests/track-a-implementation/390x844.png
+?? tests/track-a-implementation/768x1024-initial.png
+?? tests/track-a-implementation/768x1024-stress.png
+?? tests/track-a-implementation/768x1024.png
+?? tests/track-a-implementation/844x390-initial.png
+?? tests/track-a-implementation/844x390-stress.png
+?? tests/track-a-implementation/844x390.png
+?? tests/track-a-implementation/DEFECTS.json
+?? tests/track-a-implementation/EVIDENCE_CONSISTENCY.json
+?? tests/track-a-implementation/FREEZE_CHECKPOINT.json
+?? tests/track-a-implementation/GR05_KEYBOARD_RESILIENCE_RESULTS.json
+?? tests/track-a-implementation/GR06_BROWSER_RESULTS.json
+?? tests/track-a-implementation/GR06_RECOVERY_RESULTS.json
+?? tests/track-a-implementation/MANUAL_EVIDENCE.json
+?? tests/track-a-implementation/SESSION_JOURNAL.md
+?? tests/track-a-implementation/VALIDATION_RESULT.json
+?? tests/track-a-implementation/VALIDATOR_REGRESSION.json
+?? tests/track-a-implementation/browser.json
+?? tests/track-a-implementation/gr05-accessibility-tree.txt
+?? tests/track-a-implementation/gr06-accessibility-tree.txt
+?? tests/track-a-implementation/gr06-screenshots/1024x768-final.png
+?? tests/track-a-implementation/gr06-screenshots/1024x768-update.png
+?? tests/track-a-implementation/gr06-screenshots/1440x900-final.png
+?? tests/track-a-implementation/gr06-screenshots/1440x900-update.png
+?? tests/track-a-implementation/gr06-screenshots/1920x1080-final.png
+?? tests/track-a-implementation/gr06-screenshots/1920x1080-update.png
+?? tests/track-a-implementation/gr06-screenshots/320x568-final.png
+?? tests/track-a-implementation/gr06-screenshots/320x568-update.png
+?? tests/track-a-implementation/gr06-screenshots/390x844-final.png
+?? tests/track-a-implementation/gr06-screenshots/390x844-update.png
+?? tests/track-a-implementation/gr06-screenshots/768x1024-final.png
+?? tests/track-a-implementation/gr06-screenshots/768x1024-update.png
+?? tests/track-a-implementation/gr06-screenshots/844x390-final.png
+?? tests/track-a-implementation/gr06-screenshots/844x390-update.png
+?? tests/track-a-implementation/gr06-screenshots/keyboard-final.png
+?? tests/track-a-implementation/gr06-screenshots/keyboard-update.png
+?? tests/track-a-implementation/gr06-screenshots/stress-1440-final.png
+?? tests/track-a-implementation/gr06-screenshots/stress-1440-update.png
+?? tests/track-a-implementation/gr06-screenshots/stress-320-final.png
+?? tests/track-a-implementation/gr06-screenshots/stress-320-update.png
+?? tests/track-a-implementation/model.json
+?? tests/track-a-implementation/ownership.json
+?? tests/track-a-implementation/regression-browser.json
+?? tests/track-a-implementation/regression-run_gr03_browser_validation.log
+?? tests/track-a-implementation/regression-run_gr05_browser_validation.log
+?? tests/track-a-implementation/regression-run_gr05_keyboard_resilience.log
+?? tests/track-a-implementation/regression-run_gr06_browser.log
+?? tests/track-a-implementation/regression-run_gr06_recovery.log
+?? tests/track-a-implementation/regression-run_static_smoke.log
+?? tests/track-a-implementation/regression-structural.json
+?? tests/track-a-implementation/regression-test_governed_references.log
+?? tests/track-a-implementation/regression-test_gr05_model.log
+?? tests/track-a-implementation/regression-test_gr06_model.log
+?? tests/track-a-implementation/regression-test_gr06_state.log
+?? tests/track-a-implementation/regression-test_learning_state.log
+?? tests/track-a-implementation/regression-test_template_schema.log
+?? tests/track-a-implementation/regression-validate_gr03.log
+?? tests/track-a-implementation/regression-validate_gr05.log
+?? tests/track-a-implementation/regression-validate_gr06.log
+?? tests/track-a-implementation/regression-validate_locked_build-GR-01_LOCKED_BUILD_v0.1.log
+?? tests/track-a-implementation/regression-validate_locked_build-GR-04_LOCKED_BUILD_v0.1.log
+?? tests/track-a-implementation/regression-validate_locked_build.log
+?? tests/track-a-implementation/regression-validate_repository.log
+?? tests/track-a-implementation/repository.json
+?? tests/track-a-implementation/resilience.json
+?? tests/track-a-implementation/state.json
+?? tests/track-a-implementation/syntax.json
+?? tools/__pycache__/apply_track_a_authority.cpython-314.pyc
+?? tools/__pycache__/apply_track_a_implementation_authority.cpython-314.pyc
+?? tools/__pycache__/prepare_track_a_review_packet.cpython-314.pyc
+?? tools/__pycache__/record_track_a_result.cpython-314.pyc
+?? tools/__pycache__/render_locked_reference.cpython-314.pyc
+?? tools/apply_track_a_implementation_authority.py
+?? tools/build_track_a.py
+?? tools/prepare_track_a_review_packet.py
+?? tools/record_track_a_result.py
+?? validators/__pycache__/validate_bounded_encoding.cpython-314.pyc
+?? validators/__pycache__/validate_governance.cpython-314.pyc
+?? validators/__pycache__/validate_repository.cpython-314.pyc
+?? validators/validate_track_a.py

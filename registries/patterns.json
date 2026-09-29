@@ -1,0 +1,48 @@
+{
+  "registry_version": "0.3.0-alpha",
+  "objects": [
+    {
+      "id": "IP-EXP-CONCEPT-01",
+      "status": "prototype"
+    },
+    {
+      "id": "IP-JUDGE-01",
+      "status": "prototype"
+    },
+    {
+      "id": "IP-ENTRY-01",
+      "status": "prototype"
+    },
+    {
+      "id": "IP-INTERPRET-01",
+      "status": "prototype",
+      "version": "0.3.0-alpha"
+    },
+    {
+      "id": "IP-PERSPECTIVE-01",
+      "status": "prototype",
+      "version": "0.3.0-alpha"
+    },
+    {
+      "id": "IP-BUILD-REPAIR-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "pattern",
+      "implementation": "docs/patterns/build-repair/manifest.yaml"
+    },
+    {
+      "id": "IP-EVIDENCE-DECISION-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "pattern",
+      "implementation": "docs/patterns/evidence-decision/manifest.yaml"
+    },
+    {
+      "id": "IP-READINESS-GATE-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "pattern",
+      "implementation": "docs/patterns/readiness-gate/manifest.yaml"
+    }
+  ]
+}

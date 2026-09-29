@@ -1,0 +1,31 @@
+id: TRACK-A
+system_version: 0.3-alpha
+build_mode: CONSTRAINED_BUILD
+instructional_pattern: IP-READINESS-GATE-01
+template:
+  id: TPL-SCENARIO-01
+  variant: readiness-review
+composition: CMP-EVIDENCE-DECISION-01
+composition_variant: readiness-review
+components:
+- SHELL-GR-W1-01
+- UI-BUTTON-01
+- UI-OPTION-GROUP-01
+- UI-STATUS-01
+- UI-SAVE-STATE-01
+- SVC-LEARNING-STATE-01
+- BLK-ASSESSMENT-BUNDLE-01
+- INT-READINESS-REVIEW-01
+completion: E && M && J && C && U && R && F
+prototype_contract: ../../prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+experience_differentiation_brief: prototype-specs/TRACK_A_EXPERIENCE_DIFFERENTIATION_BRIEF_v0.1.json
+local_css_allowed: false
+candidate_objects_status: PROTOTYPE
+authority:
+  LOCKED:
+  - Frozen content, limits and assessment boundary; unchanged existing consumers and
+    service
+  CONSTRAINED:
+  - Approved PROTOTYPE owners and opt-in readiness-review variants
+  EXPLORATORY:
+  - None during this frozen build

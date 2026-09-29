@@ -1,0 +1,23 @@
+{
+  "id": "W2-ACCESSIBILITY-RESILIENCE-BASELINE",
+  "scope": "Mandatory declaration and evidence planning for future Golden References; not retroactive passes for GR01\u201306.",
+  "universal": {
+    "U01": "Repository/schema/registry/authority validation and exact locks; no unintended shared regressions.",
+    "U02": "Keyboard-only task, logical focus/order, visible focus, names/roles/states, error and feedback reachability.",
+    "U03": "Actual screen-reader walkthrough of the task and state/feedback changes; automated tree is separate evidence.",
+    "U04": "Genuine Chrome 200% plus responsive viewport and maximum-content/long-token checks; no document overflow, clipping, destructive overlap or unreachable controls.",
+    "U05": "Readable contrast/text, semantic structure, non-color cues and reduced-motion preference.",
+    "U06": "Loading/failure, offline-after-load and honest no-JavaScript fallback; never falsely report completion or storage success.",
+    "U07": "Separate automated, user-attested and independent semantic provenance; pending direct checks cannot be replaced by emulation.",
+    "U08": "Human instructional/subject-matter review of authentic capability, limitations, feedback and completion meaning."
+  },
+  "conditional": {
+    "C01": "Authored input: physical-mobile software keyboard, IME/multilingual/plain text, focus/scroll, maxima, paste/long tokens, revision invalidation and retained work.",
+    "C02": "State/recovery: shared service ownership, refresh recovery, opt-in durable persistence, denial/quota, restore envelope, recomputed completion, conflicts/corruption/clear and privacy.",
+    "C03": "Media/illustrations: meaningful alternatives, blocked/slow asset fallback, keyboard access and reduced-motion/static alternatives.",
+    "C04": "Comparison/dense evidence: narrow-screen transformation, source traceability, reading order and no horizontal-only dependency.",
+    "C05": "Assessment/gates: branch/attempt/feedback/remediation rules, honest limits, no prepared-answer bypass, invalidation and accessible completion signals.",
+    "C06": "Export/clipboard/download: complete plain-text representation, safe input, truthful success and denial/fallback behavior.",
+    "C07": "Timed/audio/drag/motion interactions if authorized: equivalent untimed/keyboard/text alternatives and interruption/recovery tests."
+  }
+}

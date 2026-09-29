@@ -1,0 +1,318 @@
+{
+  "status": "PASS",
+  "freeze_commit": "d4e72e3a898e63ec084288925155781c4c58fce3",
+  "checks": [
+    {
+      "name": "Frozen input unchanged TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "Frozen input unchanged TRACK_A_DETERMINISTIC_LEARNING_DESIGN_v0.1.md",
+      "passed": true
+    },
+    {
+      "name": "Frozen input unchanged TRACK_A_EXPERIENCE_DIFFERENTIATION_BRIEF_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "Frozen input unchanged TRACK_A_EXPERIENCE_DIFFERENTIATION_BRIEF_v0.1.md",
+      "passed": true
+    },
+    {
+      "name": "Frozen input unchanged TRACK_A_RESEARCH_AND_SOURCE_NOTES_v0.1.md",
+      "passed": true
+    },
+    {
+      "name": "Frozen input unchanged TRACK_A_RESOURCE_FIRST_PREFLIGHT_v0.1.md",
+      "passed": true
+    },
+    {
+      "name": "Frozen input unchanged TRACK_A_RESOURCE_INVENTORY_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "Frozen input unchanged TRACK_A_SEMANTIC_REVIEW_FIXTURES_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "Frozen input unchanged TRACK_A_VALIDATION_MATRIX_v0.1.md",
+      "passed": true
+    },
+    {
+      "name": "Frozen input unchanged TRACK_A_VALIDATION_PLAN_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "Exact frozen contract embedded",
+      "passed": true
+    },
+    {
+      "name": "Freeze and explicit boundary",
+      "passed": true
+    },
+    {
+      "name": "No reference-local scripts, styles or persistence",
+      "passed": true
+    },
+    {
+      "name": "All page dependencies resolve",
+      "passed": true
+    },
+    {
+      "name": "BLK-ASSESSMENT-BUNDLE-01 shared PROTOTYPE only",
+      "passed": true
+    },
+    {
+      "name": "INT-READINESS-REVIEW-01 shared PROTOTYPE only",
+      "passed": true
+    },
+    {
+      "name": "IP-READINESS-GATE-01 shared PROTOTYPE only",
+      "passed": true
+    },
+    {
+      "name": "components registry parity",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved SHELL-GR-W1-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved UI-BUTTON-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved UI-LINK-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved UI-OPTION-GROUP-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved UI-STATUS-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved UI-SAVE-STATE-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved UI-PROGRESS-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved BLK-QUESTION-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved BLK-EXPLAIN-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved BLK-CASE-EVIDENCE-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved BLK-VISUAL-MODEL-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved BLK-FEEDBACK-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved BLK-TAKEAWAY-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved INT-CHOICE-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved INT-JUDGMENT-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved PRA-FOCUS-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved BLK-PERSPECTIVE-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved INT-LABELED-GRAPHIC-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved BLK-WORK-ARTIFACT-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved INT-BUILD-REPAIR-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved SVC-LEARNING-STATE-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved BLK-EVIDENCE-LEDGER-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved INT-EVIDENCE-DECISION-01",
+      "passed": true
+    },
+    {
+      "name": "patterns registry parity",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved IP-EXP-CONCEPT-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved IP-JUDGE-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved IP-ENTRY-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved IP-INTERPRET-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved IP-PERSPECTIVE-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved IP-BUILD-REPAIR-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved IP-EVIDENCE-DECISION-01",
+      "passed": true
+    },
+    {
+      "name": "templates registry parity",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved TPL-CONCEPT-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved TPL-SCENARIO-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved TPL-COURSE-ENTRY-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved TPL-DEEP-WORKSPACE-01",
+      "passed": true
+    },
+    {
+      "name": "compositions registry parity",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved CMP-EDITORIAL-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved CMP-EVIDENCE-DECISION-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved CMP-IMMERSIVE-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved CMP-PERSPECTIVE-01",
+      "passed": true
+    },
+    {
+      "name": "Existing registry authority preserved CMP-REPAIR-STUDIO-01",
+      "passed": true
+    },
+    {
+      "name": "templates/scenario/manifest.yaml defaults semantically exact",
+      "passed": true
+    },
+    {
+      "name": "compositions/evidence-decision/manifest.yaml defaults semantically exact",
+      "passed": true
+    },
+    {
+      "name": "All existing shared consumers/default sources byte-exact modulo Git line endings",
+      "passed": true
+    },
+    {
+      "name": "Earlier learner output preserved golden-references/GR-01/index.html",
+      "passed": true
+    },
+    {
+      "name": "Earlier learner output preserved golden-references/GR-02/index.html",
+      "passed": true
+    },
+    {
+      "name": "Earlier learner output preserved golden-references/GR-03/index.html",
+      "passed": true
+    },
+    {
+      "name": "Earlier learner output preserved golden-references/GR-04/index.html",
+      "passed": true
+    },
+    {
+      "name": "Earlier learner output preserved golden-references/GR-05/index.html",
+      "passed": true
+    },
+    {
+      "name": "Earlier learner output preserved golden-references/GR-05/exercise.txt",
+      "passed": true
+    },
+    {
+      "name": "Earlier learner output preserved golden-references/GR-06/index.html",
+      "passed": true
+    },
+    {
+      "name": "Earlier learner output preserved golden-references/GR-06/exercise.txt",
+      "passed": true
+    },
+    {
+      "name": "learning-blocks/assessment-bundle/assessment-bundle.js no storage APIs or semantic fixtures",
+      "passed": true
+    },
+    {
+      "name": "interactions/readiness-review/model.js no storage APIs or semantic fixtures",
+      "passed": true
+    },
+    {
+      "name": "interactions/readiness-review/readiness-review.js no storage APIs or semantic fixtures",
+      "passed": true
+    },
+    {
+      "name": "templates/scenario/readiness-review.js no storage APIs or semantic fixtures",
+      "passed": true
+    },
+    {
+      "name": "Existing breakpoints only",
+      "passed": true
+    },
+    {
+      "name": "No token definitions or raw new colors",
+      "passed": true
+    },
+    {
+      "name": "No tabs/deep workspace",
+      "passed": true
+    }
+  ]
+}

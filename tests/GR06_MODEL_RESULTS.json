@@ -1,0 +1,294 @@
+{
+  "provenance": "Automated structural checks; no semantic approval",
+  "checks": [
+    {
+      "name": "V02 blank and visits do not complete",
+      "passed": true
+    },
+    {
+      "name": "V03 T Unicode code points without word minima",
+      "passed": true
+    },
+    {
+      "name": "V03 G6-E01 cap and use",
+      "passed": true
+    },
+    {
+      "name": "V03 G6-E02 cap and use",
+      "passed": true
+    },
+    {
+      "name": "V03 G6-E03 cap and use",
+      "passed": true
+    },
+    {
+      "name": "V03 G6-E04 cap and use",
+      "passed": true
+    },
+    {
+      "name": "V03 G6-E05 cap and use",
+      "passed": true
+    },
+    {
+      "name": "V04 primary_interpretation claim caps",
+      "passed": true
+    },
+    {
+      "name": "V04 primary_interpretation limitation caps",
+      "passed": true
+    },
+    {
+      "name": "V04 primary_interpretation informing cardinality/known/duplicate",
+      "passed": true
+    },
+    {
+      "name": "V04 primary_interpretation limiting cardinality/known/duplicate",
+      "passed": true
+    },
+    {
+      "name": "V04 primary_interpretation confidence/no false symmetry",
+      "passed": true
+    },
+    {
+      "name": "V04 alternative_or_unresolved_interpretation claim caps",
+      "passed": true
+    },
+    {
+      "name": "V04 alternative_or_unresolved_interpretation limitation caps",
+      "passed": true
+    },
+    {
+      "name": "V04 alternative_or_unresolved_interpretation informing cardinality/known/duplicate",
+      "passed": true
+    },
+    {
+      "name": "V04 alternative_or_unresolved_interpretation limiting cardinality/known/duplicate",
+      "passed": true
+    },
+    {
+      "name": "V04 alternative_or_unresolved_interpretation confidence/no false symmetry",
+      "passed": true
+    },
+    {
+      "name": "V05 choiceReason max-1/max/max+1",
+      "passed": true
+    },
+    {
+      "name": "V05 alternative max-1/max/max+1",
+      "passed": true
+    },
+    {
+      "name": "V05 action max-1/max/max+1",
+      "passed": true
+    },
+    {
+      "name": "V05 responsibility max-1/max/max+1",
+      "passed": true
+    },
+    {
+      "name": "V05 verification max-1/max/max+1",
+      "passed": true
+    },
+    {
+      "name": "V05 accountBack max-1/max/max+1",
+      "passed": true
+    },
+    {
+      "name": "V05 trial structurally completable; no route grading",
+      "passed": true
+    },
+    {
+      "name": "V05 verify structurally completable; no route grading",
+      "passed": true
+    },
+    {
+      "name": "V05 retain structurally completable; no route grading",
+      "passed": true
+    },
+    {
+      "name": "V05 escalate structurally completable; no route grading",
+      "passed": true
+    },
+    {
+      "name": "V06 snapshot immutable; U07 exact release",
+      "passed": true
+    },
+    {
+      "name": "V08 normalized whitespace, choice only, reveal only cannot adapt",
+      "passed": true
+    },
+    {
+      "name": "V08 updateNote bounds retained",
+      "passed": true
+    },
+    {
+      "name": "V08 adaptationRationale bounds retained",
+      "passed": true
+    },
+    {
+      "name": "V09 V21 retain structural-only fixture with distinct criterion responses",
+      "passed": true
+    },
+    {
+      "name": "V09 V21 change structural-only fixture with distinct criterion responses",
+      "passed": true
+    },
+    {
+      "name": "V09 V21 escalate structural-only fixture with distinct criterion responses",
+      "passed": true
+    },
+    {
+      "name": "V09 V21 unresolved structural-only fixture with distinct criterion responses",
+      "passed": true
+    },
+    {
+      "name": "V09 Q01 reason bounds",
+      "passed": true
+    },
+    {
+      "name": "V09 Q01 followUp bounds",
+      "passed": true
+    },
+    {
+      "name": "V09 Q02 reason bounds",
+      "passed": true
+    },
+    {
+      "name": "V09 Q02 followUp bounds",
+      "passed": true
+    },
+    {
+      "name": "V09 Q03 reason bounds",
+      "passed": true
+    },
+    {
+      "name": "V09 Q03 followUp bounds",
+      "passed": true
+    },
+    {
+      "name": "V09 Q04 reason bounds",
+      "passed": true
+    },
+    {
+      "name": "V09 Q04 followUp bounds",
+      "passed": true
+    },
+    {
+      "name": "V09 optional retained follow-up capped",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate sourceNotes.G6-E01.text",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate sourceNotes.G6-E01.use",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate interpretations.primary_interpretation.claim",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate interpretations.primary_interpretation.limitation",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate interpretations.primary_interpretation.confidence",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate interpretations.alternative_or_unresolved_interpretation.claim",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate interpretations.alternative_or_unresolved_interpretation.limitation",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate interpretations.alternative_or_unresolved_interpretation.confidence",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate decision.route",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate decision.choiceReason",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate decision.alternative",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate decision.action",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate decision.responsibility",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate decision.verification",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate decision.accountBack",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate updateNote",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate adaptationDisposition",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate adaptationRationale",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate primary_interpretation informing",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate primary_interpretation limiting",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate alternative_or_unresolved_interpretation informing",
+      "passed": true
+    },
+    {
+      "name": "V11 invalidate alternative_or_unresolved_interpretation limiting",
+      "passed": true
+    },
+    {
+      "name": "V10 each predicate independently necessary, choice of storage absent",
+      "passed": true
+    },
+    {
+      "name": "V11 revise/re-review and rubric edits invalidate ack",
+      "passed": true
+    },
+    {
+      "name": "V11 decision interpretation-link change invalidates",
+      "passed": true
+    },
+    {
+      "name": "V13 full export and inert text",
+      "passed": true
+    },
+    {
+      "name": "V14 V16 strict restore, stale bindings, incomplete and over-limit",
+      "passed": true
+    },
+    {
+      "name": "V21 negative counterexamples demonstrate structural-versus-semantic distinction",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

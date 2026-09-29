@@ -1,0 +1,11 @@
+id: SVC-LEARNING-STATE-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: service
+ownership: Generic two-tier storage, envelope validation, receipts, conflict choices,
+  clear and serialization. Never grants completion.
+cross_course_validation: not-yet-tested
+frozen_contract: prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+engine: learning-state.js
+envelope_schema_version: 1
+completion_authority: false

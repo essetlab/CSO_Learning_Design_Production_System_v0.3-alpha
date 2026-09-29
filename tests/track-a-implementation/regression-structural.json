@@ -1,0 +1,110 @@
+[
+  {
+    "command": [
+      "python",
+      "validators/validate_repository.py"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-validate_repository.log"
+  },
+  {
+    "command": [
+      "python",
+      "tests/test_template_schema.py"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-test_template_schema.log"
+  },
+  {
+    "command": [
+      "python",
+      "tests/test_governed_references.py"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-test_governed_references.log"
+  },
+  {
+    "command": [
+      "python",
+      "tests/run_static_smoke.py"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-run_static_smoke.log"
+  },
+  {
+    "command": [
+      "python",
+      "validators/validate_gr03.py"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-validate_gr03.log"
+  },
+  {
+    "command": [
+      "python",
+      "validators/validate_gr05.py"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-validate_gr05.log"
+  },
+  {
+    "command": [
+      "python",
+      "validators/validate_gr06.py"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-validate_gr06.log"
+  },
+  {
+    "command": [
+      "python",
+      "tools/validate_locked_build.py",
+      "locked-build-specs/GR-01_LOCKED_BUILD_v0.1.json",
+      "golden-references/GR-01/index.html"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-validate_locked_build-GR-01_LOCKED_BUILD_v0.1.log"
+  },
+  {
+    "command": [
+      "python",
+      "tools/validate_locked_build.py",
+      "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json",
+      "golden-references/GR-04/index.html"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-validate_locked_build-GR-04_LOCKED_BUILD_v0.1.log"
+  },
+  {
+    "command": [
+      "node",
+      "tests/test_gr05_model.mjs"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-test_gr05_model.log"
+  },
+  {
+    "command": [
+      "node",
+      "tests/test_learning_state.mjs"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-test_learning_state.log"
+  },
+  {
+    "command": [
+      "node",
+      "tests/test_gr06_model.mjs"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-test_gr06_model.log"
+  },
+  {
+    "command": [
+      "node",
+      "tests/test_gr06_state.mjs"
+    ],
+    "exit_code": 0,
+    "log": "tests/track-a-implementation/regression-test_gr06_state.log"
+  }
+]

@@ -1,0 +1,2 @@
+.choice-actions { display:flex; align-items:center; gap:var(--space-3); margin-top:var(--space-4); flex-wrap:wrap; }
+@media(max-width:48rem){ .choice-actions { align-items:stretch; } .choice-actions .button--primary { flex:1 0 100%; } }

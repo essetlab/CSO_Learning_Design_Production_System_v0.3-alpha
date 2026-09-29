@@ -1,0 +1,12 @@
+id: CMP-REPAIR-STUDIO-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: composition
+ownership: Responsive arrangement only; uses existing tokens and breakpoints.
+cross_course_validation: not-yet-tested
+frozen_contract: prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+style: repair-studio.css
+breakpoints_rem:
+- 64
+- 48
+- 30

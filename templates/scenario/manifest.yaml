@@ -1,0 +1,39 @@
+id: TPL-SCENARIO-01
+version: 0.2.1-alpha
+status: prototype
+implementation:
+  structure: structure.html
+  css: scenario.css
+composition_options:
+- CMP-EVIDENCE-DECISION-01
+variants:
+- id: professional-judgement-dark-evidence
+  status: prototype
+- id: readiness-review
+  status: PROTOTYPE
+  opt_in: true
+  ownership: Arrangement only
+  compatible_interactions:
+  - INT-READINESS-REVIEW-01
+  compatibility: All existing defaults and variants unchanged
+  implementation:
+    arrangement: readiness-review.js
+  required_regions:
+  - criteria
+  - dossier
+  - recommendation
+  - history
+  - retention
+required_regions:
+- episode_header
+- evidence
+- decision
+- feedback
+- takeaway
+responsive_contract:
+  desktop: evidence-left-decision-right
+  tablet: evidence-above-decision
+  mobile: evidence-then-decision-then-feedback-then-principle
+local_css_allowed: false
+compatible_interactions:
+- INT-JUDGMENT-01

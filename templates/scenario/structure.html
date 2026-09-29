@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>$document_title</title>
+$style_links
+</head>
+<body>
+  <div data-cso-shell data-variant="$shell_variant" data-skip-label="$skip_label" data-course-title="$course_title" data-course-context="$course_context" data-progress-label="$progress_label" data-progress-percent="$progress_percent" data-drawer-eyebrow="$drawer_eyebrow"></div>
+  <template data-shell-menu>$menu_links</template>
+  <main id="main" class="learning-canvas cso-editorial" tabindex="-1">
+    <section class="episode-header" aria-labelledby="episode-title">
+      <p class="eyebrow">$eyebrow</p>
+      <h1 id="episode-title">$heading</h1>
+      <p class="lead">$lead</p>
+    </section>
+    <section class="decision-stage cso-evidence-decision" aria-label="$stage_aria">
+      <section class="evidence-panel" id="evidence" aria-labelledby="evidence-heading">
+        <div class="evidence-panel__top">
+          <p class="section-kicker section-kicker--inverse">$evidence_kicker</p>
+          <h2 id="evidence-heading">$evidence_heading</h2>
+          <p>$evidence_intro</p>
+        </div>
+        <ol class="evidence-list" aria-label="$evidence_list_aria">$evidence_items</ol>
+        <div class="evidence-panel__cue"><span aria-hidden="true">↳</span><p>$evidence_cue_html</p></div>
+      </section>
+      <section class="decision-panel" id="decision" aria-labelledby="decision-heading">
+        <p class="section-kicker">$decision_kicker</p>
+        <h2 id="decision-heading">$learner_question</h2>
+        <form class="decision-form" data-complete-status="$complete_status" data-default-status="$initial_completion_status" data-feedback-id="feedback" data-qa-complete-value="$qa_complete_value" data-radio-name="decision-choice" data-revise-status="$revise_status" data-single-choice-feedback="" id="decisionForm">
+          <fieldset>
+            <legend>$decision_legend</legend>
+            <div class="option-list" id="optionList">$decision_options</div>
+          </fieldset>
+          <div class="decision-actions">
+            <button class="button button--primary" type="submit">$review_button</button>
+            <button class="button button--text" data-choice-clear id="clearChoice" type="button">$clear_button</button>
+          </div>
+        </form>
+        <script data-choice-responses type="application/json">$responses_json</script>
+        <section aria-live="polite" class="feedback feedback--rail" hidden id="feedback" role="status" tabindex="-1">
+          <div aria-hidden="true" class="feedback__rail"></div>
+          <div>
+            <p class="feedback__label" data-feedback-label id="feedbackLabel">Decision feedback</p>
+            <h3 data-feedback-title id="feedbackTitle"></h3>
+            <p data-feedback-body id="feedbackBody"></p>
+            <div class="feedback__reasoning" data-feedback-reasoning hidden id="reasoning">
+              <p class="feedback__reasoning-label">$reasoning_label</p>
+              <p>$reasoning_body</p>
+            </div>
+            <button class="button button--text feedback__revise" data-choice-revise id="reviseChoice" type="button">$revise_button</button>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section aria-labelledby="takeaway-heading" class="takeaway" id="takeaway">
+      <div class="takeaway__copy">
+        <p class="section-kicker">$takeaway_kicker</p>
+        <h2 id="takeaway-heading">$takeaway_heading</h2>
+        <p>$takeaway_body</p>
+      </div>
+      <ol aria-label="$path_aria" class="response-path">$path_items</ol>
+    </section>
+  </main>
+  <div data-cso-learning-actions data-status="$initial_completion_status"></div>
+$script_links
+</body>
+</html>

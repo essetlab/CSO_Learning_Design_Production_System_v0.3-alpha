@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>$document_title</title>
+$style_links
+</head>
+<body>
+  <div data-cso-shell data-variant="$shell_variant" data-skip-label="$skip_label" data-course-title="$course_title" data-course-context="$course_context" data-progress-label="$progress_label" data-progress-percent="$progress_percent" data-drawer-eyebrow="$drawer_eyebrow"></div>
+  <template data-shell-menu>$menu_links</template>
+  <main id="main" tabindex="-1">
+    <section aria-labelledby="course-title" class="hero cso-immersive-split">
+      <div class="hero__copy">
+        <div aria-hidden="true" class="hero__vertical-marker">$vertical_marker</div>
+        <div class="hero__copy-inner">
+          <p class="eyebrow eyebrow--light">$eyebrow</p>
+          <p class="course-name">$course_name</p>
+          <h1 id="course-title">$headline_html</h1>
+          <p class="hero__proposition">$proposition</p>
+          <p class="hero__context">$context_line</p>
+          <div class="hero__actions">
+            <a class="button button--primary button--hero text-action-start" href="$primary_href" id="startCourseButton">$primary_cta <span aria-hidden="true">→</span></a>
+            <a class="text-action text-action--light" href="$secondary_href">$secondary_action</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <img alt="$hero_alt" decoding="async" height="$hero_height" loading="eager" src="$hero_src" width="$hero_width"/>
+        <div aria-hidden="true" class="hero__visual-scrim"></div>
+        <div aria-label="$question_thread_aria" class="hero__question-thread">
+          <span class="question-thread__intro">$question_thread_intro</span>
+          <ol>$question_thread_items</ol>
+        </div>
+        <div aria-hidden="true" class="hero__chapter-mark"><span>$chapter_number</span><small>$chapter_label</small></div>
+      </div>
+    </section>
+    <section aria-labelledby="journey-heading" class="journey" id="journey">
+      <div class="journey__intro">
+        <p class="section-kicker">$journey_kicker</p>
+        <h2 id="journey-heading">$journey_heading</h2>
+        <p>$journey_intro</p>
+      </div>
+      <ol class="journey__path">$journey_items</ol>
+    </section>
+    <section aria-labelledby="practice-heading" class="practice-focus" id="practice-focus">
+      <div class="practice-focus__intro">
+        <p class="section-kicker">$practice_kicker</p>
+        <h2 id="practice-heading">$practice_heading</h2>
+        <p>$practice_support</p>
+      </div>
+      <form class="focus-form" data-practice-focus="" data-storage-key="$practice_storage_key" id="focusForm">
+        <fieldset>
+          <legend class="visually-hidden">$practice_legend</legend>
+          <div class="focus-list">$practice_items</div>
+        </fieldset>
+        <div class="focus-form__footer">
+          <div aria-live="polite" class="save-state" data-save-state="" id="saveState" role="status">
+            <span aria-hidden="true" class="save-state__dot"></span>
+            <span data-save-text="">$practice_empty_status</span>
+          </div>
+          <button class="button button--secondary" data-focus-clear="" hidden id="clearFocusButton" type="button">$practice_clear_label</button>
+        </div>
+      </form>
+    </section>
+    <section aria-label="$close_aria" class="entry-close">
+      <div>
+        <p class="section-kicker section-kicker--inverse">$close_kicker</p>
+        <h2>$close_heading</h2>
+        <p>$close_body</p>
+      </div>
+      <a class="button button--light text-action-start" href="$primary_href" id="startCourseButtonBottom">$primary_cta <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+$script_links
+</body>
+</html>

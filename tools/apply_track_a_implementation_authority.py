@@ -1,0 +1,31 @@
+"""Overlay the explicit Track A freeze and current governed implementation result."""
+from pathlib import Path
+import json,hashlib
+ROOT=Path(__file__).resolve().parents[1]
+def apply():
+ result=ROOT/'tests/track-a-implementation/VALIDATION_RESULT.json'
+ if not result.exists():return
+ r=json.loads(result.read_text(encoding='utf-8'));p=ROOT/'WAVE_2_CURRENT_AUTHORITY.json';index=json.loads(p.read_text(encoding='utf-8'))
+ authority='governance/TRACK_A_FREEZE_AUTHORITY.json';index['latest_authority']=authority;index['authority_precedence'][0]='Explicit Track A Revision 1 freeze and implementation authorization: '+authority+'; earlier authority retained outside that bounded scope'
+ index['tracks']['A']=r['status'];index['tracks']['B']='PROPOSED_NOT_AUTHORIZED'
+ index['scope_limits']['track_a_prototype']='AUTHORIZED_FROZEN_REVISION_1_ONLY';index['scope_limits']['new_reference']=False
+ current_paths=[('governance/TRACK_A_FREEZE_AUTHORITY.json','Current explicit Track A freeze and implementation authority','CURRENT'),('prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json','Exact frozen Track A learning/content/state contract','ACCEPTED_FROZEN_INPUT'),('prototype-specs/TRACK_A_VALIDATION_MATRIX_v0.1.md','Frozen Track A validation authority','ACCEPTED_FROZEN_INPUT'),('tests/track-a-implementation/VALIDATION_RESULT.json','Current Track A governed result with separate evidence provenance',r['status'])]
+ index['current_artifacts']=[a for a in index['current_artifacts'] if a['path'] not in [p for p,_,_ in current_paths]]
+ for p,role,status in current_paths:index['current_artifacts'].append({'path':p,'role':role,'status':status,'sha256':hashlib.sha256((ROOT/p).read_bytes()).hexdigest()})
+ index['references']['TRACK-A']={'status':r['status'],'authority':'tests/track-a-implementation/VALIDATION_RESULT.json','scope':'Assessment/readiness rehearsal; no inferred GR number','semantic':'H01–H10 PENDING independent review','direct':'Native Chrome 200%, actual screen reader, physical-mobile software keyboard PENDING','burden':'V19 observed burden/differentiation PENDING','assessment_boundary':'No independent competence judgment, certification or organizational/public authorization'}
+ index['track_a_specification_package']={'status':'TRACK_A_REVISION_1_FROZEN_FOR_PROTOTYPE_IMPLEMENTATION','implementation_authorized':True,'freeze_commit':r['freeze_commit'],'historical_note':'Proposal-era no-build/proposed fields within the frozen package are historical; explicit freeze authority supersedes them only for the authorized prototype. Content, burden and learning architecture remain frozen.','files':{f.relative_to(ROOT).as_posix():hashlib.sha256(f.read_bytes()).hexdigest() for f in sorted((ROOT/'prototype-specs').glob('TRACK_A_*')) if f.is_file()}}
+ ids=['BLK-ASSESSMENT-BUNDLE-01','INT-READINESS-REVIEW-01','IP-READINESS-GATE-01'];index['candidates']=[o for o in index['candidates'] if o['id'] not in ids]
+ for reg in ['components','patterns']:
+  for o in json.loads((ROOT/f'registries/{reg}.json').read_text())['objects']:
+   if o['id'] in ids:index['candidates'].append({'id':o['id'],'registry_status':o['status'],'implementation':o['implementation'],'review_recommendation':'PENDING SYSTEM REVIEW; no promotion','authority':authority})
+ index['track_a_coverage_note']='Track A provides an implemented rehearsal for assessment/readiness, feedback/remediation and reconsideration. It does not establish assessment validity or independently assessed competence. Human validation remains pending. Remaining Gate-8 coverage is capability-governed; no unrecovered GR numbering or Track B authorization is inferred.'
+ (ROOT/'WAVE_2_CURRENT_AUTHORITY.json').write_text(json.dumps(index,indent=2)+'\n',encoding='utf-8')
+ p=ROOT/'WAVE_2_CURRENT_AUTHORITY.md';s=p.read_text(encoding='utf-8');marker='## Track A implementation authority — current'
+ if marker in s:s=s[:s.index(marker)].rstrip()+'\n'
+ s=s.replace('Track A preflight/specification is now authorized by the [latest user decision](governance/TRACK_A_PREFLIGHT_AUTHORITY.json), but is NOT FROZEN and has no implementation authorization. Track B remains proposed and unauthorized.','Track A Revision 1 is frozen and its prototype is implemented pending manual validation; see the current implementation authority below. Track B remains proposed and unauthorized.')
+ s=s.replace('Status: TRACK_A_READY_FOR_ARCHITECTURAL_FREEZE_REVIEW, NOT FROZEN. No registration or prototype authorization.','Historical preflight result: TRACK_A_READY_FOR_ARCHITECTURAL_FREEZE_REVIEW. Superseded for Track A by the explicit Revision 1 freeze below.')
+ s=s.replace('## Track A specification authorization','## Historical Track A preflight authorization')
+ s=s.replace('It supersedes earlier Track A no-work language only for preflight/specification.','That preflight decision was specification-only; the later explicit Revision 1 freeze now authorizes the bounded prototype.')
+ s+='\n'+marker+'\n\nLatest authority: [explicit Revision 1 freeze](governance/TRACK_A_FREEZE_AUTHORITY.json). Checkpoint: `'+r['freeze_commit']+'`. Current status: **'+r['status']+'**. [Result](golden-references/TRACK-A/RESULT_SUMMARY.md).\n\nThree new shared candidates remain **PROTOTYPE**. Only opt-in readiness-review variants were added to the selected composition and scenario template; prior consumers/defaults and the state service are unchanged. V15/V16/V17 direct checks, V19 observed burden and V20/H01–H10 independent semantic review are pending. Automated execution is separate evidence. No Golden Reference acceptance or assessment validity is claimed.\n\nTrack A is a rehearsal recommendation against transparent criteria, never independent competence judgment, certification, formal assessment or organizational/public authorization. Proposal-era status and no-build wording in the frozen source package are retained historically; this explicit freeze supersedes those authority fields for the bounded implementation only. Prior index snapshots remain under tests/track-a-preflight/baseline. Future coverage remains capability-governed; no GR number, Track B authorization, PM stress or HRBA reconstruction is inferred.\n'
+ p.write_text(s,encoding='utf-8')
+if __name__=='__main__':apply()

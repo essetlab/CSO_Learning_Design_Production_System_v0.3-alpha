@@ -1,0 +1,15 @@
+id: GR-02
+system_version: 0.2.0-alpha
+instructional_pattern: IP-EXP-CONCEPT-01
+template: TPL-CONCEPT-01
+composition: CMP-EDITORIAL-01
+components:
+- SHELL-GR-W1-01
+- BLK-QUESTION-01
+- BLK-VISUAL-MODEL-01
+- BLK-EXPLAIN-01
+- UI-OPTION-GROUP-01
+- INT-CHOICE-01
+- BLK-FEEDBACK-01
+completion: feedback-viewed
+assets: []

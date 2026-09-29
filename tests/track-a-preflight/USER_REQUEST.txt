@@ -1,0 +1,169 @@
+Proceed with Track A — Integrated Evidence Review & Readiness Gate, but do not implement it yet. This task is limited to a resource-first preflight, experience-differentiation brief, deterministic learning-design specification, machine-readable contract proposal, and validation matrix for architectural review.
+Treat the current repository authority as governing, including:
+- WAVE_2_CURRENT_AUTHORITY.md / .json
+- accepted W2-C01/C02/C03/C06 corrections
+- frozen GR-03/05/06 contracts and validation matrices
+- current registries/schemas/AI build contract/resource-first workflow/System Gap process
+- the mandatory EXPERIENCE_DIFFERENTIATION_BRIEF_TEMPLATE
+- the remaining Gate-8 capability map.
+Current GR-06 update from ChatGPT/user review:
+- H01–H09 semantic review = PASS
+- native Chrome 200% = PASS, user-attested
+- actual screen-reader walkthrough = still pending
+- physical-mobile software-keyboard check = still pending
+- GR-06 therefore remains IMPLEMENTED_PENDING_MANUAL_VALIDATION
+- preserve this provenance separately; do not mark GR-06 review-pass yet.
+Also record this important design learning from user review of GR-06:
+The architecture works, but the current interaction is too lengthy/dense for likely production use: too many nested stages/tabs, open-ended prompts, selections and repeated authored responses. Treat GR-06 as proving the upper end of acceptable authored-work burden, not as a future course-screen template.
+Carry that forward as an explicit Track A constraint:
+Track A must prove integrated assessment/readiness judgment with substantially lower writing burden and a clearly different experience rhythm from GR-05 and GR-06.
+Track A purpose
+Design one composite Golden Reference that proves:
+Integrated evidence review + readiness/gate judgment
+The learner/reviewer should inspect a bounded bundle of prior learner work/evidence, judge whether capability evidence is sufficient against transparent criteria, identify missing/contradictory evidence, and make a proportionate readiness decision such as:
+- proceed
+- revise
+- seek review / authorization
+- defer
+The experience must include a concise rationale, visible evidence-to-criterion traceability, unresolved gaps, and a remediation/reconsideration route.
+This must not become GR-06 with different content, another long deep-workspace form, or a pseudo-assessment based on keyword/word-count completion.
+1. Resource-first preflight
+Inspect and classify the strongest reusable resources from:
+- existing shared product library and registries
+- GR-01 through GR-06
+- GR-04 professional judgment/gate patterns
+- GR-05 artifact/version/review patterns
+- GR-06 evidence traceability, authority and uncertainty patterns
+- HRBA final-assessment R&D
+- PM decision-gate / planning-gate / implementation-gate R&D
+- relevant Mighty/templates resources
+- relevant Hub practice/portfolio/assessment resources
+- authoritative research already present in the project repository where directly relevant.
+For each candidate resource classify:
+REUSE DIRECTLY / ADAPT / HARVEST PATTERN / REFERENCE ONLY / REJECT / SYSTEM GAP
+Do not treat old HRBA/PM screens as visual authority.
+2. Define the professional capability precisely
+The capability should be something like:
+Review a bounded body of work against explicit capability criteria, judge whether the evidence is sufficient for the next step, identify unresolved gaps, and make an accountable readiness decision with a proportionate remediation route.
+Refine this if necessary, but keep the distinction from GR-06 explicit:
+- GR-06 = “What should we do, given this evidence?”
+- Track A = “Does this body of work demonstrate enough capability/readiness to proceed, and what still needs attention?”
+Do not conflate assessment with professional approval, legal compliance, certification authority or automated scoring.
+3. Complete the mandatory Experience Differentiation Brief
+Fill the canonical experience-differentiation brief in full.
+The dominant learner action must be review/mapping/judgment, not long-form writing.
+Explore a more compact rhythm such as:
+scan evidence bundle → map evidence to criteria → surface conflicts/gaps → make readiness judgment → inspect consequence/remediation → reconsider
+Writing should be concise and secondary to structured evidence handling.
+The brief must explicitly compare Track A with GR-05 and GR-06 and show that it differs in:
+- dominant action
+- interaction rhythm
+- visual metaphor
+- writing burden
+- density
+- mobile transformation
+- Magnetic Experience moment.
+Prefer structured evidence mapping, concise rationale, comparison, prioritization, criterion states, and progressive disclosure over repeated textareas.
+4. Propose the assessment/gate architecture
+Define a deterministic learner/reviewer sequence. At minimum test:
+1. inspect a small evidence/artifact bundle;
+2. map evidence to capability criteria;
+3. identify sufficient / insufficient / conflicting / missing evidence;
+4. distinguish evidence quality from simple completion;
+5. reach a readiness/gate decision;
+6. explain the decision concisely;
+7. show consequence/remediation;
+8. allow revision or additional evidence;
+9. invalidate stale assessment after substantive evidence changes;
+10. re-review current evidence before completion.
+Do not assume that “proceed” is the correct outcome. At least one legitimate not yet / revise / defer / seek review pathway must be demonstrable without being framed as failure.
+5. Define assessor and authority boundaries
+Be explicit about:
+- learner self-review versus assessor/reviewer role;
+- simulated/deterministic assessor feedback versus real independent assessment;
+- what the prototype proves and does not prove;
+- who can authorize progression;
+- how an assessment outcome is represented;
+- how challenge/reconsideration/revision works;
+- how stale outcomes are invalidated.
+Do not make SVC-LEARNING-STATE-01 a credential/scoring authority.
+6. Minimize writing burden
+Treat this as a primary design requirement.
+Propose the smallest amount of authored text needed to demonstrate reasoning. Prefer:
+- criterion-to-evidence linking;
+- structured sufficiency states;
+- conflict/gap markers;
+- one concise readiness rationale;
+- one concise remediation/next-step note where needed.
+Avoid multiple repeated open-ended explanations unless there is a clear learning need.
+Explicitly estimate authored fields and maxima in the differentiation brief.
+7. Identify reusable objects and System Gaps
+Determine whether the current system can support Track A using existing objects or whether new governed objects are needed.
+Investigate likely needs such as:
+- cross-artifact evidence bundle
+- criterion-to-evidence mapping
+- assessment/readiness decision record
+- assessor/authority role
+- stale-assessment invalidation
+- remediation/reconsideration state
+- appeal/review boundary.
+Do not invent IDs silently.
+If proposing new IDs, keep them PROPOSED_NOT_REGISTERED.
+Reuse existing objects only where their responsibility genuinely fits. Do not overload GR-05/06 deep-workspace interactions merely because they already handle state.
+8. State and persistence
+Define the minimum state required for:
+- evidence bundle/version identity
+- criterion mappings
+- current readiness judgment
+- concise rationale
+- remediation requirements
+- assessment revision/version
+- stale-assessment invalidation
+- optional session/durable recovery where applicable.
+Keep storage independent from competence/readiness completion.
+Distinguish:
+- learner progress
+- current assessment state
+- reviewed evidence version
+- actual authorization/credentialing, which this Golden Reference does not prove.
+9. Responsive/accessibility/resilience
+Apply the new universal/conditional validation baseline.
+Because this will likely be a structured evidence/criterion experience, pay particular attention to:
+- 200% zoom
+- screen reader reading order
+- narrow-screen criterion/evidence mapping
+- avoiding horizontal matrix dependence
+- non-color sufficiency/conflict states
+- keyboard-only evidence mapping
+- long evidence labels
+- remediation/reconsideration flow
+- assessment/gate completion signals.
+10. Human semantic/instructional review
+Define an independent review rubric that tests whether Track A genuinely assesses readiness rather than interaction completion.
+Include dimensions such as:
+- evidence actually supports the criterion;
+- missing/contradictory evidence remains visible;
+- sufficiency is not inferred from artifact count;
+- uncertainty is preserved;
+- authority is respected;
+- remediation is proportionate;
+- changing evidence invalidates stale judgment;
+- not yet outcomes preserve agency and a route forward;
+- concise reasoning is still meaningful;
+- no structural/keyword rule masquerades as competence judgment.
+Include both positive fixtures and negative counterexamples.
+11. Required deliverables
+Produce:
+1. TRACK_A_RESOURCE_FIRST_PREFLIGHT_v0.1.md
+2. TRACK_A_EXPERIENCE_DIFFERENTIATION_BRIEF_v0.1.md
+3. TRACK_A_DETERMINISTIC_LEARNING_DESIGN_v0.1.md
+4. TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+5. TRACK_A_VALIDATION_MATRIX_v0.1.md
+6. TRACK_A_RESEARCH_AND_SOURCE_NOTES_v0.1.md
+Also create a verified review ZIP.
+Run specification-consistency, registry/reference, schema and package-integrity checks only. Do not implement any learner-facing runtime.
+Finish with one of:
+- TRACK_A_READY_FOR_ARCHITECTURAL_FREEZE_REVIEW
+- TRACK_A_REQUIRES_REVISION
+- TRACK_A_BLOCKED_BY_SYSTEM_GAP
+Stop for ChatGPT architectural review. Do not register new candidates, modify existing candidate statuses, start Track B, PM stress testing, or HRBA reconstruction.

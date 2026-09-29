@@ -1,0 +1,551 @@
+{
+  "review_id": "WAVE_2_SYSTEM_REVIEW",
+  "version": "0.1",
+  "recorded_at": "2026-09-29T00:03:13.998032+00:00",
+  "outcome": "WAVE_2_PASS_WITH_BOUNDED_CORRECTIONS",
+  "decision_authority": "Codex architectural review recommendation for ChatGPT review",
+  "golden_reference_acceptance": false,
+  "system_v1_freeze": false,
+  "candidate_status_changes": false,
+  "production_code_changed": false,
+  "next_reference_started": false,
+  "pm_stress_test_started": false,
+  "hrba_reconstruction_started": false,
+  "repository": {
+    "branch": "gate8/wave2/gr06-evidence-to-decision",
+    "head": "4c2ce0642c4aa0bda203cf325bd60c7e7a71fe70",
+    "scope": "Current working tree, including uncommitted GR06 implementation; HEAD alone is not the reviewed build",
+    "input_snapshot": "tests/wave2-review/input-snapshot.json",
+    "input_package_manifest_sha256": "d3ef86ee8ea40604be7cca4db12d744169875b504d3f6bfbe4a25293d11771b8",
+    "remote_or_push_action": false
+  },
+  "authority_limit": {
+    "full_gate_1_8_source_verified": false,
+    "original_GR07_10_allocation_verified": false,
+    "clarification_requested": true,
+    "limitation": "No complete upstream authority located in repository or bounded nearby filename search; coverage groupings remain proposals conditional on source reconciliation."
+  },
+  "strategic_requirements": {
+    "Magnetic Experience": "BOUNDED_CORRECTIONS_REQUIRED",
+    "Transformative Learning": "CAPABILITY_ARCHITECTURE_DEMONSTRATED_TRANSFER_UNPROVEN_GR06_SEMANTICS_PENDING",
+    "Resilient System": "PROTOTYPE_REUSE_DEMONSTRATED_GOVERNANCE_AND_DIRECT_EVIDENCE_GAPS"
+  },
+  "reference_statuses": {
+    "GR-03": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+    "GR-05": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+    "GR-06": "IMPLEMENTED_PENDING_MANUAL_VALIDATION"
+  },
+  "architecture_map": {
+    "GR-03": {
+      "Professional capability proved at prototype level": "Notice that attendance does not establish influence; distinguish evidence from assumptions across perspectives",
+      "Instructional pattern": "Primary IP-INTERPRET-01; supporting IP-PERSPECTIVE-01",
+      "Principal learner task": "Explore Presence/Agenda/Voice; choose an interpretation; review option-specific feedback; optionally revise",
+      "Retained learner output": "In-page visited/selected/reviewed state only; no durable/exported professional artifact",
+      "Interaction model": "Labeled scene/disclosures, radio interpretation and feedback/revision",
+      "Feedback/review model": "Authored option-specific explanatory feedback; completion does not require the preferred option",
+      "Completion logic": "all_perspectives_visited && interpretation_submitted && feedback_viewed",
+      "Revision/invalidation": "Changing answer/Revise closes feedback and disables Continue until re-review; visited lenses retained in memory",
+      "Persistence/state needs": "Transient Set/DOM state; refresh starts anew; query parameters can initialize preview-complete state and are not a persistence mechanism",
+      "Responsive transformation": "Wide scene plus adjacent pane; <=48rem moves panels into stacked disclosures; collision/image-failure fallback stacks controls",
+      "Accessibility/resilience": "Shared shell/focus, button/radio semantics, reduced motion, image failure/delay and maximum-content checks; native 200% user-attested; no universal reader/no-JS/session claim",
+      "Composition/template": "CMP-PERSPECTIVE-01 / TPL-CONCEPT-01",
+      "Shared objects reused": "Tokens/foundations, SHELL-GR-W1-01, question/options/feedback/takeaway presentation and registered existing illustration",
+      "New candidates/variants": "BLK-PERSPECTIVE-01, INT-LABELED-GRAPHIC-01, CMP-PERSPECTIVE-01; two registered instructional-pattern entries",
+      "Correctly course-specific": "Situation, lens copy, interpretation options/feedback, illustration meaning, module labels"
+    },
+    "GR-05": {
+      "Professional capability proved at prototype level": "Diagnose and author a coherent four-section improvement note, review it, and make a connected feasibility revision",
+      "Instructional pattern": "IP-BUILD-REPAIR-01",
+      "Principal learner task": "Four evidence-linked diagnoses → four authored repairs → preserved v1/criterion review → C01 → connected revision → comparison/final review",
+      "Retained learner output": "Diagnoses/links, original, immutable v1, current repair, both reviews, C01, rationale, unresolved follow-ups; selectable/copy/download text",
+      "Interaction model": "Five-stage authored repair with D/A/R1/C/R2/F model",
+      "Feedback/review model": "Structural validation plus human-authored criterion self-review; independent V05/V25 review reported PASS; no AI grade",
+      "Completion logic": "D && A && R1 && C && R2 && F",
+      "Revision/invalidation": "Normalized substantive edits invalidate current final review/ack; v1 preserved; C requires participation plus accountability or evidence change; Revise invalidates without requiring an edit",
+      "Persistence/state needs": "Shared automatic session recovery and explicit opt-in durable device drafts; schema/case/revision checks, conflicts/clear, truthful tier receipts",
+      "Responsive transformation": "Reference/task columns become one column; paired before/after fields stack; growing textareas, wrapping stage controls",
+      "Accessibility/resilience": "Keyboard/focus, plain text, IME/overflow retention, offline-after-load, denied storage/clipboard, no-JS exercise; native zoom/reader/mobile user-attested",
+      "Composition/template": "CMP-REPAIR-STUDIO-01 / TPL-DEEP-WORKSPACE-01 default",
+      "Shared objects reused": "Tokens/foundations/shell, buttons/status/save-state presentation; artifact and state candidates introduced here",
+      "New candidates/variants": "IP-BUILD-REPAIR-01, BLK-WORK-ARTIFACT-01, INT-BUILD-REPAIR-01, CMP-REPAIR-STUDIO-01, TPL-DEEP-WORKSPACE-01, SVC-LEARNING-STATE-01",
+      "Correctly course-specific": "Fictional Jiru Amba note, E01–E05, C01, field meanings, criteria, HRBA prompts and learner artifact"
+    },
+    "GR-06": {
+      "Professional capability proved at prototype level": "Distinguish findings/explanations, link mixed evidence/limits, choose a proportionate route within authority, and adapt after new evidence",
+      "Instructional pattern": "IP-EVIDENCE-DECISION-01",
+      "Principal learner task": "Five source notes → primary and alternative-or-unresolved interpretations → authored decision v1 → U01 → interpretation/follow-up adaptation → comparison/review",
+      "Retained learner output": "Source metadata/notes, informing/limiting links/confidence, immutable v1/current decision, U01, adaptation, review/follow-ups and acknowledgment; full text export",
+      "Interaction model": "Five-stage evidence-decision cycle with E/I/D/U/A/R/F model; trial/verify/retain/escalate all allowed",
+      "Feedback/review model": "Structural validation plus criterion self-review; four synthetic semantic fixtures/five negatives prepared; independent H01–H09 PENDING",
+      "Completion logic": "E && I && D && U && A && R && F",
+      "Revision/invalidation": "Substantive field/link/confidence/route edits invalidate current review/ack; one interpretation and action/verification/account-back must change after U01; same route permitted; v1 preserved",
+      "Persistence/state needs": "Same unchanged service with separate GR06 identity and payload validator; completion recomputed by interaction, not service",
+      "Responsive transformation": "Approved evidence-decision variant stacks reference/task and field-aligned comparisons; no horizontal table dependence; same existing 64/48/30rem breakpoints",
+      "Accessibility/resilience": "Equivalent automated authored-work coverage, profile restart and real two-tab conflict tests; native zoom/reader/physical keyboard still pending",
+      "Composition/template": "CMP-EVIDENCE-DECISION-01 `source-interpretation-decision-update` / TPL-DEEP-WORKSPACE-01 `evidence-decision`",
+      "Shared objects reused": "Same shell/foundations; unchanged SVC-LEARNING-STATE-01; work-artifact field/rubric primitives; existing composition/template through opt-in variants",
+      "New candidates/variants": "BLK-EVIDENCE-LEDGER-01, INT-EVIDENCE-DECISION-01, IP-EVIDENCE-DECISION-01; two variants, not new composition/template IDs",
+      "Correctly course-specific": "Exact synthetic G6-E01–E05/U01 counts/wording, Awra/planning-team role framing, criterion prompts and learner decisions; no GR05 learner state imported"
+    }
+  },
+  "findings": [
+    {
+      "id": "W2-F01",
+      "finding": "Generic validator accepts unknown non-template IDs, composition variants and build modes in ordinary GR specs",
+      "certainty": "REPRODUCED_TEMPORARY_COPY_PROBES",
+      "evidence": [
+        "validators/validate_repository.py",
+        "tests/wave2-review/consistency-results.json"
+      ],
+      "correction": "W2-C01"
+    },
+    {
+      "id": "W2-F02",
+      "finding": "GR05 visible mojibake exists in rendered evidence and controller/generator output",
+      "certainty": "SOURCE_AND_EXISTING_SCREENSHOT_INSPECTED",
+      "evidence": [
+        "tools/build_gr05.py",
+        "golden-references/GR-05/index.html",
+        "interactions/build-repair/build-repair.js",
+        "tests/wave2-review/GR05-existing-evidence-top.png"
+      ],
+      "correction": "W2-C03"
+    },
+    {
+      "id": "W2-F03",
+      "finding": "GR05/06 have distinct pedagogical/state logic but closely similar form/document presentation",
+      "certainty": "ARCHITECTURAL_AND_VISUAL_JUDGMENT_NOT_LEARNER_STUDY",
+      "evidence": [
+        "tests/wave2-review/GR05-existing-evidence-top.png",
+        "tests/wave2-review/GR06-existing-evidence-top.png",
+        "compositions/repair-studio/repair-studio.css",
+        "compositions/evidence-decision/source-interpretation-decision-update.css"
+      ],
+      "correction": "W2-C06"
+    },
+    {
+      "id": "W2-F04",
+      "finding": "Service is genuinely reused unchanged with independent activity validators and no completion authority",
+      "certainty": "CODE_HASH_AND_AUTOMATED_EVIDENCE",
+      "evidence": [
+        "state/learning-state/learning-state.js",
+        "tests/GR06_STATIC_RESULTS.json",
+        "tests/GR06_STATE_RESULTS.json",
+        "tests/GR05_STATE_SERVICE_RESULTS.json"
+      ],
+      "correction": null
+    },
+    {
+      "id": "W2-F05",
+      "finding": "Candidate configurable interfaces contain fixed-case assumptions and generic UI helpers reside in a semantic block",
+      "certainty": "SOURCE_INSPECTION",
+      "evidence": [
+        "learning-blocks/perspective/manifest.yaml",
+        "interactions/labeled-graphic/labeled-graphic.js",
+        "interactions/build-repair/model.js",
+        "learning-blocks/work-artifact/work-artifact.js",
+        "templates/deep-workspace/deep-workspace.js"
+      ],
+      "correction": "W2-C04"
+    },
+    {
+      "id": "W2-F06",
+      "finding": "GR06 direct technical and independent semantic validation remain incomplete",
+      "certainty": "CURRENT_GOVERNED_EVIDENCE",
+      "evidence": [
+        "tests/GR06_MANUAL_EVIDENCE.json",
+        "tests/GR06_VALIDATION_RESULT.json"
+      ],
+      "correction": "W2-C05"
+    },
+    {
+      "id": "W2-F07",
+      "finding": "Complete upstream Gate1–8 and original GR07–10 allocation not located in bounded authority search",
+      "certainty": "SOURCE_AVAILABILITY_LIMIT_NOT_ABSENCE_PROOF",
+      "evidence": [
+        "package/system-version.yaml",
+        "docs/GR03_SCHEMA_RECONCILIATION_PROPOSAL.md"
+      ],
+      "correction": "W2-C02"
+    }
+  ],
+  "object_dispositions": [
+    {
+      "id": "BLK-PERSPECTIVE-01",
+      "registry_status": "prototype",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "REVISE BEFORE APPROVAL",
+      "evidence_and_scope": "`learning-blocks/perspective/manifest.yaml` specifies observation/interpretation/limitation and 2–4 items. GR03 provides meaningful markup, but the block is a manifest/markup contract rather than a separately demonstrated configurable renderer. Align item-count/interface claims with the interaction and declare assembly ownership before a second case. No need to merge it with an evidence ledger.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "INT-LABELED-GRAPHIC-01",
+      "registry_status": "prototype",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "REVISE BEFORE APPROVAL",
+      "evidence_and_scope": "`interactions/labeled-graphic/labeled-graphic.js`: 423 GR03 checks and native 200% attestation support the bounded flow. Global selectors, fixed “all three” strings, GR03-specific interpretation selectors, DOM completion and preview-complete query parameters limit reuse. Specify host scope/count labels, responsive adapter responsibilities and preview/state policy before assessed or multi-instance reuse.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "CMP-PERSPECTIVE-01",
+      "registry_status": "prototype",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "RETAIN AS PROTOTYPE",
+      "evidence_and_scope": "`compositions/perspective/` and GR03 responsive/image-failure evidence demonstrate a distinct scene/pane → stacked disclosure arrangement. Preserve this specialization. Document where collision/panel-move behavior is delegated to the interaction; a second independent situation/asset remains unproven.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "IP-INTERPRET-01",
+      "registry_status": "prototype",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "REVISE BEFORE APPROVAL",
+      "evidence_and_scope": "Registered in `registries/patterns.json`; primary role and sequence are in GR03's frozen contract. No standalone owned pattern guide/manifest equivalent to the later patterns was identified. Materialize its general evidence-to-bounded-interpretation logic and explicit scope, separate from a particular labeled-graphic implementation.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "IP-PERSPECTIVE-01",
+      "registry_status": "prototype",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "REVISE BEFORE APPROVAL",
+      "evidence_and_scope": "Registered supporting pattern in GR03. Define perspective-taking as a lens on interpretation with compatible uses/limitations; distinguish it from the primary interpretation sequence. Do not merge merely because both currently appear on one screen; do not count two independent validated experiences.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "IP-BUILD-REPAIR-01",
+      "registry_status": "PROTOTYPE",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "READY FOR APPROVAL CANDIDATE",
+      "evidence_and_scope": "`docs/patterns/build-repair/README.md` is a pedagogical contract, not renderer instructions. GR05 V05/V25 architectural/HRBA review is reported PASS; authored repair, preserved history, connected revision and unresolved follow-up are demonstrated. Approval review should be bounded to this learning pattern; cross-course effectiveness and integrated assessment are not established.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "BLK-WORK-ARTIFACT-01",
+      "registry_status": "PROTOTYPE",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "REVISE BEFORE APPROVAL",
+      "evidence_and_scope": "`learning-blocks/work-artifact/work-artifact.js` owns plain-text fields, links, comparisons and export without completion/storage authority; GR06 reuses its field/rubric helpers. Generic DOM/field/rubric primitives live inside a semantic artifact block and are imported by a template. Separate lower-level primitives when approving the interface, preserve repair-specific representation and test complete export.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "INT-BUILD-REPAIR-01",
+      "registry_status": "PROTOTYPE",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "REVISE BEFORE APPROVAL",
+      "evidence_and_scope": "`interactions/build-repair/model.js` owns D/A/R1/C/R2/F correctly; 31 model checks, 321 browser/stress and 84 keyboard/resilience checks support the frozen case. Connected-field predicates hard-code participation/accountability/evidence; controller labels include HRBA case assumptions and mojibake. Correct encoding and either declare a supported field-role contract or configure mappings before generalized use. Do not replace it with the evidence-decision reducer.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "CMP-REPAIR-STUDIO-01",
+      "registry_status": "PROTOTYPE",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "RETAIN AS PROTOTYPE",
+      "evidence_and_scope": "`compositions/repair-studio/repair-studio.css` owns layout only; stacking and paired comparison work with long authored content. Similar scaffolding in GR06 is a future shared-layout primitive opportunity. It is not a reason to use repair composition as the semantic identity of every workspace.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "TPL-DEEP-WORKSPACE-01",
+      "registry_status": "PROTOTYPE",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "REVISE BEFORE APPROVAL",
+      "evidence_and_scope": "Default body/labels preserved; opt-in GR06 configuration has exact GR05 DOM/settled-render evidence. It arranges slots rather than being a full assembly engine. Unknown variant currently falls through to repair default; primitive import points upward into work-artifact. Validate supported variant/configuration and lower-level dependencies before further consumers. Keep exact defaults as regression fences.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "SVC-LEARNING-STATE-01",
+      "registry_status": "PROTOTYPE",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "READY FOR APPROVAL CANDIDATE",
+      "evidence_and_scope": "`state/learning-state/learning-state.js` is unchanged across GR05/06, with 17 generic service checks, 16 GR06 adapter checks and browser restart/conflict evidence. It owns envelope/tier validation, truthful receipts, conflicts, clear and generic copy/download helpers; activity callbacks own completion. Approval review should be scoped to single-device browser drafts and documented degraded storage. No cloud sync, secure assessment authority, guaranteed erasure or multi-user collaboration is implied.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "BLK-EVIDENCE-LEDGER-01",
+      "registry_status": "PROTOTYPE",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "RETAIN AS PROTOTYPE",
+      "evidence_and_scope": "`learning-blocks/evidence-ledger/evidence-ledger.js` now owns source metadata/notes, typed informing/limiting and role links, paired records and export. Correct semantic specialization relative to repair artifacts. GR06 structural/plain-text/max-content evidence is strong; direct reader/zoom/mobile and independent semantic review remain pending. Its current case bounds need a declared supported-contract scope before new cases.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "INT-EVIDENCE-DECISION-01",
+      "registry_status": "PROTOTYPE",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "RETAIN AS PROTOTYPE",
+      "evidence_and_scope": "`interactions/evidence-decision/model.js` owns E/I/D/U/A/R/F, immutable capture, release, adaptation and invalidation; four routes are structurally completable and cosmetic/overclaiming negatives are not falsely scored. 72 model and 336 browser checks plus recovery evidence support the prototype, not semantic competence. Validate all contract-derived bounds/configuration before extending; complete pending direct/H01–H09 review before approval consideration.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "IP-EVIDENCE-DECISION-01",
+      "registry_status": "PROTOTYPE",
+      "registry_version": "0.3.0-alpha",
+      "recommendation": "RETAIN AS PROTOTYPE",
+      "evidence_and_scope": "`docs/patterns/evidence-decision/README.md` appropriately defines evidence, differentiated interpretation, decision/authority, update and review pedagogy. Four substantive fixtures and five negative counterexamples exist separately from runtime. Their independent H01–H09 judgment is pending, and no second context is demonstrated.",
+      "actual_status_changed": false
+    },
+    {
+      "id": "CMP-EVIDENCE-DECISION-01",
+      "registry_status": "prototype",
+      "registry_version": null,
+      "recommendation": "RETAIN AS PROTOTYPE",
+      "evidence_and_scope": "Existing GR04 default remains exactly locked and unchanged. The GR06 `source-interpretation-decision-update` opt-in CSS is arrangement-only and registered without a new ID. Retain variant as prototype pending GR06 direct review; protect default selectors/markup. Consolidate only repeated neutral layout scaffolding if justified, never GR04 decision behavior or the two semantic patterns.",
+      "actual_status_changed": false
+    }
+  ],
+  "corrections": [
+    {
+      "id": "W2-C01",
+      "title": "universal ID/variant/authority validation",
+      "category": "specification/governance correction",
+      "timing": "MUST_FIX_BEFORE_FURTHER_REFERENCES",
+      "owner": "Shared schema/registry validator owner",
+      "acceptance": "**Before further GR freeze/build:** every GR spec and referenced object list rejects unknown IDs/variants/modes; temporary negative cases become regression tests; resolve UI-NAV-CONTROLS alias explicitly. Preserve current schema compatibility.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C02",
+      "title": "authoritative Gate/decision index",
+      "category": "specification/governance correction",
+      "timing": "MUST_FIX_BEFORE_FURTHER_REFERENCES",
+      "owner": "Gate architecture and production-governance owner",
+      "acceptance": "**Before further GR freeze:** locate accepted Gate 1–8/remaining-coverage authority; pin hashes and supersession/current states; remove ambiguity for AI without deleting historical evidence. Provisional coverage proposal cannot renumber accepted Gate assignments itself.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C03",
+      "title": "GR05 encoding defect",
+      "category": "shared-system correction",
+      "timing": "MUST_FIX_BEFORE_FURTHER_REFERENCES",
+      "owner": "Shared build-repair controller and materialization-pipeline owner",
+      "acceptance": "**Before further build:** separately authorized UTF-8 correction in generator/shared labels and regenerated output, focused visual/reader-name checks, GR05 regression and integrity. Do not rewrite learner meaning or retroactively fabricate a different earlier result.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C04",
+      "title": "bounded shared view/configuration interfaces",
+      "category": "candidate-object correction",
+      "timing": "BEFORE_AFFECTED_REUSE_OR_GATE8",
+      "owner": "Candidate interaction/template/artifact maintainers",
+      "acceptance": "**Before another consumer of affected objects:** state supported item/field-role/limit/variant contracts; fail closed on unknown variants; extract duplicated recovery/export presentation and low-level helpers only with compatibility tests. Keep distinct learning models.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C05",
+      "title": "outstanding direct/semantic evidence",
+      "category": "validation/evidence correction",
+      "timing": "MUST_FIX_BEFORE_FURTHER_REFERENCES",
+      "owner": "Direct technical validators and independent HRBA/instructional reviewer",
+      "acceptance": "**Before GR06 review-pass or further reference implementation authorization:** complete native 200%, reader, physical keyboard and independent H01–H09 review; attach reviewer/device/version/hash provenance. This review does not supply those passes.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C06",
+      "title": "mandatory differentiation and validation brief",
+      "category": "specification/governance correction",
+      "timing": "MUST_FIX_BEFORE_FURTHER_REFERENCES",
+      "owner": "Learning/experience architecture and validation governance",
+      "acceptance": "**Before next specification freeze:** demonstrate a new experience rhythm/capability and declare universal/conditional baseline coverage; avoid defaulting to another authored form.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C07",
+      "title": "independent build equivalence",
+      "category": "validation/evidence correction",
+      "timing": "DEFER_TO_GATE8_FINAL_REVIEW",
+      "owner": "Independent build evaluator and Gate-8 review authority",
+      "acceptance": "**Can defer to Gate 8 final review:** independently built equivalents and adjudicated material-equivalence evidence, scoped acceptance criteria and reproducible input packages.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C08",
+      "title": "lifecycle policy including GR03 exception",
+      "category": "specification/governance correction",
+      "timing": "BEFORE_AFFECTED_REUSE_OR_GATE8",
+      "owner": "Shared learner-state architecture owner",
+      "acceptance": "**Before any resumable/assessed reuse of GR03; otherwise defer to Gate 8:** approved transient/authored/assessed profiles, preview isolation and shared adapter migration plan; no GR03-local fix.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C09",
+      "title": "primitive/layout consolidation and taxonomy documentation",
+      "category": "shared-system correction",
+      "timing": "DEFER_TO_GATE8_FINAL_REVIEW",
+      "owner": "Shared UI/composition/template and taxonomy owners",
+      "acceptance": "**Can defer until next relevant reuse/Gate 8:** move generic helpers below semantic blocks; shared arrangement/receipt primitives with no semantic model merging; document cross-cutting service type and manifest-only maturity.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C10",
+      "title": "evidence/status metadata quality",
+      "category": "validation/evidence correction",
+      "timing": "DEFER_TO_GATE8_FINAL_REVIEW",
+      "owner": "Evidence/governance owner",
+      "acceptance": "**Can defer to Gate 8, except C02 current-state index:** add review provenance and scope/version fields; distinguish cross-reference from cross-course validation; retain raw automated/manual/reviewer streams.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "W2-C11",
+      "title": "transfer and writing-burden evaluation",
+      "category": "future HRBA content/course-design issue",
+      "timing": "FUTURE_COURSE_DESIGN",
+      "owner": "Future HRBA course design and learner evaluation owner",
+      "acceptance": "**Can defer to course-design validation:** representative learner evaluation of authoring burden, language/access alternatives, authentic transfer and consequences; do not change frozen tasks in this audit.",
+      "status": "RECOMMENDED_NOT_IMPLEMENTED"
+    }
+  ],
+  "state_recommendation": {
+    "GR03": "RETAIN_BOUNDED_TRANSIENT_EXCEPTION_NO_RETROACTIVE_CODE_CHANGE",
+    "authored_work": "AUTOMATIC_SESSION_RECOVERY_EXPLICIT_DURABLE_OPT_IN",
+    "service": "GENERIC_STORAGE_ONLY_NEVER_COMPLETION_AUTHORITY",
+    "future_GR03_migration_trigger": "Resumable course/portfolio or assessed prerequisite reuse requires approved shared adapter and preview isolation"
+  },
+  "regression_evidence": {
+    "provenance": "Existing GR06 handoff runs inspected, not rerun by this architectural task",
+    "counts": {
+      "model": 72,
+      "state_integration": 16,
+      "browser": 336,
+      "recovery": 65,
+      "static": 25,
+      "commands": 41,
+      "GR03_browser": 423,
+      "GR05_browser": 321,
+      "GR05_keyboard_resilience": 84,
+      "GR05_model": 31,
+      "shared_state_service": 17
+    },
+    "GR01_GR04_exact_locks": "PASS_RECORDED",
+    "GR03_runner_caveat": "423 checks and automated_pass true; generic raw overall FAIL omits earlier manual attestation, not a new production regression",
+    "package_integrity_at_input": "PASS_RECORDED_687_FILES",
+    "independent_AI_duplicate_builds_for_Wave2": "NOT_DEMONSTRATED"
+  },
+  "manual_evidence": {
+    "GR03_native200": "USER_ATTESTED_PASS",
+    "GR03_actual_reader": "NOT_IDENTIFIED",
+    "GR05_native200_reader_mobile": "USER_ATTESTED_PASS",
+    "GR05_V05_V25": "CHATGPT_REVIEW_PASS_REPORTED_BY_USER",
+    "GR06_native200_reader_mobile_H01_H09": "PENDING_UNCHANGED",
+    "current_review_supplies_no_new_manual_or_semantic_pass": true
+  },
+  "remaining_coverage": {
+    "recommended_minimum_additional_prototype_tracks": 2,
+    "numbering_status": "PROPOSED_NOT_AUTHORIZED_RECONCILE_UPSTREAM_IDS",
+    "tracks": [
+      {
+        "id": "TRACK_A",
+        "title": "Integrated evidence review and readiness gate",
+        "coverage": [
+          "decision/gate",
+          "integrated assessment"
+        ]
+      },
+      {
+        "id": "TRACK_B",
+        "title": "Practice portfolio, dialogue and consented ecosystem handoff",
+        "coverage": [
+          "practice/transfer portfolio",
+          "course-to-practice and practice-to-Hub bridge",
+          "peer/practice-evidence dialogue",
+          "ecosystem contribution/co-creation"
+        ]
+      }
+    ],
+    "conditional_split": "Add a separate ecosystem/peer reference only if distinct authority/moderation/integration lifecycle cannot be demonstrated coherently within Track B. Never cancel original GR07–10 assignments without authority reconciliation."
+  },
+  "deliverables": [
+    "WAVE_2_CONSOLIDATED_SYSTEM_REVIEW_v0.1.md",
+    "WAVE_2_OBJECT_DISPOSITION_MATRIX_v0.1.md",
+    "WAVE_2_REMAINING_COVERAGE_AND_NEXT_REFERENCES_v0.1.md",
+    "WAVE_2_SYSTEM_REVIEW.json"
+  ],
+  "consistency_evidence": "tests/wave2-review/consistency-results.json",
+  "evidence_hashes": {
+    "compositions/evidence-decision/evidence-decision.css": "4cd6fab6c3b6a41c0cbfe0b080dd82673750a1af693917b3c3a804607961e87c",
+    "compositions/evidence-decision/source-interpretation-decision-update.css": "7e54c735b34881ebc0074d2ec27fda24cba54f0fb250fd147f27e46225a46446",
+    "compositions/perspective/perspective.css": "97deba0b275832744ebe7b8cde20d457078fdd0b849b2a108b00088c5f3514b2",
+    "compositions/repair-studio/repair-studio.css": "cf89f7f453e7b77d1e45ad4e9b9f821ef1a211bd9792454609da99643ad24ee9",
+    "docs/GR03_REFRESH_PERSISTENCE_OBSERVATION.md": "b52c5a105a9f74a7b3f2f47e445861c109433341110de3835ef1c9d21fc95362",
+    "docs/TEMPLATE_SCHEMA_RECONCILIATION.md": "867c3f5ee914a4a0f3a867c472ebb1a714f1657ef3970c24185d89263c02a802",
+    "docs/ai-build-contract.md": "eb8d2177c59beb59b6685e5945db456839b38d1cd389b8c84aadc97393339958",
+    "docs/patterns/build-repair/README.md": "c5cb22b48bdbf2b0708f7c71d124e7e41f0990c7c2431d99bd1bc6743f6ce4b1",
+    "docs/patterns/evidence-decision/README.md": "6aaa7dd2384d31a8c097bc8e447272964c6c35a91a6fecf54404881fa96ee43f",
+    "docs/resource-first-workflow.md": "97c1202bda402df5d359fd2043b89354dfd4f939078f09032cf69ed5e1846bfc",
+    "docs/system-gap-process.md": "1166162e73538e9ab90497801c739e019fd66382c32b2f750afea663a63dfa64",
+    "golden-references/GR-03/GR-03_BUILD_MANIFEST.json": "63e5aef3655fda90f68a2fcbb5b3e26d6f750bba013d6af5d59763aa298c004f",
+    "golden-references/GR-03/spec.yaml": "bfeef93a30b8883df0969b8c18686c2c94216326951b32f21ac2001b6355bcce",
+    "golden-references/GR-05/GR-05_BUILD_MANIFEST.json": "2a649d7f0a4ef57b2c04fc83f33a0d9cfc069301b6f3240e38a663eb5ff1a68b",
+    "golden-references/GR-05/index.html": "623f949055f232a84acae135cfba198afb2cd20dd0cba182082a1834dd2dddf1",
+    "golden-references/GR-05/spec.yaml": "c057aa5b5dd30afa729a78c26f001f5971f20a430301fc9a2f212fe8bcc4c5fd",
+    "golden-references/GR-06/GR-06_BUILD_MANIFEST.json": "5edcc457be7853322a44b2845d3424c8ce3af71c5e002c482919e033c1e0d971",
+    "golden-references/GR-06/spec.yaml": "9064d60d7f4bea59530cefd6b47c73a0b52a7972a98a0c6881be4b192797a108",
+    "interactions/build-repair/build-repair.js": "ed351bae520c3d7203cfa4f3539d3f708ad5f4fbac38c9536d62599f8a0f0b4a",
+    "interactions/build-repair/model.js": "c3b276f2a64afab9c40485daa79170a76fd550343e92334b261f0153bb25ae7b",
+    "interactions/evidence-decision/evidence-decision.js": "546416e090bf8bfd7a836d217579bc25ab67f0bd6d8ba6137ee47acc365f54f1",
+    "interactions/evidence-decision/model.js": "5ad240945133849068eeb7a0ed6572a50095035bcf3fcefa849aef2ae2951c96",
+    "interactions/labeled-graphic/labeled-graphic.js": "932193f0422046292bb61f55450b3dbcbff72150470b644cb4db265f617dbce6",
+    "learning-blocks/evidence-ledger/evidence-ledger.js": "0ebb21425fe8e6ae71fc9f4aa48d1a869c1ca988bcb36d4482534bb20f7bb210",
+    "learning-blocks/perspective/manifest.yaml": "b939ba52ee2608f02efc7df4572eac3c2b421ed5f15e056c1b1b77a67b81f0d5",
+    "learning-blocks/work-artifact/work-artifact.js": "1eac985a2829d83eb67ff0088528dbb02c365b380e22dcbd59d8fed88f860bac",
+    "locked-build-specs/GR-01_LOCKED_BUILD_v0.1.json": "be987fc4883c038ea6f63721a5fc27208f84f21325ca3a72492a30f80b553822",
+    "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json": "2d93d907c0ae94be9d64c1bdec328d25aecfccd439cefc1032ee6608a86df5a5",
+    "package/system-version.yaml": "5e350419be898a15c73aa24e8ca1ca6ebc9b9df9882d48f6354c7c0312d9d9c4",
+    "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json": "c7ffcb50399e1595a58deddb46cc87e75a47320804fcbf54abf4ee5f8142d397",
+    "prototype-specs/GR-03_VALIDATION_MATRIX_v0.1.md": "1fd529db5f24afd263f94af3c0081818f8ad912e3fb43d7c2d70db32e28154dc",
+    "prototype-specs/GR-05_ARCHITECTURAL_CORRECTIONS_AND_CANDIDATES_v0.1.md": "01fb48f45910ebde12ea451cef221598ce8611e7839724a5b6f872e1f017ae69",
+    "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json": "6984c281878ed26fe3fa8533d5e43ed8859fda8dd1d49da29f9dccd9539efd75",
+    "prototype-specs/GR-05_RESOURCE_FIRST_PREFLIGHT_v0.1.md": "c287478d4875d92a42ab82344f69d096b37cd7dffb5310796d3707d61d72d22d",
+    "prototype-specs/GR-05_RESOURCE_INVENTORY_v0.1.json": "13e9608d816fb4d8b17b9ccb91ad4506a4716feb36619752c89f81355dd1ca3a",
+    "prototype-specs/GR-05_VALIDATION_MATRIX_v0.1.md": "cae68ac9f9e9fc8cd5a5b34ec889e21349b0ea72114023e26149a54ff74e660e",
+    "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json": "9a08501d5e43182f2a1a84bbb27d6b7f8239b84cb0c05028f737fc0de14288d9",
+    "prototype-specs/GR-06_RESOURCE_FIRST_PREFLIGHT_v0.1.md": "2890a755bde6c65a88bb13b493e8508ffa64d68db4a3872771418a78315010f6",
+    "prototype-specs/GR-06_RESOURCE_INVENTORY_v0.1.json": "c84a41ec08ba19291cf58d859b2e54750c6535d267327a920ea5da75bc09b226",
+    "prototype-specs/GR-06_VALIDATION_MATRIX_v0.1.md": "60e85b4efcc89fc06840854685356d39d6c3dbd2bdd57ad858dae6cb3bfd9928",
+    "registries/components.json": "a14dc08cfc0a5f9328127c7c8c77fd707f9d37716ed91b6f5fb22ee2ff156968",
+    "registries/components.yaml": "6227572bc3b37cec2205dd8d40fa94a32f2125b30e6a2552516951d9607cdbd8",
+    "registries/compositions.json": "13e0beac74fe3bbde4f8c8afafea93e0d471189c60557d280c193c436626ef9d",
+    "registries/compositions.yaml": "9e4f3fde476db8c3720b1a6a8f6a7ef222e9f4ae3d5332628e1a4e46237ab1c3",
+    "registries/patterns.json": "7164fdc270b201dd1a3d786b0c5aa6a006dbdb3b36e870ef1d53a11e1aec21e6",
+    "registries/patterns.yaml": "deb3451a80c4a9d163f54d92b27f2f3356a3abccf055206875928d55fad5130b",
+    "registries/templates.json": "a99217349ea87c09b7bad8f0d24a21230c73daaabd71ce84442a05d86881fe6b",
+    "registries/templates.yaml": "288190d8582e88cf7a2cf0078022f03327a83420a20622b7f9446e4a9664770e",
+    "schemas/component.schema.json": "01dcbefd8331ba493cdeeeddaaeaea5e5861c06decaa0d7c1d79ab08302086e7",
+    "schemas/episode.schema.json": "db22002230eca2db32540634a48de3d0c2ba406b3fbc2b9e11335b140188d688",
+    "schemas/golden-reference.schema.json": "c716c8dd8ab6a5c60874cb78d4163e343276557f5864940eeb26531096c7ec8f",
+    "state/learning-state/learning-state.js": "5afd6b227811aab27fc42f0f7736bbb81909b04e3f9bc10d81ee4e13f3643fd3",
+    "state/learning-state/manifest.yaml": "4da2b105383726ed7ea971de321464f25cf433cb4e613dbdf7c0f8bae1359ab7",
+    "templates/deep-workspace/deep-workspace.js": "201e11ae9eeceb1ae07eb6c28b4dd4a7b9b01cad31c6a9b6b9cc2698322db0a6",
+    "tests/GR05_ARCHITECTURAL_REVIEW_DECISION.json": "1ba943a3a23961e52dc04ca9fa78106f249ffe990a7e8d4de33c44558213a0c4",
+    "tests/GR05_KEYBOARD_RESILIENCE_RESULTS.json": "27717e2a02342658f3d8364d2fbc28c36a5ed19cc101d7b9f5eb7ef610ab173a",
+    "tests/GR05_MODEL_RESULTS.json": "b295313c835cc042cc11e96c1a93780a387991955db5146bff513061b43ef8e4",
+    "tests/GR05_STATE_SERVICE_RESULTS.json": "494f05231d1e6f99eb8d621311021ec89025d5038ddf5d762517942b247c2642",
+    "tests/GR05_USER_ATTESTED_MANUAL_EVIDENCE.json": "ab9b4c73b7c6c0312a793023d9a1babd1b867b3f7c7aef4ab0dbb27411baf131",
+    "tests/GR05_VALIDATION_RESULT.json": "ebaf6983e0d33339e0dc8621b3da9eb68663f02cbdcda348f28e2d193070a73b",
+    "tests/GR06_BROWSER_RESULTS.json": "166ae2c461a3507fc2acdd32318cec2039fe1f0e2c3cc4fe3734bf332b05b815",
+    "tests/GR06_EVIDENCE_CONSISTENCY.json": "21bdc254d34f0fa48cb50f68b542d8fdd78dfb6771b74eb3fa4d802c2fe84a25",
+    "tests/GR06_MANUAL_EVIDENCE.json": "5baa37c763b1c6871b1dfb5c79e1d9f68c34292ebe2b2c4860aaf59e357adb1c",
+    "tests/GR06_MODEL_RESULTS.json": "1d2a27f03696084187a817ed4049d6a985b58f3ade53558c4c3449160ba76972",
+    "tests/GR06_RECOVERY_RESULTS.json": "a2be66408272bb5057c8c6ba3fa3b7422d461aeadddf6ed0464881b59d97cfbd",
+    "tests/GR06_REGRESSION_COMMANDS.json": "cb395364ba172fe5fa5b31e31552e5e72cccd35e3652b99e521fcfb01e3bb2f7",
+    "tests/GR06_STATE_RESULTS.json": "1841a2014c63dd57bdcc364de4a416fce3e10211a5dd250df42d49596a93eb63",
+    "tests/GR06_STATIC_RESULTS.json": "c098f88627a97b1209207110b350e200c06a326b9dc7c97b2dc7f7e7d431499e",
+    "tests/GR06_VALIDATION_RESULT.json": "d6bd959148227a3381b7bfd5603d4f6fad23832071b906130dd420180edaade2",
+    "tests/gr03-browser-validation-gr06-regression.json": "54cb952251a332703b1c87acbfc89ce121889a26b3544a331502904f8dcb2206",
+    "tests/gr03-native-zoom-validation.json": "08b7f15ac8553207189de8922b9be5ec6bf38c17b8a016a03c6df24845f7394c",
+    "tests/gr03-screenshots/gr06-regression-1440x900-initial.png": "0861480ba8f20b273dfc270a5c3b19042f85f2f609eab4b01c53527f0764c4ae",
+    "tests/gr03-screenshots/gr06-regression-stress-320x568-feedback-completed.png": "6f84919deb229515dd7804c5b18aa3b2c209fcf810a17febaedf3b1b9276a06c",
+    "tests/gr05-browser-gr06-regression.json": "1b2755df26548e58db985688289b654381fe0b38e93f6560f908a99384f5b787",
+    "tests/gr05-screenshots/gr06-regression-1440x900-draft.png": "f38937d4be231a6e6696eb785ec7900a2cbf0e7b2c83007019790e803a9b7c1e",
+    "tests/gr05-screenshots/gr06-regression-max-content-comparison.png": "f6b115ba05fc5d70d7d54955ee633bdde8909d4b23b0be131cdd51ea79c8ad46",
+    "tests/gr06-screenshots/1440x900-update.png": "591b2fb4d7b51254b2605df7fe1c7f9d7ed06b272dafcadb477832790bf1af50",
+    "tests/gr06-screenshots/stress-320-final.png": "94c87db62eb8e06bcef6712587b128718df8a2931f6f012b45dceb27b0515786",
+    "tests/wave2-review/GR03-existing-evidence-top.png": "e4410054b3ff819d20b1eda424e43824d4dd460cd4b3aefef170095cc5256b49",
+    "tests/wave2-review/GR03-existing-mobile-stress-top.png": "333b2698a59b85c56ea1f067957cb7e2748502ccb1397b32f705f33dd9ca6092",
+    "tests/wave2-review/GR05-existing-evidence-top.png": "1bfa3cb5726808477b4ef7edb385faffa91fc9f6e0e50b662dced92e5fbfed9c",
+    "tests/wave2-review/GR05-existing-mobile-stress-top.png": "f2487feb3e05ad4371a3733c4e8ed806fe560b2b7ef31938e1b5ffe84a3c35ab",
+    "tests/wave2-review/GR06-existing-evidence-top.png": "9e72c8f19a53b638d313816fa82e520e341ded8e56627287540050dd4b49553d",
+    "tests/wave2-review/GR06-existing-mobile-stress-top.png": "cdebd1ad4f260fc6060c6a4ba367721144445eadecbc9f190bd81ec9dcab4999",
+    "tests/wave2-review/input-snapshot.json": "ea424765a22dcafa05f402c9a9cd60e2657f140cb7ccb1a7bc93ea198e480294",
+    "tests/wave2-review/visual-evidence.json": "29e4735a6059699a64f2ca93b0b7c783931f13179e371439cd233090886c8320",
+    "tools/build_gr05.py": "071ddadf8824dd11bab6b8f19d739a76ab67428f3af47e2878d39d4fb840dcdf",
+    "validators/validate_repository.py": "c3943b31e810594128876230d8096700a3ecbddcdd1a3c806440df16951d427c"
+  }
+}

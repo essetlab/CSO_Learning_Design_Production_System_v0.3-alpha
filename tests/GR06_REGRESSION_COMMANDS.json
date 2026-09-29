@@ -1,0 +1,405 @@
+{
+  "passed": true,
+  "commands": [
+    {
+      "command": [
+        "git",
+        "branch",
+        "--show-current"
+      ],
+      "exit_code": 0,
+      "stdout": "gate8/wave2/gr06-evidence-to-decision\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "4c2ce0642c4aa0bda203cf325bd60c7e7a71fe70\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "remote",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "Python 3.14.0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "v24.11.1\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "validators/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"checked\": [\n    \"GR-01\",\n    \"GR-02\",\n    \"GR-03\",\n    \"GR-04\",\n    \"GR-05\",\n    \"GR-06\"\n  ],\n  \"locked_checked\": [\n    \"GR-01\",\n    \"GR-04\"\n  ],\n  \"schema\": \"schemas/golden-reference.schema.json\",\n  \"legacy_template_strings\": [\n    \"GR-02\"\n  ],\n  \"external_python_packages_required\": true,\n  \"python_packages\": [\n    \"PyYAML\",\n    \"jsonschema\"\n  ],\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tests/run_static_smoke.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"GR-02\": {\n    \"h1_count\": 1,\n    \"shell_placeholder\": true,\n    \"static_shell_markup_present\": false,\n    \"local_css_exists\": true,\n    \"dependencies\": [\n      [\n        \"../../tokens/tokens.css\",\n        true\n      ],\n      [\n        \"../../foundations/base.css\",\n        true\n      ],\n      [\n        \"../../foundations/accessibility.css\",\n        true\n      ],\n      [\n        \"../../foundations/motion.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.css\",\n        true\n      ],\n      [\n        \"../../ui/button/button.css\",\n        true\n      ],\n      [\n        \"../../ui/option-group/option-group.css\",\n        true\n      ],\n      [\n        \"../../ui/status/status.css\",\n        true\n      ],\n      [\n        \"../../ui/save-state/save-state.css\",\n        true\n      ],\n      [\n        \"../../interactions/choice/choice.css\",\n        true\n      ],\n      [\n        \"../../compositions/editorial/editorial.css\",\n        true\n      ],\n      [\n        \"reference.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.js\",\n        true\n      ],\n      [\n        \"../../interactions/choice/single-choice-feedback.js\",\n        true\n      ]\n    ],\n    \"choice_keys_match\": true\n  },\n  \"GR-04\": {\n    \"h1_count\": 1,\n    \"shell_placeholder\": true,\n    \"static_shell_markup_present\": false,\n    \"local_css_exists\": true,\n    \"dependencies\": [\n      [\n        \"../../tokens/tokens.css\",\n        true\n      ],\n      [\n        \"../../foundations/base.css\",\n        true\n      ],\n      [\n        \"../../foundations/accessibility.css\",\n        true\n      ],\n      [\n        \"../../foundations/motion.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.css\",\n        true\n      ],\n      [\n        \"../../ui/button/button.css\",\n        true\n      ],\n      [\n        \"../../ui/option-group/option-group.css\",\n        true\n      ],\n      [\n        \"../../ui/status/status.css\",\n        true\n      ],\n      [\n        \"../../ui/save-state/save-state.css\",\n        true\n      ],\n      [\n        \"../../interactions/judgement/judgement.css\",\n        true\n      ],\n      [\n        \"../../compositions/editorial/editorial.css\",\n        true\n      ],\n      [\n        \"../../compositions/evidence-decision/evidence-decision.css\",\n        true\n      ],\n      [\n        \"../../templates/scenario/scenario.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.js\",\n        true\n      ],\n      [\n        \"../../interactions/judgement/single-choice-feedback.js\",\n        true\n      ]\n    ],\n    \"choice_keys_match\": true,\n    \"strongest_option_present\": true\n  },\n  \"GR-01\": {\n    \"h1_count\": 1,\n    \"shell_placeholder\": true,\n    \"static_shell_markup_present\": false,\n    \"local_css_exists\": true,\n    \"dependencies\": [\n      [\n        \"../../tokens/tokens.css\",\n        true\n      ],\n      [\n        \"../../foundations/base.css\",\n        true\n      ],\n      [\n        \"../../foundations/accessibility.css\",\n        true\n      ],\n      [\n        \"../../foundations/motion.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.css\",\n        true\n      ],\n      [\n        \"../../ui/button/button.css\",\n        true\n      ],\n      [\n        \"../../ui/link/link.css\",\n        true\n      ],\n      [\n        \"../../ui/status/status.css\",\n        true\n      ],\n      [\n        \"../../ui/save-state/save-state.css\",\n        true\n      ],\n      [\n        \"../../practice/practice-focus/practice-focus.css\",\n        true\n      ],\n      [\n        \"../../compositions/immersive/immersive.css\",\n        true\n      ],\n      [\n        \"../../templates/course-entry/course-entry.css\",\n        true\n      ],\n      [\n        \"../../shell/course-shell.js\",\n        true\n      ],\n      [\n        \"../../practice/practice-focus/practice-focus.js\",\n        true\n      ],\n      [\n        \"../../assets/courses/hrba/AST-HRBA-GR01-HERO-EXISTING-01.png\",\n        true\n      ]\n    ],\n    \"practice_focus_options\": 5\n  },\n  \"shared_reference_counts\": {\n    \"tokens\": 3,\n    \"shell_css\": 3,\n    \"shell_js\": 3,\n    \"button\": 3\n  },\n  \"status\": \"pass\",\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "validators/validate_gr03.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"h1_count\": 1,\n  \"perspective_controls\": 3,\n  \"perspective_panels\": 3,\n  \"interpretation_options\": 4,\n  \"local_css_empty\": true,\n  \"shell_placeholder\": true,\n  \"content_limits\": {\n    \"perspective_label\": 8,\n    \"observation\": 45,\n    \"interpretation\": 45,\n    \"limitation\": 35,\n    \"answer_option\": 28,\n    \"feedback\": 65\n  },\n  \"content_word_counts\": {\n    \"perspective_label\": [\n      1,\n      1,\n      1\n    ],\n    \"observation\": [\n      16,\n      25,\n      23\n    ],\n    \"interpretation\": [\n      23,\n      14,\n      14\n    ],\n    \"limitation\": [\n      20,\n      13,\n      15\n    ],\n    \"answer_option\": [\n      15,\n      9,\n      15,\n      18\n    ],\n    \"feedback\": [\n      29,\n      40,\n      27,\n      36\n    ]\n  },\n  \"status\": \"pass\",\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "validators/validate_gr05.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"contract_sha256\": \"66259ff7de0dc0abab37b26f8a1f0984ac40470fe5389b705e781c84272de7f6\",\n  \"checks\": [\n    {\n      \"name\": \"frozen revision 2 embedded exactly\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"no reference-local script or styles\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"all runtime dependencies local and available\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"patterns JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"IP-BUILD-REPAIR-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"components JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"BLK-WORK-ARTIFACT-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"components JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"INT-BUILD-REPAIR-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"compositions JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"CMP-REPAIR-STUDIO-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"templates JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"TPL-DEEP-WORKSPACE-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"components JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"SVC-LEARNING-STATE-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"no reference/view storage APIs\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"generic service contains no activity completion predicate\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"learning-blocks/work-artifact/work-artifact.css uses only existing tokens\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"learning-blocks/work-artifact/work-artifact.css existing responsive breakpoints\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"compositions/repair-studio/repair-studio.css uses only existing tokens\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"compositions/repair-studio/repair-studio.css existing responsive breakpoints\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"GR01\\u201304 and locked shared production preserved from freeze\",\n      \"passed\": true\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "validators/validate_gr06.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"contract_sha256\": \"9a08501d5e43182f2a1a84bbb27d6b7f8239b84cb0c05028f737fc0de14288d9\",\n  \"checks\": [\n    {\n      \"name\": \"V01 exact frozen revision 2 embedded\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V01 frozen contract text unchanged from checkpoint (Git line endings normalized)\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V01 local dependencies exist\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V01 no local learner script/style\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"BLK-EVIDENCE-LEDGER-01 PROTOTYPE shared ownership\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"INT-EVIDENCE-DECISION-01 PROTOTYPE shared ownership\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"IP-EVIDENCE-DECISION-01 PROTOTYPE shared ownership\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"components JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"patterns JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"templates JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"compositions JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"TPL-DEEP-WORKSPACE-01 approved variant only\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"CMP-EVIDENCE-DECISION-01 approved variant only\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"learning-blocks/evidence-ledger/evidence-ledger.js no direct storage APIs\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"interactions/evidence-decision/model.js no direct storage APIs\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"interactions/evidence-decision/evidence-decision.js no direct storage APIs\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"templates/deep-workspace/deep-workspace.js no direct storage APIs\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V22 GR01\\u201305, default composition, shared state and protected owners byte-preserved\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V22 exact GR05 default arrangement body retained\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V22 no new tokens\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V22 existing breakpoints only\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V21 semantic fixture exact frozen case\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V21 distinct examples and five negatives\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V21 packet copies exact authored evidence\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"V21 no runtime dependency on review fixtures\",\n      \"passed\": true\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_template_schema.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.425s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "tools/validate_locked_build.py",
+        "locked-build-specs/GR-01_LOCKED_BUILD_v0.1.json",
+        "golden-references/GR-01/index.html"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"reference\": \"GR-01\",\n  \"exact_locked_render_match\": true,\n  \"candidate_sha256\": \"27fc55b9471e09d2c9f245b9cb0116592e2340668056ddbdf181b0548d096da2\",\n  \"expected_sha256\": \"27fc55b9471e09d2c9f245b9cb0116592e2340668056ddbdf181b0548d096da2\",\n  \"external_python_packages_required\": false,\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tools/validate_locked_build.py",
+        "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json",
+        "golden-references/GR-04/index.html"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"reference\": \"GR-04\",\n  \"exact_locked_render_match\": true,\n  \"candidate_sha256\": \"dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193\",\n  \"expected_sha256\": \"dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193\",\n  \"external_python_packages_required\": false,\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_gr05_model.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 31,\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_learning_state.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 17,\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_gr06_model.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 72,\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_gr06_state.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 16,\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "interactions/build-repair/build-repair.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "interactions/build-repair/model.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "interactions/choice/single-choice-feedback.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "interactions/evidence-decision/evidence-decision.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "interactions/evidence-decision/model.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "interactions/judgement/single-choice-feedback.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "interactions/labeled-graphic/labeled-graphic.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "learning-blocks/evidence-ledger/evidence-ledger.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "learning-blocks/work-artifact/work-artifact.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "practice/practice-focus/practice-focus.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "shell/course-shell.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "state/learning-state/learning-state.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "templates/deep-workspace/deep-workspace.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/check_gr05_v25_semantic_fixture.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/gr03_content_stress.cjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/run_gr03_browser_validation.cjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/run_gr05_browser_validation.cjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/run_gr05_keyboard_resilience.cjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/run_gr06_browser.cjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/run_gr06_recovery.cjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/test_gr05_model.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/test_gr06_model.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/test_gr06_state.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "tests/test_learning_state.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

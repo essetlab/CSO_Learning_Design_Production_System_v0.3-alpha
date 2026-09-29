@@ -1,0 +1,17 @@
+# W2-C01 validator-change evidence
+
+The repository validator now checks all six `spec.yaml` files against the existing canonical Golden Reference schema and resolves their component, interaction, learning-block, composition, instructional-pattern and template references against the governed registries. Every linked frozen contract and every frozen `*CONTRACT*.json` under `prototype-specs` receives the same recursive reference/variant/authority validation. Locked GR01/04 checks remain in force. Explicit typed references are checked even when malformed IDs do not resemble the normal ID syntax; object IDs embedded in descriptive contract strings are also resolved.
+
+`validators/validate_governance.py` owns reference resolution. `governance/validation-policy.json` owns supported build modes, authority/restriction levels, the scoped historical dependency alias and existing-reference exemptions from the future brief requirement. JSON/YAML registry parity and ID uniqueness within/across object registries are checked. This is reference/authority validation, not a redesign of general object metadata schemas or candidate interfaces. The canonical template schema remains unchanged; GR02's transitional string is accepted and reported explicitly. No specification, frozen contract or registry migration was necessary.
+
+Declared template/composition variants must exist on the referenced object. Null, wrong-object and conflicting variant declarations fail. Root and nested authority declarations reject unsupported modes; two exact frozen prose-citation locations named `authority` remain citations, not mode declarations. Missing/outside-repository contract and future-brief paths fail. Future specifications require a build mode, authority and a schema-valid experience differentiation brief; this structural check does not authorize a build.
+
+## Navigation dependency decision
+
+`UI-NAV-CONTROLS-01` is the GR03 frozen contract's historical name for Previous/Continue supplied by `SHELL-GR-W1-01` (`shell/course-shell.js`, learning-actions rendering). It is **not** a new UI object. The alias is accepted only at `/system_objects/shared_ui/3` in `prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json`. Elsewhere that unregistered ID is rejected. Future specifications must use the shell ID. The frozen GR03 contract and registries are byte-preserved; the validator reports the resolution instead of silently accepting an unknown ID.
+
+## Permanent regression evidence
+
+Run `python tests/test_governed_references.py`. The 173 checks in `VALIDATOR_REGRESSION.json` include the former temporary Wave-2 probes as rejection tests across all six references, every frozen contract, typed mismatch, unknown variants/modes, alias misuse, unlinked-contract discovery, registry parity, missing contract paths and future brief requirements. All mutations run in temporary repository copies; production inputs are never mutated by the tests. Positive controls retain all current specs, canonical template objects, valid variants, the one scoped alias and GR02 legacy syntax.
+
+The eight existing template-schema unittest methods also pass. See `REPOSITORY_VALIDATION.json` and `REGRESSION_COMMANDS.json` for exact commands/results. The earlier `tests/wave2-review/check_consistency.py` remains historical evidence of the old validator's blind spots and is intentionally not rewritten as a current pass assertion.

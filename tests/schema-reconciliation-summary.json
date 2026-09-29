@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-28",
+  "status": "PASS",
+  "checkpoint_commit": "775ae1bb4542c0495e31c66fb347aa1225e8e92a",
+  "checkpoint_tag": "v0.3-alpha-gr03-wave2-review-pass",
+  "static_schema_and_syntax_commands": 13,
+  "schema_unittest_methods": 8,
+  "golden_references_schema_checked": [
+    "GR-01",
+    "GR-02",
+    "GR-03",
+    "GR-04"
+  ],
+  "legacy_string_specs": [
+    "GR-02"
+  ],
+  "automated_browser_assertions": 423,
+  "stress_assertions": 116,
+  "browser_errors": [],
+  "screenshots": 32,
+  "learner_specs_registries_and_locked_inputs_unchanged_from_checkpoint": true,
+  "verified_git_scopes": [
+    "golden-references/*/index.html",
+    "golden-references/*/spec.yaml",
+    "golden-references/*/reference.css",
+    "interactions",
+    "shell",
+    "registries",
+    "locked-build-specs",
+    "prototype-specs",
+    "learning-blocks",
+    "compositions",
+    "templates",
+    "tokens",
+    "foundations",
+    "ui",
+    "practice",
+    "assets"
+  ],
+  "native_200_percent": "Previously accepted user attestation; unchanged learner code; not repeated",
+  "governed_status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+  "candidate_promotion": false,
+  "GR05_started": false
+}

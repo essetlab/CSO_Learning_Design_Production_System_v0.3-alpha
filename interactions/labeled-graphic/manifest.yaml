@@ -1,0 +1,17 @@
+id: INT-LABELED-GRAPHIC-01
+version: 0.3.0-alpha
+status: prototype
+engine: labeled-graphic.js
+style: labeled-graphic.css
+purpose: Explore labelled perspectives around one shared visual/evidence field and transform to semantic disclosure on mobile.
+completion_modes:
+- all-required-perspectives-viewed
+- feedback-viewed
+mobile_transform: spatial-markers-to-stacked-disclosure
+accessibility:
+- native-button-controls
+- aria-expanded
+- aria-controls
+- keyboard-enter-space
+- non-colour-selected-and-visited-state
+- text-equivalent-for-image-meaning

@@ -1,0 +1,217 @@
+{
+  "checks": [
+    {
+      "name": "V14 immediate refresh source-G6-E01",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh use-G6-E01",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh source-G6-E02",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh use-G6-E02",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh source-G6-E03",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh use-G6-E03",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh source-G6-E04",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh use-G6-E04",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh source-G6-E05",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh use-G6-E05",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh claim-primary_interpretation",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh limitation-primary_interpretation",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh confidence-primary_interpretation",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh informing-primary_interpretation-G6-E02",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh limiting-primary_interpretation-G6-E01",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh limiting-primary_interpretation-G6-E02",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh claim-alternative_or_unresolved_interpretation",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh limitation-alternative_or_unresolved_interpretation",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh confidence-alternative_or_unresolved_interpretation",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh informing-alternative_or_unresolved_interpretation-G6-E03",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh limiting-alternative_or_unresolved_interpretation-G6-E02",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh limiting-alternative_or_unresolved_interpretation-G6-E03",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-route",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-links-primary_interpretation",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-links-alternative_or_unresolved_interpretation",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-choiceReason",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-alternative",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-action",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-responsibility",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-verification",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-accountBack",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh snapshot/update release",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh update-note",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh claim-primary_interpretation",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh informing-primary_interpretation-G6-U01",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh decision-verification",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh adaptation-disposition",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh adaptation-rationale",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q01-judgment",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q01-reason",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q02-judgment",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q02-reason",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q02-followUp",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q03-judgment",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q03-reason",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q03-followUp",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q04-judgment",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh review-Q04-reason",
+      "passed": true
+    },
+    {
+      "name": "V14 immediate refresh acknowledgment",
+      "passed": true
+    },
+    {
+      "name": "V14 recovered completion recomputed",
+      "passed": true
+    },
+    {
+      "name": "V20 reduced-motion preference active",
+      "passed": true
+    },
+    {
+      "name": "V20 blocked fonts fallback layout",
+      "passed": true
+    }
+  ],
+  "errors": [
+    "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#stage-title') to be visible\u001b[22m\n\n    at refresh (D:\\CSO_Learning_Design_Production_System_v0.3-alpha\\tests\\run_gr06_recovery.cjs:8:107)\n    at async fill (D:\\CSO_Learning_Design_Production_System_v0.3-alpha\\tests\\run_gr06_recovery.cjs:9:65)\n    at async D:\\CSO_Learning_Design_Production_System_v0.3-alpha\\tests\\run_gr06_recovery.cjs:19:36"
+  ],
+  "provenance": "Automated Chrome integration; no manual reader/native zoom claim",
+  "passed": false
+}

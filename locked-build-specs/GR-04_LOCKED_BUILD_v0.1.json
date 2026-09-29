@@ -1,0 +1,185 @@
+{
+  "reference_id": "GR-04",
+  "spec_version": "0.1.0",
+  "build_mode": "LOCKED_BUILD",
+  "determinism": "D3",
+  "system_version": "0.2.1-alpha",
+  "instructional_pattern": "IP-JUDGE-01",
+  "template": {
+    "id": "TPL-SCENARIO-01",
+    "variant": "professional-judgement-dark-evidence"
+  },
+  "composition": "CMP-EVIDENCE-DECISION-01",
+  "shell": {
+    "id": "SHELL-GR-W1-01",
+    "variant": "standard",
+    "skip_label": "Skip to learning content",
+    "course_title": "Human Rights-Based Approach in CSO Practice",
+    "course_context": "Module 4 · Implementation",
+    "progress_label": "Module 4 of 5",
+    "progress_percent": 78,
+    "drawer_eyebrow": "HRBA COURSE",
+    "menu": [
+      {
+        "label": "Current learning",
+        "href": "#main"
+      },
+      {
+        "label": "Case evidence",
+        "href": "#evidence"
+      },
+      {
+        "label": "Decision",
+        "href": "#decision"
+      },
+      {
+        "label": "Practice principle",
+        "href": "#takeaway"
+      }
+    ]
+  },
+  "content": {
+    "document_title": "GR-04 · Professional Judgement",
+    "eyebrow": "MODULE 4 · IMPLEMENT · ACCOUNTABILITY IN PRACTICE",
+    "heading": "Feedback becomes accountability through response",
+    "lead": "The team has heard three concerns. Now it must decide how to review, route and respond without exposing the people who raised them.",
+    "stage_aria": "Professional judgement scenario",
+    "evidence": {
+      "kicker": "FIELD REALITY",
+      "heading": "Three notes. Two days before the next session.",
+      "intro": "The team wants to respond without exposing anyone or creating conflict.",
+      "list_aria": "Feedback notes received by the project team",
+      "items": [
+        {
+          "number": "01",
+          "title": "Selection criteria",
+          "body": "People say it is still unclear how participants are selected."
+        },
+        {
+          "number": "02",
+          "title": "Venue access",
+          "body": "One note says the meeting place is difficult for some people to access."
+        },
+        {
+          "number": "03",
+          "title": "Possible committee influence",
+          "body": "One concern suggests that local committee influence may be shaping participation."
+        }
+      ],
+      "cue_html": "<strong>The issue is not whether feedback exists.</strong> The issue is what happens next."
+    },
+    "decision": {
+      "kicker": "MAKE THE FIRST DECISION",
+      "learner_question": "What should the project team do first to turn feedback into accountable response?",
+      "legend": "Which first step best supports accountability?",
+      "review_button": "Review this decision",
+      "clear_button": "Clear choice",
+      "revise_button": "Revise my decision",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give a general summary at the next session and tell participants the team will respond after an internal review.",
+          "state": "review",
+          "row_state": "review",
+          "feedback_label": "Useful, but incomplete",
+          "feedback_title": "Acknowledgement is not yet a response pathway",
+          "feedback_body": "This tells people their concerns were heard, but ownership, safe review and routing are still unclear. Reporting back before the team has reviewed what can safely be shared may also create confusion."
+        },
+        {
+          "id": "B",
+          "text": "Assign one team member to review each concern, route sensitive issues safely, agree actions, and prepare a general report-back without names.",
+          "state": "strongest",
+          "row_state": "strongest",
+          "feedback_label": "Strongest first step",
+          "feedback_title": "Create clear ownership, safe routing and report-back",
+          "feedback_body": "This is the strongest first step. It creates responsibility, safe review and routing, a route to action, and a way to report back without exposing the people who raised concerns."
+        },
+        {
+          "id": "C",
+          "text": "Ask the local committee to review all three concerns first, then send its recommendation to the project team.",
+          "state": "review",
+          "row_state": "review",
+          "feedback_label": "A risk to address",
+          "feedback_title": "Do not route a sensitive concern automatically to the actor involved",
+          "feedback_body": "The committee may help with some issues, but one concern involves possible committee influence. Sending every note there first could create a conflict of interest. The team needs a safe review before deciding the right route."
+        },
+        {
+          "id": "D",
+          "text": "Fix the selection and access issues now, but wait for more evidence before acting on the committee-influence concern.",
+          "state": "review",
+          "row_state": "review",
+          "feedback_label": "Useful action, but incomplete",
+          "feedback_title": "Quick fixes should not leave a sensitive concern unresolved",
+          "feedback_body": "Acting quickly on clear access and information issues can help, but leaving the more sensitive concern unresolved weakens accountability. The team still needs a process to review, route and explain what happens to every concern."
+        }
+      ],
+      "strongest_option": "B",
+      "reasoning_label": "PRACTITIONER REASONING",
+      "reasoning_body": "Accountability needs a clear owner, a safe route for each concern, action where possible, and communication back. The team should not expose contributors or send a sensitive concern directly to an actor who may be part of the issue."
+    },
+    "takeaway": {
+      "kicker": "PRACTICE PRINCIPLE",
+      "heading": "A feedback mechanism needs a response pathway",
+      "body": "Accountability does not end when feedback is collected. Someone must review it, decide the safest and most appropriate route, respond or adapt where possible, and explain back what happened.",
+      "path_aria": "Feedback-to-accountability response pathway",
+      "path": [
+        "Receive",
+        "Review",
+        "Route",
+        "Respond",
+        "Report back",
+        "Follow up"
+      ]
+    }
+  },
+  "behavior": {
+    "selection": "single",
+    "commit_required": true,
+    "revise_allowed": true,
+    "completion": "feedback-viewed",
+    "correctness_gate": false,
+    "initial_completion_status": "Review one decision and its feedback to continue.",
+    "complete_status": "Decision reviewed. You can continue or revise your decision.",
+    "revise_status": "Revise your decision, then review the feedback again."
+  },
+  "responsive": {
+    "desktop": "evidence-left-decision-right",
+    "tablet": "evidence-above-decision",
+    "mobile": "evidence-then-decision-then-feedback-then-principle"
+  },
+  "accessibility": {
+    "target": "WCAG-2.2-AA",
+    "one_h1": true,
+    "fieldset_legend": "required",
+    "keyboard": "required",
+    "screen_reader": "required",
+    "feedback_live_region": "polite",
+    "color_only_state": "prohibited",
+    "reduced_motion": "required"
+  },
+  "locked_dependencies": {
+    "styles": [
+      "../../tokens/tokens.css",
+      "../../foundations/base.css",
+      "../../foundations/accessibility.css",
+      "../../foundations/motion.css",
+      "../../shell/course-shell.css",
+      "../../ui/button/button.css",
+      "../../ui/option-group/option-group.css",
+      "../../ui/status/status.css",
+      "../../ui/save-state/save-state.css",
+      "../../interactions/judgement/judgement.css",
+      "../../compositions/editorial/editorial.css",
+      "../../compositions/evidence-decision/evidence-decision.css",
+      "../../templates/scenario/scenario.css"
+    ],
+    "scripts": [
+      "../../shell/course-shell.js",
+      "../../interactions/judgement/single-choice-feedback.js"
+    ]
+  },
+  "local_css_allowed": false,
+  "new_components_allowed": false,
+  "new_tokens_allowed": false,
+  "asset_substitution_allowed": false
+}

@@ -1,0 +1,23 @@
+.button {
+  text-decoration: none;
+  min-height: var(--touch-minimum);
+  border: var(--border-standard) solid transparent;
+  border-radius: var(--radius-control);
+  padding: .65rem var(--space-4);
+  font-weight: 760;
+  cursor: pointer;
+  transition: transform var(--motion-micro) ease, background var(--motion-micro) ease, border-color var(--motion-micro) ease;
+}
+.button:not(:disabled):active { transform: translateY(1px); }
+.button:disabled { cursor: not-allowed; opacity: .48; }
+.button--primary { background: var(--color-brand-navy); color: var(--color-surface-paper); }
+.button--primary:not(:disabled):hover { background: var(--color-brand-teal); }
+.button--secondary { background: var(--color-surface-paper); color: var(--color-brand-navy); border-color: var(--color-border-soft); }
+.button--secondary:hover { background: var(--color-surface-mint); }
+.button--text { background: transparent; color: var(--color-focus-default); padding-inline: var(--space-2); }
+.button--brand { background: var(--color-brand-blue); color: var(--color-brand-navy); }
+.button--brand:hover { background: color-mix(in srgb, var(--color-brand-blue) 76%, var(--color-surface-paper)); }
+.button--light { background: var(--color-surface-paper); color: var(--color-brand-navy); }
+.text-action { display: inline-flex; min-height: var(--touch-minimum); align-items: center; padding: .2rem .1rem; font-weight: 720; text-underline-offset: .3rem; }
+.text-action--light { color: color-mix(in srgb, var(--color-surface-paper) 82%, transparent); }
+@media (max-width:30rem){ .button { padding-inline: var(--space-3); } }

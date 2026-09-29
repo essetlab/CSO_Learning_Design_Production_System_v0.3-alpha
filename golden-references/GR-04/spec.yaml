@@ -1,0 +1,19 @@
+id: GR-04
+system_version: 0.2.1-alpha
+instructional_pattern: IP-JUDGE-01
+template:
+  id: TPL-SCENARIO-01
+  variant: professional-judgement-dark-evidence
+composition: CMP-EVIDENCE-DECISION-01
+components:
+- SHELL-GR-W1-01
+- BLK-QUESTION-01
+- BLK-CASE-EVIDENCE-01
+- UI-OPTION-GROUP-01
+- INT-JUDGMENT-01
+- BLK-FEEDBACK-01
+- BLK-TAKEAWAY-01
+completion: feedback-viewed
+assets: []
+locked_build_spec: ../../locked-build-specs/GR-04_LOCKED_BUILD_v0.1.yaml
+local_css_allowed: false

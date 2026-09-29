@@ -1,0 +1,7 @@
+id: IP-READINESS-GATE-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: pattern
+ownership: Readiness evidence review, proportionate decision, remediation and reconsideration
+  instructional sequence.
+frozen_contract: prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json

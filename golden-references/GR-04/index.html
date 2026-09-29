@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>GR-04 · Professional Judgement</title>
+  <link rel="stylesheet" href="../../tokens/tokens.css">
+  <link rel="stylesheet" href="../../foundations/base.css">
+  <link rel="stylesheet" href="../../foundations/accessibility.css">
+  <link rel="stylesheet" href="../../foundations/motion.css">
+  <link rel="stylesheet" href="../../shell/course-shell.css">
+  <link rel="stylesheet" href="../../ui/button/button.css">
+  <link rel="stylesheet" href="../../ui/option-group/option-group.css">
+  <link rel="stylesheet" href="../../ui/status/status.css">
+  <link rel="stylesheet" href="../../ui/save-state/save-state.css">
+  <link rel="stylesheet" href="../../interactions/judgement/judgement.css">
+  <link rel="stylesheet" href="../../compositions/editorial/editorial.css">
+  <link rel="stylesheet" href="../../compositions/evidence-decision/evidence-decision.css">
+  <link rel="stylesheet" href="../../templates/scenario/scenario.css">
+</head>
+<body>
+  <div data-cso-shell data-variant="standard" data-skip-label="Skip to learning content" data-course-title="Human Rights-Based Approach in CSO Practice" data-course-context="Module 4 · Implementation" data-progress-label="Module 4 of 5" data-progress-percent="78" data-drawer-eyebrow="HRBA COURSE"></div>
+  <template data-shell-menu><a href="#main">Current learning</a><a href="#evidence">Case evidence</a><a href="#decision">Decision</a><a href="#takeaway">Practice principle</a></template>
+  <main id="main" class="learning-canvas cso-editorial" tabindex="-1">
+    <section class="episode-header" aria-labelledby="episode-title">
+      <p class="eyebrow">MODULE 4 · IMPLEMENT · ACCOUNTABILITY IN PRACTICE</p>
+      <h1 id="episode-title">Feedback becomes accountability through response</h1>
+      <p class="lead">The team has heard three concerns. Now it must decide how to review, route and respond without exposing the people who raised them.</p>
+    </section>
+    <section class="decision-stage cso-evidence-decision" aria-label="Professional judgement scenario">
+      <section class="evidence-panel" id="evidence" aria-labelledby="evidence-heading">
+        <div class="evidence-panel__top">
+          <p class="section-kicker section-kicker--inverse">FIELD REALITY</p>
+          <h2 id="evidence-heading">Three notes. Two days before the next session.</h2>
+          <p>The team wants to respond without exposing anyone or creating conflict.</p>
+        </div>
+        <ol class="evidence-list" aria-label="Feedback notes received by the project team"><li><span class="evidence-list__index" aria-hidden="true">01</span><div><strong>Selection criteria</strong><p>People say it is still unclear how participants are selected.</p></div></li><li><span class="evidence-list__index" aria-hidden="true">02</span><div><strong>Venue access</strong><p>One note says the meeting place is difficult for some people to access.</p></div></li><li><span class="evidence-list__index" aria-hidden="true">03</span><div><strong>Possible committee influence</strong><p>One concern suggests that local committee influence may be shaping participation.</p></div></li></ol>
+        <div class="evidence-panel__cue"><span aria-hidden="true">↳</span><p><strong>The issue is not whether feedback exists.</strong> The issue is what happens next.</p></div>
+      </section>
+      <section class="decision-panel" id="decision" aria-labelledby="decision-heading">
+        <p class="section-kicker">MAKE THE FIRST DECISION</p>
+        <h2 id="decision-heading">What should the project team do first to turn feedback into accountable response?</h2>
+        <form class="decision-form" data-complete-status="Decision reviewed. You can continue or revise your decision." data-default-status="Review one decision and its feedback to continue." data-feedback-id="feedback" data-qa-complete-value="B" data-radio-name="decision-choice" data-revise-status="Revise your decision, then review the feedback again." data-single-choice-feedback="" id="decisionForm">
+          <fieldset>
+            <legend>Which first step best supports accountability?</legend>
+            <div class="option-list" id="optionList"><label class="option-row option-row--lettered" data-option="A" data-option-row="A"><input name="decision-choice" type="radio" value="A"/><span aria-hidden="true" class="option-row__letter">A</span><span class="option-row__content"><span>Give a general summary at the next session and tell participants the team will respond after an internal review.</span></span></label><label class="option-row option-row--lettered" data-option="B" data-option-row="B"><input name="decision-choice" type="radio" value="B"/><span aria-hidden="true" class="option-row__letter">B</span><span class="option-row__content"><span>Assign one team member to review each concern, route sensitive issues safely, agree actions, and prepare a general report-back without names.</span></span></label><label class="option-row option-row--lettered" data-option="C" data-option-row="C"><input name="decision-choice" type="radio" value="C"/><span aria-hidden="true" class="option-row__letter">C</span><span class="option-row__content"><span>Ask the local committee to review all three concerns first, then send its recommendation to the project team.</span></span></label><label class="option-row option-row--lettered" data-option="D" data-option-row="D"><input name="decision-choice" type="radio" value="D"/><span aria-hidden="true" class="option-row__letter">D</span><span class="option-row__content"><span>Fix the selection and access issues now, but wait for more evidence before acting on the committee-influence concern.</span></span></label></div>
+          </fieldset>
+          <div class="decision-actions">
+            <button class="button button--primary" type="submit">Review this decision</button>
+            <button class="button button--text" data-choice-clear id="clearChoice" type="button">Clear choice</button>
+          </div>
+        </form>
+        <script data-choice-responses type="application/json">{"A": {"state": "review", "rowState": "review", "label": "Useful, but incomplete", "title": "Acknowledgement is not yet a response pathway", "body": "This tells people their concerns were heard, but ownership, safe review and routing are still unclear. Reporting back before the team has reviewed what can safely be shared may also create confusion."}, "B": {"state": "strongest", "rowState": "strongest", "label": "Strongest first step", "title": "Create clear ownership, safe routing and report-back", "body": "This is the strongest first step. It creates responsibility, safe review and routing, a route to action, and a way to report back without exposing the people who raised concerns."}, "C": {"state": "review", "rowState": "review", "label": "A risk to address", "title": "Do not route a sensitive concern automatically to the actor involved", "body": "The committee may help with some issues, but one concern involves possible committee influence. Sending every note there first could create a conflict of interest. The team needs a safe review before deciding the right route."}, "D": {"state": "review", "rowState": "review", "label": "Useful action, but incomplete", "title": "Quick fixes should not leave a sensitive concern unresolved", "body": "Acting quickly on clear access and information issues can help, but leaving the more sensitive concern unresolved weakens accountability. The team still needs a process to review, route and explain what happens to every concern."}}</script>
+        <section aria-live="polite" class="feedback feedback--rail" hidden id="feedback" role="status" tabindex="-1">
+          <div aria-hidden="true" class="feedback__rail"></div>
+          <div>
+            <p class="feedback__label" data-feedback-label id="feedbackLabel">Decision feedback</p>
+            <h3 data-feedback-title id="feedbackTitle"></h3>
+            <p data-feedback-body id="feedbackBody"></p>
+            <div class="feedback__reasoning" data-feedback-reasoning hidden id="reasoning">
+              <p class="feedback__reasoning-label">PRACTITIONER REASONING</p>
+              <p>Accountability needs a clear owner, a safe route for each concern, action where possible, and communication back. The team should not expose contributors or send a sensitive concern directly to an actor who may be part of the issue.</p>
+            </div>
+            <button class="button button--text feedback__revise" data-choice-revise id="reviseChoice" type="button">Revise my decision</button>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section aria-labelledby="takeaway-heading" class="takeaway" id="takeaway">
+      <div class="takeaway__copy">
+        <p class="section-kicker">PRACTICE PRINCIPLE</p>
+        <h2 id="takeaway-heading">A feedback mechanism needs a response pathway</h2>
+        <p>Accountability does not end when feedback is collected. Someone must review it, decide the safest and most appropriate route, respond or adapt where possible, and explain back what happened.</p>
+      </div>
+      <ol aria-label="Feedback-to-accountability response pathway" class="response-path"><li><span>Receive</span></li><li><span>Review</span></li><li><span>Route</span></li><li><span>Respond</span></li><li><span>Report back</span></li><li><span>Follow up</span></li></ol>
+    </section>
+  </main>
+  <div data-cso-learning-actions data-status="Review one decision and its feedback to continue."></div>
+  <script src="../../shell/course-shell.js"></script>
+  <script src="../../interactions/judgement/single-choice-feedback.js"></script>
+</body>
+</html>

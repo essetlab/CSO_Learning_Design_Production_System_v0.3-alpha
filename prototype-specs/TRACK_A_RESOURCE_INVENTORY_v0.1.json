@@ -1,0 +1,475 @@
+{
+  "reference": "TRACK-A",
+  "status": "PREFLIGHT_ONLY",
+  "resources": [
+    {
+      "id": "R01",
+      "title": "Shared shell, tokens and accessible controls",
+      "disposition": "REUSE DIRECTLY",
+      "reason": "Use current governed primitives and non-color labels; no new visual system or claim that existing prototypes are promoted.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/tokens/tokens.css",
+          "sha256": "723c3f989b8be2c2a489a3bd4ca99603754c94e40e69abad250f79cc4258beb5",
+          "bytes": 1924
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/foundations/accessibility.css",
+          "sha256": "e14e5979cd6fcf02a45fa0e0ee55d7cfdf8e111280bea88741921ec34205205e",
+          "bytes": 746
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/foundations/motion.css",
+          "sha256": "5b29a9f1b5a895f24192e01673a106165157e8d5d7807c81ce6d3d6e7b583444",
+          "bytes": 245
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/shell/course-shell.js",
+          "sha256": "2b62eafb0f1006caf75e4862457db6e496334b4d160931800b353f92764155fa",
+          "bytes": 4811
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/components.json",
+          "sha256": "a14dc08cfc0a5f9328127c7c8c77fd707f9d37716ed91b6f5fb22ee2ff156968",
+          "bytes": 3713
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "GR01 entry and GR02 concept/choice feedback",
+      "disposition": "REFERENCE ONLY",
+      "reason": "Protect entry/concept baselines. Choice feedback alone does not assess integrated work.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/golden-references/GR-01/spec.yaml",
+          "sha256": "27170b07b1ae54f32506a17079dc7b9d20588fd808ea14c21dac5f1d9b0f591a",
+          "bytes": 463
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/golden-references/GR-02/spec.yaml",
+          "sha256": "8522b978231eab781c02ba2c29120e89eb734aae9497eac3cd906c849acfe627",
+          "bytes": 314
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/choice/single-choice-feedback.js",
+          "sha256": "576e555fda0a0e14797cef59488c66a0025ccf71581a78c00aa0ae0fc4d24a1b",
+          "bytes": 3587
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "GR03 perspectives and revision invalidation",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Keep observation/interpretation distinction and honest revise/re-review; do not copy three-lens scene or choice completion.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+          "sha256": "c7ffcb50399e1595a58deddb46cc87e75a47320804fcbf54abf4ee5f8142d397",
+          "bytes": 3090
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/prototype-specs/GR-03_VALIDATION_MATRIX_v0.1.md",
+          "sha256": "1fd529db5f24afd263f94af3c0081818f8ad912e3fb43d7c2d70db32e28154dc",
+          "bytes": 1837
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/labeled-graphic/labeled-graphic.js",
+          "sha256": "932193f0422046292bb61f55450b3dbcbff72150470b644cb4db265f617dbce6",
+          "bytes": 8257
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "GR04 scenario composition and template",
+      "disposition": "ADAPT",
+      "reason": "Propose explicit readiness-review variants for compact dossier/criterion/decision regions. Current scenario permits only judgment; compatibility requires approval. Preserve exact default locked render.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/golden-references/GR-04/spec.yaml",
+          "sha256": "44158356cea99ef25be44d9088e6e465da23e777ccefe0e75c842e71c90b8138",
+          "bytes": 473
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/compositions/evidence-decision/manifest.yaml",
+          "sha256": "ddda6f24b0833213c20b29005f334e69bc150a6ad2c49f5208b4b78f6e7c15d3",
+          "bytes": 352
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/templates/scenario/manifest.yaml",
+          "sha256": "9ad77b875cd4b523ab522ad12d047cc339c03e23a79bc3c675f530d08ca573af",
+          "bytes": 566
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "GR04 judgment interaction as assessment engine",
+      "disposition": "REJECT",
+      "reason": "Selected-feedback completion cannot represent versioned capability evidence or stale assessment. No semantic overloading.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/judgement/single-choice-feedback.js",
+          "sha256": "576e555fda0a0e14797cef59488c66a0025ccf71581a78c00aa0ae0fc4d24a1b",
+          "bytes": 3587
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "GR05 immutable work/version/review pattern",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Retain historical versus current records and invalidation. Reject its long repair-field/rubric authoring as Track A backbone.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/work-artifact/manifest.yaml",
+          "sha256": "e950eece83e4ffa6d5a29bf499ece682679b315bad1a973e587f388ae6de6a53",
+          "bytes": 348
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+          "sha256": "6984c281878ed26fe3fa8533d5e43ed8859fda8dd1d49da29f9dccd9539efd75",
+          "bytes": 35256
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/prototype-specs/GR-05_VALIDATION_MATRIX_v0.1.md",
+          "sha256": "cae68ac9f9e9fc8cd5a5b34ec889e21349b0ea72114023e26149a54ff74e660e",
+          "bytes": 10172
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "title": "GR06 evidence limits and explicit authority",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Versioned traceability, current judgment and limitations inform review. User learning: upper burden bound, not production course-screen template.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/evidence-ledger/evidence-ledger.js",
+          "sha256": "0ebb21425fe8e6ae71fc9f4aa48d1a869c1ca988bcb36d4482534bb20f7bb210",
+          "bytes": 7118
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+          "sha256": "9a08501d5e43182f2a1a84bbb27d6b7f8239b84cb0c05028f737fc0de14288d9",
+          "bytes": 22918
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/prototype-specs/GR-06_VALIDATION_MATRIX_v0.1.md",
+          "sha256": "60e85b4efcc89fc06840854685356d39d6c3dbd2bdd57ad858dae6cb3bfd9928",
+          "bytes": 6848
+        }
+      ]
+    },
+    {
+      "id": "R08",
+      "title": "GR05/06 deep-workspace layout as next reference default",
+      "disposition": "REJECT",
+      "reason": "Nested stage rhythm and repeated authoring conflict with Track A low burden. No redesign of existing consumers.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/templates/deep-workspace/deep-workspace.js",
+          "sha256": "201e11ae9eeceb1ae07eb6c28b4dd4a7b9b01cad31c6a9b6b9cc2698322db0a6",
+          "bytes": 1152
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/templates.json",
+          "sha256": "a99217349ea87c09b7bad8f0d24a21230c73daaabd71ce84442a05d86881fe6b",
+          "bytes": 938
+        }
+      ]
+    },
+    {
+      "id": "R09",
+      "title": "Generic learning-state service",
+      "disposition": "REUSE DIRECTLY",
+      "reason": "Automatic session recovery and opt-in durable persistence, validation and truthful receipts; completion remains interaction-owned. Prototype status unchanged.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/state/learning-state/README.md",
+          "sha256": "94afa40f307507e23b7fc47df9dfda475c9e617d3957a59cbe2068f17d3cbdbf",
+          "bytes": 1805
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/state/learning-state/learning-state.js",
+          "sha256": "5afd6b227811aab27fc42f0f7736bbb81909b04e3f9bc10d81ee4e13f3643fd3",
+          "bytes": 10564
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "title": "HRBA final-assessment coverage and retake rules",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Actor clarity, influence, safe evidence and a route after not yet are relevant. Ten-question 80% scoring/certification behavior is not Track A assessment authority.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/src/data/finalAssessment.ts",
+          "sha256": "6a10932a0efba24730a15a0f81ca7328af09df3adb6283be9a9851cbe9a6e9f6",
+          "bytes": 10770
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/src/components/course/FinalAssessmentRenderer.tsx",
+          "sha256": "07ad2ca3c9dc90ecb8785eb50cddaf65cbfd50b11eb6d513768da0cc27f5bcea",
+          "bytes": 10783
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/docs/hrba-app-slice-2-final-assessment-scoring-report.md",
+          "sha256": "e51eb380185cada95bd3b129f91f6ae518dff46d75fd1f0760c11d3187eaa24d",
+          "bytes": 5992
+        }
+      ]
+    },
+    {
+      "id": "R11",
+      "title": "HRBA scoring UI/Hub callback as readiness backend",
+      "disposition": "REJECT",
+      "reason": "No score threshold, live callback, credential or completion payload belongs in this reference. Old visual styles are not authority.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/docs/hrba-app-slice-3-final-assessment-hub-callback-report.md",
+          "sha256": "fec5712f777ef83382095fe2d8eab564ef03ac8e5bcb8f6ec007bdd9cce5fb05",
+          "bytes": 6992
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "title": "HRBA portfolio fields with source-screen identity",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Retain provenance between produced work and source activity; use supplied synthetic bundle, not actual portfolio ingestion.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/src/data/module2-final/module2FinalPortfolio.ts",
+          "sha256": "2a864aab2450b148321311395f8be0deaa7555e43741f1cf1808e80102cac5bf",
+          "bytes": 1287
+        }
+      ]
+    },
+    {
+      "id": "R13",
+      "title": "PM identification decision gate",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Strongest answer-neutral readiness/consequence/review pattern: other judgments remain legitimate and handoff remains explicit. No character art, styles or external runtime copied.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/docs/exec-plans/current/module-1-screen-07-identification-decision-gate.md",
+          "sha256": "35f2d06f15b07d554b609808b51974d5c978f1b5373e694962ce9f0199914af5",
+          "bytes": 8568
+        }
+      ]
+    },
+    {
+      "id": "R14",
+      "title": "PM planning gate and connected plan",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Harvest unresolved dependency, current-answer invalidation and owned reconsideration. Runtime wrapper points to FinalModule3Plan; earlier screen-07 record is historical pattern evidence, not current execution authority. Reject prescribed answer B as Track A gate.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/pm-m3-07/PmM307Screen.tsx",
+          "sha256": "3396398328f8d94f03ba616719e50eadbf49a6caede45a759cd047e219548c4a",
+          "bytes": 74
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/module3/FinalModule3Plan.tsx",
+          "sha256": "cceb3442ff6a6da2482df5721273a33cbab80d460580352bfd35bb7b2122adb4",
+          "bytes": 50106
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/docs/exec-plans/current/module-3-screen-07-planning-decision-gate-enhancement.md",
+          "sha256": "e1bff08f81a92bcb67543b21de605be5c4b519f641171e5c36c7cccbd78cd3cd",
+          "bytes": 7025
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/docs/00-project/source-authority.md",
+          "sha256": "7abfc7142ac1575a5fe9cc9f15c684324776b48d7f651be061d77d25fb7f3297",
+          "bytes": 3265
+        }
+      ]
+    },
+    {
+      "id": "R15",
+      "title": "PM implementation monitoring/status review",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Bring evidence types together, distinguish observations from explanation and re-check actions. Current expected selection sets are not imported; this is not a PM stress test.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/pm-m4-07/PmM407Screen.tsx",
+          "sha256": "a846c31381df8b666d90ceba2a806bbaec52bec138bdeda6b473e382a8ee7c0c",
+          "bytes": 57
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/module4/Module4Screens.tsx",
+          "sha256": "b3a7671a66a68669a6352d8f60619203d90987b36f9d0c36f635533a11aa1fba",
+          "bytes": 32546
+        }
+      ]
+    },
+    {
+      "id": "R16",
+      "title": "PM closure readiness view",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Compact named readiness areas and expanded-state semantics support scanning. No PM visual values or claims of generic assessment support.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/module5/ClosureReadinessReview.tsx",
+          "sha256": "f4079c1200b3670670aac158a3f50bce05b868b72ab57673ad71ddc80e6125c9",
+          "bytes": 1970
+        }
+      ]
+    },
+    {
+      "id": "R17",
+      "title": "Mighty catalog/selection guidance",
+      "disposition": "REFERENCE ONLY",
+      "reason": "Choose by learning purpose; no external dependency, catalog ID registration or vendor styling.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/01-template-catalog-detailed.md",
+          "sha256": "84b4b666c830073bc6a597beac5de762b13a007db6e545caee063683917654c3",
+          "bytes": 139913
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/02-template-selection-matrix.md",
+          "sha256": "f3f7e6dc6ff787432c7c38e4ce58a21f2a8190ab8dbea11f3cbf29138e3081ad",
+          "bytes": 3459
+        }
+      ]
+    },
+    {
+      "id": "R18",
+      "title": "Mighty content rows",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Visually inspected short heading/explanation rows suit three criterion summaries and a calm scanning rhythm.",
+      "inspection": "Image visually inspected in this task; pattern only, not imported code",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/images/layouts/TPL-LAY-003-content-rows.png",
+          "sha256": "bce54ba5db37f6a293b92a8a7d0dd2f098e429b6f2aa1a168d546f66bed929c7",
+          "bytes": 29818
+        }
+      ]
+    },
+    {
+      "id": "R19",
+      "title": "Mighty reveal table",
+      "disposition": "HARVEST PATTERN",
+      "reason": "Visually inspected reveal affordance can inform inline detail; reject its horizontal table and vendor colors, especially on mobile.",
+      "inspection": "Image visually inspected in this task; no claim of executable source",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/images/tabs-accordions/TPL-ACC-008-reveal-table-content.jfif",
+          "sha256": "f9761329d5cad1a8e97ed9972d7b7fd3dba77fc22f782b2b1e64f70138477530",
+          "bytes": 77412
+        }
+      ]
+    },
+    {
+      "id": "R20",
+      "title": "Hub attempt/progress/certificate separation",
+      "disposition": "REFERENCE ONLY",
+      "reason": "Preserve failed/partial work and distinguish validation from credential issuance. No live integration or certificate infrastructure reused.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/z CDP-Lg-Andy-main-main/docs/mvp-slice-2-9-external-failed-assessment-recording-report.md",
+          "sha256": "c6b75e5d4ae4c4ef3ea6370cccb084b898269f8ff43b196890afcab8297e8168",
+          "bytes": 5394
+        }
+      ]
+    },
+    {
+      "id": "R21",
+      "title": "Hub learner/practice and evidence-pack resources",
+      "disposition": "REFERENCE ONLY",
+      "reason": "Source-screen/attempt provenance and explicit incomplete evidence are useful. Product spec lists practice as future scope; no generic portfolio assessor was verified. A local export is not a Hub bridge.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CDP-Lg/docs/specs/phase-1-cso-learning-hub/LEARNER_TEMPLATE_SPEC.md",
+          "sha256": "740cf17121a5c85f9e548bbcdc2222be0de2bc5f6d45a27e5c8ebbab97fb25a6",
+          "bytes": 20586
+        },
+        {
+          "path": "D:/CDP-Lg/docs/specs/phase-1-cso-learning-hub/EVIDENCE_PACK_TEMPLATE.md",
+          "sha256": "eece886eda3595d40edfd8752fe7bc3aa5b1c2c8a98ed990fdcb66c1eef85731",
+          "bytes": 9613
+        },
+        {
+          "path": "D:/CDP-Lg/docs/specs/phase-1-cso-learning-hub/PRODUCT_SPEC.md",
+          "sha256": "b164846b59c1a6a9f754c2bb5d3737c0aeef176fe3503e7b5716aaf6106c0dbf",
+          "bytes": 19957
+        }
+      ]
+    },
+    {
+      "id": "R22",
+      "title": "Existing research notes",
+      "disposition": "REFERENCE ONLY",
+      "reason": "CDC evidence-expectation/feasibility guidance supports criterion traceability by analogy. Wylie supports caution about extra explanation as recorded in prior notes, not a new HRBA causal claim.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/prototype-specs/GR-06_RESEARCH_AND_SOURCE_NOTES_v0.1.md",
+          "sha256": "3f40a94b631f5b7b6088835075a47887943fd1cd535caca82e293bf3c93f8fcb",
+          "bytes": 3144
+        }
+      ]
+    },
+    {
+      "id": "R23",
+      "title": "Assessment bundle and readiness lifecycle",
+      "disposition": "SYSTEM GAP",
+      "reason": "Registries lack cross-artifact criterion mapping, version-bound assessment outcome and reconsideration ownership; propose three shared objects and two opt-in variants, unregistered.",
+      "inspection": "Source/manifests or explicitly identified excerpts inspected; not a new acceptance or runtime audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/components.json",
+          "sha256": "a14dc08cfc0a5f9328127c7c8c77fd707f9d37716ed91b6f5fb22ee2ff156968",
+          "bytes": 3713
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/patterns.json",
+          "sha256": "7164fdc270b201dd1a3d786b0c5aa6a006dbdb3b36e870ef1d53a11e1aec21e6",
+          "bytes": 930
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/compositions.json",
+          "sha256": "13e0beac74fe3bbde4f8c8afafea93e0d471189c60557d280c193c436626ef9d",
+          "bytes": 708
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/templates.json",
+          "sha256": "a99217349ea87c09b7bad8f0d24a21230c73daaabd71ce84442a05d86881fe6b",
+          "bytes": 938
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/docs/system-gap-process.md",
+          "sha256": "1166162e73538e9ab90497801c739e019fd66382c32b2f750afea663a63dfa64",
+          "bytes": 310
+        }
+      ]
+    }
+  ],
+  "external_mutations": false,
+  "scope": "Read-only selected relevant excerpts, manifests and two Mighty images. Existing acceptance text is historical provenance, not current visual/build authority for Track A."
+}

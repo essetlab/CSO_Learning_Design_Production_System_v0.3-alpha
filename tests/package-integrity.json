@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "files_checked": 1061,
+  "manifest": "PACKAGE_MANIFEST.json",
+  "manifest_sha256": "276fb88eb5fcb933d2450efd63aeac082e672300b0d165c54b377f16592eeb74",
+  "exclusions": [
+    "PACKAGE_MANIFEST.json",
+    ".git/**",
+    "**/__pycache__/**",
+    "**/*.pyc",
+    "package/*.zip",
+    "tests/package-integrity.json"
+  ],
+  "errors": []
+}

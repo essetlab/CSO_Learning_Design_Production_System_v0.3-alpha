@@ -1,0 +1,1866 @@
+{
+  "run": "before-fixes",
+  "date": "2026-09-28T06:47:52.191Z",
+  "environment": {
+    "os": "Windows_NT 10.0.26100 x64",
+    "framework": "Playwright 1.62.1",
+    "browser": "Google Chrome",
+    "mode": "headless",
+    "version": "153.0.8010.53"
+  },
+  "checks": [
+    {
+      "name": "1920x1080 initial: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          }
+        ]
+      }
+    },
+    {
+      "name": "1920x1080 initial: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1920x1080: initial gating",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: presence opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: presence visited has text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: agenda opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: agenda visited has text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: voice opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: voice visited has text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: reopen visited lens",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: no preselection and review disabled",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: A selection before review",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: A exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 feedback A: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1920x1080 feedback A: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1920x1080: A revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: A re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: B selection before review",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: B exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 feedback B: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1920x1080 feedback B: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1920x1080: B revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: B re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: C selection before review",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: C exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 feedback C: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1920x1080 feedback C: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1920x1080: C revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: C re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: D selection before review",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: D exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 feedback D: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1920x1080 feedback D: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1920x1080: D revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: D re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: mobile panels follow their controls",
+      "passed": true
+    },
+    {
+      "name": "1440x900 initial: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440x900 initial: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440x900: initial gating",
+      "passed": true
+    },
+    {
+      "name": "1440x900: presence opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "1440x900: presence visited has text",
+      "passed": true
+    },
+    {
+      "name": "1440x900: agenda opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "1440x900: agenda visited has text",
+      "passed": true
+    },
+    {
+      "name": "1440x900: voice opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "1440x900: voice visited has text",
+      "passed": true
+    },
+    {
+      "name": "1440x900: reopen visited lens",
+      "passed": true
+    },
+    {
+      "name": "1440x900: no preselection and review disabled",
+      "passed": true
+    },
+    {
+      "name": "1440x900: A selection before review",
+      "passed": true
+    },
+    {
+      "name": "1440x900: A exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1440x900 feedback A: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440x900 feedback A: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440x900: A revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1440x900: A re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1440x900: B selection before review",
+      "passed": true
+    },
+    {
+      "name": "1440x900: B exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1440x900 feedback B: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440x900 feedback B: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440x900: B revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1440x900: B re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1440x900: C selection before review",
+      "passed": true
+    },
+    {
+      "name": "1440x900: C exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1440x900 feedback C: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440x900 feedback C: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440x900: C revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1440x900: C re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1440x900: D selection before review",
+      "passed": true
+    },
+    {
+      "name": "1440x900: D exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1440x900 feedback D: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440x900 feedback D: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440x900: D revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1440x900: D re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1440x900: mobile panels follow their controls",
+      "passed": true
+    },
+    {
+      "name": "1024x768 initial: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024x768 initial: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024x768: initial gating",
+      "passed": true
+    },
+    {
+      "name": "1024x768: presence opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "1024x768: presence visited has text",
+      "passed": true
+    },
+    {
+      "name": "1024x768: agenda opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "1024x768: agenda visited has text",
+      "passed": true
+    },
+    {
+      "name": "1024x768: voice opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "1024x768: voice visited has text",
+      "passed": true
+    },
+    {
+      "name": "1024x768: reopen visited lens",
+      "passed": true
+    },
+    {
+      "name": "1024x768: no preselection and review disabled",
+      "passed": true
+    },
+    {
+      "name": "1024x768: A selection before review",
+      "passed": true
+    },
+    {
+      "name": "1024x768: A exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1024x768 feedback A: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024x768 feedback A: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024x768: A revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1024x768: A re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1024x768: B selection before review",
+      "passed": true
+    },
+    {
+      "name": "1024x768: B exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1024x768 feedback B: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024x768 feedback B: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024x768: B revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1024x768: B re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1024x768: C selection before review",
+      "passed": true
+    },
+    {
+      "name": "1024x768: C exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1024x768 feedback C: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024x768 feedback C: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024x768: C revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1024x768: C re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1024x768: D selection before review",
+      "passed": true
+    },
+    {
+      "name": "1024x768: D exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "1024x768 feedback D: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024x768 feedback D: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024x768: D revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "1024x768: D re-review completes",
+      "passed": true
+    },
+    {
+      "name": "1024x768: mobile panels follow their controls",
+      "passed": true
+    },
+    {
+      "name": "768x1024 initial: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 65,
+            "scroll": 65
+          }
+        ]
+      }
+    },
+    {
+      "name": "768x1024 initial: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768x1024: initial gating",
+      "passed": true
+    },
+    {
+      "name": "768x1024: presence opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "768x1024: presence visited has text",
+      "passed": true
+    },
+    {
+      "name": "768x1024: agenda opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "768x1024: agenda visited has text",
+      "passed": true
+    },
+    {
+      "name": "768x1024: voice opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "768x1024: voice visited has text",
+      "passed": true
+    },
+    {
+      "name": "768x1024: reopen visited lens",
+      "passed": true
+    },
+    {
+      "name": "768x1024: no preselection and review disabled",
+      "passed": true
+    },
+    {
+      "name": "768x1024: A selection before review",
+      "passed": true
+    },
+    {
+      "name": "768x1024: A exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "768x1024 feedback A: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 65,
+            "scroll": 65
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 512
+          }
+        ]
+      }
+    },
+    {
+      "name": "768x1024 feedback A: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768x1024: A revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "768x1024: A re-review completes",
+      "passed": true
+    },
+    {
+      "name": "768x1024: B selection before review",
+      "passed": true
+    },
+    {
+      "name": "768x1024: B exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "768x1024 feedback B: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 65,
+            "scroll": 65
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 512
+          }
+        ]
+      }
+    },
+    {
+      "name": "768x1024 feedback B: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768x1024: B revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "768x1024: B re-review completes",
+      "passed": true
+    },
+    {
+      "name": "768x1024: C selection before review",
+      "passed": true
+    },
+    {
+      "name": "768x1024: C exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "768x1024 feedback C: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 65,
+            "scroll": 65
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 512
+          }
+        ]
+      }
+    },
+    {
+      "name": "768x1024 feedback C: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768x1024: C revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "768x1024: C re-review completes",
+      "passed": true
+    },
+    {
+      "name": "768x1024: D selection before review",
+      "passed": true
+    },
+    {
+      "name": "768x1024: D exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "768x1024 feedback D: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 65,
+            "scroll": 65
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 512
+          }
+        ]
+      }
+    },
+    {
+      "name": "768x1024 feedback D: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768x1024: D revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "768x1024: D re-review completes",
+      "passed": true
+    },
+    {
+      "name": "768x1024: mobile panels follow their controls",
+      "passed": true
+    },
+    {
+      "name": "390x844 initial: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          }
+        ]
+      }
+    },
+    {
+      "name": "390x844 initial: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390x844: initial gating",
+      "passed": true
+    },
+    {
+      "name": "390x844: presence opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "390x844: presence visited has text",
+      "passed": true
+    },
+    {
+      "name": "390x844: agenda opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "390x844: agenda visited has text",
+      "passed": true
+    },
+    {
+      "name": "390x844: voice opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "390x844: voice visited has text",
+      "passed": true
+    },
+    {
+      "name": "390x844: reopen visited lens",
+      "passed": true
+    },
+    {
+      "name": "390x844: no preselection and review disabled",
+      "passed": true
+    },
+    {
+      "name": "390x844: A selection before review",
+      "passed": true
+    },
+    {
+      "name": "390x844: A exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "390x844 feedback A: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 477
+          }
+        ]
+      }
+    },
+    {
+      "name": "390x844 feedback A: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390x844: A revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "390x844: A re-review completes",
+      "passed": true
+    },
+    {
+      "name": "390x844: B selection before review",
+      "passed": true
+    },
+    {
+      "name": "390x844: B exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "390x844 feedback B: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 477
+          }
+        ]
+      }
+    },
+    {
+      "name": "390x844 feedback B: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390x844: B revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "390x844: B re-review completes",
+      "passed": true
+    },
+    {
+      "name": "390x844: C selection before review",
+      "passed": true
+    },
+    {
+      "name": "390x844: C exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "390x844 feedback C: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 477
+          }
+        ]
+      }
+    },
+    {
+      "name": "390x844 feedback C: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390x844: C revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "390x844: C re-review completes",
+      "passed": true
+    },
+    {
+      "name": "390x844: D selection before review",
+      "passed": true
+    },
+    {
+      "name": "390x844: D exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "390x844 feedback D: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 477
+          }
+        ]
+      }
+    },
+    {
+      "name": "390x844 feedback D: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390x844: D revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "390x844: D re-review completes",
+      "passed": true
+    },
+    {
+      "name": "390x844: mobile panels follow their controls",
+      "passed": true
+    },
+    {
+      "name": "320x568 initial: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          }
+        ]
+      }
+    },
+    {
+      "name": "320x568 initial: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "320x568: initial gating",
+      "passed": true
+    },
+    {
+      "name": "320x568: presence opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "320x568: presence visited has text",
+      "passed": true
+    },
+    {
+      "name": "320x568: agenda opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "320x568: agenda visited has text",
+      "passed": true
+    },
+    {
+      "name": "320x568: voice opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "320x568: voice visited has text",
+      "passed": true
+    },
+    {
+      "name": "320x568: reopen visited lens",
+      "passed": true
+    },
+    {
+      "name": "320x568: no preselection and review disabled",
+      "passed": true
+    },
+    {
+      "name": "320x568: A selection before review",
+      "passed": true
+    },
+    {
+      "name": "320x568: A exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "320x568 feedback A: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 477
+          }
+        ]
+      }
+    },
+    {
+      "name": "320x568 feedback A: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "320x568: A revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "320x568: A re-review completes",
+      "passed": true
+    },
+    {
+      "name": "320x568: B selection before review",
+      "passed": true
+    },
+    {
+      "name": "320x568: B exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "320x568 feedback B: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 477
+          }
+        ]
+      }
+    },
+    {
+      "name": "320x568 feedback B: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "320x568: B revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "320x568: B re-review completes",
+      "passed": true
+    },
+    {
+      "name": "320x568: C selection before review",
+      "passed": true
+    },
+    {
+      "name": "320x568: C exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "320x568 feedback C: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 477
+          }
+        ]
+      }
+    },
+    {
+      "name": "320x568 feedback C: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "320x568: C revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "320x568: C re-review completes",
+      "passed": true
+    },
+    {
+      "name": "320x568: D selection before review",
+      "passed": true
+    },
+    {
+      "name": "320x568: D exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "320x568 feedback D: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 477
+          }
+        ]
+      }
+    },
+    {
+      "name": "320x568 feedback D: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "320x568: D revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "320x568: D re-review completes",
+      "passed": true
+    },
+    {
+      "name": "320x568: mobile panels follow their controls",
+      "passed": true
+    },
+    {
+      "name": "keyboard-1440x900: Menu opens",
+      "passed": true
+    },
+    {
+      "name": "keyboard-1440x900: Escape returns focus",
+      "passed": true
+    },
+    {
+      "name": "keyboard-1440x900: native radio arrows",
+      "passed": true
+    },
+    {
+      "name": "keyboard-1440x900: revision focus to selected radio",
+      "passed": true
+    },
+    {
+      "name": "keyboard-1440x900: complete with keyboard, visible focus",
+      "passed": true,
+      "details": [
+        {
+          "tag": "A",
+          "text": "Skip to learning content",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "☰Menu",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "01Presence",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "02Agenda",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "03Voice",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "value": "A",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Review interpretation",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Revise my interpretation",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Review interpretation",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Revise my interpretation",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Previous",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Continue",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "name": "keyboard-390x844: Menu opens",
+      "passed": true
+    },
+    {
+      "name": "keyboard-390x844: Escape returns focus",
+      "passed": true
+    },
+    {
+      "name": "keyboard-390x844: native radio arrows",
+      "passed": true
+    },
+    {
+      "name": "keyboard-390x844: revision focus to selected radio",
+      "passed": true
+    },
+    {
+      "name": "keyboard-390x844: complete with keyboard, visible focus",
+      "passed": true,
+      "details": [
+        {
+          "tag": "A",
+          "text": "Skip to learning content",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "☰Menu",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "01Presence",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "02Agenda",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "03Voice",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "INPUT",
+          "text": "",
+          "value": "A",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Review interpretation",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Revise my interpretation",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Review interpretation",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Revise my interpretation",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Previous",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Continue",
+          "value": "",
+          "focusVisible": true,
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "name": "reduced-motion: initial gating",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: presence opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: presence visited has text",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: agenda opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: agenda visited has text",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: voice opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: voice visited has text",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: reopen visited lens",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: no preselection and review disabled",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: A selection before review",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: A exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion feedback A: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "reduced-motion feedback A: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "reduced-motion: A revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion: A re-review completes",
+      "passed": true
+    },
+    {
+      "name": "reduced motion: no explicit smooth scroll",
+      "passed": false,
+      "details": {
+        "reduced": true,
+        "animation": "1e-05s",
+        "transition": "1e-05s",
+        "scroll": "auto",
+        "calls": [
+          {
+            "behavior": "smooth",
+            "block": "nearest"
+          },
+          {
+            "behavior": "smooth",
+            "block": "nearest"
+          }
+        ]
+      }
+    },
+    {
+      "name": "image-failure-1440x900: fallback visible and broken image hidden",
+      "passed": false
+    },
+    {
+      "name": "image-failure-1440x900: initial gating",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: presence opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: presence visited has text",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: agenda opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: agenda visited has text",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: voice opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: voice visited has text",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: reopen visited lens",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: no preselection and review disabled",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: A selection before review",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: A exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900 feedback A: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 67,
+            "scroll": 67
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 534
+          }
+        ]
+      }
+    },
+    {
+      "name": "image-failure-1440x900 feedback A: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "image-failure-1440x900: A revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "image-failure-1440x900: A re-review completes",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: fallback visible and broken image hidden",
+      "passed": false
+    },
+    {
+      "name": "image-failure-390x844: initial gating",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: presence opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: presence visited has text",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: agenda opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: agenda visited has text",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: voice opens and gates interpretation",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: voice visited has text",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: reopen visited lens",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: no preselection and review disabled",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: A selection before review",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: A exact feedback and completion",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844 feedback A: no horizontal overflow or text clipping",
+      "passed": false,
+      "details": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "clipped": [
+          {
+            "text": "Close",
+            "width": 62,
+            "scroll": 62
+          },
+          {
+            "text": "All three perspectives explored. You can now interpret the evidence.",
+            "width": 1,
+            "scroll": 477
+          }
+        ]
+      }
+    },
+    {
+      "name": "image-failure-390x844 feedback A: controls reachable and unobscured",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "image-failure-390x844: A revision resets completion and preserves state",
+      "passed": true
+    },
+    {
+      "name": "image-failure-390x844: A re-review completes",
+      "passed": true
+    },
+    {
+      "name": "delayed image: learning completes before image load",
+      "passed": true
+    },
+    {
+      "name": "delayed image: stable reserved geometry",
+      "passed": true,
+      "details": {
+        "before": 514.609375,
+        "after": 514.609375
+      }
+    }
+  ],
+  "screenshots": [
+    "tests/gr03-screenshots/before-fixes-1920x1080-initial.png",
+    "tests/gr03-screenshots/before-fixes-1920x1080-feedback-A-completed.png",
+    "tests/gr03-screenshots/before-fixes-1440x900-initial.png",
+    "tests/gr03-screenshots/before-fixes-1440x900-feedback-A-completed.png",
+    "tests/gr03-screenshots/before-fixes-1024x768-initial.png",
+    "tests/gr03-screenshots/before-fixes-1024x768-feedback-A-completed.png",
+    "tests/gr03-screenshots/before-fixes-768x1024-initial.png",
+    "tests/gr03-screenshots/before-fixes-768x1024-feedback-A-completed.png",
+    "tests/gr03-screenshots/before-fixes-390x844-initial.png",
+    "tests/gr03-screenshots/before-fixes-390x844-feedback-A-completed.png",
+    "tests/gr03-screenshots/before-fixes-320x568-initial.png",
+    "tests/gr03-screenshots/before-fixes-320x568-feedback-A-completed.png",
+    "tests/gr03-screenshots/before-fixes-keyboard-1440x900-complete.png",
+    "tests/gr03-screenshots/before-fixes-keyboard-390x844-complete.png",
+    "tests/gr03-screenshots/before-fixes-reduced-motion-feedback-A-completed.png",
+    "tests/gr03-screenshots/before-fixes-image-failure-1440x900-feedback-A-completed.png",
+    "tests/gr03-screenshots/before-fixes-image-failure-1440x900.png",
+    "tests/gr03-screenshots/before-fixes-image-failure-390x844-feedback-A-completed.png",
+    "tests/gr03-screenshots/before-fixes-image-failure-390x844.png",
+    "tests/gr03-screenshots/before-fixes-delayed-image-completed.png"
+  ],
+  "errors": [],
+  "pass": false,
+  "actual_zoom": {
+    "status": "PENDING",
+    "reason": "Requires separate genuine headed browser zoom evidence."
+  }
+}

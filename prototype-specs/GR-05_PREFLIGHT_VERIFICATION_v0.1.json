@@ -1,0 +1,98 @@
+{
+  "status": "PASS_REVISED_SPECIFICATION_ONLY",
+  "date": "2026-09-28",
+  "contract_revision": 2,
+  "branch": "gate8/wave2/gr05-deep-build-repair",
+  "head": "300362b72f714ea152d0b7812c42906938acb24c",
+  "checks": {
+    "accepted_content_and_flow_sections_unchanged": [
+      "learning",
+      "case",
+      "criteria",
+      "stages",
+      "output",
+      "responsive",
+      "accessibility_resilience"
+    ],
+    "hard_maxima_unchanged": true,
+    "hard_minimum_words_removed": true,
+    "T_examples_passed": 8,
+    "two_tier_recovery_and_completion_independence": true,
+    "candidate_ids_unique_and_unregistered": 6,
+    "candidate_records_validate_against_existing_generic_component_schema": true,
+    "existing_required_objects_registered": true,
+    "matrix_rows": 30,
+    "cross_document_ids_and_removed_policy_consistent": true,
+    "source_files_hash_verified": 58,
+    "tracked_runtime_registries_validators_and_schemas_unchanged": true,
+    "no_prototype_or_candidate_directories_created": true
+  },
+  "commands": [
+    {
+      "arguments": [
+        "validators/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"checked\": [\n    \"GR-01\",\n    \"GR-02\",\n    \"GR-03\",\n    \"GR-04\"\n  ],\n  \"locked_checked\": [\n    \"GR-01\",\n    \"GR-04\"\n  ],\n  \"schema\": \"schemas/golden-reference.schema.json\",\n  \"legacy_template_strings\": [\n    \"GR-02\"\n  ],\n  \"external_python_packages_required\": true,\n  \"python_packages\": [\n    \"PyYAML\",\n    \"jsonschema\"\n  ],\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "tests/test_template_schema.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.186s\n\nOK\n"
+    }
+  ],
+  "prototype_tests_run": false,
+  "generic_schema_validation_note": "Proposed candidate records checked with the existing component schema. No runtime recovery payload schema/service is implemented. Contract checks are explicit document invariants, not a claim of prototype conformance.",
+  "final_freeze_pending": true,
+  "implementation_authorized": false,
+  "integrity_receipt": "tests/package-integrity.json",
+  "prior_preflight_record": {
+    "status": "PASS_DOCUMENT_PREFLIGHT_ONLY",
+    "date": "2026-09-28",
+    "branch": "gate8/wave2/gr05-deep-build-repair",
+    "head": "300362b72f714ea152d0b7812c42906938acb24c",
+    "resource_groups": 24,
+    "distinct_source_files_verified": 58,
+    "checks": [
+      "JSON documents parse",
+      "Four fields/criteria/original sections agree",
+      "Five stages and evidence IDs are consistent",
+      "All required existing objects are registered",
+      "All six resource dispositions used explicitly",
+      "All recorded source hashes match local files",
+      "Existing production, registry, schema, validator, reference and test files unchanged from HEAD at check time",
+      "No GR-05 runtime directory exists",
+      "Repository validation passes all four existing references",
+      "Eight schema test methods pass"
+    ],
+    "commands": [
+      {
+        "arguments": [
+          "validators/validate_repository.py"
+        ],
+        "exit_code": 0,
+        "stdout": "{\n  \"status\": \"pass\",\n  \"checked\": [\n    \"GR-01\",\n    \"GR-02\",\n    \"GR-03\",\n    \"GR-04\"\n  ],\n  \"locked_checked\": [\n    \"GR-01\",\n    \"GR-04\"\n  ],\n  \"schema\": \"schemas/golden-reference.schema.json\",\n  \"legacy_template_strings\": [\n    \"GR-02\"\n  ],\n  \"external_python_packages_required\": true,\n  \"python_packages\": [\n    \"PyYAML\",\n    \"jsonschema\"\n  ],\n  \"errors\": []\n}\n",
+        "stderr": ""
+      },
+      {
+        "arguments": [
+          "tests/test_template_schema.py"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.188s\n\nOK\n"
+      }
+    ],
+    "prototype_tests_run": false,
+    "runtime_implementation_created": false,
+    "new_registry_objects": false,
+    "candidate_promotion": false,
+    "architectural_review_pending": true,
+    "integrity_receipt": "tests/package-integrity.json",
+    "note": "PACKAGE_MANIFEST and its integrity receipt will be refreshed after this report. Prototype matrix remains proposed and unexecuted; this receipt does not approve the design."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "reference": "GR-06",
+  "status": "PENDING",
+  "checks": [
+    {
+      "id": "V18",
+      "check": "Genuine Chrome 200%",
+      "status": "PENDING",
+      "provenance": "No direct performance or user attestation received"
+    },
+    {
+      "id": "V19-screen-reader",
+      "check": "Actual screen-reader walkthrough",
+      "status": "PENDING",
+      "provenance": "Accessibility-tree snapshot is automated evidence only"
+    },
+    {
+      "id": "V19-mobile",
+      "check": "Physical mobile software keyboard",
+      "status": "PENDING",
+      "provenance": "Desktop viewport emulation is automated evidence only"
+    },
+    {
+      "id": "V21",
+      "check": "Independent H01\u2013H09 instructional/HRBA review",
+      "status": "PENDING",
+      "provenance": "No independent reviewer judgment received"
+    }
+  ],
+  "human_dimensions": [
+    {
+      "id": "H01",
+      "status": "PENDING",
+      "reviewer": null
+    },
+    {
+      "id": "H02",
+      "status": "PENDING",
+      "reviewer": null
+    },
+    {
+      "id": "H03",
+      "status": "PENDING",
+      "reviewer": null
+    },
+    {
+      "id": "H04",
+      "status": "PENDING",
+      "reviewer": null
+    },
+    {
+      "id": "H05",
+      "status": "PENDING",
+      "reviewer": null
+    },
+    {
+      "id": "H06",
+      "status": "PENDING",
+      "reviewer": null
+    },
+    {
+      "id": "H07",
+      "status": "PENDING",
+      "reviewer": null
+    },
+    {
+      "id": "H08",
+      "status": "PENDING",
+      "reviewer": null
+    },
+    {
+      "id": "H09",
+      "status": "PENDING",
+      "reviewer": null
+    }
+  ],
+  "attestations": [],
+  "automated_evidence_separate": true
+}

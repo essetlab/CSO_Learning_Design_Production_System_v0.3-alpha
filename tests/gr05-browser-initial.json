@@ -1,0 +1,1491 @@
+{
+  "run": "initial",
+  "date": "2026-09-28T18:51:11.533Z",
+  "browser": "Google Chrome headless",
+  "checks": [
+    {
+      "name": "1920x1080: V02 blank gating",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V03 error focus",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 error: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1920x1080 error: reachable #to-draft",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 error: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 error: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 error: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 diagnosis: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 drafting: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1920x1080 drafting: reachable #review-first",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 drafting: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 drafting: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 drafting: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 draft: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V06 snapshot matches authored draft",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 first review: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V08 exact C01",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 revision: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 comparison: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1920x1080 comparison: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 comparison: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 comparison: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 comparison: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 comparison: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V10 completion",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 completion: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V15 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V06 preserved v1",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V15 no durable writes without opt-in",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V14 export contains full v1/current/rationale/reviews",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 completed: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1920x1080 completed: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 completed: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 completed: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 completed: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 completed: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "1920x1080: V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V02 blank gating",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V03 error focus",
+      "passed": true
+    },
+    {
+      "name": "1440x900 error: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1440x900 error: reachable #to-draft",
+      "passed": true
+    },
+    {
+      "name": "1440x900 error: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1440x900 error: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1440x900 error: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1440x900 diagnosis: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900 drafting: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1440x900 drafting: reachable #review-first",
+      "passed": true
+    },
+    {
+      "name": "1440x900 drafting: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1440x900 drafting: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1440x900 drafting: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1440x900 draft: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V06 snapshot matches authored draft",
+      "passed": true
+    },
+    {
+      "name": "1440x900 first review: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V08 exact C01",
+      "passed": true
+    },
+    {
+      "name": "1440x900 revision: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900 comparison: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1440x900 comparison: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1440x900 comparison: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "1440x900 comparison: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1440x900 comparison: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1440x900 comparison: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V10 completion",
+      "passed": true
+    },
+    {
+      "name": "1440x900 completion: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V15 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V06 preserved v1",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V15 no durable writes without opt-in",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V14 export contains full v1/current/rationale/reviews",
+      "passed": true
+    },
+    {
+      "name": "1440x900 completed: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1440x900 completed: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1440x900 completed: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "1440x900 completed: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1440x900 completed: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1440x900 completed: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "1440x900: V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V02 blank gating",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V03 error focus",
+      "passed": true
+    },
+    {
+      "name": "1024x768 error: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1024x768 error: reachable #to-draft",
+      "passed": true
+    },
+    {
+      "name": "1024x768 error: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1024x768 error: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1024x768 error: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1024x768 diagnosis: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768 drafting: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1024x768 drafting: reachable #review-first",
+      "passed": true
+    },
+    {
+      "name": "1024x768 drafting: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1024x768 drafting: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1024x768 drafting: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1024x768 draft: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V06 snapshot matches authored draft",
+      "passed": true
+    },
+    {
+      "name": "1024x768 first review: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V08 exact C01",
+      "passed": true
+    },
+    {
+      "name": "1024x768 revision: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768 comparison: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1024x768 comparison: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1024x768 comparison: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "1024x768 comparison: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1024x768 comparison: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1024x768 comparison: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V10 completion",
+      "passed": true
+    },
+    {
+      "name": "1024x768 completion: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V15 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V06 preserved v1",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V15 no durable writes without opt-in",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V14 export contains full v1/current/rationale/reviews",
+      "passed": true
+    },
+    {
+      "name": "1024x768 completed: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      }
+    },
+    {
+      "name": "1024x768 completed: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1024x768 completed: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "1024x768 completed: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "1024x768 completed: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "1024x768 completed: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "1024x768: V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V02 blank gating",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V03 error focus",
+      "passed": true
+    },
+    {
+      "name": "768x1024 error: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      }
+    },
+    {
+      "name": "768x1024 error: reachable #to-draft",
+      "passed": true
+    },
+    {
+      "name": "768x1024 error: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "768x1024 error: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "768x1024 error: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "768x1024 diagnosis: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024 drafting: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      }
+    },
+    {
+      "name": "768x1024 drafting: reachable #review-first",
+      "passed": true
+    },
+    {
+      "name": "768x1024 drafting: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "768x1024 drafting: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "768x1024 drafting: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "768x1024 draft: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V06 snapshot matches authored draft",
+      "passed": true
+    },
+    {
+      "name": "768x1024 first review: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V08 exact C01",
+      "passed": true
+    },
+    {
+      "name": "768x1024 revision: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024 comparison: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      }
+    },
+    {
+      "name": "768x1024 comparison: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "768x1024 comparison: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "768x1024 comparison: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "768x1024 comparison: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "768x1024 comparison: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V10 completion",
+      "passed": true
+    },
+    {
+      "name": "768x1024 completion: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V15 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V06 preserved v1",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V15 no durable writes without opt-in",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V14 export contains full v1/current/rationale/reviews",
+      "passed": true
+    },
+    {
+      "name": "768x1024 completed: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      }
+    },
+    {
+      "name": "768x1024 completed: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "768x1024 completed: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "768x1024 completed: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "768x1024 completed: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "768x1024 completed: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "768x1024: V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "390x844: V02 blank gating",
+      "passed": true
+    },
+    {
+      "name": "390x844: V03 error focus",
+      "passed": true
+    },
+    {
+      "name": "390x844 error: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      }
+    },
+    {
+      "name": "390x844 error: reachable #to-draft",
+      "passed": true
+    },
+    {
+      "name": "390x844 error: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "390x844 error: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "390x844 error: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "390x844 diagnosis: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844 drafting: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      }
+    },
+    {
+      "name": "390x844 drafting: reachable #review-first",
+      "passed": true
+    },
+    {
+      "name": "390x844 drafting: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "390x844 drafting: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "390x844 drafting: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "390x844 draft: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844: V06 snapshot matches authored draft",
+      "passed": true
+    },
+    {
+      "name": "390x844 first review: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844: V08 exact C01",
+      "passed": true
+    },
+    {
+      "name": "390x844 revision: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844 comparison: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      }
+    },
+    {
+      "name": "390x844 comparison: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "390x844 comparison: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "390x844 comparison: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "390x844 comparison: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "390x844 comparison: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "390x844: V10 completion",
+      "passed": true
+    },
+    {
+      "name": "390x844 completion: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844: V15 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "390x844: V06 preserved v1",
+      "passed": true
+    },
+    {
+      "name": "390x844: V15 no durable writes without opt-in",
+      "passed": true
+    },
+    {
+      "name": "390x844: V14 export contains full v1/current/rationale/reviews",
+      "passed": true
+    },
+    {
+      "name": "390x844 completed: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      }
+    },
+    {
+      "name": "390x844 completed: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "390x844 completed: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "390x844 completed: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "390x844 completed: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "390x844 completed: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "390x844: V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "390x844: V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "320x568: V02 blank gating",
+      "passed": true
+    },
+    {
+      "name": "320x568: V03 error focus",
+      "passed": true
+    },
+    {
+      "name": "320x568 error: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    },
+    {
+      "name": "320x568 error: reachable #to-draft",
+      "passed": true
+    },
+    {
+      "name": "320x568 error: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "320x568 error: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "320x568 error: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "320x568 diagnosis: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568 drafting: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    },
+    {
+      "name": "320x568 drafting: reachable #review-first",
+      "passed": true
+    },
+    {
+      "name": "320x568 drafting: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "320x568 drafting: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "320x568 drafting: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "320x568 draft: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568: V06 snapshot matches authored draft",
+      "passed": true
+    },
+    {
+      "name": "320x568 first review: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568: V08 exact C01",
+      "passed": true
+    },
+    {
+      "name": "320x568 revision: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568 comparison: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    },
+    {
+      "name": "320x568 comparison: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "320x568 comparison: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "320x568 comparison: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "320x568 comparison: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "320x568 comparison: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "320x568: V10 completion",
+      "passed": true
+    },
+    {
+      "name": "320x568 completion: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568: V15 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "320x568: V06 preserved v1",
+      "passed": true
+    },
+    {
+      "name": "320x568: V15 no durable writes without opt-in",
+      "passed": true
+    },
+    {
+      "name": "320x568: V14 export contains full v1/current/rationale/reviews",
+      "passed": true
+    },
+    {
+      "name": "320x568 completed: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    },
+    {
+      "name": "320x568 completed: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "320x568 completed: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "320x568 completed: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "320x568 completed: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "320x568 completed: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "320x568: V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "320x568: V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "844x390: V02 blank gating",
+      "passed": true
+    },
+    {
+      "name": "844x390: V03 error focus",
+      "passed": true
+    },
+    {
+      "name": "844x390 error: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "scroll": 844,
+        "clipped": []
+      }
+    },
+    {
+      "name": "844x390 error: reachable #to-draft",
+      "passed": true
+    },
+    {
+      "name": "844x390 error: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "844x390 error: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "844x390 error: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "844x390 diagnosis: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390 drafting: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "scroll": 844,
+        "clipped": []
+      }
+    },
+    {
+      "name": "844x390 drafting: reachable #review-first",
+      "passed": true
+    },
+    {
+      "name": "844x390 drafting: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "844x390 drafting: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "844x390 drafting: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "844x390 draft: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390: V06 snapshot matches authored draft",
+      "passed": true
+    },
+    {
+      "name": "844x390 first review: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390: V08 exact C01",
+      "passed": true
+    },
+    {
+      "name": "844x390 revision: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390 comparison: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "scroll": 844,
+        "clipped": []
+      }
+    },
+    {
+      "name": "844x390 comparison: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "844x390 comparison: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "844x390 comparison: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "844x390 comparison: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "844x390 comparison: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "844x390: V10 completion",
+      "passed": true
+    },
+    {
+      "name": "844x390 completion: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390: V15 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "844x390: V06 preserved v1",
+      "passed": true
+    },
+    {
+      "name": "844x390: V15 no durable writes without opt-in",
+      "passed": true
+    },
+    {
+      "name": "844x390: V14 export contains full v1/current/rationale/reviews",
+      "passed": true
+    },
+    {
+      "name": "844x390 completed: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "scroll": 844,
+        "clipped": []
+      }
+    },
+    {
+      "name": "844x390 completed: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "844x390 completed: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "844x390 completed: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "844x390 completed: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "844x390 completed: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "844x390: V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "844x390: V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "max-content: V02 blank gating",
+      "passed": true
+    },
+    {
+      "name": "max-content: V03 error focus",
+      "passed": true
+    },
+    {
+      "name": "max-content error: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    },
+    {
+      "name": "max-content error: reachable #to-draft",
+      "passed": true
+    },
+    {
+      "name": "max-content error: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "max-content error: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "max-content error: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "max-content diagnosis: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "max-content drafting: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    },
+    {
+      "name": "max-content drafting: reachable #review-first",
+      "passed": true
+    },
+    {
+      "name": "max-content drafting: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "max-content drafting: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "max-content drafting: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "max-content draft: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "max-content: V06 snapshot matches authored draft",
+      "passed": true
+    },
+    {
+      "name": "max-content first review: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "max-content: V08 exact C01",
+      "passed": true
+    },
+    {
+      "name": "max-content revision: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "max-content comparison: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    },
+    {
+      "name": "max-content comparison: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "max-content comparison: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "max-content comparison: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "max-content comparison: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "max-content comparison: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "max-content: V10 completion",
+      "passed": true
+    },
+    {
+      "name": "max-content completion: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "max-content: V15 completion recomputed after refresh",
+      "passed": true
+    },
+    {
+      "name": "max-content: V06 preserved v1",
+      "passed": true
+    },
+    {
+      "name": "max-content: V15 no durable writes without opt-in",
+      "passed": true
+    },
+    {
+      "name": "max-content: V14 export contains full v1/current/rationale/reviews",
+      "passed": true
+    },
+    {
+      "name": "max-content completed: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    },
+    {
+      "name": "max-content completed: reachable #acknowledge",
+      "passed": true
+    },
+    {
+      "name": "max-content completed: reachable #revise",
+      "passed": true
+    },
+    {
+      "name": "max-content completed: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "max-content completed: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "max-content completed: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "max-content: V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "max-content: V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "V24 HTML pasted as text",
+      "passed": true
+    },
+    {
+      "name": "long-unbroken-text: no horizontal overflow/clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    },
+    {
+      "name": "long-unbroken-text: reachable #review-final",
+      "passed": true
+    },
+    {
+      "name": "long-unbroken-text: reachable #continueButton",
+      "passed": true
+    },
+    {
+      "name": "long-unbroken-text: reachable #show-text",
+      "passed": true
+    },
+    {
+      "name": "long-unbroken-text: reachable #device-consent",
+      "passed": true
+    },
+    {
+      "name": "V20 long token: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "V24 offline input checkpointed",
+      "passed": true
+    },
+    {
+      "name": "V24 IME event checkpoint: exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "V27 opt-in writes durable",
+      "passed": true
+    },
+    {
+      "name": "V28 opt-out keeps session only",
+      "passed": true
+    },
+    {
+      "name": "V27 new session requires explicit resume",
+      "passed": true
+    },
+    {
+      "name": "V27 explicit resume restores draft",
+      "passed": true
+    },
+    {
+      "name": "V18 cancel retains text",
+      "passed": true
+    },
+    {
+      "name": "V18 confirm resets and disables",
+      "passed": true
+    },
+    {
+      "name": "V17 corrupt record retained with explicit choices",
+      "passed": true
+    },
+    {
+      "name": "V24 honest no-JS fallback",
+      "passed": false
+    }
+  ],
+  "screenshots": [
+    "tests/gr05-screenshots/initial-1920x1080-draft.png",
+    "tests/gr05-screenshots/initial-1920x1080-comparison.png",
+    "tests/gr05-screenshots/initial-1920x1080-complete.png",
+    "tests/gr05-screenshots/initial-1440x900-draft.png",
+    "tests/gr05-screenshots/initial-1440x900-comparison.png",
+    "tests/gr05-screenshots/initial-1440x900-complete.png",
+    "tests/gr05-screenshots/initial-1024x768-draft.png",
+    "tests/gr05-screenshots/initial-1024x768-comparison.png",
+    "tests/gr05-screenshots/initial-1024x768-complete.png",
+    "tests/gr05-screenshots/initial-768x1024-draft.png",
+    "tests/gr05-screenshots/initial-768x1024-comparison.png",
+    "tests/gr05-screenshots/initial-768x1024-complete.png",
+    "tests/gr05-screenshots/initial-390x844-draft.png",
+    "tests/gr05-screenshots/initial-390x844-comparison.png",
+    "tests/gr05-screenshots/initial-390x844-complete.png",
+    "tests/gr05-screenshots/initial-320x568-draft.png",
+    "tests/gr05-screenshots/initial-320x568-comparison.png",
+    "tests/gr05-screenshots/initial-320x568-complete.png",
+    "tests/gr05-screenshots/initial-844x390-draft.png",
+    "tests/gr05-screenshots/initial-844x390-comparison.png",
+    "tests/gr05-screenshots/initial-844x390-complete.png",
+    "tests/gr05-screenshots/initial-max-content-draft.png",
+    "tests/gr05-screenshots/initial-max-content-comparison.png",
+    "tests/gr05-screenshots/initial-max-content-complete.png"
+  ],
+  "errors": [],
+  "manualNotClaimed": [
+    "V05 human instructional review",
+    "V21 genuine Chrome 200%",
+    "V23 screen-reader use",
+    "V25 human HRBA review"
+  ],
+  "version": "154.0.8037.58",
+  "passed": false
+}

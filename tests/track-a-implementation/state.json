@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "name": "V14 TrackA incomplete/overlimit/IME payload survives exact session checkpoint",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA rejects identity.contractVersion",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA rejects identity.contractRevision",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA rejects identity.caseVersion",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA rejects root.schemaVersion",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA rejects payload.COMPLETE",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA rejects payload.firstRecord",
+      "passed": true
+    },
+    {
+      "name": "V15 V20 TrackA session failure truthful",
+      "passed": true
+    },
+    {
+      "name": "V15 V20 TrackA device failure truthful",
+      "passed": true
+    },
+    {
+      "name": "V15 V20 TrackA both failure truthful",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA duplicated-tab race pauses and preserves newer durable version",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA divergent tiers explicit source selection",
+      "passed": true
+    },
+    {
+      "name": "V15 TrackA opt-out retains session and no learning completion",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA clear leaves GR05 and another TrackA draft intact",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA failed deletion honest and conflict-safe",
+      "passed": true
+    },
+    {
+      "name": "V16 TrackA corrupt record changed since inspection is not discarded",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "service_modified": false
+}

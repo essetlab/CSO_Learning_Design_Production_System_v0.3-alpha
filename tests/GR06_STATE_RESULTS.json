@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "name": "V14 GR06 incomplete/overlimit/IME payload survives exact session checkpoint",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 rejects identity.contractVersion",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 rejects identity.contractRevision",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 rejects identity.caseVersion",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 rejects root.schemaVersion",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 rejects payload.COMPLETE",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 rejects payload.firstSnapshot",
+      "passed": true
+    },
+    {
+      "name": "V15 V20 GR06 session failure truthful",
+      "passed": true
+    },
+    {
+      "name": "V15 V20 GR06 device failure truthful",
+      "passed": true
+    },
+    {
+      "name": "V15 V20 GR06 both failure truthful",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 duplicated-tab race pauses and preserves newer durable version",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 divergent tiers explicit source selection",
+      "passed": true
+    },
+    {
+      "name": "V15 GR06 opt-out retains session and no learning completion",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 clear leaves GR05 and another GR06 draft intact",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 failed deletion honest and conflict-safe",
+      "passed": true
+    },
+    {
+      "name": "V16 GR06 corrupt record changed since inspection is not discarded",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "service_modified": false
+}

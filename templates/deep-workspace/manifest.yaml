@@ -1,0 +1,16 @@
+id: TPL-DEEP-WORKSPACE-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: template
+ownership: Semantic responsive workspace arrangement only; no learning or storage
+  decisions.
+cross_course_validation: not-yet-tested
+frozen_contract: prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+engine: deep-workspace.js
+composition: CMP-REPAIR-STUDIO-01
+variants:
+- id: evidence-decision
+  status: PROTOTYPE
+  opt_in: true
+  ownership: Arrangement only; no state/completion authority
+  compatibility: Existing default markup, labels, selectors and behavior unchanged

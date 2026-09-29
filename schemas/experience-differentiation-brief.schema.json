@@ -1,0 +1,662 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EXPERIENCE_DIFFERENTIATION_BRIEF",
+  "type": "object",
+  "required": [
+    "reference",
+    "professional_capability",
+    "dominant_learner_action",
+    "emotional_cognitive_rhythm",
+    "visual_interaction_metaphor",
+    "density_scroll_expectation",
+    "reference_work_balance",
+    "authored_writing_burden",
+    "desktop_mobile_transformation",
+    "magnetic_experience_moment",
+    "reuse_rationale",
+    "difference_from_recent_references",
+    "validation_baseline"
+  ],
+  "properties": {
+    "reference": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "professional_capability": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Observable professional capability and authentic transfer context."
+    },
+    "dominant_learner_action": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "What learners primarily do; distinguish the action from the UI control."
+    },
+    "emotional_cognitive_rhythm": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Intended attention, uncertainty, effort, feedback and relief over time."
+    },
+    "visual_interaction_metaphor": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Principal metaphor using governed visual resources; no new visual system implied."
+    },
+    "density_scroll_expectation": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Expected information density, scroll length and maximum-content behavior."
+    },
+    "reference_work_balance": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "What remains available as reference while the learner works, and why."
+    },
+    "authored_writing_burden": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Authored fields, hard maxima, structural sufficiency and concise guidance; justify any pedagogically necessary minimum."
+    },
+    "desktop_mobile_transformation": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Changes in arrangement, reading order, controls and comparisons at existing breakpoints."
+    },
+    "magnetic_experience_moment": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Specific moment of curiosity, agency or meaningful discovery, with a testable rationale."
+    },
+    "reuse_rationale": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Registered patterns/components and variants, their fit and limits; declare System Gaps explicitly."
+    },
+    "difference_from_recent_references": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "Compare dominant action, rhythm, metaphor, density and writing burden with recent references; avoid cosmetic differentiation."
+    },
+    "validation_baseline": {
+      "type": "object",
+      "required": [
+        "id",
+        "universal",
+        "conditional"
+      ],
+      "properties": {
+        "id": {
+          "const": "W2-ACCESSIBILITY-RESILIENCE-BASELINE"
+        },
+        "universal": {
+          "type": "object",
+          "required": [
+            "U01",
+            "U02",
+            "U03",
+            "U04",
+            "U05",
+            "U06",
+            "U07",
+            "U08"
+          ],
+          "properties": {
+            "U01": {
+              "type": "object",
+              "required": [
+                "method",
+                "evidence",
+                "owner"
+              ],
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "owner": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              },
+              "additionalProperties": false
+            },
+            "U02": {
+              "type": "object",
+              "required": [
+                "method",
+                "evidence",
+                "owner"
+              ],
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "owner": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              },
+              "additionalProperties": false
+            },
+            "U03": {
+              "type": "object",
+              "required": [
+                "method",
+                "evidence",
+                "owner"
+              ],
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "owner": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              },
+              "additionalProperties": false
+            },
+            "U04": {
+              "type": "object",
+              "required": [
+                "method",
+                "evidence",
+                "owner"
+              ],
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "owner": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              },
+              "additionalProperties": false
+            },
+            "U05": {
+              "type": "object",
+              "required": [
+                "method",
+                "evidence",
+                "owner"
+              ],
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "owner": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              },
+              "additionalProperties": false
+            },
+            "U06": {
+              "type": "object",
+              "required": [
+                "method",
+                "evidence",
+                "owner"
+              ],
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "owner": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              },
+              "additionalProperties": false
+            },
+            "U07": {
+              "type": "object",
+              "required": [
+                "method",
+                "evidence",
+                "owner"
+              ],
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "owner": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              },
+              "additionalProperties": false
+            },
+            "U08": {
+              "type": "object",
+              "required": [
+                "method",
+                "evidence",
+                "owner"
+              ],
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "owner": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "conditional": {
+          "type": "object",
+          "required": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07"
+          ],
+          "properties": {
+            "C01": {
+              "type": "object",
+              "required": [
+                "applies",
+                "rationale",
+                "validation"
+              ],
+              "properties": {
+                "applies": {
+                  "type": "boolean"
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "validation": {
+                  "type": "object",
+                  "required": [
+                    "method",
+                    "evidence",
+                    "owner"
+                  ],
+                  "properties": {
+                    "method": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "owner": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            },
+            "C02": {
+              "type": "object",
+              "required": [
+                "applies",
+                "rationale",
+                "validation"
+              ],
+              "properties": {
+                "applies": {
+                  "type": "boolean"
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "validation": {
+                  "type": "object",
+                  "required": [
+                    "method",
+                    "evidence",
+                    "owner"
+                  ],
+                  "properties": {
+                    "method": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "owner": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            },
+            "C03": {
+              "type": "object",
+              "required": [
+                "applies",
+                "rationale",
+                "validation"
+              ],
+              "properties": {
+                "applies": {
+                  "type": "boolean"
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "validation": {
+                  "type": "object",
+                  "required": [
+                    "method",
+                    "evidence",
+                    "owner"
+                  ],
+                  "properties": {
+                    "method": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "owner": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            },
+            "C04": {
+              "type": "object",
+              "required": [
+                "applies",
+                "rationale",
+                "validation"
+              ],
+              "properties": {
+                "applies": {
+                  "type": "boolean"
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "validation": {
+                  "type": "object",
+                  "required": [
+                    "method",
+                    "evidence",
+                    "owner"
+                  ],
+                  "properties": {
+                    "method": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "owner": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            },
+            "C05": {
+              "type": "object",
+              "required": [
+                "applies",
+                "rationale",
+                "validation"
+              ],
+              "properties": {
+                "applies": {
+                  "type": "boolean"
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "validation": {
+                  "type": "object",
+                  "required": [
+                    "method",
+                    "evidence",
+                    "owner"
+                  ],
+                  "properties": {
+                    "method": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "owner": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            },
+            "C06": {
+              "type": "object",
+              "required": [
+                "applies",
+                "rationale",
+                "validation"
+              ],
+              "properties": {
+                "applies": {
+                  "type": "boolean"
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "validation": {
+                  "type": "object",
+                  "required": [
+                    "method",
+                    "evidence",
+                    "owner"
+                  ],
+                  "properties": {
+                    "method": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "owner": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            },
+            "C07": {
+              "type": "object",
+              "required": [
+                "applies",
+                "rationale",
+                "validation"
+              ],
+              "properties": {
+                "applies": {
+                  "type": "boolean"
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "validation": {
+                  "type": "object",
+                  "required": [
+                    "method",
+                    "evidence",
+                    "owner"
+                  ],
+                  "properties": {
+                    "method": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "owner": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

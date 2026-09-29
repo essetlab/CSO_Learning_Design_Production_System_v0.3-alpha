@@ -1,0 +1,17 @@
+id: GR-05
+system_version: 0.3-alpha
+build_mode: CONSTRAINED_BUILD
+instructional_pattern: IP-BUILD-REPAIR-01
+template:
+  id: TPL-DEEP-WORKSPACE-01
+composition: CMP-REPAIR-STUDIO-01
+components:
+- SHELL-GR-W1-01
+- UI-SAVE-STATE-01
+- BLK-WORK-ARTIFACT-01
+- INT-BUILD-REPAIR-01
+- SVC-LEARNING-STATE-01
+completion: D && A && R1 && C && R2 && F
+prototype_contract: ../../prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+local_css_allowed: false
+candidate_objects_status: PROTOTYPE

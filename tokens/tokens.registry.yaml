@@ -1,0 +1,12 @@
+registry_version: 0.2.0-alpha
+source: tokens.css
+decisions:
+  focus_offset: 2px
+  shadow_subtle: 0 10px 30px rgba(15,23,42,.08)
+  shadow_feature: 0 16px 42px rgba(15,23,42,.09)
+  type_body: clamp(1rem, calc(0.4vw + 0.88rem), 1.12rem)
+  type_meta: 0.78rem
+  width_standard: 76rem
+  width_wide: 90rem
+  width_immersive: 100rem
+note: Exact display family remains candidate; role is stable.

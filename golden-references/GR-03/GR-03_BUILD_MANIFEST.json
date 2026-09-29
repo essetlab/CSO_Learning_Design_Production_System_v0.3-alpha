@@ -1,0 +1,72 @@
+{
+  "reference_id": "GR-03",
+  "build_id": "BUILD-GR-03-W2-0001",
+  "mode": "CONSTRAINED_BUILD",
+  "system_version": "0.3-alpha",
+  "baseline_system_version": "0.2.2-alpha",
+  "instructional_patterns": [
+    "IP-INTERPRET-01",
+    "IP-PERSPECTIVE-01"
+  ],
+  "learning_blocks": [
+    "BLK-PERSPECTIVE-01",
+    "BLK-QUESTION-01",
+    "BLK-FEEDBACK-01",
+    "BLK-TAKEAWAY-01"
+  ],
+  "interaction": "INT-LABELED-GRAPHIC-01",
+  "composition": "CMP-PERSPECTIVE-01",
+  "template": "TPL-CONCEPT-01",
+  "asset": {
+    "id": "AST-HRBA-GR03-VOICE-SAFETY-EXISTING-01",
+    "path": "assets/courses/hrba/AST-HRBA-GR03-VOICE-SAFETY-EXISTING-01.webp",
+    "disposition": "REUSE_ADAPT_FALLBACK_EXISTING_ASSET"
+  },
+  "candidate_objects_status": "PROTOTYPE",
+  "completion": "all_perspectives_visited && interpretation_submitted && feedback_viewed",
+  "deviations": [
+    "Primary registered candidate VA-012 could not be retrieved as a raw binary from the current project/library surface. The governed fallback rule was used: an existing HRBA voice-and-safety/power image from prior R&D was visually inspected and reused. No new artwork was generated."
+  ],
+  "system_gaps": [],
+  "environment_blockers": [],
+  "static_validation": "PASS",
+  "browser_validation": "PASS",
+  "automated_browser_assertions": 423,
+  "automated_browser_result": "PASS",
+  "actual_200_percent_zoom": "PASS",
+  "validation_evidence": "../../tests/gr03-validation-session.md",
+  "content_stress": {
+    "status": "PASS",
+    "assertions": 116,
+    "viewports": 6,
+    "test_only": true
+  },
+  "final_status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+  "content_limit_authority": "Restored from already-frozen authority supplied in architectural review 2026-09-28",
+  "schema_governance": "RESOLVED_IN_CODE_AWAITING_ARCHITECTURAL_REVIEW: docs/TEMPLATE_SCHEMA_RECONCILIATION.md",
+  "package_integrity_evidence": "tests/package-integrity.json",
+  "relocation_validation": {
+    "date": "2026-09-28",
+    "audit": "tests/gr03-relocation-audit.md",
+    "static_commands_passed": 12,
+    "automated_assertions_passed": 423,
+    "maximum_content_assertions_passed": 116,
+    "browser_evidence": "tests/gr03-browser-validation-relocation.json",
+    "native_evidence": "tests/gr03-relocation-native-zoom.json",
+    "production_changes": false,
+    "final_status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW"
+  },
+  "manual_native_validation": {
+    "source": "user report in chat, 2026-09-28",
+    "evidence": "tests/gr03-native-zoom-validation.json",
+    "result": "PASS",
+    "independent_screenshot_review": false
+  },
+  "refresh_persistence_observation": {
+    "status": "OPEN_NONBLOCKING",
+    "classification": "Unspecified for GR-03/global learning-state in available repository architecture; GR-01 practice-focus has an explicit scoped local persistence requirement.",
+    "evidence": "docs/GR03_REFRESH_PERSISTENCE_OBSERVATION.md",
+    "production_fix": false
+  },
+  "schema_reconciliation_evidence": "tests/schema-reconciliation-summary.json"
+}

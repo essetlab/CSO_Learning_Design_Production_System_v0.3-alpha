@@ -1,0 +1,35 @@
+{
+  "version": "wave1-original-prototype-baselines",
+  "files": [
+    {
+      "file": "GR-01_1440x900_baseline.png",
+      "bytes": 1205727,
+      "sha256": "218ae9ef61734355c320e9ffc7bf6f15b495b7247ea214e8442584c3e6e4d929"
+    },
+    {
+      "file": "GR-01_390x844_baseline.png",
+      "bytes": 176476,
+      "sha256": "d07aea06c354e27f779baa4f5c0946125f1928ca9439e125d294ab7aa6d4a221"
+    },
+    {
+      "file": "GR-02_1440x900_baseline.png",
+      "bytes": 591585,
+      "sha256": "6dd17d499e3cf4da1e7f488405b6aa7c1e67e5dd32e06a17fef538997e27b3a5"
+    },
+    {
+      "file": "GR-02_390x844_baseline.png",
+      "bytes": 202685,
+      "sha256": "a53cb85f2346cee0e4333f87b717590f6a7b5cd79ad375fd3284f9091a3f4728"
+    },
+    {
+      "file": "GR-04_1440x900_baseline.png",
+      "bytes": 676117,
+      "sha256": "488db1d764d151170c8f8c9fe277878fef2bc2911047c51dece74ea8ba3157a2"
+    },
+    {
+      "file": "GR-04_390x844_baseline.png",
+      "bytes": 478807,
+      "sha256": "53852e5288e84e804d0b2c4e16656efb68742a581085ee0ed2e06b43ae90e290"
+    }
+  ]
+}

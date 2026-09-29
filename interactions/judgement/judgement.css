@@ -1,0 +1,2 @@
+.option-row[data-feedback-state="strongest"] { background:var(--color-surface-mint); box-shadow:inset var(--space-1) 0 0 var(--color-brand-teal); }
+.option-row[data-feedback-state="review"] { background:var(--color-feedback-review-surface); box-shadow:inset var(--space-1) 0 0 var(--color-brand-amber); }

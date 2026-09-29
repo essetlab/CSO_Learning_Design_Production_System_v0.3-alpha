@@ -1,0 +1,167 @@
+{
+  "purpose": "SYNTHETIC SEMANTIC-REVIEW EVIDENCE ONLY. Not a model answer, learner/runtime input or approved real-world plan. Awaiting ChatGPT V25 judgment.",
+  "source_hashes": {
+    "tests/gr05-example-work.json": "2e23ccdbf18c21d54ea2220cf629a5e63601da3298a31a755848a17138a94c31",
+    "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json": "6984c281878ed26fe3fa8533d5e43ed8859fda8dd1d49da29f9dccd9539efd75"
+  },
+  "scope": "Only criterion-review responses differ from the historical non-stress example. All case and artifact content is copied unchanged. Synthetic judgments are not the reviewer verdict.",
+  "case": {
+    "source": "R13",
+    "type": "Fictional training case adapted from HRBA Jiru Amba; no real people or project data",
+    "scope": "Market participation and response arrangements before priorities are finalized; not a whole logframe or project redesign",
+    "brief": "Awra is supporting consultation on a service-improvement plan in fictional Jiru Amba. Prepare a practical improvement note for the planning team. Focus on women vendors and persons with disabilities, while recognizing that the full case includes other groups. Show who can influence the decision, what access changes are needed, who responds, and what evidence would demonstrate an effect.",
+    "evidence": [
+      {
+        "id": "E01",
+        "text": "Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.",
+        "source_basis": "R13, case paragraph 3"
+      },
+      {
+        "id": "E02",
+        "text": "Persons with disabilities face an inaccessible venue and long printed documents.",
+        "source_basis": "R13, case paragraph 3"
+      },
+      {
+        "id": "E03",
+        "text": "Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.",
+        "source_basis": "R13, case paragraph 4"
+      },
+      {
+        "id": "E04",
+        "text": "The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.",
+        "source_basis": "R13, case paragraph 4"
+      },
+      {
+        "id": "E05",
+        "text": "Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.",
+        "source_basis": "R13, case paragraph 6"
+      }
+    ],
+    "original_note_provenance": "Deliberately weak exercise adaptation; the four sentences below are proposed GR-05 content, not verbatim approved course text.",
+    "original_note": {
+      "objective": "Improve market services by holding consultations and installing a feedback box.",
+      "participation": "Invite everyone to one public meeting to rank the activities already selected by the planning team.",
+      "accountability": "Awra will collect concerns in the feedback box and handle all decisions after the meeting.",
+      "evidence": "Report success using the number of people attending and the number of feedback boxes installed."
+    },
+    "challenge": {
+      "id": "C01",
+      "release": "After first review and all four v1 rubric responses",
+      "text": "For this exercise, the team cannot add a second large public meeting. Improve your note so affected groups can still influence priorities before the plan is finalized. Keep a feasible response and evidence pathway.",
+      "provenance": "New bounded GR-05 exercise constraint proposed for approval; not an asserted fact from the source case."
+    },
+    "opening_instruction": "Repair this note so affected groups can influence market decisions and receive a response. Use the evidence, write your own improvements, then test and revise your work."
+  },
+  "criteria": [
+    {
+      "id": "Q01",
+      "field": "objective",
+      "question": "Does the objective connect specific rights-holders and barriers to influence or response, rather than only listing activities?",
+      "guidance": "Name whose influence changes and the barrier addressed. Holding another meeting is not, by itself, the change sought."
+    },
+    {
+      "id": "Q02",
+      "field": "participation",
+      "question": "Can the named groups influence priorities before decisions are finalized, with workable timing and accessible information?",
+      "guidance": "Use early accessible information and a feasible small-group or other safe input route. Explain how that input reaches the decision, not just how people attend."
+    },
+    {
+      "id": "Q03",
+      "field": "accountability",
+      "question": "Is a responsible actor distinct from Awra, with a safe response route and a way to communicate what changed?",
+      "guidance": "Do not promise that Awra can make public decisions. Identify the relevant planning or market actor and a non-identifying response process."
+    },
+    {
+      "id": "Q04",
+      "field": "evidence",
+      "question": "Would the evidence show influence or response without identifying people, and can the proposed team check it?",
+      "guidance": "Link a sign of change to a decision or response and an appropriate review point. Counts of attendance or boxes alone are insufficient."
+    }
+  ],
+  "diagnoses": {
+    "objective": "Meetings count activity, not whose priorities influence decisions.",
+    "participation": "Timing and inaccessible documents exclude vendors and disabled participants; preset options prevent influence.",
+    "accountability": "Awra cannot replace public decision-makers; concerns need a named response route.",
+    "evidence": "Attendance cannot show influence, safe access or whether concerns received responses."
+  },
+  "links": {
+    "objective": [
+      "E03",
+      "E04"
+    ],
+    "participation": [
+      "E01",
+      "E02",
+      "E03"
+    ],
+    "accountability": [
+      "E04",
+      "E05"
+    ],
+    "evidence": [
+      "E02",
+      "E04"
+    ]
+  },
+  "draft": {
+    "objective": "Enable women vendors and persons with disabilities to propose market priorities before the planning team finalizes decisions, and explain which proposals influenced the plan.",
+    "participation": "Ask vendors about suitable times and participants about access needs. Hold an accessible discussion using spoken summaries. Invite additional priorities, including stall allocation and budget influence. Check proposed priorities with affected groups before decisions.",
+    "accountability": "Awra facilitates input and records concerns with consent. Ask the responsible public planning officer to confirm a response date and explain decisions through accessible channels. Identify an escalation route with participants if no response arrives.",
+    "evidence": "Record suggested priorities and resulting plan changes without identifying contributors. Ask participants privately whether they could influence choices. Track responses and unresolved concerns, with access limited to agreed staff."
+  },
+  "revision": {
+    "participation": "Use short visits at vendor-agreed times and accessible small conversations before finalization, without a second large meeting. Offer spoken summaries and a confidential way to add priorities. Ask women vendors and disabled participants to check the combined priorities before the planning team decides.",
+    "evidence": "Keep a de-identified proposal-to-decision record from the visits and small conversations. Ask each group whether the summary reflects its priorities. Track the officer's response and unresolved points; agree access and deletion arrangements before collecting sensitive details."
+  },
+  "current": {
+    "objective": "Enable women vendors and persons with disabilities to propose market priorities before the planning team finalizes decisions, and explain which proposals influenced the plan.",
+    "participation": "Use short visits at vendor-agreed times and accessible small conversations before finalization, without a second large meeting. Offer spoken summaries and a confidential way to add priorities. Ask women vendors and disabled participants to check the combined priorities before the planning team decides.",
+    "accountability": "Awra facilitates input and records concerns with consent. Ask the responsible public planning officer to confirm a response date and explain decisions through accessible channels. Identify an escalation route with participants if no response arrives.",
+    "evidence": "Keep a de-identified proposal-to-decision record from the visits and small conversations. Ask each group whether the summary reflects its priorities. Track the officer's response and unresolved points; agree access and deletion arrangements before collecting sensitive details."
+  },
+  "rationale": "Short visits replace another large meeting while preserving pre-decision influence. The revised evidence record links those conversations to decisions and responses; consent and deletion arrangements still need confirmation.",
+  "firstCriterionReview": {
+    "Q01": {
+      "judgment": "addressed",
+      "reason": "The objective names women vendors and persons with disabilities and connects their proposals to planning decisions, replacing meeting counts with intended influence.",
+      "followUp": "Check that the final note keeps these groups and the proposed decision change explicit."
+    },
+    "Q02": {
+      "judgment": "needs_follow_up",
+      "reason": "The draft invites additional priorities before decisions and proposes suitable times and spoken summaries, but its discussion format leaves practical access arrangements unspecified.",
+      "followUp": "Check suitable times and accessible ways to contribute with the named groups before arranging the discussion."
+    },
+    "Q03": {
+      "judgment": "needs_follow_up",
+      "reason": "Awra facilitates and records concerns while a public planning officer responds. The draft requests a response date and escalation route but does not establish either.",
+      "followUp": "Confirm who can respond, the response date and the escalation route with participants and the responsible public actor."
+    },
+    "Q04": {
+      "judgment": "needs_follow_up",
+      "reason": "Priority changes and unresolved concerns could show influence and response beyond attendance. Non-identifying records and consent are proposed, but safe retention and access arrangements remain broad.",
+      "followUp": "Clarify who may access the records and when they should be deleted before collecting sensitive information."
+    }
+  },
+  "finalCriterionReview": {
+    "Q01": {
+      "judgment": "addressed",
+      "reason": "The unchanged objective still names both groups and the intended influence on the plan. The revision changes the input method without replacing that intended outcome with activity counts.",
+      "followUp": "When checking the combined priorities, retain the connection between these groups’ proposals and the eventual planning decisions."
+    },
+    "Q02": {
+      "judgment": "addressed",
+      "reason": "Short visits and accessible small conversations replace another large meeting. The draft includes spoken summaries, confidential input and checking combined priorities with both groups before the planning team decides.",
+      "followUp": "Check whether the proposed times, summaries and confidential input route are usable by the participants concerned."
+    },
+    "Q03": {
+      "judgment": "needs_follow_up",
+      "reason": "The unchanged accountability section keeps Awra in a facilitation role and assigns responses to a public planning officer. A confirmed response date and escalation route are still missing.",
+      "followUp": "Confirm the responsible officer’s response date and agree how participants can escalate an unanswered concern."
+    },
+    "Q04": {
+      "judgment": "needs_follow_up",
+      "reason": "The revised proposal-to-decision record connects conversations to changes and tracks responses. De-identification and agreed access and deletion are proposed, but those arrangements are not yet settled.",
+      "followUp": "Agree access and deletion arrangements before sensitive details are collected, and check that the record can show decisions without identifying contributors."
+    }
+  }
+}

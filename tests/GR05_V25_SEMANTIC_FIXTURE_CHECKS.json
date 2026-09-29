@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "scope": "Evidence isolation, exact artifact preservation, existing structural T/maxima and completion compatibility only; no automated semantic grade or browser regression rerun.",
+  "checks": [
+    {
+      "name": "fixture explicitly synthetic semantic-review evidence only",
+      "passed": true
+    },
+    {
+      "name": "unchanged approved diagnoses",
+      "passed": true
+    },
+    {
+      "name": "unchanged approved links",
+      "passed": true
+    },
+    {
+      "name": "unchanged approved draft",
+      "passed": true
+    },
+    {
+      "name": "unchanged approved revision",
+      "passed": true
+    },
+    {
+      "name": "unchanged approved rationale",
+      "passed": true
+    },
+    {
+      "name": "frozen case including evidence/original/C01 unchanged",
+      "passed": true
+    },
+    {
+      "name": "frozen criteria unchanged",
+      "passed": true
+    },
+    {
+      "name": "v2 is exactly existing v1 plus existing revisions",
+      "passed": true
+    },
+    {
+      "name": "source hash tests/gr05-example-work.json",
+      "passed": true
+    },
+    {
+      "name": "source hash prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "firstCriterionReview has exactly Q01â€“Q04",
+      "passed": true
+    },
+    {
+      "name": "firstCriterionReview reasons and follow-ups are distinct",
+      "passed": true
+    },
+    {
+      "name": "firstCriterionReview Q01 reason: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 22
+      }
+    },
+    {
+      "name": "firstCriterionReview Q01 followUp: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 14
+      }
+    },
+    {
+      "name": "firstCriterionReview Q02 reason: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 23
+      }
+    },
+    {
+      "name": "firstCriterionReview Q02 followUp: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 16
+      }
+    },
+    {
+      "name": "firstCriterionReview Q03 reason: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 25
+      }
+    },
+    {
+      "name": "firstCriterionReview Q03 followUp: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 18
+      }
+    },
+    {
+      "name": "firstCriterionReview Q04 reason: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 26
+      }
+    },
+    {
+      "name": "firstCriterionReview Q04 followUp: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 16
+      }
+    },
+    {
+      "name": "finalCriterionReview has exactly Q01â€“Q04",
+      "passed": true
+    },
+    {
+      "name": "finalCriterionReview reasons and follow-ups are distinct",
+      "passed": true
+    },
+    {
+      "name": "finalCriterionReview Q01 reason: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 28
+      }
+    },
+    {
+      "name": "finalCriterionReview Q01 followUp: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 17
+      }
+    },
+    {
+      "name": "finalCriterionReview Q02 reason: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 29
+      }
+    },
+    {
+      "name": "finalCriterionReview Q02 followUp: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 16
+      }
+    },
+    {
+      "name": "finalCriterionReview Q03 reason: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 28
+      }
+    },
+    {
+      "name": "finalCriterionReview Q03 followUp: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 15
+      }
+    },
+    {
+      "name": "finalCriterionReview Q04 reason: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 26
+      }
+    },
+    {
+      "name": "finalCriterionReview Q04 followUp: T and 35-word maximum",
+      "passed": true,
+      "details": {
+        "words": 21
+      }
+    },
+    {
+      "name": "unchanged diagnosis and draft satisfy existing bounds/T/links",
+      "passed": true
+    },
+    {
+      "name": "v1 review starts",
+      "passed": true
+    },
+    {
+      "name": "first criterion round satisfies existing contract",
+      "passed": true
+    },
+    {
+      "name": "C01 release allowed",
+      "passed": true
+    },
+    {
+      "name": "unchanged connected revision satisfies contract",
+      "passed": true
+    },
+    {
+      "name": "final review starts",
+      "passed": true
+    },
+    {
+      "name": "acknowledgment allowed",
+      "passed": true
+    },
+    {
+      "name": "existing completion allows unresolved follow-up",
+      "passed": true
+    },
+    {
+      "name": "completed state remains schema-valid",
+      "passed": true
+    },
+    {
+      "name": "packet contains exact fixture review text",
+      "passed": true
+    },
+    {
+      "name": "packet includes unchanged authored artifact",
+      "passed": true
+    },
+    {
+      "name": "no runtime dependency on semantic fixture or packet",
+      "passed": true
+    },
+    {
+      "name": "existing browser regression runners still use historical fixture only",
+      "passed": true
+    },
+    {
+      "name": "protected production/candidates/automated evidence/historical packet unchanged",
+      "passed": true,
+      "details": {
+        "files": 111,
+        "changed": []
+      }
+    },
+    {
+      "name": "governed review pass recorded",
+      "passed": true
+    },
+    {
+      "name": "V05 and V25 review passes recorded",
+      "passed": true
+    }
+  ]
+}

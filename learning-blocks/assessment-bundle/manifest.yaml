@@ -1,0 +1,8 @@
+id: BLK-ASSESSMENT-BUNDLE-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: block
+ownership: Artifact identity/version/provenance, criterion links, gap representation,
+  comparison and export. No assessment outcome or completion authority.
+frozen_contract: prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+engine: assessment-bundle.js

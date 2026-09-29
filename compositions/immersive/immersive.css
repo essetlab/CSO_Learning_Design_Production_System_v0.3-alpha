@@ -1,0 +1,3 @@
+.cso-immersive-split { min-height:min(47rem,calc(100vh - 4.5rem)); display:grid; grid-template-columns:minmax(24rem,43%) minmax(0,57%); overflow:hidden; }
+@media(max-width:68rem){ .cso-immersive-split{grid-template-columns:minmax(21rem,47%) minmax(0,53%);} }
+@media(max-width:48rem){ .cso-immersive-split{min-height:0;display:flex;flex-direction:column;} }

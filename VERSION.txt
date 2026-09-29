@@ -1,0 +1,3 @@
+CSO Learning Design & Production System
+Version: 0.3-alpha
+Status: Wave 2 GR-03 prototype extension

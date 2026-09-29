@@ -1,0 +1,10 @@
+system: CSO Learning Design & Production System
+version: 0.3-alpha
+status: wave-2-prototype-extension
+date: '2026-09-28'
+basis:
+- Gate 1-8 architecture
+- Wave 1 System Review
+- Repository Alpha v0.2.2 hardening
+- GR-03 governed Wave 2 prototype objects
+release_authority: not-production-v1

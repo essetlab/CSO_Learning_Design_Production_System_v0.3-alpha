@@ -1,0 +1,10 @@
+id: INT-EVIDENCE-DECISION-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: interaction
+ownership: E/I/D/U/A/R/F, immutable v1, update release, invalidation and acknowledgment.
+  Sole completion owner.
+cross_course_validation: not-yet-tested
+frozen_contract: prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+engine: evidence-decision.js
+model: model.js

@@ -1,0 +1,545 @@
+{
+  "status": "RESOURCE_PREFLIGHT_FOR_ARCHITECTURAL_REVIEW",
+  "date": "2026-09-28",
+  "repository": "D:/CSO_Learning_Design_Production_System_v0.3-alpha",
+  "schema_correction_commit": "300362b72f714ea152d0b7812c42906938acb24c",
+  "branch": "gate8/wave2/gr05-deep-build-repair",
+  "external_roots_read_only": {
+    "mighty": {
+      "path": "D:/templates_elearning_resource_pack",
+      "head": "e5569a9097091cab97f2c57ddadfa9fa69e07743"
+    },
+    "hrba": {
+      "path": "D:/eLearn_CDP_Lg",
+      "head": "de8a8857f27a903662c417998f73a09bbf1cdc9d"
+    },
+    "pm": {
+      "path": "D:/pm-certified-release-20260924",
+      "head": "8a6dabd3e8e8dc763eb3289a57472edc7d575871"
+    }
+  },
+  "note": "Hashes identify inspected local files, not proof of upstream acceptance or a runtime dependency. No external source was modified or ingested. Relevant source sections were inspected; unrelated repository contents were not exhaustively audited.",
+  "resources": [
+    {
+      "source_id": "R01",
+      "title": "Existing tokens and accessibility foundations",
+      "disposition": "REUSE DIRECTLY",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Existing global values and focus/motion baseline; no new tokens proposed.",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/tokens/tokens.css",
+          "bytes": 1924,
+          "sha256": "723c3f989b8be2c2a489a3bd4ca99603754c94e40e69abad250f79cc4258beb5"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/foundations/base.css",
+          "bytes": 1888,
+          "sha256": "ed01107fa26f2d198e1d9e3619a60e06c4aa1d3c8a3e9c536fb60aa95e421864"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/foundations/accessibility.css",
+          "bytes": 746,
+          "sha256": "e14e5979cd6fcf02a45fa0e0ee55d7cfdf8e111280bea88741921ec34205205e"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/foundations/motion.css",
+          "bytes": 245,
+          "sha256": "5b29a9f1b5a895f24192e01673a106165157e8d5d7807c81ce6d3d6e7b583444"
+        }
+      ]
+    },
+    {
+      "source_id": "R02",
+      "title": "Shared shell and basic UI",
+      "disposition": "REUSE DIRECTLY",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Keep shell, buttons, status, progress and navigation semantics; workspace state must use an approved shared interface, not rewrite the shell.",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/shell/course-shell.js",
+          "bytes": 4811,
+          "sha256": "2b62eafb0f1006caf75e4862457db6e496334b4d160931800b353f92764155fa"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/shell/course-shell.css",
+          "bytes": 5289,
+          "sha256": "85b13283f4576c9cc3a089863a1b16fc90fb4ae507ddcaa3e8bc39bc873e057b"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/components.json",
+          "bytes": 2538,
+          "sha256": "8caf1d474d5456f1573e1494afd0256849e1e3bd8595828eb4e155ee81ccadd7"
+        }
+      ]
+    },
+    {
+      "source_id": "R03",
+      "title": "Existing explanatory, evidence and feedback blocks",
+      "disposition": "ADAPT",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Adapt content to an editable document workflow; case-evidence remains prototype, other status per registry.",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/case-evidence/manifest.yaml",
+          "bytes": 89,
+          "sha256": "a4a0a08658fc3f69981e4ef608688af212c7a72019bf9e9c25f25a8b470740fe"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/feedback/manifest.yaml",
+          "bytes": 91,
+          "sha256": "7aa84d834961b8fd72cdacd70b4dc882700c41c6a494807531ba223356397e63"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/takeaway/manifest.yaml",
+          "bytes": 91,
+          "sha256": "e900f0f51820aabc5da75e3f274c9edf6485140b524d7053cfc2775cf7255b30"
+        }
+      ]
+    },
+    {
+      "source_id": "R04",
+      "title": "GR-03 perspective pattern and GR-04 judgment",
+      "disposition": "REFERENCE ONLY",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Useful evidence/feedback discipline, insufficient for authored multi-version output; no candidate promotion.",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/golden-references/GR-03/spec.yaml",
+          "bytes": 607,
+          "sha256": "bfeef93a30b8883df0969b8c18686c2c94216326951b32f21ac2001b6355bcce"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/golden-references/GR-04/spec.yaml",
+          "bytes": 473,
+          "sha256": "44158356cea99ef25be44d9088e6e465da23e777ccefe0e75c842e71c90b8138"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/labeled-graphic/labeled-graphic.js",
+          "bytes": 8257,
+          "sha256": "932193f0422046292bb61f55450b3dbcbff72150470b644cb4db265f617dbce6"
+        }
+      ]
+    },
+    {
+      "source_id": "R05",
+      "title": "Single-choice interaction as the GR-05 backbone",
+      "disposition": "REJECT",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Selecting a prepared answer cannot demonstrate building and revising a professional artifact.",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/choice/single-choice-feedback.js",
+          "bytes": 3587,
+          "sha256": "576e555fda0a0e14797cef59488c66a0025ccf71581a78c00aa0ae0fc4d24a1b"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/judgement/single-choice-feedback.js",
+          "bytes": 3587,
+          "sha256": "576e555fda0a0e14797cef59488c66a0025ccf71581a78c00aa0ae0fc4d24a1b"
+        }
+      ]
+    },
+    {
+      "source_id": "R06",
+      "title": "GR-01 scoped local save and current shared-state gap",
+      "disposition": "HARVEST PATTERN",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Harvest storage-failure tolerance and truthful save status; it is not an artifact-version store.",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/practice/practice-focus/practice-focus.js",
+          "bytes": 1754,
+          "sha256": "615e604f4b2269a4332665eb084aa81dfb8a85d52081d00bea8a6064da8d563e"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/ui/save-state/manifest.yaml",
+          "bytes": 112,
+          "sha256": "11a6aa599b4f51244eb4aae854a3a265a8dd28e000b2e92c2b00f55e737c16bd"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/docs/GR03_REFRESH_PERSISTENCE_OBSERVATION.md",
+          "bytes": 3027,
+          "sha256": "b52c5a105a9f74a7b3f2f47e445861c109433341110de3835ef1c9d21fc95362"
+        }
+      ]
+    },
+    {
+      "source_id": "R07",
+      "title": "Mighty catalog, selection and governance",
+      "disposition": "REFERENCE ONLY",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Pack source IDs are not local registered objects; dated readiness counts are historical.",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/01-template-catalog-detailed.md",
+          "bytes": 139913,
+          "sha256": "84b4b666c830073bc6a597beac5de762b13a007db6e545caee063683917654c3"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/02-template-selection-matrix.md",
+          "bytes": 3459,
+          "sha256": "f3f7e6dc6ff787432c7c38e4ce58a21f2a8190ab8dbea11f3cbf29138e3081ad"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/03-hrba-use-case-map.md",
+          "bytes": 4421,
+          "sha256": "f42ef78c9e55130556301eae8cd6b39d789d944b763d24e9ca5c34e198af47b2"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/04-ai-usage-guide.md",
+          "bytes": 2026,
+          "sha256": "1c35ce6b0ada0eadf1b2aaf39de0ed6cea29d9ab3a8ad16f68505790bb291913"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/reports/final-readiness-report.md",
+          "bytes": 4576,
+          "sha256": "b60abde7f888593af7b5e02a60a23d97c51ea8c8c121fdd2eac74db3253aa333"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/manifests/asset-manifest.json",
+          "bytes": 175561,
+          "sha256": "67b3626e81962f805dc64fbab18f9cff38139fa344a47724d0f037cba5a4d5e9"
+        }
+      ]
+    },
+    {
+      "source_id": "R08",
+      "title": "Mighty TPL-LAY-003 Content Rows",
+      "disposition": "HARVEST PATTERN",
+      "inspection": "Catalog plus visual inspection of preview; no reusable code established",
+      "reason": "Field-aligned label/value rows suit repair comparison; retain semantics, replace vendor styling.",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/images/layouts/TPL-LAY-003-content-rows.png",
+          "bytes": 29818,
+          "sha256": "bce54ba5db37f6a293b92a8a7d0dd2f098e429b6f2aa1a168d546f66bed929c7"
+        }
+      ]
+    },
+    {
+      "source_id": "R09",
+      "title": "Mighty TPL-ACC-008 Reveal table",
+      "disposition": "HARVEST PATTERN",
+      "inspection": "Catalog plus visual inspection of preview; no reusable code established",
+      "reason": "Aligned comparison and progressive detail; do not hide mandatory repair/feedback behind reveals.",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/images/tabs-accordions/TPL-ACC-008-reveal-table-content.jfif",
+          "bytes": 77412,
+          "sha256": "f9761329d5cad1a8e97ed9972d7b7fd3dba77fc22f782b2b1e64f70138477530"
+        }
+      ]
+    },
+    {
+      "source_id": "R10",
+      "title": "Mighty TPL-REF-002 Stacked Reflection",
+      "disposition": "HARVEST PATTERN",
+      "inspection": "Catalog plus visual inspection of preview; no reusable code established",
+      "reason": "Labeled editable fields, output and save/download affordances; screenshot does not prove storage mechanics.",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/images/reflections/TPL-REF-002-condensed-stacked-reflection-block.png",
+          "bytes": 313696,
+          "sha256": "d532262a01abc25ebc3b31a13bf49b0cc68d07019819051a9cf737baba1afe13"
+        }
+      ]
+    },
+    {
+      "source_id": "R11",
+      "title": "Mighty TPL-ACC-009 / TRANS-001 / SCEN-002",
+      "disposition": "REFERENCE ONLY",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Stage orientation, narrow-screen disclosure and guidance are supporting ideas, not a complete studio. Catalog review only; not code audited.",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/01-template-catalog-detailed.md",
+          "bytes": 139913,
+          "sha256": "84b4b666c830073bc6a597beac5de762b13a007db6e545caee063683917654c3"
+        }
+      ]
+    },
+    {
+      "source_id": "R12",
+      "title": "Mighty comparison slider and card/flip paradigms as primary workspace",
+      "disposition": "REJECT",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Image comparison cannot edit semantic text; flip/reveal completion is shallow for this task. No claim these sources are globally unsuitable.",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/02-template-selection-matrix.md",
+          "bytes": 3459,
+          "sha256": "f3f7e6dc6ff787432c7c38e4ce58a21f2a8190ab8dbea11f3cbf29138e3081ad"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/01-template-catalog-detailed.md",
+          "bytes": 139913,
+          "sha256": "84b4b666c830073bc6a597beac5de762b13a007db6e545caee063683917654c3"
+        }
+      ]
+    },
+    {
+      "source_id": "R13",
+      "title": "HRBA fictional Jiru Amba case",
+      "disposition": "ADAPT",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Use evidence about low influence, access, responsibility and activity counts; narrow scope to market participation. New case challenge is explicitly authored, not a source fact.",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/src/data/module3/jiruAmbaCaseNarrative.ts",
+          "bytes": 5462,
+          "sha256": "96a38c7a8e058fded0d9c4ccfd50e2f543646a3cb1263b32bd45b32426b2deda"
+        }
+      ]
+    },
+    {
+      "source_id": "R14",
+      "title": "HRBA integrated Project Design Repair",
+      "disposition": "HARVEST PATTERN",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Harvest staged repair, generated package and stale-output invalidation. Mandatory prepared-answer gates and monolithic React renderer are not copied.",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/src/components/course/Module3RevisedRenderer.tsx",
+          "bytes": 924159,
+          "sha256": "b5c62f8e3fb65059c8dd9dae49b48783712e33a847cb6fc2448682427f3a4482"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/src/data/module3/module3RevisedScreens.ts",
+          "bytes": 12387,
+          "sha256": "bf19f29dfdeddee5fb534be90e72b992dc99d9cf7edc1757d3789757da2d13f5"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/docs/hrba-latest-pilot-release-candidate-report.md",
+          "bytes": 3554,
+          "sha256": "0647f8e206dca519e39fad8e47d0a1c8a53e6a3e99c9c3f557f5edc9ca6ed9bc"
+        }
+      ]
+    },
+    {
+      "source_id": "R15",
+      "title": "HRBA completed repair and own-project screenshots",
+      "disposition": "REFERENCE ONLY",
+      "inspection": "Visual inspection",
+      "reason": "Visual evidence of output and editable fields; screenshots are partial scrolled states, not a new accessibility certification.",
+      "files": [
+        {
+          "path": "D:/Module 3 Final Pilot Version Full Screenshots/M3_14_HRBA_Project_Design_Repair_09_generated_repair_package.png",
+          "bytes": 254694,
+          "sha256": "861e15661dc16a60f6d7aaeeafaee0539b7c1049229b4368221fd9826bb333b3"
+        },
+        {
+          "path": "D:/Module 3 Final Pilot Version Full Screenshots/M3_14_HRBA_Project_Design_Repair_10_own_project_inputs.png",
+          "bytes": 241230,
+          "sha256": "793ea12987f67616659f3d4794e5781efa118549186592cdababa1501677af8b"
+        }
+      ]
+    },
+    {
+      "source_id": "R16",
+      "title": "HRBA reusable objective/activity/logic/section-repair templates",
+      "disposition": "ADAPT",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Strongest artifact content structure: weakness, barrier, repaired version, role, safe evidence and carry-forward; condense to a bounded note.",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/public/assets/resources/module-3/hrba-objective-repair-template.md",
+          "bytes": 537,
+          "sha256": "df5378d1baef58b51404b22243bd520deab16c7a11577e6b442454fad306c6eb"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/public/assets/resources/module-3/hrba-activity-package-repair-template.md",
+          "bytes": 501,
+          "sha256": "bc79400028a3f9b969c3fcc3ddadef84368c4cd7d9e6bb8c399c6b1c982859b2"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/public/assets/resources/module-3/hrba-intervention-logic-mini-matrix-template.md",
+          "bytes": 546,
+          "sha256": "b264e0bc6c3f26148c2acd84f3fcdf9f3bb9b2e3753826b52af1eba85eb1741b"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/public/assets/resources/module-3/plan-section-repair-template.md",
+          "bytes": 336,
+          "sha256": "439e6ef1d21229c1c1b61cd3553574113401ce3712ff4874e110252438709b8f"
+        }
+      ]
+    },
+    {
+      "source_id": "R17",
+      "title": "HRBA learning-state infrastructure",
+      "disposition": "HARVEST PATTERN",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Versioned state and failure handling are external precedents. No automatic authority over the current shared repository and no import of learner data.",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/src/state/learningState.ts",
+          "bytes": 13603,
+          "sha256": "1166771e2a95227bca502d49c08a248c663d528b829d27858a0040fcca25dbea"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/docs/specs/06_COMPONENT_AND_STATE_MODEL.md",
+          "bytes": 2043,
+          "sha256": "eddfa40314f1e453e70273e5eb490bd743a4f4bee2383ca42a117b190de50ae4"
+        }
+      ]
+    },
+    {
+      "source_id": "R18",
+      "title": "PM accepted connected-plan repair",
+      "disposition": "HARVEST PATTERN",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Use diagnose-before-repair, dependency coherence and authentic records. Accepted PM context is not HRBA content authority.",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/module3/FinalModule3Plan.tsx",
+          "bytes": 50106,
+          "sha256": "cceb3442ff6a6da2482df5721273a33cbab80d460580352bfd35bb7b2122adb4"
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/config/screens.json",
+          "bytes": 61348,
+          "sha256": "9e7759f30dd4fea09424bf7ee25a2d107d535754850c259a93f421ee8729ec37"
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/docs/exec-plans/current/final-module3-plan-transformation.md",
+          "bytes": 24883,
+          "sha256": "75a02fa93c975d25a6c46b35b9a00f5d9bc285de1109a9a4af7febc3b6761c3a"
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/docs/00-project/source-authority.md",
+          "bytes": 3265,
+          "sha256": "7abfc7142ac1575a5fe9cc9f15c684324776b48d7f651be061d77d25fb7f3297"
+        }
+      ]
+    },
+    {
+      "source_id": "R19",
+      "title": "PM change-control invalidation",
+      "disposition": "HARVEST PATTERN",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Changing upstream decisions clears dependent reviewed states; retain user work while invalidating approval. Do not import PM answer gates.",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/module4/PmM403ChangeControl.tsx",
+          "bytes": 14267,
+          "sha256": "bf1ec3cad0c16d47054815aed47efffc3911d3a171b7207035da997661fd18dc"
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/app/tests/MODULE_4_TEST_AUTHORITY.md",
+          "bytes": 7784,
+          "sha256": "1d34cac51fcba46c1fa98fc4217754f73f4cdcaa4487036342d0409bf9d00fe2"
+        }
+      ]
+    },
+    {
+      "source_id": "R20",
+      "title": "PM local screen state",
+      "disposition": "HARVEST PATTERN",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Local unavailable-storage fallback; generic typing alone is not payload validation and does not solve concurrent edits or durable artifact export.",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/integration/screenStateStorage.ts",
+          "bytes": 1100,
+          "sha256": "24195dddc3d9608d8fc813dfa990561ef939f424ff27f39f355272bd97767739"
+        }
+      ]
+    },
+    {
+      "source_id": "R21",
+      "title": "PM tool pack and Hub/HRBA reuse audit",
+      "disposition": "REFERENCE ONLY",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Tool association and optional downloads are useful precedent. Office binaries were inventoried, not content-audited; no copy selected. Prior deployment statements are historical, not reverified live.",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/app/public/assets/downloads/tool-pack/README.md",
+          "bytes": 1418,
+          "sha256": "dbd5a857511526965fccb918255caef1a9e1f8ca5f8c0e1dc1fe2bffffc3fc0f"
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/docs/00-project/hrba-reference-audit.md",
+          "bytes": 4573,
+          "sha256": "6cb7d69e7901e565ca1ed5571e3c667146778a8f6a202cf12368cd8602bf3a9f"
+        }
+      ]
+    },
+    {
+      "source_id": "R22",
+      "title": "Existing HRBA registered illustrations",
+      "disposition": "REFERENCE ONLY",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "Available approved-source/prototype assets; no new hero needed for an artifact-centered workspace. Asset register/path inspection, not fresh image evaluation.",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/assets.json",
+          "bytes": 755,
+          "sha256": "3448c238571d87cceb950a6b9c70838c2db1411d35477e82cdc81c18e3e5195f"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/assets/courses/hrba/AST-HRBA-GR01-HERO-EXISTING-01.png",
+          "bytes": 2391839,
+          "sha256": "189b444e96874d685243a0b648f12e4cbdf69f6a433fc1a2bfcd8be38354ce96"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/assets/courses/hrba/AST-HRBA-GR03-VOICE-SAFETY-EXISTING-01.webp",
+          "bytes": 127634,
+          "sha256": "3381cb743bbfb7b05dd0cb4cb8730673665fa7b02e5c967065da39ae596f5331"
+        }
+      ]
+    },
+    {
+      "source_id": "R23",
+      "title": "Existing partner branding inventory",
+      "disposition": "REFERENCE ONLY",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "File availability only; not copied or assigned GR-05 authority. Keep current shared shell branding; do not copy donor bars from course screenshots.",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/public/assets/brand/logos/dec-logo.png",
+          "bytes": 40974,
+          "sha256": "e84f4d0583612cd302151129eb18d283b2d0bbb07f4b70b5d60992b9aaba7bbb"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/public/assets/brand/partners/eu-logo.png",
+          "bytes": 971935,
+          "sha256": "47db4c4ea2e28e9df9692470c369c47b4c21a96c0c48dceea2596e2de0f722c4"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/public/assets/brand/partners/whh-logo.png",
+          "bytes": 779556,
+          "sha256": "3e528254a00cd1e506fa0bbe3b379c4f07c8ef417fb5edc36423fc47aba88430"
+        }
+      ]
+    },
+    {
+      "source_id": "R24",
+      "title": "Registered patterns/templates lack a deep repair studio",
+      "disposition": "SYSTEM GAP",
+      "inspection": "Source/configuration inspection; not a fresh runtime QA pass",
+      "reason": "No registered authored-artifact editor, review-snapshot comparison or versioned draft service; propose explicit gaps G05-01/02/03, pending architecture.",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/patterns.json",
+          "bytes": 479,
+          "sha256": "65d387964f9dc66f00d991f1b26701f7602062ccce4b827ea54c23419933a576"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/templates.json",
+          "bytes": 641,
+          "sha256": "4cadbd9e25121da7a0bbef63a04ae1f1eea0f74c6bb48d44d1b3d004bab273da"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/compositions.json",
+          "bytes": 393,
+          "sha256": "9d008c7c63aad3260c67b517e77df3446718676e12f5cd09f503b9515b4d60df"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/docs/system-gap-process.md",
+          "bytes": 310,
+          "sha256": "1166162e73538e9ab90497801c739e019fd66382c32b2f750afea663a63dfa64"
+        }
+      ]
+    }
+  ]
+}

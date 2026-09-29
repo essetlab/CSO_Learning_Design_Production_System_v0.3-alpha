@@ -1,0 +1,245 @@
+- main:
+  - paragraph: EVIDENCE TO DECISION
+  - heading "Decide what the evidence supports" [level=1]
+  - paragraph: Before the next market consultation round in fictional Jiru Amba, review what the first-round records do and do not show. Recommend a feasible step to improve influence and response before priorities are finalized. Later verification will test your reasoning.
+  - paragraph: Fictional training case · approximately 20–30 minutes. Concise phrases welcome; maxima are limits, not targets. Structure checks do not judge the quality of your reasoning.
+  - navigation "Evidence and decision stages":
+    - button "1. Evidence"
+    - text: Always available
+    - button "2. Interpretation"
+    - text: Complete the five source notes first
+    - button "3. Decision v1"
+    - text: Complete both interpretation roles first
+    - button "4. Adaptation"
+    - text: Capture decision v1 first
+    - button "5. Compare and review"
+    - text: Respond to U01 and begin review first
+  - complementary "Evidence sources and limitations":
+    - heading "Evidence and limits" [level=2]
+    - paragraph: Before the next market consultation round in fictional Jiru Amba, review what the first-round records do and do not show. Recommend a feasible step to improve influence and response before priorities are finalized. Later verification will test your reasoning.
+    - group:
+      - text: G6-E01
+      - paragraph: Fictional round-1 facilitation log
+      - paragraph: One consultation round; attendance only
+      - paragraph: The log records 40 attendees, including 24 women vendors. It does not record who influenced priorities or who left early.
+      - paragraph: "Limitation: Attendance is not influence; no denominator for all eligible vendors or comparable prior-round count."
+    - group:
+      - text: G6-E02
+      - paragraph: Fictional facilitator summary of six voluntary comments
+      - paragraph: Six self-selected comments; no population estimate
+      - paragraph: Four of the six comments mention leaving before priorities were discussed because trading time was affected. The other two comments do not address timing.
+      - paragraph: "Limitation: Do not infer that four out of six represents all vendors, or infer the identities of commenters."
+    - group:
+      - text: G6-E03
+      - paragraph: Fictional pre-meeting access checklist
+      - paragraph: Venue and materials check only
+      - paragraph: The entrance was accessible on the day checked. The circulated priority list was available only as a long printed document. No check of alternative formats is recorded.
+      - paragraph: "Limitation: An accessible entrance does not establish usable information or access for every participant."
+    - group:
+      - text: G6-E04
+      - paragraph: Fictional planning-team summary
+      - paragraph: Eight general suggestions; administrative status
+      - paragraph: Eight suggestions were logged. Six are marked closed and two pending. The summary does not say whether closed means a decision was explained to the people who raised a suggestion.
+      - paragraph: "Limitation: Closure does not establish response receipt or that a proposal influenced a decision."
+    - group:
+      - text: G6-E05
+      - paragraph: Fictional exercise brief
+      - paragraph: Boundary for this exercise; not a legal mandate
+      - paragraph: The next priorities have not yet been finalized. Awra can facilitate input and request explanations; the public planning team makes the planning decisions. No new large meeting is available before finalization.
+      - paragraph: "Limitation: Awra cannot promise a public decision. Proposed alternatives need feasible access and a route into the decision."
+    - group:
+      - text: G6-U01
+      - paragraph: Later verification — fictional exercise
+      - paragraph: New synthetic exercise evidence proposed for review; not an actual HRBA project event.
+      - paragraph: A later check of the same eight suggestions finds that only two of the six marked closed have a recorded explanation sent back. The other four were closed after internal discussion, without a recorded account-back step. Receipt of the two sent explanations is still unverified.
+      - paragraph: "Limitation: This clarifies recorded process, not whether people received or understood a response or whether decisions were fair. No identities or complaint details are supplied."
+    - heading "Interpretive guidance" [level=3]
+    - paragraph: Attendance alone does not establish influence.
+    - paragraph: A self-selected comment sample does not establish prevalence.
+    - paragraph: A closed administrative record does not establish receipt of an explanation.
+    - paragraph: A recommendation must respect who can decide and include a feasible follow-up.
+  - region "5. Compare and review":
+    - heading "5. Compare and review" [level=2]
+    - heading "G6-E01 source note" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: both Forty attendees and 24 women describe attendance, not influence or coverage of eligible vendors. No denominator supports a participation rate.
+    - heading "Current record" [level=4]
+    - paragraph: both Forty attendees and 24 women describe attendance, not influence or coverage of eligible vendors. No denominator supports a participation rate.
+    - heading "G6-E02 source note" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: both Four voluntary comments flag timing as a possible barrier; the other two are silent. Self-selection prevents a population estimate or explanation for everyone leaving.
+    - heading "Current record" [level=4]
+    - paragraph: both Four voluntary comments flag timing as a possible barrier; the other two are silent. Self-selection prevents a population estimate or explanation for everyone leaving.
+    - heading "G6-E03 source note" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: both Entrance access was checked, but usable information remains uncertain. A long printed list and absent format check do not establish access for everyone.
+    - heading "Current record" [level=4]
+    - paragraph: both Entrance access was checked, but usable information remains uncertain. A long printed list and absent format check do not establish access for everyone.
+    - heading "G6-E04 source note" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: both Six administrative closures out of eight suggestions do not show explanation, receipt or influence. The meaning of closed needs verification.
+    - heading "Current record" [level=4]
+    - paragraph: both Six administrative closures out of eight suggestions do not show explanation, receipt or influence. The meaning of closed needs verification.
+    - heading "G6-E05 source note" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: both Priorities remain open, but Awra facilitates rather than decides. A feasible input route must fit the remaining window without another large meeting.
+    - heading "Current record" [level=4]
+    - paragraph: both Priorities remain open, but Awra facilitates rather than decides. A feasible input route must fit the remaining window without another large meeting.
+    - heading "Primary interpretation" [level=3]
+    - paragraph: Changed
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: The comments suggest that timing may have limited some contributors’ chance to influence priorities. Attendance alone cannot show that influence occurred.
+    - heading "Current record" [level=4]
+    - paragraph: "Timing may constrain some input, and U01 now shows a recorded account-back gap: four closed entries lack a recorded explanation sent. Two sent explanations still have unverified receipt; this is process evidence, not proof of understanding or influence."
+    - heading "Limitation · Primary interpretation" [level=3]
+    - paragraph: Changed
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: Six self-selected comments cannot establish how common the barrier is, or whether timing caused other people to leave.
+    - heading "Current record" [level=4]
+    - paragraph: These records do not establish whether any explanation was received or understood. Missing records do not prove non-receipt, and the comments still cannot estimate prevalence.
+    - heading "Evidence links · Primary interpretation" [level=3]
+    - paragraph: Changed
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: "Confidence: moderate Informing: G6-E02 Limiting: G6-E01, G6-E02"
+    - heading "Current record" [level=4]
+    - paragraph: "Confidence: moderate Informing: G6-E02, G6-U01 Limiting: G6-E02, G6-U01"
+    - heading "Alternative or unresolved interpretation" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: It remains unresolved whether the long printed priority list also limited usable input. This is a grounded question, not an equally likely explanation for early departure.
+    - heading "Current record" [level=4]
+    - paragraph: It remains unresolved whether the long printed priority list also limited usable input. This is a grounded question, not an equally likely explanation for early departure.
+    - heading "Limitation · Alternative or unresolved interpretation" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: The checklist records format availability, not anyone’s experience or reason for leaving. The comments neither confirm nor exclude a materials barrier.
+    - heading "Current record" [level=4]
+    - paragraph: The checklist records format availability, not anyone’s experience or reason for leaving. The comments neither confirm nor exclude a materials barrier.
+    - heading "Evidence links · Alternative or unresolved interpretation" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: "Confidence: low Informing: G6-E03 Limiting: G6-E02, G6-E03"
+    - heading "Current record" [level=4]
+    - paragraph: "Confidence: low Informing: G6-E03 Limiting: G6-E02, G6-E03"
+    - heading "Decision route" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: escalate
+    - heading "Current record" [level=4]
+    - paragraph: escalate
+    - heading "Interpretation links" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: Primary interpretation; Alternative or unresolved interpretation
+    - heading "Current record" [level=4]
+    - paragraph: Primary interpretation; Alternative or unresolved interpretation
+    - heading "choiceReason" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: The planning team must authorize a route for input before finalization. Escalate that decision while Awra gathers safe, voluntary access preferences. Timing concerns support urgency, but do not establish a general failure.
+    - heading "Current record" [level=4]
+    - paragraph: The planning team must authorize a route for input before finalization. Escalate that decision while Awra gathers safe, voluntary access preferences. Timing concerns support urgency, but do not establish a general failure.
+    - heading "alternative" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: Awra could trial conversations immediately, but should not imply their suggestions will enter a decision process until the planning team confirms that route.
+    - heading "Current record" [level=4]
+    - paragraph: Awra could trial conversations immediately, but should not imply their suggestions will enter a decision process until the planning team confirms that route.
+    - heading "action" [level=3]
+    - paragraph: Changed
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: Ask the public planning team to authorize a short pre-finalization input and response window. Meanwhile Awra may collect voluntary, non-identifying access preferences; formal priority changes must await the team’s decision.
+    - heading "Current record" [level=4]
+    - paragraph: Add a request for planning-team authorization of explanations and receipt checks to the pending input-window request. Awra can prepare a non-identifying status checklist and ask access preferences meanwhile; public decisions and formal explanations remain with the team.
+    - heading "responsibility" [level=3]
+    - paragraph: Unchanged
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: The public planning team decides priorities and whether the input window is feasible. Awra facilitates and requests reasons, without promising a changed priority or permission already granted.
+    - heading "Current record" [level=4]
+    - paragraph: The public planning team decides priorities and whether the input window is feasible. Awra facilitates and requests reasons, without promising a changed priority or permission already granted.
+    - heading "verification" [level=3]
+    - paragraph: Changed
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: Use a non-identifying summary linking suggestions to recorded planning responses. Ask whether offered formats and timing worked without collecting complaint details. This cannot establish population-wide access or causal impact.
+    - heading "Current record" [level=4]
+    - paragraph: Ask for a non-identifying status summary distinguishing internal closure, explanation sent and voluntarily confirmed receipt. Keep unknown receipt explicit. Check which suggestions affected priorities and request reasons otherwise, without collecting identities or treating silence as proof of non-receipt.
+    - heading "accountBack" [level=3]
+    - paragraph: Changed
+    - heading "Decision v1 — preserved" [level=4]
+    - paragraph: Before finalization, ask the planning team to explain how input was considered through brief oral and readable summaries. Awra should check preferred routes and return unanswered concerns to the team at the next agreed contact.
+    - heading "Current record" [level=4]
+    - paragraph: Before finalization, ask the planning team to provide brief oral and readable explanations for the four internally closed entries and check receipt voluntarily for sent explanations. Awra checks preferred channels and returns unanswered concerns at the agreed follow-up; understanding remains unverified.
+    - heading "Your criterion review" [level=3]
+    - paragraph: Structure checked; quality is your judgment. Unresolved follow-up is permitted. This is a training record, not professional approval.
+    - heading "Q01 · Do you distinguish findings from explanations, consider a grounded alternative or unresolved interpretation without false symmetry, and avoid prevalence claims from limited evidence?" [level=3]
+    - paragraph
+    - text: Your criterion review
+    - combobox "Your criterion review":
+      - option "Choose your judgment"
+      - option "Addressed in this draft" [selected]
+      - option "Needs follow-up"
+    - text: Why this judgment?
+    - paragraph: Give a concise reason connected to your wording. This is your review, not an automatic quality grade.
+    - textbox "Why this judgment?": Timing is a supported concern for some commenters, not a population cause. The materials issue stays unresolved and lower-confidence, linked to the access checklist rather than invented as equally likely.
+    - paragraph: 30 / 35 words maximum · no minimum word count
+    - heading "Q02 · Is your decision proportionate to the evidence and uncertainty, with a feasible alternative and an explicit authority or escalation boundary?" [level=3]
+    - paragraph
+    - text: Your criterion review
+    - combobox "Your criterion review":
+      - option "Choose your judgment"
+      - option "Addressed in this draft"
+      - option "Needs follow-up" [selected]
+    - text: Why this judgment?
+    - paragraph: Give a concise reason connected to your wording. This is your review, not an automatic quality grade.
+    - textbox "Why this judgment?": Escalation names the planning team’s authorization role and an interim access-check action for Awra. Neither authorization nor a decision change is assumed; the response window remains to be agreed.
+    - paragraph: 29 / 35 words maximum · no minimum word count
+    - text: One next action
+    - paragraph: Required when this criterion needs follow-up. Brief phrases are welcome.
+    - textbox "One next action": Awra should request the window before finalization and explain any refusal or delay to contributors without promising a change.
+    - paragraph: 19 / 35 words maximum · no minimum word count
+    - heading "Q03 · Do you distinguish administrative closure, an explanation sent and confirmed receipt, with responsible roles and an accessible account-back plan?" [level=3]
+    - paragraph
+    - text: Your criterion review
+    - combobox "Your criterion review":
+      - option "Choose your judgment"
+      - option "Addressed in this draft"
+      - option "Needs follow-up" [selected]
+    - text: Why this judgment?
+    - paragraph: Give a concise reason connected to your wording. This is your review, not an automatic quality grade.
+    - textbox "Why this judgment?": U01 separates administrative closure from an explanation sent. Neither the four internally closed entries nor the two sent explanations establish receipt. The account-back route still needs accessibility checking.
+    - paragraph: 28 / 35 words maximum · no minimum word count
+    - text: One next action
+    - paragraph: Required when this criterion needs follow-up. Brief phrases are welcome.
+    - textbox "One next action": Ask the planning team for non-identifying response status and offer voluntary confirmation through contributors’ preferred routes; retain unknown receipt explicitly.
+    - paragraph: 20 / 35 words maximum · no minimum word count
+    - heading "Q04 · Does U01 meaningfully change interpretation and follow-up, with safe verification of influence or response and candid unresolved actions?" [level=3]
+    - paragraph
+    - text: Your criterion review
+    - combobox "Your criterion review":
+      - option "Choose your judgment"
+      - option "Addressed in this draft" [selected]
+      - option "Needs follow-up"
+    - text: Why this judgment?
+    - paragraph: Give a concise reason connected to your wording. This is your review, not an automatic quality grade.
+    - textbox "Why this judgment?": The revision adds a closure-process gap to the interpretation and separates sent from received in verification. It seeks limited process evidence without names and preserves uncertainty about understanding and influence.
+    - paragraph: 30 / 35 words maximum · no minimum word count
+    - button "Acknowledge current record"
+    - button "Revise current record"
+  - status: Current training record acknowledged. Continue is enabled. Unresolved follow-ups remain in your record.
+  - region "Recovery and device saving":
+    - heading "Keep your work" [level=2]
+    - paragraph: Refresh recovery is automatic in this active session. Save on this device is an explicit choice for retention after closing. Other users of a shared device may see saved work. Browser session restoration may also retain session data; use Clear this draft when needed.
+    - checkbox "Save on this device"
+    - text: Save on this device
+    - paragraph: Recoverable after refresh in this session.
+    - paragraph: Save on this device is off.
+  - button "Show text to copy"
+  - button "Copy current work"
+  - button "Download text"
+  - button "Clear this draft"
+  - text: "FICTIONAL TRAINING CASE — GR-06 evidence-to-decision record Reviewed training record — not approved for real-world use Before the next market consultation round in fictional Jiru Amba, review what the first-round records do and do not show. Recommend a feasible step to improve influence and response before priorities are finalized. Later verification will test your reasoning. SOURCE RECORDS G6-E01 | Fictional round-1 facilitation log | One consultation round; attendance only The log records 40 attendees, including 24 women vendors. It does not record who influenced priorities or who left early. Limitation: Attendance is not influence; no denominator for all eligible vendors or comparable prior-round count. G6-E02 | Fictional facilitator summary of six voluntary comments | Six self-selected comments; no population estimate Four of the six comments mention leaving before priorities were discussed because trading time was affected. The other two comments do not address timing. Limitation: Do not infer that four out of six represents all vendors, or infer the identities of commenters. G6-E03 | Fictional pre-meeting access checklist | Venue and materials check only The entrance was accessible on the day checked. The circulated priority list was available only as a long printed document. No check of alternative formats is recorded. Limitation: An accessible entrance does not establish usable information or access for every participant. G6-E04 | Fictional planning-team summary | Eight general suggestions; administrative status Eight suggestions were logged. Six are marked closed and two pending. The summary does not say whether closed means a decision was explained to the people who raised a suggestion. Limitation: Closure does not establish response receipt or that a proposal influenced a decision. G6-E05 | Fictional exercise brief | Boundary for this exercise; not a legal mandate The next priorities have not yet been finalized. Awra can facilitate input and request explanations; the public planning team makes the planning decisions. No new large meeting is available before finalization. Limitation: Awra cannot promise a public decision. Proposed alternatives need feasible access and a route into the decision. IMMUTABLE V1 G6-E01 source note both Forty attendees and 24 women describe attendance, not influence or coverage of eligible vendors. No denominator supports a participation rate. G6-E02 source note both Four voluntary comments flag timing as a possible barrier; the other two are silent. Self-selection prevents a population estimate or explanation for everyone leaving. G6-E03 source note both Entrance access was checked, but usable information remains uncertain. A long printed list and absent format check do not establish access for everyone. G6-E04 source note both Six administrative closures out of eight suggestions do not show explanation, receipt or influence. The meaning of closed needs verification. G6-E05 source note both Priorities remain open, but Awra facilitates rather than decides. A feasible input route must fit the remaining window without another large meeting. Primary interpretation The comments suggest that timing may have limited some contributors’ chance to influence priorities. Attendance alone cannot show that influence occurred. Limitation · Primary interpretation Six self-selected comments cannot establish how common the barrier is, or whether timing caused other people to leave. Evidence links · Primary interpretation Confidence: moderate Informing: G6-E02 Limiting: G6-E01, G6-E02 Alternative or unresolved interpretation It remains unresolved whether the long printed priority list also limited usable input. This is a grounded question, not an equally likely explanation for early departure. Limitation · Alternative or unresolved interpretation The checklist records format availability, not anyone’s experience or reason for leaving. The comments neither confirm nor exclude a materials barrier. Evidence links · Alternative or unresolved interpretation Confidence: low Informing: G6-E03 Limiting: G6-E02, G6-E03 Decision route escalate Interpretation links Primary interpretation; Alternative or unresolved interpretation choiceReason The planning team must authorize a route for input before finalization. Escalate that decision while Awra gathers safe, voluntary access preferences. Timing concerns support urgency, but do not establish a general failure. alternative Awra could trial conversations immediately, but should not imply their suggestions will enter a decision process until the planning team confirms that route. action Ask the public planning team to authorize a short pre-finalization input and response window. Meanwhile Awra may collect voluntary, non-identifying access preferences; formal priority changes must await the team’s decision. responsibility The public planning team decides priorities and whether the input window is feasible. Awra facilitates and requests reasons, without promising a changed priority or permission already granted. verification Use a non-identifying summary linking suggestions to recorded planning responses. Ask whether offered formats and timing worked without collecting complaint details. This cannot establish population-wide access or causal impact. accountBack Before finalization, ask the planning team to explain how input was considered through brief oral and readable summaries. Awra should check preferred routes and return unanswered concerns to the team at the next agreed contact. U01 A later check of the same eight suggestions finds that only two of the six marked closed have a recorded explanation sent back. The other four were closed after internal discussion, without a recorded account-back step. Receipt of the two sent explanations is still unverified. Limitation: This clarifies recorded process, not whether people received or understood a response or whether decisions were fair. No identities or complaint details are supplied. Your implication: U01 shows four internally closed entries without a recorded explanation sent, alongside two sent explanations with unverified receipt. That adds a response-process gap without proving non-receipt or fair decisions. CURRENT RECORD G6-E01 source note both Forty attendees and 24 women describe attendance, not influence or coverage of eligible vendors. No denominator supports a participation rate. G6-E02 source note both Four voluntary comments flag timing as a possible barrier; the other two are silent. Self-selection prevents a population estimate or explanation for everyone leaving. G6-E03 source note both Entrance access was checked, but usable information remains uncertain. A long printed list and absent format check do not establish access for everyone. G6-E04 source note both Six administrative closures out of eight suggestions do not show explanation, receipt or influence. The meaning of closed needs verification. G6-E05 source note both Priorities remain open, but Awra facilitates rather than decides. A feasible input route must fit the remaining window without another large meeting. Primary interpretation Timing may constrain some input, and U01 now shows a recorded account-back gap: four closed entries lack a recorded explanation sent. Two sent explanations still have unverified receipt; this is process evidence, not proof of understanding or influence. Limitation · Primary interpretation These records do not establish whether any explanation was received or understood. Missing records do not prove non-receipt, and the comments still cannot estimate prevalence. Evidence links · Primary interpretation Confidence: moderate Informing: G6-E02, G6-U01 Limiting: G6-E02, G6-U01 Alternative or unresolved interpretation It remains unresolved whether the long printed priority list also limited usable input. This is a grounded question, not an equally likely explanation for early departure. Limitation · Alternative or unresolved interpretation The checklist records format availability, not anyone’s experience or reason for leaving. The comments neither confirm nor exclude a materials barrier. Evidence links · Alternative or unresolved interpretation Confidence: low Informing: G6-E03 Limiting: G6-E02, G6-E03 Decision route escalate Interpretation links Primary interpretation; Alternative or unresolved interpretation choiceReason The planning team must authorize a route for input before finalization. Escalate that decision while Awra gathers safe, voluntary access preferences. Timing concerns support urgency, but do not establish a general failure. alternative Awra could trial conversations immediately, but should not imply their suggestions will enter a decision process until the planning team confirms that route. action Add a request for planning-team authorization of explanations and receipt checks to the pending input-window request. Awra can prepare a non-identifying status checklist and ask access preferences meanwhile; public decisions and formal explanations remain with the team. responsibility The public planning team decides priorities and whether the input window is feasible. Awra facilitates and requests reasons, without promising a changed priority or permission already granted. verification Ask for a non-identifying status summary distinguishing internal closure, explanation sent and voluntarily confirmed receipt. Keep unknown receipt explicit. Check which suggestions affected priorities and request reasons otherwise, without collecting identities or treating silence as proof of non-receipt. accountBack Before finalization, ask the planning team to provide brief oral and readable explanations for the four internally closed entries and check receipt voluntarily for sent explanations. Awra checks preferred channels and returns unanswered concerns at the agreed follow-up; understanding remains unverified. V1 / CURRENT COMPARISON G6-E01 source note Before: both Forty attendees and 24 women describe attendance, not influence or coverage of eligible vendors. No denominator supports a participation rate. After: both Forty attendees and 24 women describe attendance, not influence or coverage of eligible vendors. No denominator supports a participation rate. G6-E02 source note Before: both Four voluntary comments flag timing as a possible barrier; the other two are silent. Self-selection prevents a population estimate or explanation for everyone leaving. After: both Four voluntary comments flag timing as a possible barrier; the other two are silent. Self-selection prevents a population estimate or explanation for everyone leaving. G6-E03 source note Before: both Entrance access was checked, but usable information remains uncertain. A long printed list and absent format check do not establish access for everyone. After: both Entrance access was checked, but usable information remains uncertain. A long printed list and absent format check do not establish access for everyone. G6-E04 source note Before: both Six administrative closures out of eight suggestions do not show explanation, receipt or influence. The meaning of closed needs verification. After: both Six administrative closures out of eight suggestions do not show explanation, receipt or influence. The meaning of closed needs verification. G6-E05 source note Before: both Priorities remain open, but Awra facilitates rather than decides. A feasible input route must fit the remaining window without another large meeting. After: both Priorities remain open, but Awra facilitates rather than decides. A feasible input route must fit the remaining window without another large meeting. Primary interpretation Before: The comments suggest that timing may have limited some contributors’ chance to influence priorities. Attendance alone cannot show that influence occurred. After: Timing may constrain some input, and U01 now shows a recorded account-back gap: four closed entries lack a recorded explanation sent. Two sent explanations still have unverified receipt; this is process evidence, not proof of understanding or influence. Limitation · Primary interpretation Before: Six self-selected comments cannot establish how common the barrier is, or whether timing caused other people to leave. After: These records do not establish whether any explanation was received or understood. Missing records do not prove non-receipt, and the comments still cannot estimate prevalence. Evidence links · Primary interpretation Before: Confidence: moderate Informing: G6-E02 Limiting: G6-E01, G6-E02 After: Confidence: moderate Informing: G6-E02, G6-U01 Limiting: G6-E02, G6-U01 Alternative or unresolved interpretation Before: It remains unresolved whether the long printed priority list also limited usable input. This is a grounded question, not an equally likely explanation for early departure. After: It remains unresolved whether the long printed priority list also limited usable input. This is a grounded question, not an equally likely explanation for early departure. Limitation · Alternative or unresolved interpretation Before: The checklist records format availability, not anyone’s experience or reason for leaving. The comments neither confirm nor exclude a materials barrier. After: The checklist records format availability, not anyone’s experience or reason for leaving. The comments neither confirm nor exclude a materials barrier. Evidence links · Alternative or unresolved interpretation Before: Confidence: low Informing: G6-E03 Limiting: G6-E02, G6-E03 After: Confidence: low Informing: G6-E03 Limiting: G6-E02, G6-E03 Decision route Before: escalate After: escalate Interpretation links Before: Primary interpretation; Alternative or unresolved interpretation After: Primary interpretation; Alternative or unresolved interpretation choiceReason Before: The planning team must authorize a route for input before finalization. Escalate that decision while Awra gathers safe, voluntary access preferences. Timing concerns support urgency, but do not establish a general failure. After: The planning team must authorize a route for input before finalization. Escalate that decision while Awra gathers safe, voluntary access preferences. Timing concerns support urgency, but do not establish a general failure. alternative Before: Awra could trial conversations immediately, but should not imply their suggestions will enter a decision process until the planning team confirms that route. After: Awra could trial conversations immediately, but should not imply their suggestions will enter a decision process until the planning team confirms that route. action Before: Ask the public planning team to authorize a short pre-finalization input and response window. Meanwhile Awra may collect voluntary, non-identifying access preferences; formal priority changes must await the team’s decision. After: Add a request for planning-team authorization of explanations and receipt checks to the pending input-window request. Awra can prepare a non-identifying status checklist and ask access preferences meanwhile; public decisions and formal explanations remain with the team. responsibility Before: The public planning team decides priorities and whether the input window is feasible. Awra facilitates and requests reasons, without promising a changed priority or permission already granted. After: The public planning team decides priorities and whether the input window is feasible. Awra facilitates and requests reasons, without promising a changed priority or permission already granted. verification Before: Use a non-identifying summary linking suggestions to recorded planning responses. Ask whether offered formats and timing worked without collecting complaint details. This cannot establish population-wide access or causal impact. After: Ask for a non-identifying status summary distinguishing internal closure, explanation sent and voluntarily confirmed receipt. Keep unknown receipt explicit. Check which suggestions affected priorities and request reasons otherwise, without collecting identities or treating silence as proof of non-receipt. accountBack Before: Before finalization, ask the planning team to explain how input was considered through brief oral and readable summaries. Awra should check preferred routes and return unanswered concerns to the team at the next agreed contact. After: Before finalization, ask the planning team to provide brief oral and readable explanations for the four internally closed entries and check receipt voluntarily for sent explanations. Awra checks preferred channels and returns unanswered concerns at the agreed follow-up; understanding remains unverified. ADAPTATION retain_decision U01 changes the interpretation from uncertain closure meaning to a recorded account-back gap. Keep access questions open, distinguish sent from received in verification, and request an accessible response route without claiming missing records prove non-receipt. CRITERION REVIEW Q01: Do you distinguish findings from explanations, consider a grounded alternative or unresolved interpretation without false symmetry, and avoid prevalence claims from limited evidence? addressed Reason: Timing is a supported concern for some commenters, not a population cause. The materials issue stays unresolved and lower-confidence, linked to the access checklist rather than invented as equally likely. Follow-up: Q02: Is your decision proportionate to the evidence and uncertainty, with a feasible alternative and an explicit authority or escalation boundary? needs_follow_up Reason: Escalation names the planning team’s authorization role and an interim access-check action for Awra. Neither authorization nor a decision change is assumed; the response window remains to be agreed. Follow-up: Awra should request the window before finalization and explain any refusal or delay to contributors without promising a change. Q03: Do you distinguish administrative closure, an explanation sent and confirmed receipt, with responsible roles and an accessible account-back plan? needs_follow_up Reason: U01 separates administrative closure from an explanation sent. Neither the four internally closed entries nor the two sent explanations establish receipt. The account-back route still needs accessibility checking. Follow-up: Ask the planning team for non-identifying response status and offer voluntary confirmation through contributors’ preferred routes; retain unknown receipt explicitly. Q04: Does U01 meaningfully change interpretation and follow-up, with safe verification of influence or response and candid unresolved actions? addressed Reason: The revision adds a closure-process gap to the interpretation and separates sent from received in verification. It seeks limited process evidence without names and preserves uncertainty about understanding and influence. Follow-up: Contract 0.1, revision 2; case 0.1; work revision 66 Current record acknowledged"

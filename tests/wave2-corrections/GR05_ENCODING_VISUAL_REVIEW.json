@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "provenance": "Codex visual inspection of automated Chrome screenshots; not native Chrome zoom, actual screen reader, or physical-mobile attestation",
+  "scope": "Bounded GR05 punctuation correction at 1440px and 390px in diagnosis, v1 review, C01, comparison",
+  "observations": [
+    "Duration 25\u201335 and case middle dots readable",
+    "Draft 1 \u2014 preserved readable in side-by-side and stacked comparison",
+    "C01 \u00b7 A feasibility constraint readable; challenge wording intact",
+    "No new clipping, overlap or damaged visible control labels in inspected regions; viewport crops intentionally omit off-screen content"
+  ],
+  "screenshots": {
+    "tests/wave2-corrections/encoding-1440-diagnosis.png": "1d1d7089c4ca8bc1ceac776a0edf97f74e3862f89a866fa4dde104d8a0d99982",
+    "tests/wave2-corrections/encoding-1440-first-review.png": "6ee077f426b7a527d8f7439d696198c669fdf8bb2a862335b625bb0bfe8def14",
+    "tests/wave2-corrections/encoding-1440-challenge.png": "cc7daf0249316f7d58328383bacf9a4e4c3eac48865f0f72b3c8915409908860",
+    "tests/wave2-corrections/encoding-1440-comparison.png": "a7e842ee11065cbdf425cf0cc7644d3c9124c1c47eaa25f4769f1e6c1168d3e0",
+    "tests/wave2-corrections/encoding-390-diagnosis.png": "92a8388f77365510d05da74971fb351c74fc3293c319533ce06dde00a446e140",
+    "tests/wave2-corrections/encoding-390-first-review.png": "62215e90a106aabbe2fa5308a38f86e152b91df541a5ec46f2c532d14da345f3",
+    "tests/wave2-corrections/encoding-390-challenge.png": "e3a9dcb08a09ba7b7f31d33712d37fa1e322f3cdf66aa3d0bba719fb9b2142d1",
+    "tests/wave2-corrections/encoding-390-comparison.png": "00534d6aa69a3031e57a4176bfb8908e9729a031f7963ae8a8e8148d266a53ee"
+  }
+}

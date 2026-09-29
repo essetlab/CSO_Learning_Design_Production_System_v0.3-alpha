@@ -1,0 +1,33 @@
+{
+  "registry_version": "0.3.0-alpha",
+  "objects": [
+    {
+      "id": "CMP-EDITORIAL-01",
+      "status": "prototype"
+    },
+    {
+      "id": "CMP-EVIDENCE-DECISION-01",
+      "status": "prototype",
+      "variants": [
+        "source-interpretation-decision-update",
+        "readiness-review"
+      ]
+    },
+    {
+      "id": "CMP-IMMERSIVE-01",
+      "status": "prototype"
+    },
+    {
+      "id": "CMP-PERSPECTIVE-01",
+      "status": "prototype",
+      "version": "0.3.0-alpha"
+    },
+    {
+      "id": "CMP-REPAIR-STUDIO-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "composition",
+      "implementation": "compositions/repair-studio/manifest.yaml"
+    }
+  ]
+}

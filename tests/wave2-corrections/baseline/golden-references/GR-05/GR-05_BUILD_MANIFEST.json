@@ -1,0 +1,51 @@
+{
+  "reference": "GR-05",
+  "build_id": "BUILD-GR-05-W2-0001",
+  "specification_checkpoint": "63133cbb0cfc0052b216502f5f94cf16ea579137",
+  "branch": "gate8/wave2/gr05-deep-build-repair",
+  "contract_revision": 2,
+  "candidate_objects": [
+    "IP-BUILD-REPAIR-01",
+    "BLK-WORK-ARTIFACT-01",
+    "INT-BUILD-REPAIR-01",
+    "CMP-REPAIR-STUDIO-01",
+    "TPL-DEEP-WORKSPACE-01",
+    "SVC-LEARNING-STATE-01"
+  ],
+  "candidate_objects_status": "PROTOTYPE",
+  "completion": "D && A && R1 && C && R2 && F",
+  "automated_pass": true,
+  "final_status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+  "pending_manual": {},
+  "validation_result": "tests/GR05_VALIDATION_RESULT.json",
+  "package_integrity": "tests/package-integrity.json",
+  "source_hashes": {
+    "compositions/repair-studio/manifest.yaml": "b06835901bda3bc2ebeae3895ca841c3ebb718ccdb4046cb3bb75b827675183e",
+    "compositions/repair-studio/repair-studio.css": "cf89f7f453e7b77d1e45ad4e9b9f821ef1a211bd9792454609da99643ad24ee9",
+    "docs/patterns/build-repair/manifest.yaml": "d46c8ec5ea909df2e4c3432ef1c4f0148ba7d5fc47be80a41d98f97d555fb7fa",
+    "golden-references/GR-05/exercise.txt": "072404dd5a0d4b919d035bd34bf2f0b51715ba701d5a8729ba63dcbe3cd91343",
+    "golden-references/GR-05/index.html": "623f949055f232a84acae135cfba198afb2cd20dd0cba182082a1834dd2dddf1",
+    "golden-references/GR-05/spec.yaml": "c057aa5b5dd30afa729a78c26f001f5971f20a430301fc9a2f212fe8bcc4c5fd",
+    "interactions/build-repair/build-repair.js": "ed351bae520c3d7203cfa4f3539d3f708ad5f4fbac38c9536d62599f8a0f0b4a",
+    "interactions/build-repair/manifest.yaml": "c3e60bfe300e473f390c7658c67138bf05669e8fe2d15ab59ade7b266532a9dd",
+    "interactions/build-repair/model.js": "c3b276f2a64afab9c40485daa79170a76fd550343e92334b261f0153bb25ae7b",
+    "learning-blocks/work-artifact/manifest.yaml": "e950eece83e4ffa6d5a29bf499ece682679b315bad1a973e587f388ae6de6a53",
+    "learning-blocks/work-artifact/work-artifact.css": "5b05d0dc3f55c97d9b127fea50fc5c2ad723a047844c15e6824604770cd56ff5",
+    "learning-blocks/work-artifact/work-artifact.js": "1eac985a2829d83eb67ff0088528dbb02c365b380e22dcbd59d8fed88f860bac",
+    "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json": "6984c281878ed26fe3fa8533d5e43ed8859fda8dd1d49da29f9dccd9539efd75",
+    "state/learning-state/learning-state.js": "5afd6b227811aab27fc42f0f7736bbb81909b04e3f9bc10d81ee4e13f3643fd3",
+    "state/learning-state/manifest.yaml": "4da2b105383726ed7ea971de321464f25cf433cb4e613dbdf7c0f8bae1359ab7",
+    "templates/deep-workspace/deep-workspace.js": "62a3403beeea8bc68ecb41d0355b888308aa98d47166d419524957ae4d597a8a",
+    "templates/deep-workspace/manifest.yaml": "b3209bd386e8ee36b65f0080f9b847d040a98a5920c94624c0b40f1a00700421"
+  },
+  "user_attested_manual_evidence": "tests/GR05_USER_ATTESTED_MANUAL_EVIDENCE.json",
+  "user_attested_passes": [
+    "V21",
+    "V23",
+    "V22"
+  ],
+  "V25_review_packet": "golden-references/GR-05/GR-05_V25_SEMANTIC_REVIEW_PACKET.md",
+  "review_decision_evidence": "tests/GR05_ARCHITECTURAL_REVIEW_DECISION.json",
+  "V05": "PASS_REVIEW_REPORTED",
+  "V25": "PASS_REVIEW_REPORTED"
+}

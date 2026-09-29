@@ -1,0 +1,15 @@
+.practice-focus { padding:var(--space-20) max(var(--space-8), calc((100vw - var(--width-wide))/2)); background:var(--color-surface-paper); display:grid; grid-template-columns:minmax(17rem,.72fr) minmax(0,1.28fr); gap:var(--space-16); border-top:var(--border-standard) solid var(--color-border-soft); }
+.practice-focus__intro h2 { margin:0; color:var(--color-brand-navy); font-family:var(--font-display); font-size:var(--type-section-heading); font-weight:500; line-height:1.05; letter-spacing:-.035em; }
+.practice-focus__intro > p:last-child { max-width:48ch; margin:var(--space-4) 0 0; color:var(--color-text-secondary); }
+.focus-form fieldset { margin:0; padding:0; border:0; }
+.focus-list { border-top:2px solid var(--color-brand-navy); }
+.focus-row { position:relative; min-height:4rem; display:grid; grid-template-columns:auto 3rem minmax(0,1fr) auto; gap:var(--space-3); align-items:center; padding:var(--space-3) var(--space-2); border-bottom:var(--border-standard) solid var(--color-border-soft); cursor:pointer; transition:background var(--motion-micro) ease; }
+.focus-row:hover, .focus-row:has(input:checked) { background:var(--color-surface-mint); }
+.focus-row input { width:1.1rem; height:1.1rem; accent-color:var(--color-brand-teal); }
+.focus-row__number { color:var(--color-focus-default); font-size:.68rem; font-weight:900; letter-spacing:.08em; }
+.focus-row__text { font-weight:690; color:var(--color-brand-navy); }
+.focus-row__mark { color:var(--color-focus-default); font-size:1.25rem; }
+.focus-form__footer { min-height:3.4rem; display:flex; justify-content:space-between; gap:var(--space-4); align-items:center; margin-top:var(--space-4); }
+@media(max-width:68rem){ .practice-focus { gap:var(--space-10); } }
+@media(max-width:48rem){ .practice-focus { grid-template-columns:1fr; gap:var(--space-8); padding:var(--space-12) var(--space-6); } .focus-row { grid-template-columns:auto 2.1rem minmax(0,1fr) auto; padding-inline:0; } .focus-form__footer { align-items:flex-start; flex-direction:column; } }
+@media(max-width:30rem){ .practice-focus { padding-inline:var(--space-4); } }

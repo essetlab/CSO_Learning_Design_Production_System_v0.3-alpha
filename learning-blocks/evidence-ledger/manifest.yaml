@@ -1,0 +1,9 @@
+id: BLK-EVIDENCE-LEDGER-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: block
+ownership: Source metadata, typed evidence associations, field-aligned comparison
+  and export representation.
+cross_course_validation: not-yet-tested
+frozen_contract: prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+engine: evidence-ledger.js

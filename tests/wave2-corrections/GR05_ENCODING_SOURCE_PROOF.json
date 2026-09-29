@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "authority": "W2-C03",
+  "scope": "Only UTF-8 punctuation replacement in generator/shared view and generated output; no model, state, content-contract, CSS or candidate interface change.",
+  "historical_disclosure": "The earlier GR05 Wave-2 pass contained these visible encoding defects. This is a later bounded polish correction, not a rewritten earlier review.",
+  "replacement_map": {
+    "\u00c2\u00b7": "\u00b7",
+    "\u00e2\u20ac\u201c": "\u2013",
+    "\u00e2\u20ac\u201d": "\u2014"
+  },
+  "checks": [
+    {
+      "path": "tools/build_gr05.py",
+      "passed": true,
+      "replacements": {
+        "\u00c2\u00b7": 2,
+        "\u00e2\u20ac\u201c": 2
+      },
+      "before_sha256": "071ddadf8824dd11bab6b8f19d739a76ab67428f3af47e2878d39d4fb840dcdf",
+      "after_sha256": "b637605e55951e4a3cb9695b0a38044c9aef7f3ddb10ce3d99dafc2543a8b909"
+    },
+    {
+      "path": "interactions/build-repair/build-repair.js",
+      "passed": true,
+      "replacements": {
+        "\u00c2\u00b7": 3,
+        "\u00e2\u20ac\u201c": 1,
+        "\u00e2\u20ac\u201d": 2
+      },
+      "before_sha256": "ed351bae520c3d7203cfa4f3539d3f708ad5f4fbac38c9536d62599f8a0f0b4a",
+      "after_sha256": "5d09c256423363698c2874fca763e211a6e380c38bd950bd95b2b8e5114277e2"
+    },
+    {
+      "path": "golden-references/GR-05/index.html",
+      "passed": true,
+      "replacements": {
+        "\u00c2\u00b7": 2,
+        "\u00e2\u20ac\u201c": 1
+      },
+      "before_sha256": "623f949055f232a84acae135cfba198afb2cd20dd0cba182082a1834dd2dddf1",
+      "after_sha256": "0e22339a925ce48eb88021e3eefcc9ca83d8f9ab678d68b8e9cce0b205e7b22d"
+    },
+    {
+      "path": "golden-references/GR-05/exercise.txt",
+      "passed": true,
+      "replacements": {
+        "\u00e2\u20ac\u201c": 1
+      },
+      "before_sha256": "072404dd5a0d4b919d035bd34bf2f0b51715ba701d5a8729ba63dcbe3cd91343",
+      "after_sha256": "789caf0368fca11f7c2f1070554a76e12800d26fe4c99889d9ec7787f11f1651"
+    }
+  ]
+}

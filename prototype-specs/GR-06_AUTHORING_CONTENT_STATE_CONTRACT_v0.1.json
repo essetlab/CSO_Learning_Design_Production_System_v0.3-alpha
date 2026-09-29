@@ -1,0 +1,475 @@
+{
+  "contract": {
+    "id": "GR06-DESIGN-PROPOSAL-01",
+    "version": "0.1",
+    "revision": 2,
+    "reference": "GR-06",
+    "status": "FROZEN_FOR_PROTOTYPE_IMPLEMENTATION",
+    "prototype_implementation_authorized": true,
+    "system_version": "0.3-alpha"
+  },
+  "authority": {
+    "LOCKED": [
+      "Specification only; no implementation until explicit freeze/authorization",
+      "Preserve GR03/GR05 and PROTOTYPE dispositions",
+      "Existing tokens/breakpoints/schema and shared storage ownership",
+      "No AI scoring or prepared-answer completion"
+    ],
+    "CONSTRAINED": [
+      "Fictional/non-identifying exercise",
+      "Evidence to interpretation to decision to adaptation",
+      "Structural checks distinct from semantic judgment",
+      "Retention/export independent of completion",
+      "Differentiated primary and alternative-or-unresolved interpretation roles; no false symmetry",
+      "Four decision routes including escalation; no automatically correct route",
+      "CMP-EVIDENCE-DECISION-01 semantic composition variant; preserve GR04",
+      "TPL-DEEP-WORKSPACE-01 configurable variant; preserve GR05 defaults",
+      "SVC-LEARNING-STATE-01 unchanged"
+    ],
+    "EXPLORATORY": [
+      "Exact synthetic case/update wording and existing maxima for final freeze",
+      "Proposed shared variant interfaces and implementation compatibility",
+      "Human semantic fixtures and final freeze judgment"
+    ]
+  },
+  "learning": {
+    "learner": "CSO project officer with introductory HRBA knowledge",
+    "capability": "Make and revise a proportionate accountable decision from mixed evidence while distinguishing observation, interpretation and uncertainty.",
+    "duration_minutes": [
+      20,
+      30
+    ],
+    "output": "Traceable evidence-to-decision record",
+    "not_assessed": [
+      "Professional approval",
+      "Legal compliance",
+      "Statistical causal attribution"
+    ]
+  },
+  "case": {
+    "id": "JIRU-AMBA-GR06-SYNTHETIC",
+    "version": "0.1",
+    "provenance": "All observations/numbers are new synthetic proposals; only fictional setting and role framing adapt prior HRBA context. No GR05 learner state imported.",
+    "brief": "Before the next market consultation round in fictional Jiru Amba, review what the first-round records do and do not show. Recommend a feasible step to improve influence and response before priorities are finalized. Later verification will test your reasoning.",
+    "evidence": [
+      {
+        "id": "G6-E01",
+        "kind": "attendance aggregate",
+        "source": "Fictional round-1 facilitation log",
+        "scope": "One consultation round; attendance only",
+        "text": "The log records 40 attendees, including 24 women vendors. It does not record who influenced priorities or who left early.",
+        "limitation": "Attendance is not influence; no denominator for all eligible vendors or comparable prior-round count."
+      },
+      {
+        "id": "G6-E02",
+        "kind": "voluntary feedback summary",
+        "source": "Fictional facilitator summary of six voluntary comments",
+        "scope": "Six self-selected comments; no population estimate",
+        "text": "Four of the six comments mention leaving before priorities were discussed because trading time was affected. The other two comments do not address timing.",
+        "limitation": "Do not infer that four out of six represents all vendors, or infer the identities of commenters."
+      },
+      {
+        "id": "G6-E03",
+        "kind": "access observation",
+        "source": "Fictional pre-meeting access checklist",
+        "scope": "Venue and materials check only",
+        "text": "The entrance was accessible on the day checked. The circulated priority list was available only as a long printed document. No check of alternative formats is recorded.",
+        "limitation": "An accessible entrance does not establish usable information or access for every participant."
+      },
+      {
+        "id": "G6-E04",
+        "kind": "administrative response log",
+        "source": "Fictional planning-team summary",
+        "scope": "Eight general suggestions; administrative status",
+        "text": "Eight suggestions were logged. Six are marked closed and two pending. The summary does not say whether closed means a decision was explained to the people who raised a suggestion.",
+        "limitation": "Closure does not establish response receipt or that a proposal influenced a decision."
+      },
+      {
+        "id": "G6-E05",
+        "kind": "role and planning boundary",
+        "source": "Fictional exercise brief",
+        "scope": "Boundary for this exercise; not a legal mandate",
+        "text": "The next priorities have not yet been finalized. Awra can facilitate input and request explanations; the public planning team makes the planning decisions. No new large meeting is available before finalization.",
+        "limitation": "Awra cannot promise a public decision. Proposed alternatives need feasible access and a route into the decision."
+      }
+    ],
+    "update": {
+      "id": "G6-U01",
+      "kind": "later verification",
+      "release": "After immutable v1 capture",
+      "text": "A later check of the same eight suggestions finds that only two of the six marked closed have a recorded explanation sent back. The other four were closed after internal discussion, without a recorded account-back step. Receipt of the two sent explanations is still unverified.",
+      "limitation": "This clarifies recorded process, not whether people received or understood a response or whether decisions were fair. No identities or complaint details are supplied.",
+      "provenance": "New synthetic exercise evidence proposed for review; not an actual HRBA project event."
+    }
+  },
+  "authoring": {
+    "T": "After trimming, at least two Unicode Letter or Number code points; no word-count minimum.",
+    "normalization": "trim and collapse whitespace; words counted by nonempty whitespace-separated units",
+    "plain_text_only": true,
+    "source_notes": {
+      "count": 5,
+      "max_words_each": 30,
+      "required_use": [
+        "informs",
+        "limits",
+        "both"
+      ],
+      "prompt": "What does this source contribute, and what can it not establish?"
+    },
+    "interpretations": {
+      "ids": [
+        "primary_interpretation",
+        "alternative_or_unresolved_interpretation"
+      ],
+      "claim_max_words": 55,
+      "limitation_max_words": 40,
+      "support_ids": {
+        "min": 1,
+        "max": 3
+      },
+      "limiting_ids": {
+        "min": 1,
+        "max": 3
+      },
+      "confidence": [
+        "low",
+        "moderate"
+      ],
+      "prompt": "For each role, write an interpretation, link informing and limiting/counterevidence, and state a limitation.",
+      "same_source_in_both_roles_allowed": true,
+      "all_ids_known_unique_per_list": true,
+      "roles": [
+        {
+          "id": "primary_interpretation",
+          "prompt": "State the interpretation that best informs your provisional decision; distinguish the finding from your explanation."
+        },
+        {
+          "id": "alternative_or_unresolved_interpretation",
+          "prompt": "State a plausible alternative explanation or an unresolved interpretation/question grounded in the evidence. Explain what remains uncertain; you need not invent an equally likely competing claim."
+        }
+      ],
+      "no_false_symmetry": "Roles are not equal-weight hypotheses. The alternative may remain unresolved; no equal confidence, contradictory claim, or numerical probability is required. The 55-word claim field holds either role’s authored interpretation, including an unresolved question."
+    },
+    "decision": {
+      "options": [
+        {
+          "id": "trial",
+          "label": "Trial an adaptation before wider change"
+        },
+        {
+          "id": "verify",
+          "label": "Verify a key uncertainty before wider change"
+        },
+        {
+          "id": "retain",
+          "label": "Retain the current approach with explicit monitoring"
+        },
+        {
+          "id": "escalate",
+          "label": "Escalate / seek authorization or system action"
+        }
+      ],
+      "claim_ids_required": [
+        "primary_interpretation",
+        "alternative_or_unresolved_interpretation"
+      ],
+      "fields": [
+        {
+          "id": "choiceReason",
+          "max_words": 60,
+          "prompt": "Explain how the primary interpretation and the alternative or unresolved interpretation inform this decision, without treating them as equally likely."
+        },
+        {
+          "id": "alternative",
+          "max_words": 45,
+          "prompt": "Name one alternative and why you have not chosen it now."
+        },
+        {
+          "id": "action",
+          "max_words": 60,
+          "prompt": "Describe a feasible next action before finalization, including what can proceed and what must await authorization if escalating."
+        },
+        {
+          "id": "responsibility",
+          "max_words": 45,
+          "prompt": "Identify the responsible role, Awra’s boundary, and any authorization or system action needed; do not assume authority has been granted."
+        },
+        {
+          "id": "verification",
+          "max_words": 60,
+          "prompt": "What safe evidence would show influence or a response, and what remains unknown?"
+        },
+        {
+          "id": "accountBack",
+          "max_words": 60,
+          "prompt": "How and when will affected groups hear what was decided and how can unanswered concerns be followed up?"
+        }
+      ],
+      "no_automatically_correct_route": true
+    },
+    "adaptation": {
+      "updateNote_max_words": 45,
+      "rationale_max_words": 60,
+      "disposition": [
+        "retain_decision",
+        "change_decision"
+      ],
+      "changed_fields": [
+        "one interpretation claim or limitation",
+        "one of action/verification/accountBack"
+      ],
+      "update_link_required": true
+    },
+    "review": {
+      "criteria": [
+        {
+          "id": "Q01",
+          "prompt": "Do you distinguish findings from explanations, consider a grounded alternative or unresolved interpretation without false symmetry, and avoid prevalence claims from limited evidence?"
+        },
+        {
+          "id": "Q02",
+          "prompt": "Is your decision proportionate to the evidence and uncertainty, with a feasible alternative and an explicit authority or escalation boundary?"
+        },
+        {
+          "id": "Q03",
+          "prompt": "Do you distinguish administrative closure, an explanation sent and confirmed receipt, with responsible roles and an accessible account-back plan?"
+        },
+        {
+          "id": "Q04",
+          "prompt": "Does U01 meaningfully change interpretation and follow-up, with safe verification of influence or response and candid unresolved actions?"
+        }
+      ],
+      "judgments": [
+        "addressed",
+        "needs_follow_up"
+      ],
+      "reason_max_words": 35,
+      "followUp_max_words": 35,
+      "followUp_required_when": "needs_follow_up",
+      "all_positive_not_required": true
+    },
+    "overflow": "Retain over-limit/unfinished text and recover it; block review only; no truncation.",
+    "guidance": "Concise phrases welcome; maxima are limits, not targets."
+  },
+  "stages": [
+    "Evidence",
+    "Interpretation",
+    "Decision v1",
+    "Adaptation",
+    "Compare and review"
+  ],
+  "feedback": {
+    "structural": "Identify exact missing/over-limit/invalid-link field; keep text; linked summary and first-invalid-field focus.",
+    "common_guidance": [
+      "Attendance alone does not establish influence.",
+      "A self-selected comment sample does not establish prevalence.",
+      "A closed administrative record does not establish receipt of an explanation.",
+      "A recommendation must respect who can decide and include a feasible follow-up."
+    ],
+    "semantic": "Learner criterion self-review plus independent human Golden Reference review; never AI/keyword scoring."
+  },
+  "state": {
+    "identity": [
+      "activityId=GR-06",
+      "contractVersion=0.1",
+      "contractRevision=2",
+      "caseVersion=0.1",
+      "draftId"
+    ],
+    "data": [
+      "stage",
+      "sourceNotes",
+      "interpretations",
+      "decision",
+      "firstSnapshot",
+      "updateReleased",
+      "updateNote",
+      "adaptationDisposition",
+      "adaptationRationale",
+      "contentRevision",
+      "criterionReview",
+      "reviewRevision",
+      "acknowledgment"
+    ],
+    "predicates": {
+      "E": "All five initial sources have a T-valid <=30-word note and one permitted use enum.",
+      "I": "One primary_interpretation and one alternative_or_unresolved_interpretation, each with T-valid authored interpretation in claim <=55 words, limitation <=40, permitted confidence, 1–3 unique known informing IDs and 1–3 unique known limiting/counterevidence IDs. The alternative may be unresolved and need not be equally likely. U01 forbidden until released.",
+      "D": "E and I, one of trial/verify/retain/escalate, both interpretation role IDs, and all six decision fields T-valid within their unchanged maxima. Every route requires responsible role/Awra boundary, action, verification and account-back; no route is automatically correct.",
+      "U": "Valid immutable firstSnapshot captured once with E/I/D; updateReleased true; T-valid updateNote <=45.",
+      "A": "U and current E/I/D; at least one interpretation claim or limitation differs from firstSnapshot after normalization; one action/verification/accountBack field differs; U01 linked in at least one informing/limiting list; T-valid rationale <=60; disposition consistent with whether decision option changed.",
+      "R": "All four criterion judgments allowed; reasons T-valid <=35; followUp T-valid <=35 when needs_follow_up; retained optional followUp also <=35; reviewRevision equals contentRevision.",
+      "F": "Explicit acknowledgment bound to current revision and complete rubric signature."
+    },
+    "completion": "E && I && D && U && A && R && F",
+    "initial": "Blank notes, claims, fields, judgments and selections; no snapshot, U01 hidden, Continue disabled.",
+    "snapshot": "Clone complete initial E/I/D payload and revision once; snapshot excludes U01. Later visits/edits never overwrite.",
+    "invalidation": "Any normalized substantive input/link/confidence/choice change increments contentRevision, invalidates reviewRevision and acknowledgment; preserve v1 and text. Rubric edits clear acknowledgment. Revise clears both bindings even without edits.",
+    "restore": "Strict allowed keys/types/known IDs/contract-case versions; validate original snapshot E/I/D against initial batch; recompute current predicates; clear stale review, never synthesize missing history.",
+    "retention": "SVC-LEARNING-STATE-01 only; automatic session checkpoint including IME provisional text; opt-in durable save, explicit resume, truthful tier receipts, conflicts/corruption choices and confirmed draft-only clear; no completion authority in service.",
+    "storage_choice_gates_completion": false
+  },
+  "output_order": [
+    "Fictional case and source metadata",
+    "Source notes",
+    "Immutable v1 claims/decision/links",
+    "U01 and its limitation",
+    "Current claims/decision/links",
+    "Field-aligned v1/current comparison",
+    "Adaptation rationale",
+    "Criterion reviews and unresolved follow-ups",
+    "Versions and acknowledgment status"
+  ],
+  "objects": {
+    "reuse": [
+      "SHELL-GR-W1-01",
+      "UI-SAVE-STATE-01",
+      "SVC-LEARNING-STATE-01"
+    ],
+    "adapt_proposed": [
+      "BLK-WORK-ARTIFACT-01",
+      "BLK-CASE-EVIDENCE-01",
+      "CMP-EVIDENCE-DECISION-01",
+      "TPL-DEEP-WORKSPACE-01"
+    ],
+    "new_unregistered_proposals": [
+      {
+        "id": "BLK-EVIDENCE-LEDGER-01",
+        "path": "learning-blocks/evidence-ledger/",
+        "owner": "source metadata/typed associations/comparison and export representation",
+        "gap": "G06-01",
+        "status": "PROPOSED_NOT_REGISTERED"
+      },
+      {
+        "id": "INT-EVIDENCE-DECISION-01",
+        "path": "interactions/evidence-decision/",
+        "owner": "batch release/snapshot/invalidation/completion",
+        "gap": "G06-02",
+        "status": "PROPOSED_NOT_REGISTERED"
+      },
+      {
+        "id": "IP-EVIDENCE-DECISION-01",
+        "path": "docs/patterns/evidence-decision/",
+        "owner": "pedagogical pattern contract",
+        "gap": "G06-02",
+        "status": "PROPOSED_NOT_REGISTERED"
+      }
+    ],
+    "registration_authorized": false,
+    "composition": {
+      "id": "CMP-EVIDENCE-DECISION-01",
+      "variant": "source-interpretation-decision-update",
+      "status": "PROPOSED_NOT_REGISTERED",
+      "ownership": "Arrangement only for source→interpretation→decision→update; no completion or storage authority",
+      "compatibility": "Opt-in variant only; preserve existing default selectors, markup contracts and every GR04 locked render/behavior. No edits authorized now."
+    },
+    "template": {
+      "id": "TPL-DEEP-WORKSPACE-01",
+      "variant": "evidence-decision",
+      "status": "PROPOSED_NOT_REGISTERED",
+      "configuration": [
+        "stage labels",
+        "reference-region label",
+        "composition variant"
+      ],
+      "compatibility": "Opt-in configuration only; unchanged GR05 default Repair stages / Original note and case evidence and default repair composition."
+    },
+    "service_policy": "SVC-LEARNING-STATE-01 unchanged; activity supplies its own validated payload and completion logic.",
+    "compatibility_gate": "If either shared extension cannot preserve existing behavior/rendering, record G06-03 compatibility System Gap and return to architecture. Do not silently alter locked/default behavior."
+  },
+  "responsive": {
+    "breakpoints_rem": [
+      64,
+      48,
+      30
+    ],
+    "narrow": "Stack reference and task; paired before/after per field; no horizontal table dependency.",
+    "new_tokens": false,
+    "new_illustrations": false
+  },
+  "validation_matrix": "GR-06_VALIDATION_MATRIX_v0.1.md",
+  "human_semantic_validation": {
+    "authority": "Independent human/ChatGPT architectural-HRBA review, never runtime keyword/AI scoring",
+    "dimensions": [
+      {
+        "id": "H01",
+        "dimension": "Finding versus explanation",
+        "acceptance": "Distinguishes recorded observations from inferred causes; does not assert that timing explains everyone’s absence."
+      },
+      {
+        "id": "H02",
+        "dimension": "Alternative explanations",
+        "acceptance": "Grounds an alternative or unresolved interpretation in informing and limiting evidence; does not invent equal likelihood or treat speculation as fact."
+      },
+      {
+        "id": "H03",
+        "dimension": "Prevalence overclaiming",
+        "acceptance": "Does not generalize four of six self-selected comments to all vendors or infer coverage from the 40 attendees/24 women without a population denominator."
+      },
+      {
+        "id": "H04",
+        "dimension": "Closure versus receipt",
+        "acceptance": "Distinguishes six administrative closures, two explanations recorded as sent and unverified receipt; does not turn missing records into proof of non-receipt."
+      },
+      {
+        "id": "H05",
+        "dimension": "Proportionality",
+        "acceptance": "Matches the scope and reversibility of action to evidence and uncertainty; explains a considered alternative without declaring a universal best route."
+      },
+      {
+        "id": "H06",
+        "dimension": "Authority and escalation",
+        "acceptance": "Identifies the public decision role and Awra facilitation boundary; identifies authorization/system action when needed, without promising approval or making escalation itself proof of quality."
+      },
+      {
+        "id": "H07",
+        "dimension": "Safe verification",
+        "acceptance": "Specifies minimally necessary, feasible non-identifying evidence and its limits; no sensitive personal collection or unsupported safety guarantee."
+      },
+      {
+        "id": "H08",
+        "dimension": "Account-back",
+        "acceptance": "Names a responsible role, accessible communication route and review point, distinguishes sending from checking receipt, and retains a route for unanswered concerns."
+      },
+      {
+        "id": "H09",
+        "dimension": "Meaningful U01 response",
+        "acceptance": "Updates interpretation and action/verification/account-back in response to the actual new evidence, not cosmetic wording; retaining a decision is valid with reasoned adaptation."
+      }
+    ],
+    "required_examples": [
+      "retain decision with meaningful adaptation",
+      "change decision with meaningful adaptation",
+      "escalate with explicit authorization boundary and feasible interim/follow-up action",
+      "unresolved alternative without false symmetry"
+    ],
+    "negative_examples": [
+      "prevalence inferred from six voluntary comments",
+      "closure or sent explanation treated as confirmed receipt",
+      "unsupported equal-weight alternative",
+      "Awra promising a public decision",
+      "cosmetic U01 revision"
+    ],
+    "decision_rule": "Reviewer records pass/deficiency for every dimension across substantive fixtures; any unaddressed dimension prevents semantic acceptance. needs_follow_up is permitted, not evidence of failure by itself. Structural completion is not semantic approval."
+  },
+  "architectural_revision": {
+    "revision": 2,
+    "source": "User architectural review in this chat; approved in principle, NOT FROZEN",
+    "corrections": [
+      "Differentiated interpretation roles",
+      "Explicit escalation decision route",
+      "Existing evidence-decision composition and configurable deep-workspace variants",
+      "Nine-dimension human semantic rubric"
+    ],
+    "preserved_case_sha256": "3b0d8368addff01083e82189f451fcc285213679af590f1638a5840a3ebcacb2",
+    "preserved_decision_maxima": {
+      "choiceReason": 60,
+      "alternative": 45,
+      "action": 60,
+      "responsibility": 45,
+      "verification": 60,
+      "accountBack": 60
+    },
+    "implementation_authorized": true
+  },
+  "freeze_authority": "User final approval in chat: Revision 2 frozen; approved three candidates and opt-in variants PROTOTYPE only; no other Golden Reference."
+}

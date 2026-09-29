@@ -1,0 +1,125 @@
+{
+  "scope": "Evidence-only update; no browser, model, state or broad production regression rerun needed because protected files are unchanged.",
+  "checks": [
+    {
+      "name": "109 protected production/candidate/contract/fixture/automated files unchanged",
+      "passed": true
+    },
+    {
+      "name": "exact diagnosis objective",
+      "passed": true
+    },
+    {
+      "name": "exact diagnosis participation",
+      "passed": true
+    },
+    {
+      "name": "exact diagnosis accountability",
+      "passed": true
+    },
+    {
+      "name": "exact diagnosis evidence",
+      "passed": true
+    },
+    {
+      "name": "exact v1 and unchanged v2 objective",
+      "passed": true
+    },
+    {
+      "name": "exact v1 and unchanged v2 participation",
+      "passed": true
+    },
+    {
+      "name": "exact v1 and unchanged v2 accountability",
+      "passed": true
+    },
+    {
+      "name": "exact v1 and unchanged v2 evidence",
+      "passed": true
+    },
+    {
+      "name": "exact revised v2 participation",
+      "passed": true
+    },
+    {
+      "name": "exact revised v2 evidence",
+      "passed": true
+    },
+    {
+      "name": "exact rationale",
+      "passed": true
+    },
+    {
+      "name": "eight identical source review reasons preserved",
+      "passed": true
+    },
+    {
+      "name": "eight exact source review follow-ups preserved",
+      "passed": true
+    },
+    {
+      "name": "eight needs_follow_up judgments preserved",
+      "passed": true
+    },
+    {
+      "name": "exact C01",
+      "passed": true
+    },
+    {
+      "name": "all evidence IDs and exact evidence texts",
+      "passed": true
+    },
+    {
+      "name": "all criterion prompts in both rounds",
+      "passed": true
+    },
+    {
+      "name": "exact diagnosis evidence bindings objective",
+      "passed": true
+    },
+    {
+      "name": "exact diagnosis evidence bindings participation",
+      "passed": true
+    },
+    {
+      "name": "exact diagnosis evidence bindings accountability",
+      "passed": true
+    },
+    {
+      "name": "exact diagnosis evidence bindings evidence",
+      "passed": true
+    },
+    {
+      "name": "source hashes match current untouched files",
+      "passed": true
+    },
+    {
+      "name": "three explicit user attestations with no independent Codex claim",
+      "passed": true
+    },
+    {
+      "name": "technical pass provenance propagated",
+      "passed": true
+    },
+    {
+      "name": "V25 and related V05 remain pending",
+      "passed": true
+    },
+    {
+      "name": "governed status stays pending",
+      "passed": true
+    },
+    {
+      "name": "candidate PROTOTYPE and no acceptance/GR06",
+      "passed": true
+    },
+    {
+      "name": "manifest source hashes valid",
+      "passed": true
+    }
+  ],
+  "protected_files_checked": 109,
+  "protected_changes": [],
+  "packet_sha256": "6d925327add5f607465c3f78d5fbc27bb32893e79c767f1a934cb077db88e2f6",
+  "status": "PASS"
+}

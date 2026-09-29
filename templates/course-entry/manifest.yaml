@@ -1,0 +1,33 @@
+id: TPL-COURSE-ENTRY-01
+version: 0.2.1-alpha
+status: prototype
+implementation:
+  structure: structure.html
+  css: course-entry.css
+composition_options:
+  - CMP-IMMERSIVE-01
+variants:
+  - id: editorial-split-illustrated
+    status: prototype
+    source_provenance:
+      - provider: Mighty Studio
+        pattern: Editorial two column layout
+        disposition: adapted
+      - provider: Mighty Studio
+        pattern: Text with floated images
+        disposition: visual-treatment-influence
+required_regions:
+  - course_identity
+  - headline
+  - proposition
+  - primary_action
+  - hero_visual
+  - journey
+optional_regions:
+  - practice_focus
+responsive_contract:
+  desktop: editorial-split
+  mobile: text-first-then-visual
+local_css_allowed: false
+compatible_practice:
+  - PRA-FOCUS-01

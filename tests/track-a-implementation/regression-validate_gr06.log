@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "contract_sha256": "9a08501d5e43182f2a1a84bbb27d6b7f8239b84cb0c05028f737fc0de14288d9",
+  "checks": [
+    {
+      "name": "V01 exact frozen revision 2 embedded",
+      "passed": true
+    },
+    {
+      "name": "V01 frozen contract text unchanged from checkpoint (Git line endings normalized)",
+      "passed": true
+    },
+    {
+      "name": "V01 local dependencies exist",
+      "passed": true
+    },
+    {
+      "name": "V01 no local learner script/style",
+      "passed": true
+    },
+    {
+      "name": "BLK-EVIDENCE-LEDGER-01 PROTOTYPE shared ownership",
+      "passed": true
+    },
+    {
+      "name": "INT-EVIDENCE-DECISION-01 PROTOTYPE shared ownership",
+      "passed": true
+    },
+    {
+      "name": "IP-EVIDENCE-DECISION-01 PROTOTYPE shared ownership",
+      "passed": true
+    },
+    {
+      "name": "components JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "patterns JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "templates JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "compositions JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "TPL-DEEP-WORKSPACE-01 approved variant only",
+      "passed": true
+    },
+    {
+      "name": "CMP-EVIDENCE-DECISION-01 approved variant only",
+      "passed": true
+    },
+    {
+      "name": "learning-blocks/evidence-ledger/evidence-ledger.js no direct storage APIs",
+      "passed": true
+    },
+    {
+      "name": "interactions/evidence-decision/model.js no direct storage APIs",
+      "passed": true
+    },
+    {
+      "name": "interactions/evidence-decision/evidence-decision.js no direct storage APIs",
+      "passed": true
+    },
+    {
+      "name": "templates/deep-workspace/deep-workspace.js no direct storage APIs",
+      "passed": true
+    },
+    {
+      "name": "V22 protected owners preserved except exact authorized W2-C03 punctuation and manifest evidence",
+      "passed": true
+    },
+    {
+      "name": "V22 exact GR05 default arrangement body retained",
+      "passed": true
+    },
+    {
+      "name": "V22 no new tokens",
+      "passed": true
+    },
+    {
+      "name": "V22 existing breakpoints only",
+      "passed": true
+    },
+    {
+      "name": "V21 semantic fixture exact frozen case",
+      "passed": true
+    },
+    {
+      "name": "V21 historical fixture has four examples/five negatives; current judgment is in authority record",
+      "passed": true
+    },
+    {
+      "name": "V21 packet copies exact authored evidence",
+      "passed": true
+    },
+    {
+      "name": "V21 no runtime dependency on review fixtures",
+      "passed": true
+    }
+  ]
+}
+

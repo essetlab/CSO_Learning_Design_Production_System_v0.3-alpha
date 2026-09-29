@@ -1,0 +1,14 @@
+id: INT-BUILD-REPAIR-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: interaction
+ownership: D/A/R1/C/R2/F, immutable v1, invalidation and final acknowledgment. Sole
+  completion owner.
+cross_course_validation: not-yet-tested
+frozen_contract: prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+engine: build-repair.js
+model: model.js
+depends_on:
+- BLK-WORK-ARTIFACT-01
+- SVC-LEARNING-STATE-01
+- TPL-DEEP-WORKSPACE-01

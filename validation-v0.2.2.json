@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "checked": [
+    "GR-01",
+    "GR-04"
+  ],
+  "external_python_packages_required": false,
+  "errors": []
+}

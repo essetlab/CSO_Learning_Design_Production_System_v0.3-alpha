@@ -1,0 +1,9 @@
+id: BLK-WORK-ARTIFACT-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: block
+ownership: Fields, evidence associations, comparison and plain-text export representation.
+cross_course_validation: not-yet-tested
+frozen_contract: prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+engine: work-artifact.js
+style: work-artifact.css

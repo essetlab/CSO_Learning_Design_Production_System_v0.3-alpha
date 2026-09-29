@@ -1,0 +1,38 @@
+{
+  "authority": "Explicit user Track A specification-only request in attached text",
+  "source": "tests/track-a-preflight/USER_REQUEST.txt",
+  "source_sha256": "bee59b96ac1bb277eff91e8286cc3fa221fad7f453eecf7a86316284723e73ec",
+  "Track_A": "PREFLIGHT_SPECIFICATION_ONLY_NOT_FROZEN",
+  "implementation_authorized": false,
+  "corrections_accepted": [
+    "W2-C01",
+    "W2-C02",
+    "W2-C03",
+    "W2-C06"
+  ],
+  "GR06_native_zoom": {
+    "id": "V18",
+    "status": "PASS",
+    "provenance": "USER_ATTESTED",
+    "statement": "native Chrome 200% = PASS, user-attested",
+    "performed_by": "User (as attested in request)",
+    "test_date": null,
+    "device_browser_details": null,
+    "Codex_performed": false
+  },
+  "GR06_semantic": "H01-H09 PASS; ChatGPT review reported by user; unchanged",
+  "GR06_pending": [
+    "V19-screen-reader",
+    "V19-mobile"
+  ],
+  "GR06_status": "IMPLEMENTED_PENDING_MANUAL_VALIDATION",
+  "GR06_design_learning": "Architecture works, but too lengthy/dense for likely production: too many nested stages/tabs, open-ended prompts, selections and repeated authored responses. Upper acceptable authored-work burden, not a future course-screen template. Track A must substantially reduce writing and differ in rhythm.",
+  "prohibited": [
+    "Runtime implementation",
+    "Candidate registration/promotion",
+    "Track B",
+    "PM stress testing",
+    "HRBA reconstruction"
+  ],
+  "numbering": "Track A capability label only; no GR number assigned"
+}

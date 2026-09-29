@@ -1,0 +1,427 @@
+{
+  "status": "PASS",
+  "scope": "Specification/schema/reference/preservation only. No prototype validation or semantic judgment performed.",
+  "checks": [
+    {
+      "name": "Canonical differentiation schema",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Brief identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Proposal structural schema",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Registry parity",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Every reused ID and authority mode resolves",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Proposed ID is unregistered BLK-ASSESSMENT-BUNDLE-01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Proposed ID is unregistered INT-READINESS-REVIEW-01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Proposed ID is unregistered IP-READINESS-GATE-01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Variant owner known, variant unregistered CMP-EVIDENCE-DECISION-01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Variant owner known, variant unregistered TPL-SCENARIO-01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "No Track A runtime or inferred GR number",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Four routes and assessment states",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Two authored fields; no minimum/grade",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Completion is practice-only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shared state unchanged and independent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "TA-E01 exact bounded source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "TA-E02 exact bounded source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "TA-E03 exact bounded source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "TA-E04 exact bounded source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "TA-K01 bounded criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "TA-K02 bounded criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "TA-K03 bounded criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Update and feedback bounds",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Four positive/eight negative fixtures separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "P01 initial structural semantic-fixture bounds only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "P01 current structural semantic-fixture bounds only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "P02 initial structural semantic-fixture bounds only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "P02 current structural semantic-fixture bounds only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "P03 initial structural semantic-fixture bounds only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "P03 current structural semantic-fixture bounds only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "P04 initial structural semantic-fixture bounds only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "P04 current structural semantic-fixture bounds only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "V01\u2013V22 all planned, no runtime pass",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Ten pending human dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Resource-first dispositions complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R01 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R02 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R03 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R04 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R05 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R06 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R07 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R08 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R09 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R10 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R11 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R12 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R13 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R14 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R15 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R16 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R17 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R18 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R19 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R20 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R21 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R22 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "R23 inspected file hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Required artifact RESOURCE_FIRST_PREFLIGHT",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Required artifact EXPERIENCE_DIFFERENTIATION_BRIEF",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Required artifact DETERMINISTIC_LEARNING_DESIGN",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Required artifact VALIDATION_MATRIX",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Required artifact RESEARCH_AND_SOURCE_NOTES",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "All production, registry and frozen inputs byte-preserved",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "interactions has no semantic-fixture runtime dependency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "learning-blocks has no semantic-fixture runtime dependency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "golden-references has no semantic-fixture runtime dependency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compositions has no semantic-fixture runtime dependency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "templates has no semantic-fixture runtime dependency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "state has no semantic-fixture runtime dependency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "GR06 exact current provenance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "GR06 still pending manual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current repository schema and registered/frozen references",
+      "passed": true,
+      "details": {
+        "status": "pass",
+        "checked": [
+          "GR-01",
+          "GR-02",
+          "GR-03",
+          "GR-04",
+          "GR-05",
+          "GR-06"
+        ],
+        "locked_checked": [
+          "GR-01",
+          "GR-04"
+        ],
+        "schema": "schemas/golden-reference.schema.json",
+        "legacy_template_strings": [
+          "GR-02"
+        ],
+        "contracts_checked": [
+          "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+          "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+          "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json"
+        ],
+        "dependency_aliases": [
+          {
+            "source": "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+            "pointer": "/system_objects/shared_ui/3",
+            "label": "UI-NAV-CONTROLS-01",
+            "owner": "SHELL-GR-W1-01"
+          }
+        ],
+        "external_python_packages_required": true,
+        "python_packages": [
+          "PyYAML",
+          "jsonschema"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "Existing branch/HEAD preserved",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "changed_baseline_files": [
+    "README.md",
+    "WAVE_2_CURRENT_AUTHORITY.json",
+    "WAVE_2_CURRENT_AUTHORITY.md",
+    "golden-references/GR-06/GR-06_BUILD_MANIFEST.json",
+    "golden-references/GR-06/GR-06_RESULT_SUMMARY.md",
+    "golden-references/GR-06/MANUAL_VALIDATION.md",
+    "tests/GR06_EVIDENCE_CONSISTENCY.json",
+    "tests/GR06_MANUAL_EVIDENCE.json",
+    "tests/GR06_VALIDATION_RESULT.json",
+    "tests/check_gr06_evidence.py",
+    "tools/apply_current_review_authority.py",
+    "tools/build_current_authority_index.py"
+  ]
+}

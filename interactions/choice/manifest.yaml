@@ -1,0 +1,6 @@
+id: INT-CHOICE-01
+version: 0.2.0-alpha
+status: repo-alpha-ready
+engine: single-choice-feedback.js
+completion_modes:
+- feedback-viewed

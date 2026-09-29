@@ -1,0 +1,14 @@
+registry_version: 0.3.0-alpha
+assets:
+- id: AST-HRBA-GR01-HERO-EXISTING-01
+  status: approved-source-asset
+  course: HRBA
+  path: assets/courses/hrba/AST-HRBA-GR01-HERO-EXISTING-01.png
+  provenance: existing HRBA Module 1 hero asset; reused in GR-01
+- id: AST-HRBA-GR03-VOICE-SAFETY-EXISTING-01
+  status: approved-source-asset-for-prototype
+  course: HRBA
+  path: assets/courses/hrba/AST-HRBA-GR03-VOICE-SAFETY-EXISTING-01.webp
+  provenance: Existing HRBA R&D image generated 2026-07-02 for voice-and-safety /
+    power interpretation; reused after VA-012 binary was not directly retrievable
+    in current project file surface.

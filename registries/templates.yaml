@@ -1,0 +1,25 @@
+registry_version: 0.2.1-alpha
+objects:
+- id: TPL-CONCEPT-01
+  version: 0.2.0-alpha
+  status: prototype
+- id: TPL-SCENARIO-01
+  version: 0.2.1-alpha
+  status: prototype
+  implementation: templates/scenario/manifest.yaml
+  variants:
+  - professional-judgement-dark-evidence
+  - readiness-review
+- id: TPL-COURSE-ENTRY-01
+  version: 0.2.1-alpha
+  status: prototype
+  implementation: templates/course-entry/manifest.yaml
+  variants:
+  - editorial-split-illustrated
+- id: TPL-DEEP-WORKSPACE-01
+  version: 0.3.0-alpha
+  status: PROTOTYPE
+  type: template
+  implementation: templates/deep-workspace/manifest.yaml
+  variants:
+  - evidence-decision

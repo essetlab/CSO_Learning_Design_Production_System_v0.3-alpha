@@ -1,0 +1,7 @@
+id: INT-JUDGMENT-01
+version: 0.2.0-alpha
+status: prototype
+engine: single-choice-feedback.js
+completion_modes:
+- feedback-viewed
+cross_course_validation: not-yet-tested

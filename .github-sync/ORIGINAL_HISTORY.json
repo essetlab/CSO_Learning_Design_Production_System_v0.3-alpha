@@ -1,0 +1,5501 @@
+{
+  "format": 1,
+  "authorization": "User explicitly selected exact current tree with LFS archives and a lossless original-history bundle. Original commit IDs are recoverable from bundle, not browsable as publication history.",
+  "account": "essetlab",
+  "target": "https://github.com/essetlab/CSO_Learning_Design_Production_System_v0.3-alpha",
+  "source_branch": "gate8/wave2/gr06-evidence-to-decision",
+  "source_head": "d4e72e3a898e63ec084288925155781c4c58fce3",
+  "source_core_autocrlf": "true",
+  "original_refs": [
+    {
+      "ref": "refs/heads/gate8/wave2/gr03-browser-validation",
+      "oid": "300362b72f714ea152d0b7812c42906938acb24c"
+    },
+    {
+      "ref": "refs/heads/gate8/wave2/gr05-deep-build-repair",
+      "oid": "a3e131d8f1ec36631b06f8a10be892f2f3a99257"
+    },
+    {
+      "ref": "refs/heads/gate8/wave2/gr06-evidence-to-decision",
+      "oid": "d4e72e3a898e63ec084288925155781c4c58fce3"
+    },
+    {
+      "ref": "refs/heads/main",
+      "oid": "1a263232c000495a567e56208a51f98b40826f64"
+    },
+    {
+      "ref": "refs/tags/v0.3-alpha-gr03-static-pass",
+      "oid": "1a263232c000495a567e56208a51f98b40826f64"
+    },
+    {
+      "ref": "refs/tags/v0.3-alpha-gr03-wave2-review-pass",
+      "oid": "4bf7b012e961582d634ac024f68b10121b64b2ac"
+    }
+  ],
+  "original_index": [
+    {
+      "mode": "100644",
+      "oid": "99a6b9ddd7bdada14ceb01a11d7da71f66d2a937",
+      "stage": 0,
+      "path": "Baseline_Reconciliation_and_System_Correction_Report_v0.2.2-alpha.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "4f9bdca3e08e0bd7e71b29f77863af03fa1ffb1e",
+      "stage": 0,
+      "path": "GR-03_Wave_2_Implementation_Change_Log_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "98541131474f338e30fc024021fc376a8d4c099f",
+      "stage": 0,
+      "path": "PACKAGE_MANIFEST.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "05ef2b1441cef61e1ada8b622a5e12b2a70b1caa",
+      "stage": 0,
+      "path": "README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "d9a70bdf9621496eb23e3392b6890918ca01f98d",
+      "stage": 0,
+      "path": "Repository_Alpha_Materialization_Report_v0.2-alpha.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "26342ff7c33e0a16f174e84385e267a27212ce71",
+      "stage": 0,
+      "path": "Repository_Rebuild_Review_and_Duplicate_Build_Preparation_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "4655478c06fca296d1ada71fad58e8589dbaa50d",
+      "stage": 0,
+      "path": "TRACK_A_PREFLIGHT_RESULT.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "de60009ae1e5394689b75bc6d3d3a091b32759dd",
+      "stage": 0,
+      "path": "VERSION.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "5c84ed6bd269025dee4879b60736be70484ac9c9",
+      "stage": 0,
+      "path": "WAVE_2_BOUNDED_CORRECTIONS_RESULT.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "e959bef3d9381eb62770ea76482bff0728a35407",
+      "stage": 0,
+      "path": "WAVE_2_CONSOLIDATED_SYSTEM_REVIEW_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "fe8deae2b014a2ea68a953d2ec639eeb776befdd",
+      "stage": 0,
+      "path": "WAVE_2_CURRENT_AUTHORITY.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "952d18d01b750e125be32d69c6e590e81dc7fa98",
+      "stage": 0,
+      "path": "WAVE_2_CURRENT_AUTHORITY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "3b18a092e41bba626014d9fd6a75c74c8c44658b",
+      "stage": 0,
+      "path": "WAVE_2_OBJECT_DISPOSITION_MATRIX_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "954639fe09ca80d538bf9649e6e5f59ee9e91096",
+      "stage": 0,
+      "path": "WAVE_2_REMAINING_COVERAGE_AND_NEXT_REFERENCES_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "0c875cb0fef00a6c2e1afec327b7bf38219f4dcd",
+      "stage": 0,
+      "path": "WAVE_2_SYSTEM_REVIEW.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "1d3e6cbc156af0c7eefc36b7979ff18319c96193",
+      "stage": 0,
+      "path": "assets/courses/hrba/AST-HRBA-GR01-HERO-EXISTING-01.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "da3a85624129fbd17e8b461d5c7fed0a8c4b6d83",
+      "stage": 0,
+      "path": "assets/courses/hrba/AST-HRBA-GR03-VOICE-SAFETY-EXISTING-01.webp"
+    },
+    {
+      "mode": "100644",
+      "oid": "22a646e120b8513601c76bc708444e2cd8f342de",
+      "stage": 0,
+      "path": "compositions/editorial/editorial.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "cbb00a17086384a3a762b3c60e283fac55f8d935",
+      "stage": 0,
+      "path": "compositions/editorial/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "89caf153c1e2c7785114c2a072865ce647eb1162",
+      "stage": 0,
+      "path": "compositions/evidence-decision/evidence-decision.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "6ffe606e676d704fcc3bb33a137888b8739f0092",
+      "stage": 0,
+      "path": "compositions/evidence-decision/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "af33875370fdd9692b90222033f1b9ef36730267",
+      "stage": 0,
+      "path": "compositions/evidence-decision/source-interpretation-decision-update.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "831278f43eb7413de90a23df5438ab1b2e532b1c",
+      "stage": 0,
+      "path": "compositions/immersive/immersive.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "28bb653d34357f9475ea41e6f9f2321eaaf40e90",
+      "stage": 0,
+      "path": "compositions/immersive/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "a4988f6295c65339b026f4c7a1c011b75450e2a1",
+      "stage": 0,
+      "path": "compositions/perspective/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "aebc2d5be9c81e7d2c67fbe2affd8e00a4891fe6",
+      "stage": 0,
+      "path": "compositions/perspective/perspective.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "17d9107877ced92a245bd029d2b9e85df56df33c",
+      "stage": 0,
+      "path": "compositions/repair-studio/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "ffb31f13e98ea4adb23421483a9fb5cbd186e896",
+      "stage": 0,
+      "path": "compositions/repair-studio/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "a29fcecf85cc821697670b0b8dad424557ccbd2e",
+      "stage": 0,
+      "path": "compositions/repair-studio/repair-studio.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "5f7075e7d803045353dac4eaa699ba7750117902",
+      "stage": 0,
+      "path": "docs/GR03_REFRESH_PERSISTENCE_OBSERVATION.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "ff60c75a61b779dc93c0bdc0663a9a0c42fbfe88",
+      "stage": 0,
+      "path": "docs/GR03_SCHEMA_RECONCILIATION_PROPOSAL.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "7de81af95cbc05724dd6a2b72a9fc905ebce8c90",
+      "stage": 0,
+      "path": "docs/PACKAGING.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "0c43e369167280f3b373e47410e8181897555afe",
+      "stage": 0,
+      "path": "docs/TEMPLATE_SCHEMA_RECONCILIATION.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "bcd133ca14683378f2b2ead7786a9510acc6ade2",
+      "stage": 0,
+      "path": "docs/ai-build-contract.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "766331dcff97fd154be51493e0ca7e71ea9335b8",
+      "stage": 0,
+      "path": "docs/patterns/build-repair/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "8d97c06133be61e492e51122583c174537a8afba",
+      "stage": 0,
+      "path": "docs/patterns/build-repair/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "182b5789c0f12e0cfe8935885cfebf54d99250e6",
+      "stage": 0,
+      "path": "docs/patterns/evidence-decision/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "c1da7a7f76182af23fd0f1f9ce09ab8e3af4bc74",
+      "stage": 0,
+      "path": "docs/patterns/evidence-decision/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "aa896410b39ad05f5cd4597b7426e05467eb1420",
+      "stage": 0,
+      "path": "docs/resource-first-workflow.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "2009700e73bbdae0e454f6a2664e1f29d8089320",
+      "stage": 0,
+      "path": "docs/system-gap-process.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "7033c651dc5d2cbab1a7eab4578d4f6065fd8f11",
+      "stage": 0,
+      "path": "foundations/accessibility.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "2981dd0ba22d9d0aa77f2a4a42c8b08c98e4fbe5",
+      "stage": 0,
+      "path": "foundations/base.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "02bdd17e8cef93c9a0cb5f620410590ddd7b7b58",
+      "stage": 0,
+      "path": "foundations/motion.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "5b2e1726bb27d3e210e4c26c933b7cfa94e206b6",
+      "stage": 0,
+      "path": "foundations/utilities.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "48b35740d29a3a8bd0c970ef6753d4503d8f9c6d",
+      "stage": 0,
+      "path": "golden-references/GR-01/GR-01_RESULT_SUMMARY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "17a85b89605bc561fa57b2e0c09b90f2b6789143",
+      "stage": 0,
+      "path": "golden-references/GR-01/index.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "c1946f1c24d683928706974fffc38e623a7aa805",
+      "stage": 0,
+      "path": "golden-references/GR-01/locked-validation-v0.2.2.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "stage": 0,
+      "path": "golden-references/GR-01/reference.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "bdf16a87a1c7f3a5627cec82ede9e642fa377c4b",
+      "stage": 0,
+      "path": "golden-references/GR-01/source-provenance.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "d0e46c9e6ae3aa755b831d45257f4e7b76995fab",
+      "stage": 0,
+      "path": "golden-references/GR-01/spec.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "66e72b0ada07ab9f0b079e6ae7a01d4e9bccac57",
+      "stage": 0,
+      "path": "golden-references/GR-02/GR-02_RESULT_SUMMARY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "7c525152b9d94383007b04d699aae2c240183fcd",
+      "stage": 0,
+      "path": "golden-references/GR-02/index.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "e578fa91d329ad58e40cd81918d51b5c0d5aa4de",
+      "stage": 0,
+      "path": "golden-references/GR-02/reference.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "d97ec9f39f37e8a5a066e029bda8cb6818c9aa5e",
+      "stage": 0,
+      "path": "golden-references/GR-02/source-provenance.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "1a05cc8badb7b774a6fa113b69733c3ac11f6841",
+      "stage": 0,
+      "path": "golden-references/GR-02/spec.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "ac1131457390c39ab4f69f21e4ace28130178765",
+      "stage": 0,
+      "path": "golden-references/GR-03/GR-03_BUILD_MANIFEST.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "bf4f4c8951829f638cc41fcdd5fad4021335882d",
+      "stage": 0,
+      "path": "golden-references/GR-03/GR-03_RESULT_SUMMARY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "1e45b9771d30c7d96aed08b8cc2439eae23c3117",
+      "stage": 0,
+      "path": "golden-references/GR-03/index.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "stage": 0,
+      "path": "golden-references/GR-03/reference.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "676fdff875c274016ec847eb5081dba5bb1cc1ad",
+      "stage": 0,
+      "path": "golden-references/GR-03/source-provenance.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "0c5e6b066b259e5fe21b57806685963a7ff8f7c3",
+      "stage": 0,
+      "path": "golden-references/GR-03/spec.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "3b2be5985c27f26e725174d42e3c26b2ce68392f",
+      "stage": 0,
+      "path": "golden-references/GR-03/system-gap-report.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "b9a4e85b7c7ceee7fca7341daa9394969b6b2ef8",
+      "stage": 0,
+      "path": "golden-references/GR-03/validation-report.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "27056e743f06114cdefe0c8cc57407402cc310e8",
+      "stage": 0,
+      "path": "golden-references/GR-04/GR-04_RESULT_SUMMARY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "cc50fa7983392c15a229703e6650488de3ab6b22",
+      "stage": 0,
+      "path": "golden-references/GR-04/index.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "f3ab03e3e02b5fc4d2291ef31996588767929e92",
+      "stage": 0,
+      "path": "golden-references/GR-04/locked-validation-v0.2.2.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "stage": 0,
+      "path": "golden-references/GR-04/reference.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "d0ab25d2a17b0d5e47bd9e1d83490ec43321b03b",
+      "stage": 0,
+      "path": "golden-references/GR-04/source-provenance.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "0e4ad4246f2f71030784c234ab67b7d36cd28610",
+      "stage": 0,
+      "path": "golden-references/GR-04/spec.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "ede432c620be07dad223c9b537a78955ea089152",
+      "stage": 0,
+      "path": "golden-references/GR-05/GR-05_BUILD_MANIFEST.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "5ea68c697bcb1d10b0ca1ff719e78d1138369ee5",
+      "stage": 0,
+      "path": "golden-references/GR-05/GR-05_RESULT_SUMMARY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "e3df1df32376a3629faa1becfa9f1e25f0d930d4",
+      "stage": 0,
+      "path": "golden-references/GR-05/GR-05_V25_REVIEW_PACKET.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "97919b0565048486754a313c73034e06e75560f2",
+      "stage": 0,
+      "path": "golden-references/GR-05/GR-05_V25_SEMANTIC_REVIEW_PACKET.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "fbc98daec3cb4c4d3ef058bf96d252018a4e5a12",
+      "stage": 0,
+      "path": "golden-references/GR-05/MANUAL_VALIDATION.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "a1abd5771008ebe37df0836e3aff95c5377f7ed9",
+      "stage": 0,
+      "path": "golden-references/GR-05/exercise.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "ee3ed8ebab5bd30688dff46a4d66b4b1bbb52720",
+      "stage": 0,
+      "path": "golden-references/GR-05/index.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "63a86eb07e11b7480c16023bcd9db2b2bd6da193",
+      "stage": 0,
+      "path": "golden-references/GR-05/source-provenance.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "826b032e25e6ec6856f0c21d02facfcdbdb5e642",
+      "stage": 0,
+      "path": "golden-references/GR-05/spec.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "16035e0825e39965f2a2b5c3087dfffbe2104792",
+      "stage": 0,
+      "path": "golden-references/GR-06/GR-06_BUILD_MANIFEST.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "a79483949f39d9e39524c7543c8b2e3519d7cdbe",
+      "stage": 0,
+      "path": "golden-references/GR-06/GR-06_RESULT_SUMMARY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "5f1c998cb8302fe254b8d066667c54eb194c20b4",
+      "stage": 0,
+      "path": "golden-references/GR-06/GR-06_SEMANTIC_REVIEW_PACKET.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "4753d694eca239b212dcf482da5a01ecb07eb1a6",
+      "stage": 0,
+      "path": "golden-references/GR-06/MANUAL_VALIDATION.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "27870ce6bfa9d66ba877eccadf2c428521d63bcc",
+      "stage": 0,
+      "path": "golden-references/GR-06/exercise.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "60e35283dce24a55a48071fd7971114d34bae949",
+      "stage": 0,
+      "path": "golden-references/GR-06/index.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "502fe9df0b1223699d20b3f489bc77826cdd6e7f",
+      "stage": 0,
+      "path": "golden-references/GR-06/source-provenance.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "1ca3126c943ec6eb1ec56cbbc68235fb9802c07c",
+      "stage": 0,
+      "path": "golden-references/GR-06/spec.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "69603ad965780e914ab20c2d011c211247050ec0",
+      "stage": 0,
+      "path": "governance/TRACK_A_FREEZE_AUTHORITY.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "3c41c397b24fe6cb3058931c1deb5da86c9d7e2e",
+      "stage": 0,
+      "path": "governance/TRACK_A_PREFLIGHT_AUTHORITY.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "f3130db62b877f1287c870d164b4034afe2c60a2",
+      "stage": 0,
+      "path": "governance/WAVE_2_REVIEW_AUTHORITY_UPDATE.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "32b9e97659f5ef0c59d87efb4cb8109685a9931f",
+      "stage": 0,
+      "path": "governance/accessibility-resilience-baseline.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "392f14a6a0b01680fb8b5dd909df382e97965836",
+      "stage": 0,
+      "path": "governance/validation-policy.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "806d639d608e8162f51125a859f17c6bbc59b6fd",
+      "stage": 0,
+      "path": "index.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "d686b249ef13bf4fb75902bdbb7e122eb8ebb84a",
+      "stage": 0,
+      "path": "interactions/build-repair/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "6f353980a922cb31d803addfed70c2d5d9c4fa1a",
+      "stage": 0,
+      "path": "interactions/build-repair/build-repair.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "8d16ad2609ebd419a1056fd0e7bc8186ba64687f",
+      "stage": 0,
+      "path": "interactions/build-repair/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "e69ef90585fa061b7a08d4a5abfcdcbc016ced66",
+      "stage": 0,
+      "path": "interactions/build-repair/model.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "395ff7fb1ea7c0cecc6a075de4f0106a33947b79",
+      "stage": 0,
+      "path": "interactions/choice/choice.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "66569647abd9940abb1c54453604319b9eebf970",
+      "stage": 0,
+      "path": "interactions/choice/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "d85bc2cb91a64c95a7581db477d2bd4193aecbd9",
+      "stage": 0,
+      "path": "interactions/choice/single-choice-feedback.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "c183bcb7f446989c9ccf08e256626853324a537c",
+      "stage": 0,
+      "path": "interactions/evidence-decision/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "8f1f2ef949d7f556982ae6c8c59809470ee3d74b",
+      "stage": 0,
+      "path": "interactions/evidence-decision/evidence-decision.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "c1e54a56860885ed1ac1b1bc3569e755e0072e1c",
+      "stage": 0,
+      "path": "interactions/evidence-decision/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "9c7967f272e6805a0ffbef25a82bcfa511f56025",
+      "stage": 0,
+      "path": "interactions/evidence-decision/model.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "1c7bcaf3b3cb021aa2308293f0071bd1dd3c469b",
+      "stage": 0,
+      "path": "interactions/judgement/judgement.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "e50975587dc53f51b0d06cb2c1b9e81029f1646c",
+      "stage": 0,
+      "path": "interactions/judgement/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "d85bc2cb91a64c95a7581db477d2bd4193aecbd9",
+      "stage": 0,
+      "path": "interactions/judgement/single-choice-feedback.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "f5e9af49f25d74e161d3ec3589d657c3808100f3",
+      "stage": 0,
+      "path": "interactions/labeled-graphic/labeled-graphic.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "6b2308d098d19202f5ac0421f617dd73320fbaca",
+      "stage": 0,
+      "path": "interactions/labeled-graphic/labeled-graphic.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "737148420aaf34e00480d134d873a175dc9749ad",
+      "stage": 0,
+      "path": "interactions/labeled-graphic/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "e35e84e1c34cbbbe70037dc397965b91a73268f5",
+      "stage": 0,
+      "path": "learning-blocks/case-evidence/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "704b34dc23a26a0d480a23ba76850f7de3680de0",
+      "stage": 0,
+      "path": "learning-blocks/evidence-ledger/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "9f89ee462e141f434faabb609396999d9d183409",
+      "stage": 0,
+      "path": "learning-blocks/evidence-ledger/evidence-ledger.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "c912f59e07608c2641268a46e9ae892fa7e477d7",
+      "stage": 0,
+      "path": "learning-blocks/evidence-ledger/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "77c0c787bf59afb8daa548b5f8f381d7e549e35e",
+      "stage": 0,
+      "path": "learning-blocks/explainer/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0fd386f7c7b32511807f7f868730afe5d2123e5",
+      "stage": 0,
+      "path": "learning-blocks/feedback/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "1d179288c41f48bf4322c88a28dd37032ac72281",
+      "stage": 0,
+      "path": "learning-blocks/perspective/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "8c10b43ec8bbdfb183ef3dc87d16615b0ddfe056",
+      "stage": 0,
+      "path": "learning-blocks/question/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "0c5979ed0a096e8ade5c45ebc5c03d0bca7bbd92",
+      "stage": 0,
+      "path": "learning-blocks/question/question.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "9256170929eb8acad9013c1416b52dcb3e358be0",
+      "stage": 0,
+      "path": "learning-blocks/takeaway/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "a026601ca354763fea796fa5525b51930c8dce3d",
+      "stage": 0,
+      "path": "learning-blocks/visual-model/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "0b5187f6e3170deee01100629cbb0a1d4fe42dc2",
+      "stage": 0,
+      "path": "learning-blocks/work-artifact/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "69fad22a7c998269ef06246f81c88cc10811e3e9",
+      "stage": 0,
+      "path": "learning-blocks/work-artifact/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "95f789c0ff6c9f605bfa8808437fe7b06900a370",
+      "stage": 0,
+      "path": "learning-blocks/work-artifact/work-artifact.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "4c8c86c2b790585699506bfbcd063c871671322f",
+      "stage": 0,
+      "path": "learning-blocks/work-artifact/work-artifact.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "a0fd01f9c3deab3853b2b7441ae75b344c43ecbd",
+      "stage": 0,
+      "path": "locked-build-specs/GR-01_LOCKED_BUILD_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "896b5b2d05fc9fca28de3656329960b2d17812d6",
+      "stage": 0,
+      "path": "locked-build-specs/GR-01_LOCKED_BUILD_v0.1.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "43c62b565b60c3c23422a7f18a2cb3b18e73c2db",
+      "stage": 0,
+      "path": "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "bfc2496b1e8ce934a034e11bc8784fc233475f2e",
+      "stage": 0,
+      "path": "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "4e3da6ee92edd80e37605537b58cd441a0e2ea14",
+      "stage": 0,
+      "path": "materialization-metrics.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "65d088ca4d6f87b4a71beafad309ea38fcf1cea1",
+      "stage": 0,
+      "path": "package/GR03_Browser_Validation_Review_2026-09-28.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "b1731bd9dd9f1e24d03c3823c5a540db23def938",
+      "stage": 0,
+      "path": "package/GR03_Gate8_Validation_Review_2026-09-28_updated.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "82c6870d4a5eca97f7ac9b789828b093230112ea",
+      "stage": 0,
+      "path": "package/GR03_Relocation_Review_2026-09-28.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "c33b444d96e5b0c796a0fc223b1c36c4e75a01fb",
+      "stage": 0,
+      "path": "package/GR03_Schema_Reconciliation_Review_2026-09-28.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "22157cc64fb3ca70878aa09b733db8c802d3c3bb",
+      "stage": 0,
+      "path": "package/GR03_System_Review_2026-09-28.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "fe1c73d45253d06a07818e3703bafd22c315f64e",
+      "stage": 0,
+      "path": "package/GR05_Prototype_Review_2026-09-28.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "d3b49c86f67b35ef04aff89012a1663b29ffdc97",
+      "stage": 0,
+      "path": "package/GR05_V25_Review_Packet_Updated.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "2ea0dff95a69eb02269be1571cbf0f57f9f37177",
+      "stage": 0,
+      "path": "package/GR05_V25_Semantic_Review.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "0374fae12ae355ff31449e4361a6780af00ae025",
+      "stage": 0,
+      "path": "package/GR05_Wave2_Review_Pass.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "29bf755d83541bf0a2757c6417e12e4e3c02196a",
+      "stage": 0,
+      "path": "package/GR06_Preflight_Specification_Review.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "4787f8f300effeb54e2b1edb764a3375aefdd03a",
+      "stage": 0,
+      "path": "package/GR06_Revision2_Specification_Review.zip"
+    },
+    {
+      "mode": "100644",
+      "oid": "9cbd8ced75c9856a2c344e273beeb94eddd4b446",
+      "stage": 0,
+      "path": "package/system-version.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "a25a49fdbfb1276e30effe50adf2744dbe08f533",
+      "stage": 0,
+      "path": "practice/practice-focus/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "d2bd75c1ed17f32022b3efaf49ce4dd91aba08bf",
+      "stage": 0,
+      "path": "practice/practice-focus/practice-focus.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "3173de098c0acbefd9a7fdeb2763479db5a74a36",
+      "stage": 0,
+      "path": "practice/practice-focus/practice-focus.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "b698768dcd718f30e26fdab5819f8e202a832179",
+      "stage": 0,
+      "path": "prototype-specs/EXPERIENCE_DIFFERENTIATION_BRIEF_TEMPLATE.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "3195b5c256b212b88e80b07699a46a1566a1ae62",
+      "stage": 0,
+      "path": "prototype-specs/EXPERIENCE_DIFFERENTIATION_BRIEF_TEMPLATE.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "273c0d90dc52948c2bbb7a672e342352b965459e",
+      "stage": 0,
+      "path": "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "8b4cd035e5217ffd782915010ecc59d8e153f031",
+      "stage": 0,
+      "path": "prototype-specs/GR-03_VALIDATION_MATRIX_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "7dea5173c89428e206fe93aadc8f4718d2ffa8e3",
+      "stage": 0,
+      "path": "prototype-specs/GR-05_ARCHITECTURAL_CORRECTIONS_AND_CANDIDATES_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "fa54b4b42502937487f03eeea0302300397a5be9",
+      "stage": 0,
+      "path": "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "572bb535e6e4a381b1d8806f1ec828053f276227",
+      "stage": 0,
+      "path": "prototype-specs/GR-05_DETERMINISTIC_LEARNING_DESIGN_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "51e05c4d29add5fc11d9e19c9d1ab932fa0334d7",
+      "stage": 0,
+      "path": "prototype-specs/GR-05_PREFLIGHT_VERIFICATION_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "e009eaf6a56264f74be7f768229e790d16b960d9",
+      "stage": 0,
+      "path": "prototype-specs/GR-05_RESOURCE_FIRST_PREFLIGHT_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "193a3c795cd0252ad3dfc249c6a9576dfbd7bcf4",
+      "stage": 0,
+      "path": "prototype-specs/GR-05_RESOURCE_INVENTORY_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "f88641a6e2bdf0cd1ed6ee4e76d11d3780b2cd80",
+      "stage": 0,
+      "path": "prototype-specs/GR-05_VALIDATION_MATRIX_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "8cab0674182ab3869af26561b7e444f47b11e4e5",
+      "stage": 0,
+      "path": "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "2d97a133f5a8fd7982c4a9277825c1b732090d77",
+      "stage": 0,
+      "path": "prototype-specs/GR-06_DETERMINISTIC_LEARNING_DESIGN_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "0fd472b83e1af2764d9bff5282a1067374a39692",
+      "stage": 0,
+      "path": "prototype-specs/GR-06_PREFLIGHT_VERIFICATION_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "7ba6e4586ab2ec989a127806857dcccb8bb75411",
+      "stage": 0,
+      "path": "prototype-specs/GR-06_RESEARCH_AND_SOURCE_NOTES_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "a4599232116ee044bb79079e2f6706a6e99a2d39",
+      "stage": 0,
+      "path": "prototype-specs/GR-06_RESOURCE_FIRST_PREFLIGHT_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "4d76d356d6100b0d361f7b84a27d4b8e3c5ff116",
+      "stage": 0,
+      "path": "prototype-specs/GR-06_RESOURCE_INVENTORY_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "15b50b7c24b871962615efbd6ab4f84fd0352204",
+      "stage": 0,
+      "path": "prototype-specs/GR-06_REVISION_2_CHANGE_RECORD.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "efc8a70f0873638220d96ef83a536a09ff2d70b7",
+      "stage": 0,
+      "path": "prototype-specs/GR-06_VALIDATION_MATRIX_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "ad8e8978cfe10c3546dd9fda8123c8ffd40adaf6",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "35f85a41f095c43dfc5ac46fa4e3f6438f4d17a3",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_DETERMINISTIC_LEARNING_DESIGN_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "5e8ad60b67618ff51d179ac77660c3fb931d5727",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_EXPERIENCE_DIFFERENTIATION_BRIEF_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "c9eea02feb96a7b5c6cd6b82bcd4ea674b596611",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_EXPERIENCE_DIFFERENTIATION_BRIEF_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "51e76a60e8d198178b85f8166834605127ec7666",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_RESEARCH_AND_SOURCE_NOTES_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "3b148b6297b038a0658c6e7af5c0944b5ec9e0ee",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_RESOURCE_FIRST_PREFLIGHT_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "35c3ea529fed1666e477c7c7bbe0fb8cd839053c",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_RESOURCE_INVENTORY_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "0b58002445d975eef30f96a2b65bd5098410412c",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_SEMANTIC_REVIEW_FIXTURES_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "604e4137fd4c36b47691af709db2451794513840",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_VALIDATION_MATRIX_v0.1.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "085b7178d07db26d53c7437961287deb093df2f1",
+      "stage": 0,
+      "path": "prototype-specs/TRACK_A_VALIDATION_PLAN_v0.1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "777c501a1a5c965857e72f2e6f1f579e19e113ce",
+      "stage": 0,
+      "path": "registries/assets.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "80374d0e80cc0e01a55d93ba124dc00e422bd5d4",
+      "stage": 0,
+      "path": "registries/assets.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "51bc0dc315996e472899b567d0a591e44ade1ed3",
+      "stage": 0,
+      "path": "registries/components.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "4e4109078162b5fe8698aede99ed60f5a118ebb5",
+      "stage": 0,
+      "path": "registries/components.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "1058b9d023112aa1072148ec7be69683689e491c",
+      "stage": 0,
+      "path": "registries/compositions.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "689738cd49ae74b3034a8732309900b1aabdc80b",
+      "stage": 0,
+      "path": "registries/compositions.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "186c6ca08d960b85c3753aac71bd0670fc1354bb",
+      "stage": 0,
+      "path": "registries/patterns.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "a608955c20ef435220045a09efb79f9231a22eab",
+      "stage": 0,
+      "path": "registries/patterns.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "60c6cdb52ec3dd96efaf1b01981154e91ad0def4",
+      "stage": 0,
+      "path": "registries/templates.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "f0bfe80a1e407d4024fb5dda24861c80e3c2a6b3",
+      "stage": 0,
+      "path": "registries/templates.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "36227d10b4712f37c37590e7cd7e691a0460cdd7",
+      "stage": 0,
+      "path": "schemas/component.schema.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "344ed387c234831733d5ccde07bc8b3a1eb761a9",
+      "stage": 0,
+      "path": "schemas/episode.schema.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "7dff71d922113e0aace5aa23bda58b7c2f4de0d7",
+      "stage": 0,
+      "path": "schemas/experience-differentiation-brief.schema.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "43be50dd7b3bafffff5d43322150e8e895fcb3a8",
+      "stage": 0,
+      "path": "schemas/golden-reference.schema.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "8b4252d5a2564d74e3f4f35d72dbcfaf4cc0d587",
+      "stage": 0,
+      "path": "shell/course-shell.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "ece8749ad84d4df95a378386115d46a4ba453f5c",
+      "stage": 0,
+      "path": "shell/course-shell.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "ea653fb5d3ed3e94a5f4b9780d7c857593d26e23",
+      "stage": 0,
+      "path": "state/learning-state/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "0e8207a1daf72a81d63c95eb316f41ef1e888410",
+      "stage": 0,
+      "path": "state/learning-state/learning-state.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "5f97a2c3ac8f697b5deb4d20d6b22dc632b92e65",
+      "stage": 0,
+      "path": "state/learning-state/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "2ccaf348d1f19795e4cda3d9268bbe979e706cb0",
+      "stage": 0,
+      "path": "templates/concept/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "e09414cfb9cd5a2f58c579ea0898ca8b9722d0ad",
+      "stage": 0,
+      "path": "templates/course-entry/course-entry.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "77ed9f0cebcc6baf41662b954b2f12149894ff00",
+      "stage": 0,
+      "path": "templates/course-entry/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "6d7d8dc5fa7e87967b9d6eb8a044cec33cc767b4",
+      "stage": 0,
+      "path": "templates/course-entry/structure.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "b50803134e141cd48a749950f2d78a9496f49f1a",
+      "stage": 0,
+      "path": "templates/deep-workspace/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "c004d9b02794c8f8d416aa7395b6ac534cd6a216",
+      "stage": 0,
+      "path": "templates/deep-workspace/deep-workspace.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "db6e7ef1727a96a16ae79a7985376d9a9ce12cd0",
+      "stage": 0,
+      "path": "templates/deep-workspace/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "d743a06267d24928a240075b290257e0e6a23ec1",
+      "stage": 0,
+      "path": "templates/scenario/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "8c7cf16dc2839100ee103e7997dc550a8ca581cc",
+      "stage": 0,
+      "path": "templates/scenario/scenario.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "cc871308196734fc780bbc934b44b827ccd252a4",
+      "stage": 0,
+      "path": "templates/scenario/structure.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "5c9015be1018614ba3ff726225972749ebd1ae54",
+      "stage": 0,
+      "path": "tests/BROWSER_QA_NOTE.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "54f7954618d814052b6ec97c68cfc00c620d74a9",
+      "stage": 0,
+      "path": "tests/GR05_ARCHITECTURAL_REVIEW_DECISION.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "1a523d4f4ac28035b23204105700d23dd91c8cd3",
+      "stage": 0,
+      "path": "tests/GR05_FINAL_REVIEW_CLOSURE_CHECKS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "dc73ff4f8b8fbb05a9674dd92689960d3c76b511",
+      "stage": 0,
+      "path": "tests/GR05_KEYBOARD_RESILIENCE_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "f467341adc7eec53184ea7ee0e443d9a471e6251",
+      "stage": 0,
+      "path": "tests/GR05_MANUAL_EVIDENCE_UPDATE_CHECKS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "ff2a2b75aeba2b55a16c714fd39a11c4fd484f21",
+      "stage": 0,
+      "path": "tests/GR05_MODEL_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "b92dfb5af6701ed83e79ffae2b219601fe769128",
+      "stage": 0,
+      "path": "tests/GR05_REGRESSION_COMMANDS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "2a83bf2febfa172fbacee2a72c08c37dd983a862",
+      "stage": 0,
+      "path": "tests/GR05_STATE_SERVICE_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "d5d535050014d50314cb0f0c1e73079f11c07d38",
+      "stage": 0,
+      "path": "tests/GR05_STATIC_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "7390e7d7f990d446f762ab08765e7d6ab785303d",
+      "stage": 0,
+      "path": "tests/GR05_USER_ATTESTED_MANUAL_EVIDENCE.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "de91ea567abe349cb54728e20abe1e8fde6013af",
+      "stage": 0,
+      "path": "tests/GR05_V25_PRESERVATION_BASELINE.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "9843166eb9d78de3e9563662ebb374baaf2f00ab",
+      "stage": 0,
+      "path": "tests/GR05_V25_SEMANTIC_FIXTURE_CHECKS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "cbc22c297836f71d2bed618c15ac4a233bf8b613",
+      "stage": 0,
+      "path": "tests/GR05_VALIDATION_RESULT.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "792c450b2a5bf7cab5c51ad3c21097206e6ba0f4",
+      "stage": 0,
+      "path": "tests/GR06_BROWSER_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "460e8b00b18c3882b840b4ec1b262f6ebe248e8a",
+      "stage": 0,
+      "path": "tests/GR06_EVIDENCE_CONSISTENCY.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "8c06740f560c97a4765b9e540a7654471528740e",
+      "stage": 0,
+      "path": "tests/GR06_MANUAL_EVIDENCE.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "ea323d1e29fcd7aec279ac511a4b59cc8e69eff0",
+      "stage": 0,
+      "path": "tests/GR06_MODEL_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "f89acfc0413661ddd7e93da9532d4200669da097",
+      "stage": 0,
+      "path": "tests/GR06_RECOVERY_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "c51007d342c8d79b5e9849d5aec6f13f217c5fcb",
+      "stage": 0,
+      "path": "tests/GR06_REGRESSION_COMMANDS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "d3a8cf2f5b4095ceeb8cf69ddd56a3938e225422",
+      "stage": 0,
+      "path": "tests/GR06_STATE_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "396f815caf39cf932a78171bd48416447a1f464c",
+      "stage": 0,
+      "path": "tests/GR06_STATIC_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "9eee95b327326fe811c5863dd7a68233595f1ebe",
+      "stage": 0,
+      "path": "tests/GR06_VALIDATION_RESULT.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "0772a82848ee651d09917e8243cc1e5ab1e9dbd0",
+      "stage": 0,
+      "path": "tests/baseline-screenshots/GR-01_1440x900_baseline.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "35c7a7aa26085d15b553faf47df113f082dd6dda",
+      "stage": 0,
+      "path": "tests/baseline-screenshots/GR-01_390x844_baseline.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "19ebcf8c2cd51f2d6a3bb25078acfc48c1308ac5",
+      "stage": 0,
+      "path": "tests/baseline-screenshots/GR-02_1440x900_baseline.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "44392fbb619351ba0525e7b33f7721d37dc46529",
+      "stage": 0,
+      "path": "tests/baseline-screenshots/GR-02_390x844_baseline.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fade0504681c42e76cd044c9969b8d7d42641cef",
+      "stage": 0,
+      "path": "tests/baseline-screenshots/GR-04_1440x900_baseline.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "66ecd10d1f50acf56276cb8af9e973f8a83f5814",
+      "stage": 0,
+      "path": "tests/baseline-screenshots/GR-04_390x844_baseline.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "03c1b069533c4a1e6b6ceffe64fe19ad9353bcd0",
+      "stage": 0,
+      "path": "tests/check_gr05_encoding.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "a5f15a1ecdb914d1b1bd6e8ee770bf24e569165b",
+      "stage": 0,
+      "path": "tests/check_gr05_v25_semantic_fixture.mjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "352c5f4854bfebec50e1c8ad3ffd5dd8fee0d604",
+      "stage": 0,
+      "path": "tests/check_gr06_evidence.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "184d54d9655fa82f3d966b919fa4849a6bd04b9c",
+      "stage": 0,
+      "path": "tests/check_gr06_specification.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "494c4aa838fafc4dcc855e5b4934515992031d88",
+      "stage": 0,
+      "path": "tests/check_track_a_specification.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "7b74705b5a12d0066fe9db20fc525e14dddc03fc",
+      "stage": 0,
+      "path": "tests/check_wave2_corrections.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "4121427abe215e0cea11af066abd4427b7dd4998",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation-before-fixes.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "9d3c64f692b94e819b6c26a880b53dc4aab6ec44",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation-bounded-corrections.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "76ff39d551d1d999854a66a1fa9b557237a3d966",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation-content-limit-correction.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "084f205126fc18e69d19ce25fb42faa065b859de",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation-content-limit-first.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "deb3c8280dbd5df57c1c58cbeac442c78c9b70f5",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation-content-limit-safe-flow.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "ac4cce7604375285ace5052d9b49608162742503",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation-gr05-regression.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "1f5c6b79639cb82d36da0a583d912986c5179d97",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation-gr06-regression.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "6dcd3824bcc5ee6be0088a8470d61ffc39b2851a",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation-relocation.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "b12a2a7d498b215e66703fa84024b33489d1c248",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation-schema-reconciliation.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "07a4aa0236b72e42256f0304af1d0a0eb1d589b9",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "stage": 0,
+      "path": "tests/gr03-browser-validation.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "dace64b4b57d29ab38e4492b5a287c1784ff1c85",
+      "stage": 0,
+      "path": "tests/gr03-evidence-update-checks.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "7270d6b4efba05f517564f87958ced3dc57709a9",
+      "stage": 0,
+      "path": "tests/gr03-native-zoom-validation.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "d1651ae20739e188893ede4019bac2ec55802e25",
+      "stage": 0,
+      "path": "tests/gr03-relocation-audit.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "84779df7ed7d91ae9122c2e78c277cd815196892",
+      "stage": 0,
+      "path": "tests/gr03-relocation-native-zoom.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "35abb18ff09d29315b3154804ceb234b39cf6890",
+      "stage": 0,
+      "path": "tests/gr03-relocation-static-command-log.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "e1abeabf5d69ce47f4284b33872480743c09f037",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fc5c26a34c6ed200078cd260191085e56cac3325",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "383b710125f63825d78e0d66c041034a2886058a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e499a54990d4fa55123b214403187577ad709498",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "07e021150775bc5807625b2a634e1e0c75a51e3b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8d40b6ef13100439772275a15424853becbabee0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "85551ac9deb2ff662716a274dbdf7cf6b69406f7",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f7c98cc93760a4a6a260014986b7e6c9d817ae29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3008b9efdafa48f8366f831801726f586dc2f950",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ce985a9a5c86e5d2d896a4174394a1a3e26d6c29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8e6e745053937c830d92de3dc5c01bace0472f54",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "58bc2707a08e4ebb4a61d06f67885bde55e0b0b0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0f31945310b5e5cc9f114ba73eef1b323a78a153",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "67990a3e3c7bbe03baa6168691ae2d0d729654dd",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "844bfd50135a5788f6003c8c306f166e4851cd43",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d9dd048cd1d1ea5c3a6e20878ae41f60aa5f57e8",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1804403d04af49cd568082709cb521cdb1992a43",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ad872e2e16cde2a1831cdb8856edf19ad7090907",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d15b84fcf405932d2c165e5252e71b8a039a3afb",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d32c499fbb63fdf200a86e7fb1b9ae9115963c51",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/before-fixes-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9ba4a6c7c7d4b1b03bf63a465982a86ba4a2e760",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "01563e0228243368f2bdd74c7cb8763aed3a058a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3e10e9dd5e9e0e9d67c08e77c61f94b0f6a94281",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9061cd0b9ceb45a42e68cfc072052917bf6c5731",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ddd2adf81cc294e83310b44fe9dbb6fe96f00150",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8bda127a7630866edf13cf738b1b7d563166fcb4",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a9e5a60ec5935ea7af24f7b42f9fc73ed15bfb14",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f257fd1498b62b312ba2c59e8f26ee3e4a0ac3f5",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f5e5416c205ed7b6530f9710719243cda71381fd",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a3c2841f73113afc5d0f596ce9ced4124417ce8c",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3f5523270b1ae440e13e56ec0b9e094bdda5c5e7",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7e4adeb2af80ae145ba22cac392e880e0b9c2589",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5269d6e2bcd5993917cb65b899d9b8dd516349d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "73d2b39b120579a46469622f15dbec3ff5144d51",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d6120f16a57065a968a21cd76d526c492ed23237",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f527dbd6654af323635f928321831502a0c4363f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f016c4467ad526ef761f86a523ada192351343f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "022fe780c07ac3a1cd0c7426853a902d983a7283",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1ad0b1ed279bde07034e228887b0b2ae77368858",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-1024x768-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f9bacbf5e6df230eb93746caf5f73b95eab83784",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8f2875886eb9188dcd33f9330625911967eb3f73",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-1440x900-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fab621445b9de8c4310173684fde3a6973a9322c",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8ff06d8c34dddc52a30c505b53802f3f0e783890",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-1920x1080-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d87ff7c86f5e15568fbc069586e199039e5cfbc8",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3c38bfcabaddfa60897564ae3740a2ea4d66f4f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-320x568-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "dd28d1e7c2a9b0f036faa5bf3f3a6b635aa8a72f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ec941359ca0d950fa65bb77812935ccbc5707977",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-390x844-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9f2ebdec7d04e14e6ccd3a9bb2f5918f42aa18cf",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ef7df335b7cdf29a3ae060e1fc9e25ad057b86a3",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-768x1024-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a94f287cb2678c475905d10038d2f1ed3e01dfb7",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/bounded-corrections-stress-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5acf86bc6e3b3d0af14362b51643cd09f204abb5",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fc5c26a34c6ed200078cd260191085e56cac3325",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f30aeffc2a530cb3268f00aa15b1855c081a4207",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e499a54990d4fa55123b214403187577ad709498",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6c4cb01a8cde4599395aee7545aed4c2605d99cf",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8d40b6ef13100439772275a15424853becbabee0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d379c4e7847e3c4085d014e9f4ef921b617996ae",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f7c98cc93760a4a6a260014986b7e6c9d817ae29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "748434419407cb8fd91701c9dfb5d0cf4bd21234",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ce985a9a5c86e5d2d896a4174394a1a3e26d6c29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "bfa6fc72b6c9a431d2fb3b119371efa52e13b853",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "58bc2707a08e4ebb4a61d06f67885bde55e0b0b0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0b0ad60d756c4db4c819f7916b82a0cd086f1a55",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "81408609b92546ed947065c451678e360fc083fe",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5698a2a25a7441598f4f653d29bf1cd6685fc357",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d8b99baa46ba0dafe0f8412a66289daaee5c7628",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "677bd06914b7eb374ba50e9c09b52f4f5b5847d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "af0c2037ef0e865f7fbeca9ca10c5d9c9ab7230d",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f3c8febcdd82b0dc8f7de308fe08ec7b500d6a4f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f30aeffc2a530cb3268f00aa15b1855c081a4207",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "79af42aa46146ef3e4ab32b5361ba272e8823df1",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-stress-1024x768-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "20ad8a008452e485e933db23cf2341ebefc86874",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-stress-1440x900-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "801e43e382156b2e09f1e3ca7ca43a7c6cb66ed6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-stress-1920x1080-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "14480c15e61c25a9d65ba5425121075f0b96b101",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-stress-320x568-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "de81f0e3c32b5ab868b1490729a16f104fc1f2b0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-stress-390x844-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7dcb4db0722070941829810cbbe0f3d7a29e5f60",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-correction-stress-768x1024-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5acf86bc6e3b3d0af14362b51643cd09f204abb5",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fc5c26a34c6ed200078cd260191085e56cac3325",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f30aeffc2a530cb3268f00aa15b1855c081a4207",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e499a54990d4fa55123b214403187577ad709498",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6c4cb01a8cde4599395aee7545aed4c2605d99cf",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8d40b6ef13100439772275a15424853becbabee0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d379c4e7847e3c4085d014e9f4ef921b617996ae",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f7c98cc93760a4a6a260014986b7e6c9d817ae29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "748434419407cb8fd91701c9dfb5d0cf4bd21234",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ce985a9a5c86e5d2d896a4174394a1a3e26d6c29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "bfa6fc72b6c9a431d2fb3b119371efa52e13b853",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "58bc2707a08e4ebb4a61d06f67885bde55e0b0b0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0b0ad60d756c4db4c819f7916b82a0cd086f1a55",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "81408609b92546ed947065c451678e360fc083fe",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5698a2a25a7441598f4f653d29bf1cd6685fc357",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d8b99baa46ba0dafe0f8412a66289daaee5c7628",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "677bd06914b7eb374ba50e9c09b52f4f5b5847d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "af0c2037ef0e865f7fbeca9ca10c5d9c9ab7230d",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f3c8febcdd82b0dc8f7de308fe08ec7b500d6a4f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f30aeffc2a530cb3268f00aa15b1855c081a4207",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f29987d23bfa9eae202a2ba41b24d46ac730b032",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-stress-1024x768-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "18053e2a1d557d59b28964891d0ed9948637968a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-stress-1440x900-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "4e4379f3472423e2cb498572dc441d4da12f9a94",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-stress-1920x1080-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c603eaf97781d16b0d2e06a2db8f71d7042592fa",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-stress-320x568-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "de81f0e3c32b5ab868b1490729a16f104fc1f2b0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-stress-390x844-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7dcb4db0722070941829810cbbe0f3d7a29e5f60",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-first-stress-768x1024-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5acf86bc6e3b3d0af14362b51643cd09f204abb5",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fc5c26a34c6ed200078cd260191085e56cac3325",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f30aeffc2a530cb3268f00aa15b1855c081a4207",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e499a54990d4fa55123b214403187577ad709498",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6c4cb01a8cde4599395aee7545aed4c2605d99cf",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8d40b6ef13100439772275a15424853becbabee0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d379c4e7847e3c4085d014e9f4ef921b617996ae",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f7c98cc93760a4a6a260014986b7e6c9d817ae29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "748434419407cb8fd91701c9dfb5d0cf4bd21234",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ce985a9a5c86e5d2d896a4174394a1a3e26d6c29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "bfa6fc72b6c9a431d2fb3b119371efa52e13b853",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "58bc2707a08e4ebb4a61d06f67885bde55e0b0b0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0b0ad60d756c4db4c819f7916b82a0cd086f1a55",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "81408609b92546ed947065c451678e360fc083fe",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5698a2a25a7441598f4f653d29bf1cd6685fc357",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d8b99baa46ba0dafe0f8412a66289daaee5c7628",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "677bd06914b7eb374ba50e9c09b52f4f5b5847d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "af0c2037ef0e865f7fbeca9ca10c5d9c9ab7230d",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f3c8febcdd82b0dc8f7de308fe08ec7b500d6a4f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f30aeffc2a530cb3268f00aa15b1855c081a4207",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f29987d23bfa9eae202a2ba41b24d46ac730b032",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-stress-1024x768-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "18053e2a1d557d59b28964891d0ed9948637968a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-stress-1440x900-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "4e4379f3472423e2cb498572dc441d4da12f9a94",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-stress-1920x1080-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c603eaf97781d16b0d2e06a2db8f71d7042592fa",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-stress-320x568-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "de81f0e3c32b5ab868b1490729a16f104fc1f2b0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-stress-390x844-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7dcb4db0722070941829810cbbe0f3d7a29e5f60",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/content-limit-safe-flow-stress-768x1024-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5acf86bc6e3b3d0af14362b51643cd09f204abb5",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fc5c26a34c6ed200078cd260191085e56cac3325",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f30aeffc2a530cb3268f00aa15b1855c081a4207",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e499a54990d4fa55123b214403187577ad709498",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6c4cb01a8cde4599395aee7545aed4c2605d99cf",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8d40b6ef13100439772275a15424853becbabee0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d379c4e7847e3c4085d014e9f4ef921b617996ae",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f7c98cc93760a4a6a260014986b7e6c9d817ae29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "748434419407cb8fd91701c9dfb5d0cf4bd21234",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ce985a9a5c86e5d2d896a4174394a1a3e26d6c29",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "bfa6fc72b6c9a431d2fb3b119371efa52e13b853",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "58bc2707a08e4ebb4a61d06f67885bde55e0b0b0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0b0ad60d756c4db4c819f7916b82a0cd086f1a55",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "81408609b92546ed947065c451678e360fc083fe",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5698a2a25a7441598f4f653d29bf1cd6685fc357",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d8b99baa46ba0dafe0f8412a66289daaee5c7628",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "677bd06914b7eb374ba50e9c09b52f4f5b5847d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "af0c2037ef0e865f7fbeca9ca10c5d9c9ab7230d",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f3c8febcdd82b0dc8f7de308fe08ec7b500d6a4f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f30aeffc2a530cb3268f00aa15b1855c081a4207",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f29987d23bfa9eae202a2ba41b24d46ac730b032",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-1024x768-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "18c61956daadc896f998cb37fe78785c3794a5fe",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "18053e2a1d557d59b28964891d0ed9948637968a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-1440x900-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f544c89429643fa031a6a5d697fecf71859456ac",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "4e4379f3472423e2cb498572dc441d4da12f9a94",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-1920x1080-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "4d55a21a20b03a5027ff6ae05162d8791c1e4b54",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c603eaf97781d16b0d2e06a2db8f71d7042592fa",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-320x568-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8f5e097b98132926491eb1c635852bf0a5759ee2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fc97a89fb6b97b13caab5204f01943e576a0f802",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-390x844-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "49d57a7e3f4357e329a13dd3ea823b78035b07a8",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7dcb4db0722070941829810cbbe0f3d7a29e5f60",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-768x1024-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "66c823b762620c2c1728418ad74f0f9f10108228",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/final-stress-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9ba4a6c7c7d4b1b03bf63a465982a86ba4a2e760",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "01563e0228243368f2bdd74c7cb8763aed3a058a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3e10e9dd5e9e0e9d67c08e77c61f94b0f6a94281",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9061cd0b9ceb45a42e68cfc072052917bf6c5731",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ddd2adf81cc294e83310b44fe9dbb6fe96f00150",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8bda127a7630866edf13cf738b1b7d563166fcb4",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a9e5a60ec5935ea7af24f7b42f9fc73ed15bfb14",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f257fd1498b62b312ba2c59e8f26ee3e4a0ac3f5",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f5e5416c205ed7b6530f9710719243cda71381fd",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "efd738c27d711b0fd8e43b41760c91a9acc92e3b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ba524f788b9cd5eef799c07ce971c2ce39f6987b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f998c7f053d268c258386b50d658d5d0a2c1e77b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5269d6e2bcd5993917cb65b899d9b8dd516349d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "73d2b39b120579a46469622f15dbec3ff5144d51",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d6120f16a57065a968a21cd76d526c492ed23237",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f527dbd6654af323635f928321831502a0c4363f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f016c4467ad526ef761f86a523ada192351343f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "022fe780c07ac3a1cd0c7426853a902d983a7283",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1ad0b1ed279bde07034e228887b0b2ae77368858",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-1024x768-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f9bacbf5e6df230eb93746caf5f73b95eab83784",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8f2875886eb9188dcd33f9330625911967eb3f73",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-1440x900-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fab621445b9de8c4310173684fde3a6973a9322c",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8ff06d8c34dddc52a30c505b53802f3f0e783890",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-1920x1080-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d87ff7c86f5e15568fbc069586e199039e5cfbc8",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3c38bfcabaddfa60897564ae3740a2ea4d66f4f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-320x568-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "dd28d1e7c2a9b0f036faa5bf3f3a6b635aa8a72f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ec941359ca0d950fa65bb77812935ccbc5707977",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-390x844-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9f2ebdec7d04e14e6ccd3a9bb2f5918f42aa18cf",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2bbaf02c301e3fd080521f48d9a04678d1d89283",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-768x1024-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a94f287cb2678c475905d10038d2f1ed3e01dfb7",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr05-regression-stress-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9ba4a6c7c7d4b1b03bf63a465982a86ba4a2e760",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "01563e0228243368f2bdd74c7cb8763aed3a058a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3e10e9dd5e9e0e9d67c08e77c61f94b0f6a94281",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9061cd0b9ceb45a42e68cfc072052917bf6c5731",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ddd2adf81cc294e83310b44fe9dbb6fe96f00150",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8bda127a7630866edf13cf738b1b7d563166fcb4",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a9e5a60ec5935ea7af24f7b42f9fc73ed15bfb14",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f257fd1498b62b312ba2c59e8f26ee3e4a0ac3f5",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f5e5416c205ed7b6530f9710719243cda71381fd",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "efd738c27d711b0fd8e43b41760c91a9acc92e3b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ba524f788b9cd5eef799c07ce971c2ce39f6987b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f998c7f053d268c258386b50d658d5d0a2c1e77b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5269d6e2bcd5993917cb65b899d9b8dd516349d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "73d2b39b120579a46469622f15dbec3ff5144d51",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d6120f16a57065a968a21cd76d526c492ed23237",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f527dbd6654af323635f928321831502a0c4363f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f016c4467ad526ef761f86a523ada192351343f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7e5f3647971989e0a79116972677109952bcf458",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1ad0b1ed279bde07034e228887b0b2ae77368858",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-1024x768-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f9bacbf5e6df230eb93746caf5f73b95eab83784",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8f2875886eb9188dcd33f9330625911967eb3f73",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-1440x900-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fab621445b9de8c4310173684fde3a6973a9322c",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8ff06d8c34dddc52a30c505b53802f3f0e783890",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-1920x1080-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d87ff7c86f5e15568fbc069586e199039e5cfbc8",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3c38bfcabaddfa60897564ae3740a2ea4d66f4f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-320x568-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "dd28d1e7c2a9b0f036faa5bf3f3a6b635aa8a72f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "86e54c5a0d860975d344b0642c97f792001ad135",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-390x844-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6bcbac19b25709fcae0315c2626f822de16a9495",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2bbaf02c301e3fd080521f48d9a04678d1d89283",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-768x1024-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a94f287cb2678c475905d10038d2f1ed3e01dfb7",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/gr06-regression-stress-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9ba4a6c7c7d4b1b03bf63a465982a86ba4a2e760",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "01563e0228243368f2bdd74c7cb8763aed3a058a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3e10e9dd5e9e0e9d67c08e77c61f94b0f6a94281",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9061cd0b9ceb45a42e68cfc072052917bf6c5731",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ddd2adf81cc294e83310b44fe9dbb6fe96f00150",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8bda127a7630866edf13cf738b1b7d563166fcb4",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a9e5a60ec5935ea7af24f7b42f9fc73ed15bfb14",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f257fd1498b62b312ba2c59e8f26ee3e4a0ac3f5",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f5e5416c205ed7b6530f9710719243cda71381fd",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "efd738c27d711b0fd8e43b41760c91a9acc92e3b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ba524f788b9cd5eef799c07ce971c2ce39f6987b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f998c7f053d268c258386b50d658d5d0a2c1e77b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5269d6e2bcd5993917cb65b899d9b8dd516349d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "73d2b39b120579a46469622f15dbec3ff5144d51",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d6120f16a57065a968a21cd76d526c492ed23237",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f527dbd6654af323635f928321831502a0c4363f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f016c4467ad526ef761f86a523ada192351343f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "022fe780c07ac3a1cd0c7426853a902d983a7283",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1ad0b1ed279bde07034e228887b0b2ae77368858",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-1024x768-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f9bacbf5e6df230eb93746caf5f73b95eab83784",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8f2875886eb9188dcd33f9330625911967eb3f73",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-1440x900-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fab621445b9de8c4310173684fde3a6973a9322c",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8ff06d8c34dddc52a30c505b53802f3f0e783890",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-1920x1080-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d87ff7c86f5e15568fbc069586e199039e5cfbc8",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3c38bfcabaddfa60897564ae3740a2ea4d66f4f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-320x568-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "dd28d1e7c2a9b0f036faa5bf3f3a6b635aa8a72f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ec941359ca0d950fa65bb77812935ccbc5707977",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-390x844-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9f2ebdec7d04e14e6ccd3a9bb2f5918f42aa18cf",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2bbaf02c301e3fd080521f48d9a04678d1d89283",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-768x1024-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a94f287cb2678c475905d10038d2f1ed3e01dfb7",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/relocation-stress-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9ba4a6c7c7d4b1b03bf63a465982a86ba4a2e760",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-1024x768-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "01563e0228243368f2bdd74c7cb8763aed3a058a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3e10e9dd5e9e0e9d67c08e77c61f94b0f6a94281",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9061cd0b9ceb45a42e68cfc072052917bf6c5731",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-1920x1080-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ddd2adf81cc294e83310b44fe9dbb6fe96f00150",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8bda127a7630866edf13cf738b1b7d563166fcb4",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-320x568-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a9e5a60ec5935ea7af24f7b42f9fc73ed15bfb14",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f257fd1498b62b312ba2c59e8f26ee3e4a0ac3f5",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f5e5416c205ed7b6530f9710719243cda71381fd",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "efd738c27d711b0fd8e43b41760c91a9acc92e3b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-768x1024-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ba524f788b9cd5eef799c07ce971c2ce39f6987b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f998c7f053d268c258386b50d658d5d0a2c1e77b",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-delayed-image-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5269d6e2bcd5993917cb65b899d9b8dd516349d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-image-failure-1440x900-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "73d2b39b120579a46469622f15dbec3ff5144d51",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-image-failure-1440x900.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d6120f16a57065a968a21cd76d526c492ed23237",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-image-failure-390x844-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f527dbd6654af323635f928321831502a0c4363f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-image-failure-390x844.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f016c4467ad526ef761f86a523ada192351343f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-keyboard-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "022fe780c07ac3a1cd0c7426853a902d983a7283",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-keyboard-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c0db3576a45244562e29573aba1485b6491d82d0",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-reduced-motion-feedback-A-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1ad0b1ed279bde07034e228887b0b2ae77368858",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-1024x768-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f9bacbf5e6df230eb93746caf5f73b95eab83784",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-1024x768-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8f2875886eb9188dcd33f9330625911967eb3f73",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-1440x900-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fab621445b9de8c4310173684fde3a6973a9322c",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-1440x900-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8ff06d8c34dddc52a30c505b53802f3f0e783890",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-1920x1080-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d87ff7c86f5e15568fbc069586e199039e5cfbc8",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-1920x1080-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3c38bfcabaddfa60897564ae3740a2ea4d66f4f6",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-320x568-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "dd28d1e7c2a9b0f036faa5bf3f3a6b635aa8a72f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-320x568-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ec941359ca0d950fa65bb77812935ccbc5707977",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-390x844-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9f2ebdec7d04e14e6ccd3a9bb2f5918f42aa18cf",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-390x844-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2bbaf02c301e3fd080521f48d9a04678d1d89283",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-768x1024-feedback-completed.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a94f287cb2678c475905d10038d2f1ed3e01dfb7",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/schema-reconciliation-stress-768x1024-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "19f2b571cebf8a95b4c96b850907d5e1677163d2",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/zoom200-agenda-limits.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "4c1ca5552ef15b8da243279200ee267d9fd21a6f",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/zoom200-initial.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "92158a7b5a8da2ce7401b528ba3fe6444ab4538a",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/zoom200-native-menu.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d937a038b0c3081d67ed9caa0cf056221a937ecd",
+      "stage": 0,
+      "path": "tests/gr03-screenshots/zoom200-presence.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9986572057e7d2b9a418f67e94b9a8fcb596e1e0",
+      "stage": 0,
+      "path": "tests/gr03-static-command-log.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "e139f5a76b5ff39172a28648d1a940be86c5cb30",
+      "stage": 0,
+      "path": "tests/gr03-static-validation.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "e618a107ef7f12a3962933d0ce358f434d534e96",
+      "stage": 0,
+      "path": "tests/gr03-validation-session.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "9f4f94690d1dda6065f50bcaa059494d82d19380",
+      "stage": 0,
+      "path": "tests/gr03_content_stress.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "b3f6406b548f7b5df10505527a0086ee1eede423",
+      "stage": 0,
+      "path": "tests/gr05-accessibility-tree.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "503022f203038c7dd5aafc8a75a0a8504a1ec34c",
+      "stage": 0,
+      "path": "tests/gr05-browser-bounded-corrections.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "13fb2c7bbc3e3719b1fa7a6ee0a1cff7dc43756a",
+      "stage": 0,
+      "path": "tests/gr05-browser-final.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "e5bec26e7851c8314c8af166cb2d1ada43ec5ae9",
+      "stage": 0,
+      "path": "tests/gr05-browser-gr06-regression.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "bcee7f1f2f465090c479936a79a5d98103b9a9b2",
+      "stage": 0,
+      "path": "tests/gr05-browser-initial.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "c38f72f31ac5ffc0202e2547dea49706fa33aca2",
+      "stage": 0,
+      "path": "tests/gr05-browser-review-handoff.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "6d20b83002de781b5e9778a672e07b6c8a636446",
+      "stage": 0,
+      "path": "tests/gr05-browser-verified.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "65c1e23dd64f747d7775e061404b9278cb7376d1",
+      "stage": 0,
+      "path": "tests/gr05-defect-log.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "f3af37cb25633d74fbd3c66f9c0eaaaa7cf3d86e",
+      "stage": 0,
+      "path": "tests/gr05-example-work.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "10b58a37241606605603e5df0197853f26ea5add",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-1024x768-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5ab9a460d24d3fb6d4adf4ad966e4b63a55f8b34",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-1024x768-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d3e98732ca1eb9a7bc07df2fd61a34c096a65469",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-1024x768-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "07dd54db0df570104732d39a2f26528c5f2ccc65",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-1440x900-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d76e5ca6334b077d04eef374417f98c482ad4d7f",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1f38b581ba7f2d072e56cc3854575acf9f970df3",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-1440x900-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2ef7b79eaf26d9638ce51190dff294651edd1902",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-1920x1080-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "07c2a69662f9b01157a12fb54f9b30d82fe611ea",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-1920x1080-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1577dcab21e1d3f1387b1f952f88e28a79a1d9b8",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-1920x1080-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "dfccd88d6b7ca2b5689fe3e3001ce2e113f3f24a",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-320x568-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "26e001af26252ce1baf31326f246335daa4b5744",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-320x568-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "802d5e4c16606029658ee17e073081f259c346ba",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-320x568-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d82f520fba7cdd071fa0e7c991c67c7615c2a777",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-390x844-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "40f78a83bbe73fc607b80f22a470f5c3ca44bd89",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ae9bf44b864492601d1e8b5010bcedeaefb77b77",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-390x844-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "443436cbaca3308216ff23d7f86f81aa0e4a4040",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-768x1024-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5cba651182e1adb4fc06ca4a8a224db0d3f5a901",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-768x1024-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9b54ff05f2aa0635b9ad9f122d25cafbb5682299",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-768x1024-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "54efc99a63332d73e6e53947b64bb86080adf153",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-844x390-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f6f898221db673c33680424b209590f3536c2026",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-844x390-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "bea9cfbf4803358b359d2098a0d39381de97fe74",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-844x390-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "b7db4e9f7046ad89df91f3ae91c734ac8371560e",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-max-content-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3dd870b24f7e14047e1951a718f436c01fff3cf5",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-max-content-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "af8efc19a68d2720bc58cf14a9cf9da6ccffbfe0",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/bounded-corrections-max-content-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fe8d694b4a4024684e53aafab43c4fab01362dff",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-1024x768-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3b4040cef905bc423eefa4d5534e06121f966ba9",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-1024x768-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "980f9ee038e78a36d4e78b17eb77a93f18952355",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-1024x768-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f496e1020a14fea95cc541bdd1745cded23979db",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-1440x900-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2bf33e530ee5dd098e5dda34fbe77d857057ecbe",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "502d3f3597df771c3c9fe0684e55a79e29e47771",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-1440x900-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "831031bc873d1e2406947ccfd982627976ab3b01",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-1920x1080-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8aa540e6e0527f7e7259ba6113b9e224361fe438",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-1920x1080-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6221da668254ffd23e8db17647b4a59c1ff99d70",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-1920x1080-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7c9c59bf2e978fb4841a3f3467feebcc20fe8022",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-320x568-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0dc84380c2d63ea5da426d9c9a7cb6c052cd5883",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-320x568-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7c8f0c6437041c24ba6638efdf247a2f218b02a6",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-320x568-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "05e68b67407391d4ce705292506012af35cb4652",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-390x844-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9c13d04b22fbd3ee86fb3520d6303169bd2d3b91",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2754eee6cb3baaebca989bed43bab182b7c96dbb",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-390x844-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "08321222d0adaee4b796ef82bb58cd821bedbd74",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-768x1024-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9fc3b2142b7e1f0694f01a73f9b855bf65cdb8b3",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-768x1024-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "35b96d2e4e18ad789027d9e5963e3fe70d981100",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-768x1024-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f31365fe25822c806713ad173442a7c5052c7257",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-844x390-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0042e947dda6bca20fe88bb612aa53f47095f7b0",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-844x390-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f802662fd0b30a076dd2f93104bf3ab5431c9ca8",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-844x390-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "085ed857217702c9804c59810e9c99405680ffad",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-max-content-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e6cdfc26d492d7546ba2248970d9daf451e74f5c",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-max-content-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a6fe1eb2dcacd69140c344274570207c9bed2799",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/final-max-content-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "55fd9ee08df53e69e9ba8dfa314cc65f24cc9925",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-1024x768-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1e0c0690d6eb4948da73d06142eff9ee5b6de3ef",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-1024x768-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "23f196a4349de9b50c2197232d50ed66b6cdeb2c",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-1024x768-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f8afe134b5104d86957a7677b6793fbe0e7e7bbb",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-1440x900-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "779c77580118de75e459959710593e4784878360",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "574af5eb5ff764bd270ffde0353edf0f0a39fcf9",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-1440x900-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "67fa17cc1f849c36b47a036b11d7eef2baf648d9",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-1920x1080-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3b11c0cc7d6a260083aaddccda37efa4c68441e1",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-1920x1080-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "45c816714564fab61210284f7dcf2ae709b21dfc",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-1920x1080-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "37909ec8dffaaa4a9fd4500166ed6065c0a01866",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-320x568-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5ef8d4ae2ab0c32c3e96463f67cbb1de3faffe9b",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-320x568-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fb0df3927366916f6551550390439c4ec0b01531",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-320x568-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "de5bce738988cdbf9eee4f00817d5f824b568221",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-390x844-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3838bb9c4d24a58bc1a8ceb924823da194c55130",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c3a5a8bb48749d28981f79f599e957c7ceebccad",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-390x844-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "29dfc65049027453dabccc69b2dd431ff12c7d9c",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-768x1024-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5f10dedf579f60a22619a0b6731de960d6bc0e80",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-768x1024-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e8b2f946ad70052f8e0d85e1451c76e08202f281",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-768x1024-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d8047edc8b2f7bbf1b6bf18a855eed5bd3a55e36",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-844x390-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7a3c78340889c71d933de2568cc3d3ebb1f6cf7b",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-844x390-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0a316a32b07a63501000d46154c3d8846576f535",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-844x390-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9b86bed8a6551ca4c035859cc13e07a37d04f2b5",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-max-content-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ad7a1ccbca3073ab4fdab2aedde52f6bf5d11d1e",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-max-content-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "60b7d6bf2928dd272d2ebc89946572c20c7dd933",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/gr06-regression-max-content-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fe8d694b4a4024684e53aafab43c4fab01362dff",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-1024x768-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3b4040cef905bc423eefa4d5534e06121f966ba9",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-1024x768-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "980f9ee038e78a36d4e78b17eb77a93f18952355",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-1024x768-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f496e1020a14fea95cc541bdd1745cded23979db",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-1440x900-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2bf33e530ee5dd098e5dda34fbe77d857057ecbe",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "502d3f3597df771c3c9fe0684e55a79e29e47771",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-1440x900-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "831031bc873d1e2406947ccfd982627976ab3b01",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-1920x1080-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8aa540e6e0527f7e7259ba6113b9e224361fe438",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-1920x1080-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6221da668254ffd23e8db17647b4a59c1ff99d70",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-1920x1080-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d1faf05b893c09f3c42d29c9fe987ea1f5b9dc41",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-320x568-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "00e867eb9b830792d56f51a8efd166d04859fa6e",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-320x568-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e02ece4c7df67ca371a4260495809b58c1cb7eee",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-320x568-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "05e68b67407391d4ce705292506012af35cb4652",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-390x844-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9c13d04b22fbd3ee86fb3520d6303169bd2d3b91",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8f27a0a2eccded322605dbc01f3f61cf214254d4",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-390x844-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "08321222d0adaee4b796ef82bb58cd821bedbd74",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-768x1024-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9fc3b2142b7e1f0694f01a73f9b855bf65cdb8b3",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-768x1024-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "62af55f6ed85a6a0f3d90d82db7b3faae8065c2e",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-768x1024-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f31365fe25822c806713ad173442a7c5052c7257",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-844x390-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0042e947dda6bca20fe88bb612aa53f47095f7b0",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-844x390-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f802662fd0b30a076dd2f93104bf3ab5431c9ca8",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-844x390-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "085ed857217702c9804c59810e9c99405680ffad",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-max-content-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e6cdfc26d492d7546ba2248970d9daf451e74f5c",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-max-content-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a6fe1eb2dcacd69140c344274570207c9bed2799",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/initial-max-content-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "687384006b88306d19274c5b91c6fba159f03d3a",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/nojs-debug.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "55fd9ee08df53e69e9ba8dfa314cc65f24cc9925",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-1024x768-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1e0c0690d6eb4948da73d06142eff9ee5b6de3ef",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-1024x768-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "23f196a4349de9b50c2197232d50ed66b6cdeb2c",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-1024x768-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f8afe134b5104d86957a7677b6793fbe0e7e7bbb",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-1440x900-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "779c77580118de75e459959710593e4784878360",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "574af5eb5ff764bd270ffde0353edf0f0a39fcf9",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-1440x900-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "67fa17cc1f849c36b47a036b11d7eef2baf648d9",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-1920x1080-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3b11c0cc7d6a260083aaddccda37efa4c68441e1",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-1920x1080-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fe7fbf2ed8bc3632a26ca04f10e22c7e7c990253",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-1920x1080-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "551a5828642d1eb56d99eb67ff7ef5199400794c",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-320x568-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5ef8d4ae2ab0c32c3e96463f67cbb1de3faffe9b",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-320x568-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fb0df3927366916f6551550390439c4ec0b01531",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-320x568-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "de5bce738988cdbf9eee4f00817d5f824b568221",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-390x844-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3838bb9c4d24a58bc1a8ceb924823da194c55130",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c3a5a8bb48749d28981f79f599e957c7ceebccad",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-390x844-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "29dfc65049027453dabccc69b2dd431ff12c7d9c",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-768x1024-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5f10dedf579f60a22619a0b6731de960d6bc0e80",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-768x1024-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e8b2f946ad70052f8e0d85e1451c76e08202f281",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-768x1024-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d8047edc8b2f7bbf1b6bf18a855eed5bd3a55e36",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-844x390-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7a3c78340889c71d933de2568cc3d3ebb1f6cf7b",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-844x390-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "0a316a32b07a63501000d46154c3d8846576f535",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-844x390-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9b86bed8a6551ca4c035859cc13e07a37d04f2b5",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-max-content-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "ad7a1ccbca3073ab4fdab2aedde52f6bf5d11d1e",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-max-content-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "60b7d6bf2928dd272d2ebc89946572c20c7dd933",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/review-handoff-max-content-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "fe8d694b4a4024684e53aafab43c4fab01362dff",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-1024x768-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3b4040cef905bc423eefa4d5534e06121f966ba9",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-1024x768-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "34bc969e8001705f0f29e2e5c3d9eb172bb7777c",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-1024x768-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f496e1020a14fea95cc541bdd1745cded23979db",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-1440x900-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2bf33e530ee5dd098e5dda34fbe77d857057ecbe",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-1440x900-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "502d3f3597df771c3c9fe0684e55a79e29e47771",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-1440x900-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "831031bc873d1e2406947ccfd982627976ab3b01",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-1920x1080-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8aa540e6e0527f7e7259ba6113b9e224361fe438",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-1920x1080-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9980f882bea5f8f09f99f65eb347afe3eb3a1bd4",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-1920x1080-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7c9c59bf2e978fb4841a3f3467feebcc20fe8022",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-320x568-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "00e867eb9b830792d56f51a8efd166d04859fa6e",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-320x568-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7c8f0c6437041c24ba6638efdf247a2f218b02a6",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-320x568-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "05e68b67407391d4ce705292506012af35cb4652",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-390x844-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9c13d04b22fbd3ee86fb3520d6303169bd2d3b91",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-390x844-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2754eee6cb3baaebca989bed43bab182b7c96dbb",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-390x844-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "08321222d0adaee4b796ef82bb58cd821bedbd74",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-768x1024-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9fc3b2142b7e1f0694f01a73f9b855bf65cdb8b3",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-768x1024-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "35b96d2e4e18ad789027d9e5963e3fe70d981100",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-768x1024-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f31365fe25822c806713ad173442a7c5052c7257",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-844x390-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a0b474000c3c20d1ed47fd0e41a5132631f2b1ae",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-844x390-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "f802662fd0b30a076dd2f93104bf3ab5431c9ca8",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-844x390-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "085ed857217702c9804c59810e9c99405680ffad",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-max-content-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d8969d0b83f62928499d4f6d06f1ff814f0f734e",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-max-content-complete.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a6fe1eb2dcacd69140c344274570207c9bed2799",
+      "stage": 0,
+      "path": "tests/gr05-screenshots/verified-max-content-draft.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "7b7d501f3527c8a3801c60778702261ecf0e5087",
+      "stage": 0,
+      "path": "tests/gr05-v25-semantic-review-fixture.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "b44d91dda5ca2527db556eca0285ad749a120af2",
+      "stage": 0,
+      "path": "tests/gr05-validation-session.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "7676a024adf082002bb90884684129d8ae358ec5",
+      "stage": 0,
+      "path": "tests/gr06-accessibility-tree.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "1736d298769fc34b4d3de3316552e2a8a981fc72",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/1024x768-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "89c3d12d2df0a25132ee2f41b4c64721148a5c33",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/1024x768-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "535f410087dba64eb701e6edb9ccff39003a555f",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/1440x900-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9eb7d6ba9703a93def73285f868c02286d395f6e",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/1440x900-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "c65e2b7ce1260eb6fabcf3287c87743711810189",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/1920x1080-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "61512712d7bed0a29414ef3d61560c02b2813dd4",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/1920x1080-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6889447f420186654c9b60fdb0b63bbe0b8272b6",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/320x568-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e890be5045ad878f134caa6f0941e621e5d62a67",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/320x568-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e1216990653eed17815e9ffd0d81a7bc25097a77",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/390x844-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "dcb8115b5b9f076f76d2c43619ba3a15d46e0265",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/390x844-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "550d80262e8ff5131494c9dbf4f9affccd9a4287",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/768x1024-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "034daecbc0eb89957cc9cce57c89c6b03ee53e61",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/768x1024-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2bf62f1c8323a6118e9745b4347b2d1de8f34b2d",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/844x390-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "361de59a8a8246444af415425f734eebec5b101c",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/844x390-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3a4d277d040bc35337d1133f1b217683b3c8a384",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/gr05-after.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "3a4d277d040bc35337d1133f1b217683b3c8a384",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/gr05-before.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a05c8a648411a7701fa29e0c5717b88e1063a6fc",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/keyboard-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "95ecd3a4962bcf68c6e6204aea669c9b0fb2632d",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/keyboard-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6fcddfe28959983252b7aa803f66a067ba53477c",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/stress-1440-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2f3ab88face58f9fc882757d6a4844a97f958b9a",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/stress-1440-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6c9d9aaf4a607254964a8310a77476673c535277",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/stress-320-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "beb6781b6350dee63c25926e022f66b155bea776",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/stress-320-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "b83c3f1e94191563e9a049d2ec54ec595bc6ffa1",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/visual-desktop-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "b6a55cc05b713af13eb185cb1160897645d4797b",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/visual-mobile-continue.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6262431d5c10be7411ecdc845873c4929d064d57",
+      "stage": 0,
+      "path": "tests/gr06-screenshots/visual-mobile-review.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "94630c0190869f24e2d60a723ac1b61bbf25b972",
+      "stage": 0,
+      "path": "tests/gr06-semantic-fixtures.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "23c170a861850149dc5beee2076bec344c611b57",
+      "stage": 0,
+      "path": "tests/gr06-validation-session.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "b04ca073335212e1a10d0f52fd80535dd51f7728",
+      "stage": 0,
+      "path": "tests/package-integrity-before-refresh.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "5487fe4ac3f66ade63a7fcc62c14fdcd2b456732",
+      "stage": 0,
+      "path": "tests/package-integrity.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "cdffe1debb292dc73ffbf84c05b039eca5917f49",
+      "stage": 0,
+      "path": "tests/run_browser_smoke.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "2cefbd2a5fe6ccb31f9bf39001f4d61ccf1c3a3e",
+      "stage": 0,
+      "path": "tests/run_gr03_browser_validation.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "b74394d1e4dddceffd354d765939f5a7c69991bc",
+      "stage": 0,
+      "path": "tests/run_gr03_browser_validation.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "210f4228a9d25086e21c2798079fad39dfff1a1a",
+      "stage": 0,
+      "path": "tests/run_gr05_browser_validation.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "fc4f7725e79c081c6f3858c80150aeb3331afe0b",
+      "stage": 0,
+      "path": "tests/run_gr05_keyboard_resilience.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "a5c8da4da28c53e7456568c3f369794e6d68f048",
+      "stage": 0,
+      "path": "tests/run_gr05_regression.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "4697f52f5f113801638ce83e6f6fa78b0a76c4c0",
+      "stage": 0,
+      "path": "tests/run_gr06_browser.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "c2b306e693bb2e64d9f20a3b4384f01adc55073a",
+      "stage": 0,
+      "path": "tests/run_gr06_recovery.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "ad2c958e6791c09ae50ba848ba9e04b332d0a6fc",
+      "stage": 0,
+      "path": "tests/run_gr06_regression.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "6a3d713bc355489c26034c0d42839aef74100114",
+      "stage": 0,
+      "path": "tests/run_static_smoke.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "622f7aa14dcd0650c78a43ec2d7503d5585c01f5",
+      "stage": 0,
+      "path": "tests/run_wave2_correction_regression.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "09352d08ad1d8d0d61b1f53e9315746fd9a85ec3",
+      "stage": 0,
+      "path": "tests/schema-reconciliation-command-log.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "3aecaf8dbe985482e7a736875c51d11553abef76",
+      "stage": 0,
+      "path": "tests/schema-reconciliation-summary.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "79f4f19f81b555b2f2303e7042a4c45dc9525788",
+      "stage": 0,
+      "path": "tests/static-smoke-results.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "29a920a3ab1f3fe0fc7de40c7348030cad2fab26",
+      "stage": 0,
+      "path": "tests/test_governed_references.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "7f39cc7035b026ae9d6ceb0435345b8ed121869a",
+      "stage": 0,
+      "path": "tests/test_gr05_model.mjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "db1877ee65deb62bacaf4ba17298d70b945e1c41",
+      "stage": 0,
+      "path": "tests/test_gr06_model.mjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "846744b3760b4b6b43e47af9e74d237bb3fb7702",
+      "stage": 0,
+      "path": "tests/test_gr06_state.mjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "e855b6f95234b0903a8d869c57e1b6124521507c",
+      "stage": 0,
+      "path": "tests/test_learning_state.mjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "25ccb1d22e0fd2b0055558235730caa4576275fe",
+      "stage": 0,
+      "path": "tests/test_template_schema.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "a10c4d49c7b14406e75571cc9d0b91c7dfccc74f",
+      "stage": 0,
+      "path": "tests/track-a-preflight/BASELINE.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "3de188e043375d59c9cfaba304990d248c07c54b",
+      "stage": 0,
+      "path": "tests/track-a-preflight/PROPOSAL_REVIEW_SCHEMA.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "f704a1ebf0dcbcd7666385668508b3aa2a46e52d",
+      "stage": 0,
+      "path": "tests/track-a-preflight/REPOSITORY_VALIDATION.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "4d8e330fdea877c1a634135b2cbe537f189f4401",
+      "stage": 0,
+      "path": "tests/track-a-preflight/SPECIFICATION_CONSISTENCY.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "9e768f87b602dc45975b7f45e328e9595684bb3f",
+      "stage": 0,
+      "path": "tests/track-a-preflight/USER_REQUEST.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "4f5320b3ef9ed55f0c3101f80c076d6c6ab49539",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "9f160f997142202d22b0794e39afd833059965ba",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/WAVE_2_CURRENT_AUTHORITY.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "19f12302b6caf6d77318bb190c192b1f37aac527",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/WAVE_2_CURRENT_AUTHORITY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "c90225c2a3da9d19b54fc5d85a8c024fdf3090f9",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/golden-references/GR-06/GR-06_BUILD_MANIFEST.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "65692c142568a00fbd040b9a9ca13c4ef754e0f7",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/golden-references/GR-06/GR-06_RESULT_SUMMARY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "47cccb3eafaebb38eafda8d8a039b0dd3fe7aab8",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/golden-references/GR-06/MANUAL_VALIDATION.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "95cac03aee73e364a92b043b5d90255dd0926c01",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/tests/GR06_EVIDENCE_CONSISTENCY.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "2d12eb4002abc6f5c80862f8f29297ccbb026f8e",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/tests/GR06_MANUAL_EVIDENCE.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "f4f7dbbfd2aadd28c0e9b98059dd2a77dfb0e612",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/tests/GR06_VALIDATION_RESULT.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "3e5eb7937bed59dcba7a3b9a994f2317b8ab49a8",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/tests/check_gr06_evidence.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "8b7fe23a4f4bbffb23786427f1e1b4c6a64f13e1",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/tools/apply_current_review_authority.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "925b740d6ad71bdb95c8f44e7dd0e842d9a8e8c6",
+      "stage": 0,
+      "path": "tests/track-a-preflight/baseline/tools/build_current_authority_index.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "506d74289bc77803686449e9c52ab0b4e1266e72",
+      "stage": 0,
+      "path": "tests/visual-baseline-manifest.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "0d8c6dcc36c3222d3e75042fcc4e21762ff287ac",
+      "stage": 0,
+      "path": "tests/wave2-corrections/BASELINE.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "cb905e76c15617d32860b625e075b2bcd08c2f7c",
+      "stage": 0,
+      "path": "tests/wave2-corrections/CONSISTENCY.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "facfd8144fabda01f7b6e1796470c125a55881e9",
+      "stage": 0,
+      "path": "tests/wave2-corrections/GR05_ENCODING_BROWSER.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "417139711471bb7d05777a21eb0e38d16cd378fc",
+      "stage": 0,
+      "path": "tests/wave2-corrections/GR05_ENCODING_CORRECTION_EVIDENCE.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "17c6d161de56f8e581a79dabee838bd6da8cce79",
+      "stage": 0,
+      "path": "tests/wave2-corrections/GR05_ENCODING_SOURCE_PROOF.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "66478645f0df6ee6bf72b2b39171f333760192e5",
+      "stage": 0,
+      "path": "tests/wave2-corrections/GR05_ENCODING_VISUAL_REVIEW.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "972d081307ffbb3f9fcb0fb69d1be8a838876403",
+      "stage": 0,
+      "path": "tests/wave2-corrections/GR05_KEYBOARD_RESILIENCE_ATTEMPT_1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "dc73ff4f8b8fbb05a9674dd92689960d3c76b511",
+      "stage": 0,
+      "path": "tests/wave2-corrections/GR05_KEYBOARD_RESILIENCE_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "816e4f99a612e7458fb8f209f1c887f4321f612f",
+      "stage": 0,
+      "path": "tests/wave2-corrections/GR06_BROWSER_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "2fc8e98d27a2f22edac920eed74466cd0bf39986",
+      "stage": 0,
+      "path": "tests/wave2-corrections/GR06_RECOVERY_ATTEMPT_1.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "f89acfc0413661ddd7e93da9532d4200669da097",
+      "stage": 0,
+      "path": "tests/wave2-corrections/GR06_RECOVERY_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "fcbaa7063b5133ae335914edacb4bd9ddd940033",
+      "stage": 0,
+      "path": "tests/wave2-corrections/REGRESSION_COMMANDS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "f704a1ebf0dcbcd7666385668508b3aa2a46e52d",
+      "stage": 0,
+      "path": "tests/wave2-corrections/REPOSITORY_VALIDATION.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "66eaba6395917aad2b328691766ddbf41a69bb39",
+      "stage": 0,
+      "path": "tests/wave2-corrections/VALIDATOR_CHANGE_EVIDENCE.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "428ff9357bf59f10453ea201215ce679fb05db7b",
+      "stage": 0,
+      "path": "tests/wave2-corrections/VALIDATOR_REGRESSION.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "008a19c280fccc25e13094556cd279ab4a66ab8e",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/README.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "2b8e1349de5e28c47fd074206f591b4a4b5e314c",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/golden-references/GR-05/GR-05_BUILD_MANIFEST.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "5ea68c697bcb1d10b0ca1ff719e78d1138369ee5",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/golden-references/GR-05/GR-05_RESULT_SUMMARY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "7766a79b20e03924e64a1b2282c28e135a6aadf2",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/golden-references/GR-05/exercise.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "1757da9a39cc7f1a451a280207e55e107d9e92bc",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/golden-references/GR-05/index.html"
+    },
+    {
+      "mode": "100644",
+      "oid": "494074e119c46653e9fcb00f89e39042cfe45a9d",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/golden-references/GR-06/GR-06_BUILD_MANIFEST.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "a775633e342766946135fb1790a9296db378dcf8",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/golden-references/GR-06/GR-06_RESULT_SUMMARY.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "ab266b496dfa4e8d6e402f78be9d65330a3b441e",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/golden-references/GR-06/MANUAL_VALIDATION.md"
+    },
+    {
+      "mode": "100644",
+      "oid": "19632d6198675679f9bbe819bb32923f3502fba9",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/interactions/build-repair/build-repair.js"
+    },
+    {
+      "mode": "100644",
+      "oid": "43be50dd7b3bafffff5d43322150e8e895fcb3a8",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/schemas/golden-reference.schema.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "bc42a924b53ee60cf270823dcba5928c0f05545b",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tests/GR06_EVIDENCE_CONSISTENCY.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "466509dd6be301cc0430f91a78cd63a7d8ca177d",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tests/GR06_MANUAL_EVIDENCE.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "9b0ce49413c3ab497709e958d39c6933db53babd",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tests/GR06_STATIC_RESULTS.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "da1c1733c79323a3b27b68e8c9472d6e7733ba33",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tests/GR06_VALIDATION_RESULT.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "cfba71840d8b614f2d99a47a6f843120a32c9748",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tests/check_gr06_evidence.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "b1a22db42254b7b8e37110c9c4c13221dd857ba6",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tests/run_gr05_keyboard_resilience.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "50fbf013163d7adfc89bfe035906bc22b5cadb90",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tests/run_gr06_browser.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "f595b83e656f4a07c187ef93c8709e5e6b131357",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tests/run_gr06_recovery.cjs"
+    },
+    {
+      "mode": "100644",
+      "oid": "f6969e548e6cb39d4a6eb8aea779725fddc3b4fa",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tests/test_template_schema.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "34b820d8e68690006421c419e21aaec629e3f590",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tools/build_gr05.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "7dbed29016e2c30bdc1a80af5da288de2ba68a6b",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/tools/record_gr06_handoff.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "38993ae4a050f7a8af0e244bc70ac713213a0104",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/validators/validate_gr06.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "53414e6de25454eaef73bdd31f73b04dedb880fc",
+      "stage": 0,
+      "path": "tests/wave2-corrections/baseline/validators/validate_repository.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "b5ea3a26d8c57746e010dc3a21c94aa587291a68",
+      "stage": 0,
+      "path": "tests/wave2-corrections/correct_gr05_encoding.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "838b6d81d9d1adf79ba005b1e81de15bb8483ada",
+      "stage": 0,
+      "path": "tests/wave2-corrections/create_brief_template.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "42120fa7541415d9bd94d90af102f14c539c4330",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-1440-challenge-accessibility.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "4d86df2804713c235a8dff6c1853955f52e56743",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-1440-challenge.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "70469e5055bc84cca471c8349eb1051512d2046a",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-1440-comparison-accessibility.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "8f6464ea6e66b859e141690678045e3aaf604e69",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-1440-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "842dd5195d4741ddc492ffcad0b4b93245fd6e07",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-1440-diagnosis-accessibility.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "4da62d18ecae8280a1939d34eb9fe9392ea27d1f",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-1440-diagnosis.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8a798779ed05381c613c4ce174001cd7e8417740",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-1440-first-review-accessibility.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "737afa17203fc0d874ff6cbcd501de0018baa252",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-1440-first-review.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "42120fa7541415d9bd94d90af102f14c539c4330",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-390-challenge-accessibility.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "7853a596fd201f3716f320d85b99104c6c449e08",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-390-challenge.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "70469e5055bc84cca471c8349eb1051512d2046a",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-390-comparison-accessibility.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "e3163f87bb29f8af9a06921c9647a7582676f3f1",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-390-comparison.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "842dd5195d4741ddc492ffcad0b4b93245fd6e07",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-390-diagnosis-accessibility.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "a8549afe663b3736eeb70d23c0c198140e75331d",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-390-diagnosis.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "8a798779ed05381c613c4ce174001cd7e8417740",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-390-first-review-accessibility.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "e74707828e4b446b560a225219df7317b4a6de8e",
+      "stage": 0,
+      "path": "tests/wave2-corrections/encoding-390-first-review.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "621d4ecd507c4992c3635b184b1bbf656c8a1f6d",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr05-accessibility-tree.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "7676a024adf082002bb90884684129d8ae358ec5",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-accessibility-tree.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "da842d48d2f622b2ad362ebd4d59194986262671",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/1024x768-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1139b19ab543f48c56b3c685b703bed692db0f69",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/1024x768-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "535f410087dba64eb701e6edb9ccff39003a555f",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/1440x900-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "9eb7d6ba9703a93def73285f868c02286d395f6e",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/1440x900-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d766e17fe6b134559b0089569d5b2bc4a25040e8",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/1920x1080-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "61512712d7bed0a29414ef3d61560c02b2813dd4",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/1920x1080-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6889447f420186654c9b60fdb0b63bbe0b8272b6",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/320x568-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "d997e72181cb7b204404cdd8a401b90480a37a6b",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/320x568-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "e1216990653eed17815e9ffd0d81a7bc25097a77",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/390x844-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "dcb8115b5b9f076f76d2c43619ba3a15d46e0265",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/390x844-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "550d80262e8ff5131494c9dbf4f9affccd9a4287",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/768x1024-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "034daecbc0eb89957cc9cce57c89c6b03ee53e61",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/768x1024-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "2bf62f1c8323a6118e9745b4347b2d1de8f34b2d",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/844x390-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "361de59a8a8246444af415425f734eebec5b101c",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/844x390-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "a05c8a648411a7701fa29e0c5717b88e1063a6fc",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/keyboard-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "95ecd3a4962bcf68c6e6204aea669c9b0fb2632d",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/keyboard-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1b0d068cb7d95720c22ed84172156a79ffc750d0",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/stress-1440-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "cd9bf03aa88bbd0fb2a7e533e31b871b0bd0911d",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/stress-1440-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6c9d9aaf4a607254964a8310a77476673c535277",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/stress-320-final.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "beb6781b6350dee63c25926e022f66b155bea776",
+      "stage": 0,
+      "path": "tests/wave2-corrections/gr06-screenshots/stress-320-update.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "5ae00598f21fbf064f42e7f750b4494555e551a5",
+      "stage": 0,
+      "path": "tests/wave2-corrections/preserve_history.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "02ffa822045c3f3b447da64ad40308b6aba7a84d",
+      "stage": 0,
+      "path": "tests/wave2-corrections/record_authority.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "b97645ca298ed7a29eb19de4f6d53a63828aa74f",
+      "stage": 0,
+      "path": "tests/wave2-review/GR03-existing-evidence-top.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "42bc09f24b4241b972c016a15ff8358f0d19ae9a",
+      "stage": 0,
+      "path": "tests/wave2-review/GR03-existing-mobile-stress-top.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "6fa0cf2e4343fb0bc5cb7c1132c8ea446c8c6fc4",
+      "stage": 0,
+      "path": "tests/wave2-review/GR05-existing-evidence-top.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "15a0c5bae63261a746f84cad6a7b214f511f5acc",
+      "stage": 0,
+      "path": "tests/wave2-review/GR05-existing-mobile-stress-top.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "4b7d99eb86e3bf553edcc6f3376f3f81f3bda883",
+      "stage": 0,
+      "path": "tests/wave2-review/GR06-existing-evidence-top.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "1cc18af7247424e14d56b281ecbda0e46f77507f",
+      "stage": 0,
+      "path": "tests/wave2-review/GR06-existing-mobile-stress-top.png"
+    },
+    {
+      "mode": "100644",
+      "oid": "66faff5e5c7131cb02ca26e648b3c7d10aff8cd9",
+      "stage": 0,
+      "path": "tests/wave2-review/check_consistency.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "5d59d3e7d8e02004aced644d203037277a628943",
+      "stage": 0,
+      "path": "tests/wave2-review/consistency-results.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "1141ddfb9a637f0f16ef4180b93fd46aab6d8c99",
+      "stage": 0,
+      "path": "tests/wave2-review/create_review_json.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "80a16ec9b9c84fe6db76801eea78a9ed7840368f",
+      "stage": 0,
+      "path": "tests/wave2-review/input-snapshot.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "ebdf55fd5951f80c77d2880539b41ad18563a1fa",
+      "stage": 0,
+      "path": "tests/wave2-review/visual-evidence.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "3e7c693ed569b82eb947658da8bd7fefa6d0a6b1",
+      "stage": 0,
+      "path": "tokens/tokens.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "3faaa8c07edb395c9e2599dc412d05c8dd457050",
+      "stage": 0,
+      "path": "tokens/tokens.registry.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "446754e3c24a4ea7dcf5aa6681636859609e1cf0",
+      "stage": 0,
+      "path": "tools/__pycache__/render_locked_reference.cpython-313.pyc"
+    },
+    {
+      "mode": "100644",
+      "oid": "12feb41818a9ac78b7194bd7b691c1e358aaeb7e",
+      "stage": 0,
+      "path": "tools/apply_current_review_authority.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "602c692bb93ea2478d6aadb1119f4b1d4afa4e7d",
+      "stage": 0,
+      "path": "tools/apply_track_a_authority.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "9d0db1db4934faa14616eb46c1833a262d8408a6",
+      "stage": 0,
+      "path": "tools/build_current_authority_index.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "e78db933aca5e692598d7bcc6145b23082b6c857",
+      "stage": 0,
+      "path": "tools/build_gr05.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "85a2304e7f22918fda681e2b7a38335a4bed444b",
+      "stage": 0,
+      "path": "tools/build_gr06.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "ff056e96417eb54fdcbfb7ebe77b16688f1e7594",
+      "stage": 0,
+      "path": "tools/package_repository.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "d5ef0b3b88f82a7c54a9691475ec87192a4e8148",
+      "stage": 0,
+      "path": "tools/prepare_gr05_semantic_review.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "48cecb8ce3dd490a30c5732b947fff654de6f475",
+      "stage": 0,
+      "path": "tools/prepare_gr06_semantic_review.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "9e672197509659ae904601093862b099dd86e762",
+      "stage": 0,
+      "path": "tools/prepare_track_a_fixtures.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "b4fc512d26622e284e064b4f9eb9c91cb161d454",
+      "stage": 0,
+      "path": "tools/prepare_track_a_resources.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "bc880e630cd7950e2fbf5ae83ad3f2c1dfb33520",
+      "stage": 0,
+      "path": "tools/prepare_track_a_specification.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "720ee7da617431ae052877e4f7b3dfcaa0f7d333",
+      "stage": 0,
+      "path": "tools/record_gr05_handoff.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "080f988250b2b7e1412323ff97754138b28342d5",
+      "stage": 0,
+      "path": "tools/record_gr06_handoff.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "eddefc31938f529bf475532e894e81d604cbf570",
+      "stage": 0,
+      "path": "tools/register_gr06.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "6eef3a2aa998597a1f0779cd90d77060be117533",
+      "stage": 0,
+      "path": "tools/render_locked_reference.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "b146af2a77b6d413772e0cd1696e47dea1b49ccd",
+      "stage": 0,
+      "path": "tools/validate_locked_build.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "f782c497d8bafd5260fbcda8ebbdc6523f76c054",
+      "stage": 0,
+      "path": "ui/button/button.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "3fa50d4aacec368bf5b5dbc68fc96d3267a4963c",
+      "stage": 0,
+      "path": "ui/button/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "b7e1ac93aef32276bc11c232ccf92fc38bd9f965",
+      "stage": 0,
+      "path": "ui/link/link.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "60654a61f0b8114c5b0634840744d86581ce0bb4",
+      "stage": 0,
+      "path": "ui/link/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "c83a3334e3a3c4ae02166df5cd37b6f37d58824d",
+      "stage": 0,
+      "path": "ui/option-group/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "12c0df0dca577c8fc494d692a8709f6983564cef",
+      "stage": 0,
+      "path": "ui/option-group/option-group.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "e2bf2c54e33e143d66c221073ed50bbe6f993769",
+      "stage": 0,
+      "path": "ui/progress/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "357d785d354cdad891f1211ed2884abffb77fffa",
+      "stage": 0,
+      "path": "ui/progress/progress.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "0c4c0022021b3946490faed603e8c8fd4955f644",
+      "stage": 0,
+      "path": "ui/save-state/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "dc20df6662ba6ccd4e9dc7569875712d4517ba3e",
+      "stage": 0,
+      "path": "ui/save-state/save-state.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "bdd64a541b2b97764a5921c998545c540e4ffb09",
+      "stage": 0,
+      "path": "ui/status/manifest.yaml"
+    },
+    {
+      "mode": "100644",
+      "oid": "74e5c313a0ee265a8cb85dfceeb63f641e5f21ee",
+      "stage": 0,
+      "path": "ui/status/status.css"
+    },
+    {
+      "mode": "100644",
+      "oid": "052be0d4efb677c4741e4a91262260389fb8665f",
+      "stage": 0,
+      "path": "validation-report.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "7592aa600d5d4e96a17194923d8f471149a62ed4",
+      "stage": 0,
+      "path": "validation-repository-v0.3.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "7592aa600d5d4e96a17194923d8f471149a62ed4",
+      "stage": 0,
+      "path": "validation-v0.2.2.json"
+    },
+    {
+      "mode": "100644",
+      "oid": "1c1b1a8bab053f8c0a746922a673a560f955878f",
+      "stage": 0,
+      "path": "validators/requirements.txt"
+    },
+    {
+      "mode": "100644",
+      "oid": "0ffaaaebc4238493490cad10bcab90361a1b8e5f",
+      "stage": 0,
+      "path": "validators/validate_bounded_encoding.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "4f6177170ad369c8b31fae4dbe8812947f7531db",
+      "stage": 0,
+      "path": "validators/validate_governance.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "1b476d40760679925b0bd7ef96768e76a5212d95",
+      "stage": 0,
+      "path": "validators/validate_gr03.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "294dce0da6a8264f38af8865dc3252ffa9373d6c",
+      "stage": 0,
+      "path": "validators/validate_gr05.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "5acb050e4241fcabc3d2261213a7411e31c742e9",
+      "stage": 0,
+      "path": "validators/validate_gr06.py"
+    },
+    {
+      "mode": "100644",
+      "oid": "68c13fb640dd2ad28ae73b67bd0afe0bd9f8e3e4",
+      "stage": 0,
+      "path": "validators/validate_repository.py"
+    }
+  ],
+  "bundle": {
+    "bytes": 2330606797,
+    "sha256": "8af8eeb73dc84a24ec232b79407c35127e0a2b44e58fcfe140feb8887a4e7f99",
+    "parts": [
+      {
+        "path": ".github-sync/history/original-history.bundle.part001",
+        "bytes": 1073741824,
+        "sha256": "c5f4478cb9ebcc99b134509cecd6cb9d12576d9a463f3fe343cbc8cb7c8565ab"
+      },
+      {
+        "path": ".github-sync/history/original-history.bundle.part002",
+        "bytes": 1073741824,
+        "sha256": "513de4f8aefbfe7ece73a982b08714fa0026c5802b767be8b13bb62078468393"
+      },
+      {
+        "path": ".github-sync/history/original-history.bundle.part003",
+        "bytes": 183123149,
+        "sha256": "b110705e63a94f5133e490b080cffe07879fc1f15042748ac76bcdc865d9ae56"
+      }
+    ]
+  },
+  "working_tree_file_count": 1088,
+  "source_files_modified": false,
+  "native_git_history": "Publication snapshot only. Original history in verified full bundle; no original commits rewritten.",
+  "inventory_exclusions": [
+    ".git/** only; this contains local Git configuration/credentials and audit metadata, not distributable working files. Original branches/tags and reachable history are in the bundle."
+  ],
+  "original_package_policy_note": "The complete working-tree inventory additionally includes all package ZIPs, generated Python caches, PACKAGE_MANIFEST.json and tests/package-integrity.json, which the existing package payload inventory excludes."
+}

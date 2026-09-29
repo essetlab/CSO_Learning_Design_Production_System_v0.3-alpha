@@ -1,0 +1,107 @@
+{
+  "provenance": "Existing automated screenshot crops inspected by Codex during architectural review. No fresh browser execution, native zoom, physical mobile or screen-reader claim. No source screenshot changed. Different stages/stress fixtures are not controlled usability comparisons.",
+  "items": [
+    {
+      "reference": "GR03",
+      "source": "tests/gr03-screenshots/gr06-regression-1440x900-initial.png",
+      "source_sha256": "0861480ba8f20b273dfc270a5c3b19042f85f2f609eab4b01c53527f0764c4ae",
+      "source_size": [
+        1440,
+        1311
+      ],
+      "derived_crop": "tests/wave2-review/GR03-existing-evidence-top.png",
+      "crop_bounds": [
+        0,
+        0,
+        1440,
+        1050
+      ],
+      "derived_sha256": "e4410054b3ff819d20b1eda424e43824d4dd460cd4b3aefef170095cc5256b49"
+    },
+    {
+      "reference": "GR05",
+      "source": "tests/gr05-screenshots/gr06-regression-1440x900-draft.png",
+      "source_sha256": "f38937d4be231a6e6696eb785ec7900a2cbf0e7b2c83007019790e803a9b7c1e",
+      "source_size": [
+        1440,
+        4842
+      ],
+      "derived_crop": "tests/wave2-review/GR05-existing-evidence-top.png",
+      "crop_bounds": [
+        0,
+        0,
+        1440,
+        1050
+      ],
+      "derived_sha256": "1bfa3cb5726808477b4ef7edb385faffa91fc9f6e0e50b662dced92e5fbfed9c"
+    },
+    {
+      "reference": "GR06",
+      "source": "tests/gr06-screenshots/1440x900-update.png",
+      "source_sha256": "591b2fb4d7b51254b2605df7fe1c7f9d7ed06b272dafcadb477832790bf1af50",
+      "source_size": [
+        1440,
+        8695
+      ],
+      "derived_crop": "tests/wave2-review/GR06-existing-evidence-top.png",
+      "crop_bounds": [
+        0,
+        0,
+        1440,
+        1050
+      ],
+      "derived_sha256": "9e72c8f19a53b638d313816fa82e520e341ded8e56627287540050dd4b49553d"
+    },
+    {
+      "reference": "GR03",
+      "source": "tests/gr03-screenshots/gr06-regression-stress-320x568-feedback-completed.png",
+      "source_sha256": "6f84919deb229515dd7804c5b18aa3b2c209fcf810a17febaedf3b1b9276a06c",
+      "source_size": [
+        320,
+        5756
+      ],
+      "derived_crop": "tests/wave2-review/GR03-existing-mobile-stress-top.png",
+      "crop_bounds": [
+        0,
+        0,
+        320,
+        1300
+      ],
+      "derived_sha256": "333b2698a59b85c56ea1f067957cb7e2748502ccb1397b32f705f33dd9ca6092"
+    },
+    {
+      "reference": "GR05",
+      "source": "tests/gr05-screenshots/gr06-regression-max-content-comparison.png",
+      "source_sha256": "f6b115ba05fc5d70d7d54955ee633bdde8909d4b23b0be131cdd51ea79c8ad46",
+      "source_size": [
+        320,
+        14965
+      ],
+      "derived_crop": "tests/wave2-review/GR05-existing-mobile-stress-top.png",
+      "crop_bounds": [
+        0,
+        0,
+        320,
+        1300
+      ],
+      "derived_sha256": "f2487feb3e05ad4371a3733c4e8ed806fe560b2b7ef31938e1b5ffe84a3c35ab"
+    },
+    {
+      "reference": "GR06",
+      "source": "tests/gr06-screenshots/stress-320-final.png",
+      "source_sha256": "94c87db62eb8e06bcef6712587b128718df8a2931f6f012b45dceb27b0515786",
+      "source_size": [
+        320,
+        28700
+      ],
+      "derived_crop": "tests/wave2-review/GR06-existing-mobile-stress-top.png",
+      "crop_bounds": [
+        0,
+        0,
+        320,
+        1300
+      ],
+      "derived_sha256": "cdebd1ad4f260fc6060c6a4ba367721144445eadecbc9f190bd81ec9dcab4999"
+    }
+  ]
+}

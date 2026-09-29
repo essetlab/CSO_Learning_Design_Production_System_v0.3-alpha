@@ -1,0 +1,1209 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "canonical specs, all frozen contracts and GR02 legacy string accepted",
+      "passed": true,
+      "details": {
+        "status": "pass",
+        "checked": [
+          "GR-01",
+          "GR-02",
+          "GR-03",
+          "GR-04",
+          "GR-05",
+          "GR-06"
+        ],
+        "locked_checked": [
+          "GR-01",
+          "GR-04"
+        ],
+        "schema": "schemas/golden-reference.schema.json",
+        "legacy_template_strings": [
+          "GR-02"
+        ],
+        "contracts_checked": [
+          "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+          "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+          "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json"
+        ],
+        "dependency_aliases": [
+          {
+            "source": "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+            "pointer": "/system_objects/shared_ui/3",
+            "label": "UI-NAV-CONTROLS-01",
+            "owner": "SHELL-GR-W1-01"
+          }
+        ],
+        "external_python_packages_required": true,
+        "python_packages": [
+          "PyYAML",
+          "jsonschema"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "GR-01 rejects components ['UNKNOWN-COMPONENT']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /components/0: unknown components reference UNKNOWN-COMPONENT"
+      ]
+    },
+    {
+      "name": "GR-01 rejects interaction UNKNOWN-INTERACTION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /interaction: unknown interactions reference UNKNOWN-INTERACTION"
+      ]
+    },
+    {
+      "name": "GR-01 rejects learning_block UNKNOWN-BLOCK",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /learning_block: unknown blocks reference UNKNOWN-BLOCK"
+      ]
+    },
+    {
+      "name": "GR-01 rejects composition UNKNOWN-COMPOSITION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /composition: unknown compositions reference UNKNOWN-COMPOSITION"
+      ]
+    },
+    {
+      "name": "GR-01 rejects instructional_pattern UNKNOWN-PATTERN",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /instructional_pattern: unknown patterns reference UNKNOWN-PATTERN"
+      ]
+    },
+    {
+      "name": "GR-01 rejects supporting_pattern UNKNOWN-SUPPORT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /supporting_pattern: unknown patterns reference UNKNOWN-SUPPORT"
+      ]
+    },
+    {
+      "name": "GR-01 rejects template {'id': 'UNKNOWN-TEMPLATE'}",
+      "passed": true,
+      "details": [
+        "GR-01/spec.yaml: template: unknown template UNKNOWN-TEMPLATE",
+        "golden-references/GR-01/spec.yaml: /template/id: unknown templates reference UNKNOWN-TEMPLATE"
+      ]
+    },
+    {
+      "name": "GR-01 rejects template {'id': 'TPL-CONCEPT-01', 'variant': 'UNKNOWN-VARIANT'}",
+      "passed": true,
+      "details": [
+        "GR-01/spec.yaml: template/variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01",
+        "golden-references/GR-01/spec.yaml: /template_variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01"
+      ]
+    },
+    {
+      "name": "GR-01 rejects composition_variant UNKNOWN-VARIANT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /composition_variant: unknown composition variant UNKNOWN-VARIANT for CMP-IMMERSIVE-01"
+      ]
+    },
+    {
+      "name": "GR-01 rejects build_mode UNKNOWN-MODE",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /build_mode: unsupported build mode UNKNOWN-MODE"
+      ]
+    },
+    {
+      "name": "GR-01 rejects authority UNRESTRICTED",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /authority: unsupported authority mode UNRESTRICTED"
+      ]
+    },
+    {
+      "name": "GR-01 rejects authority {}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /authority: authority declaration must not be empty"
+      ]
+    },
+    {
+      "name": "GR-01 rejects authority {'UNCONTROLLED': ['change anything']}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /authority/UNCONTROLLED: unsupported authority level or malformed authority statements"
+      ]
+    },
+    {
+      "name": "GR-01 rejects components ['UI-NAV-CONTROLS-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /components/0: unknown all reference UI-NAV-CONTROLS-01",
+        "golden-references/GR-01/spec.yaml: /components/0: unknown components reference UI-NAV-CONTROLS-01"
+      ]
+    },
+    {
+      "name": "GR-01 rejects interactions ['BLK-WORK-ARTIFACT-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-01/spec.yaml: /interactions/0: unknown interactions reference BLK-WORK-ARTIFACT-01"
+      ]
+    },
+    {
+      "name": "GR-02 rejects components ['UNKNOWN-COMPONENT']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /components/0: unknown components reference UNKNOWN-COMPONENT"
+      ]
+    },
+    {
+      "name": "GR-02 rejects interaction UNKNOWN-INTERACTION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /interaction: unknown interactions reference UNKNOWN-INTERACTION"
+      ]
+    },
+    {
+      "name": "GR-02 rejects learning_block UNKNOWN-BLOCK",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /learning_block: unknown blocks reference UNKNOWN-BLOCK"
+      ]
+    },
+    {
+      "name": "GR-02 rejects composition UNKNOWN-COMPOSITION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /composition: unknown compositions reference UNKNOWN-COMPOSITION"
+      ]
+    },
+    {
+      "name": "GR-02 rejects instructional_pattern UNKNOWN-PATTERN",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /instructional_pattern: unknown patterns reference UNKNOWN-PATTERN"
+      ]
+    },
+    {
+      "name": "GR-02 rejects supporting_pattern UNKNOWN-SUPPORT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /supporting_pattern: unknown patterns reference UNKNOWN-SUPPORT"
+      ]
+    },
+    {
+      "name": "GR-02 rejects template {'id': 'UNKNOWN-TEMPLATE'}",
+      "passed": true,
+      "details": [
+        "GR-02/spec.yaml: template: unknown template UNKNOWN-TEMPLATE",
+        "golden-references/GR-02/spec.yaml: /template/id: unknown templates reference UNKNOWN-TEMPLATE"
+      ]
+    },
+    {
+      "name": "GR-02 rejects template {'id': 'TPL-CONCEPT-01', 'variant': 'UNKNOWN-VARIANT'}",
+      "passed": true,
+      "details": [
+        "GR-02/spec.yaml: template/variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01",
+        "golden-references/GR-02/spec.yaml: /template_variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01"
+      ]
+    },
+    {
+      "name": "GR-02 rejects composition_variant UNKNOWN-VARIANT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /composition_variant: unknown composition variant UNKNOWN-VARIANT for CMP-EDITORIAL-01"
+      ]
+    },
+    {
+      "name": "GR-02 rejects build_mode UNKNOWN-MODE",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /build_mode: unsupported build mode UNKNOWN-MODE"
+      ]
+    },
+    {
+      "name": "GR-02 rejects authority UNRESTRICTED",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /authority: unsupported authority mode UNRESTRICTED"
+      ]
+    },
+    {
+      "name": "GR-02 rejects authority {}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /authority: authority declaration must not be empty"
+      ]
+    },
+    {
+      "name": "GR-02 rejects authority {'UNCONTROLLED': ['change anything']}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /authority/UNCONTROLLED: unsupported authority level or malformed authority statements"
+      ]
+    },
+    {
+      "name": "GR-02 rejects components ['UI-NAV-CONTROLS-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /components/0: unknown all reference UI-NAV-CONTROLS-01",
+        "golden-references/GR-02/spec.yaml: /components/0: unknown components reference UI-NAV-CONTROLS-01"
+      ]
+    },
+    {
+      "name": "GR-02 rejects interactions ['BLK-WORK-ARTIFACT-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-02/spec.yaml: /interactions/0: unknown interactions reference BLK-WORK-ARTIFACT-01"
+      ]
+    },
+    {
+      "name": "GR-03 rejects components ['UNKNOWN-COMPONENT']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /components/0: unknown components reference UNKNOWN-COMPONENT"
+      ]
+    },
+    {
+      "name": "GR-03 rejects interaction UNKNOWN-INTERACTION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /interaction: unknown interactions reference UNKNOWN-INTERACTION"
+      ]
+    },
+    {
+      "name": "GR-03 rejects learning_block UNKNOWN-BLOCK",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /learning_block: unknown blocks reference UNKNOWN-BLOCK"
+      ]
+    },
+    {
+      "name": "GR-03 rejects composition UNKNOWN-COMPOSITION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /composition: unknown compositions reference UNKNOWN-COMPOSITION"
+      ]
+    },
+    {
+      "name": "GR-03 rejects instructional_pattern UNKNOWN-PATTERN",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /instructional_pattern: unknown patterns reference UNKNOWN-PATTERN"
+      ]
+    },
+    {
+      "name": "GR-03 rejects supporting_pattern UNKNOWN-SUPPORT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /supporting_pattern: unknown patterns reference UNKNOWN-SUPPORT"
+      ]
+    },
+    {
+      "name": "GR-03 rejects template {'id': 'UNKNOWN-TEMPLATE'}",
+      "passed": true,
+      "details": [
+        "GR-03/spec.yaml: template: unknown template UNKNOWN-TEMPLATE",
+        "golden-references/GR-03/spec.yaml: /template/id: unknown templates reference UNKNOWN-TEMPLATE"
+      ]
+    },
+    {
+      "name": "GR-03 rejects template {'id': 'TPL-CONCEPT-01', 'variant': 'UNKNOWN-VARIANT'}",
+      "passed": true,
+      "details": [
+        "GR-03/spec.yaml: template/variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01",
+        "golden-references/GR-03/spec.yaml: /template_variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01"
+      ]
+    },
+    {
+      "name": "GR-03 rejects composition_variant UNKNOWN-VARIANT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /composition_variant: unknown composition variant UNKNOWN-VARIANT for CMP-PERSPECTIVE-01"
+      ]
+    },
+    {
+      "name": "GR-03 rejects build_mode UNKNOWN-MODE",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /build_mode: unsupported build mode UNKNOWN-MODE"
+      ]
+    },
+    {
+      "name": "GR-03 rejects authority UNRESTRICTED",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /authority: unsupported authority mode UNRESTRICTED"
+      ]
+    },
+    {
+      "name": "GR-03 rejects authority {}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /authority: authority declaration must not be empty"
+      ]
+    },
+    {
+      "name": "GR-03 rejects authority {'UNCONTROLLED': ['change anything']}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /authority/UNCONTROLLED: unsupported authority level or malformed authority statements"
+      ]
+    },
+    {
+      "name": "GR-03 rejects components ['UI-NAV-CONTROLS-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /components/0: unknown all reference UI-NAV-CONTROLS-01",
+        "golden-references/GR-03/spec.yaml: /components/0: unknown components reference UI-NAV-CONTROLS-01"
+      ]
+    },
+    {
+      "name": "GR-03 rejects interactions ['BLK-WORK-ARTIFACT-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-03/spec.yaml: /interactions/0: unknown interactions reference BLK-WORK-ARTIFACT-01"
+      ]
+    },
+    {
+      "name": "GR-04 rejects components ['UNKNOWN-COMPONENT']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /components/0: unknown components reference UNKNOWN-COMPONENT"
+      ]
+    },
+    {
+      "name": "GR-04 rejects interaction UNKNOWN-INTERACTION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /interaction: unknown interactions reference UNKNOWN-INTERACTION"
+      ]
+    },
+    {
+      "name": "GR-04 rejects learning_block UNKNOWN-BLOCK",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /learning_block: unknown blocks reference UNKNOWN-BLOCK"
+      ]
+    },
+    {
+      "name": "GR-04 rejects composition UNKNOWN-COMPOSITION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /composition: unknown compositions reference UNKNOWN-COMPOSITION"
+      ]
+    },
+    {
+      "name": "GR-04 rejects instructional_pattern UNKNOWN-PATTERN",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /instructional_pattern: unknown patterns reference UNKNOWN-PATTERN"
+      ]
+    },
+    {
+      "name": "GR-04 rejects supporting_pattern UNKNOWN-SUPPORT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /supporting_pattern: unknown patterns reference UNKNOWN-SUPPORT"
+      ]
+    },
+    {
+      "name": "GR-04 rejects template {'id': 'UNKNOWN-TEMPLATE'}",
+      "passed": true,
+      "details": [
+        "GR-04/spec.yaml: template: unknown template UNKNOWN-TEMPLATE",
+        "golden-references/GR-04/spec.yaml: /template/id: unknown templates reference UNKNOWN-TEMPLATE"
+      ]
+    },
+    {
+      "name": "GR-04 rejects template {'id': 'TPL-CONCEPT-01', 'variant': 'UNKNOWN-VARIANT'}",
+      "passed": true,
+      "details": [
+        "GR-04/spec.yaml: template/variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01",
+        "golden-references/GR-04/spec.yaml: /template_variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01"
+      ]
+    },
+    {
+      "name": "GR-04 rejects composition_variant UNKNOWN-VARIANT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /composition_variant: unknown composition variant UNKNOWN-VARIANT for CMP-EVIDENCE-DECISION-01"
+      ]
+    },
+    {
+      "name": "GR-04 rejects build_mode UNKNOWN-MODE",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /build_mode: unsupported build mode UNKNOWN-MODE"
+      ]
+    },
+    {
+      "name": "GR-04 rejects authority UNRESTRICTED",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /authority: unsupported authority mode UNRESTRICTED"
+      ]
+    },
+    {
+      "name": "GR-04 rejects authority {}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /authority: authority declaration must not be empty"
+      ]
+    },
+    {
+      "name": "GR-04 rejects authority {'UNCONTROLLED': ['change anything']}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /authority/UNCONTROLLED: unsupported authority level or malformed authority statements"
+      ]
+    },
+    {
+      "name": "GR-04 rejects components ['UI-NAV-CONTROLS-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /components/0: unknown all reference UI-NAV-CONTROLS-01",
+        "golden-references/GR-04/spec.yaml: /components/0: unknown components reference UI-NAV-CONTROLS-01"
+      ]
+    },
+    {
+      "name": "GR-04 rejects interactions ['BLK-WORK-ARTIFACT-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-04/spec.yaml: /interactions/0: unknown interactions reference BLK-WORK-ARTIFACT-01"
+      ]
+    },
+    {
+      "name": "GR-05 rejects components ['UNKNOWN-COMPONENT']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /components/0: unknown components reference UNKNOWN-COMPONENT"
+      ]
+    },
+    {
+      "name": "GR-05 rejects interaction UNKNOWN-INTERACTION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /interaction: unknown interactions reference UNKNOWN-INTERACTION"
+      ]
+    },
+    {
+      "name": "GR-05 rejects learning_block UNKNOWN-BLOCK",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /learning_block: unknown blocks reference UNKNOWN-BLOCK"
+      ]
+    },
+    {
+      "name": "GR-05 rejects composition UNKNOWN-COMPOSITION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /composition: unknown compositions reference UNKNOWN-COMPOSITION"
+      ]
+    },
+    {
+      "name": "GR-05 rejects instructional_pattern UNKNOWN-PATTERN",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /instructional_pattern: unknown patterns reference UNKNOWN-PATTERN"
+      ]
+    },
+    {
+      "name": "GR-05 rejects supporting_pattern UNKNOWN-SUPPORT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /supporting_pattern: unknown patterns reference UNKNOWN-SUPPORT"
+      ]
+    },
+    {
+      "name": "GR-05 rejects template {'id': 'UNKNOWN-TEMPLATE'}",
+      "passed": true,
+      "details": [
+        "GR-05/spec.yaml: template: unknown template UNKNOWN-TEMPLATE",
+        "golden-references/GR-05/spec.yaml: /template/id: unknown templates reference UNKNOWN-TEMPLATE"
+      ]
+    },
+    {
+      "name": "GR-05 rejects template {'id': 'TPL-CONCEPT-01', 'variant': 'UNKNOWN-VARIANT'}",
+      "passed": true,
+      "details": [
+        "GR-05/spec.yaml: template/variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01",
+        "golden-references/GR-05/spec.yaml: /template_variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01"
+      ]
+    },
+    {
+      "name": "GR-05 rejects composition_variant UNKNOWN-VARIANT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /composition_variant: unknown composition variant UNKNOWN-VARIANT for CMP-REPAIR-STUDIO-01"
+      ]
+    },
+    {
+      "name": "GR-05 rejects build_mode UNKNOWN-MODE",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /build_mode: unsupported build mode UNKNOWN-MODE"
+      ]
+    },
+    {
+      "name": "GR-05 rejects authority UNRESTRICTED",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /authority: unsupported authority mode UNRESTRICTED"
+      ]
+    },
+    {
+      "name": "GR-05 rejects authority {}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /authority: authority declaration must not be empty"
+      ]
+    },
+    {
+      "name": "GR-05 rejects authority {'UNCONTROLLED': ['change anything']}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /authority/UNCONTROLLED: unsupported authority level or malformed authority statements"
+      ]
+    },
+    {
+      "name": "GR-05 rejects components ['UI-NAV-CONTROLS-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /components/0: unknown all reference UI-NAV-CONTROLS-01",
+        "golden-references/GR-05/spec.yaml: /components/0: unknown components reference UI-NAV-CONTROLS-01"
+      ]
+    },
+    {
+      "name": "GR-05 rejects interactions ['BLK-WORK-ARTIFACT-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-05/spec.yaml: /interactions/0: unknown interactions reference BLK-WORK-ARTIFACT-01"
+      ]
+    },
+    {
+      "name": "GR-06 rejects components ['UNKNOWN-COMPONENT']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /components/0: unknown components reference UNKNOWN-COMPONENT"
+      ]
+    },
+    {
+      "name": "GR-06 rejects interaction UNKNOWN-INTERACTION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /interaction: unknown interactions reference UNKNOWN-INTERACTION"
+      ]
+    },
+    {
+      "name": "GR-06 rejects learning_block UNKNOWN-BLOCK",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /learning_block: unknown blocks reference UNKNOWN-BLOCK"
+      ]
+    },
+    {
+      "name": "GR-06 rejects composition UNKNOWN-COMPOSITION",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /composition: unknown compositions reference UNKNOWN-COMPOSITION",
+        "golden-references/GR-06/spec.yaml: /composition_variant: unknown composition variant source-interpretation-decision-update for UNKNOWN-COMPOSITION"
+      ]
+    },
+    {
+      "name": "GR-06 rejects instructional_pattern UNKNOWN-PATTERN",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /instructional_pattern: unknown patterns reference UNKNOWN-PATTERN"
+      ]
+    },
+    {
+      "name": "GR-06 rejects supporting_pattern UNKNOWN-SUPPORT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /supporting_pattern: unknown patterns reference UNKNOWN-SUPPORT"
+      ]
+    },
+    {
+      "name": "GR-06 rejects template {'id': 'UNKNOWN-TEMPLATE'}",
+      "passed": true,
+      "details": [
+        "GR-06/spec.yaml: template: unknown template UNKNOWN-TEMPLATE",
+        "golden-references/GR-06/spec.yaml: /template/id: unknown templates reference UNKNOWN-TEMPLATE"
+      ]
+    },
+    {
+      "name": "GR-06 rejects template {'id': 'TPL-CONCEPT-01', 'variant': 'UNKNOWN-VARIANT'}",
+      "passed": true,
+      "details": [
+        "GR-06/spec.yaml: template/variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01",
+        "golden-references/GR-06/spec.yaml: /template_variant: unknown template variant UNKNOWN-VARIANT for TPL-CONCEPT-01"
+      ]
+    },
+    {
+      "name": "GR-06 rejects composition_variant UNKNOWN-VARIANT",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /composition_variant: unknown composition variant UNKNOWN-VARIANT for CMP-EVIDENCE-DECISION-01"
+      ]
+    },
+    {
+      "name": "GR-06 rejects build_mode UNKNOWN-MODE",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /build_mode: unsupported build mode UNKNOWN-MODE"
+      ]
+    },
+    {
+      "name": "GR-06 rejects authority UNRESTRICTED",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /authority: unsupported authority mode UNRESTRICTED"
+      ]
+    },
+    {
+      "name": "GR-06 rejects authority {}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /authority: authority declaration must not be empty"
+      ]
+    },
+    {
+      "name": "GR-06 rejects authority {'UNCONTROLLED': ['change anything']}",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /authority/UNCONTROLLED: unsupported authority level or malformed authority statements"
+      ]
+    },
+    {
+      "name": "GR-06 rejects components ['UI-NAV-CONTROLS-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /components/0: unknown all reference UI-NAV-CONTROLS-01",
+        "golden-references/GR-06/spec.yaml: /components/0: unknown components reference UI-NAV-CONTROLS-01"
+      ]
+    },
+    {
+      "name": "GR-06 rejects interactions ['BLK-WORK-ARTIFACT-01']",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /interactions/0: unknown interactions reference BLK-WORK-ARTIFACT-01"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects component_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /component_id: unknown components reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects interaction_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /interaction_id: unknown interactions reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects learning_block_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /learning_block_id: unknown blocks reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects composition_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /composition_id: unknown compositions reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects pattern_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /pattern_id: unknown patterns reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects template_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /template_id: unknown templates reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects template",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /template_variant: unknown template variant UNKNOWN for TPL-DEEP-WORKSPACE-01"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects composition",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /composition_variant: unknown composition variant UNKNOWN for CMP-EVIDENCE-DECISION-01"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects build_mode",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /build_mode: unsupported build mode UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects authority_mode",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /authority_mode: unsupported authority mode UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects authority",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /authority/meaning: unsupported authority/restriction mode"
+      ]
+    },
+    {
+      "name": "GR-03 frozen contract rejects owner_candidate",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /owner_candidate: unknown components reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-03 rejects unknown ID in nested prose",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /reference_note/owner: unknown all reference BLK-UNREGISTERED-99"
+      ]
+    },
+    {
+      "name": "GR-03 rejects nested unsupported authority",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /settings/authority: unsupported authority mode UNRESTRICTED"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects component_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /component_id: unknown components reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects interaction_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /interaction_id: unknown interactions reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects learning_block_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /learning_block_id: unknown blocks reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects composition_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /composition_id: unknown compositions reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects pattern_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /pattern_id: unknown patterns reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects template_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /template_id: unknown templates reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects template",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /template_variant: unknown template variant UNKNOWN for TPL-DEEP-WORKSPACE-01"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects composition",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /composition_variant: unknown composition variant UNKNOWN for CMP-EVIDENCE-DECISION-01"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects build_mode",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /build_mode: unsupported build mode UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects authority_mode",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /authority_mode: unsupported authority mode UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects authority",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /authority/meaning: unsupported authority/restriction mode"
+      ]
+    },
+    {
+      "name": "GR-05 frozen contract rejects owner_candidate",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /owner_candidate: unknown components reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-05 rejects unknown ID in nested prose",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /reference_note/owner: unknown all reference BLK-UNREGISTERED-99"
+      ]
+    },
+    {
+      "name": "GR-05 rejects nested unsupported authority",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /settings/authority: unsupported authority mode UNRESTRICTED"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects component_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /component_id: unknown components reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects interaction_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /interaction_id: unknown interactions reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects learning_block_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /learning_block_id: unknown blocks reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects composition_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /composition_id: unknown compositions reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects pattern_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /pattern_id: unknown patterns reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects template_id",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /template_id: unknown templates reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects template",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /template_variant: unknown template variant UNKNOWN for TPL-DEEP-WORKSPACE-01"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects composition",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /composition_variant: unknown composition variant UNKNOWN for CMP-EVIDENCE-DECISION-01"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects build_mode",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /build_mode: unsupported build mode UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects authority_mode",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /authority_mode: unsupported authority mode UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects authority",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /authority/meaning: unsupported authority/restriction mode"
+      ]
+    },
+    {
+      "name": "GR-06 frozen contract rejects owner_candidate",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /owner_candidate: unknown components reference UNKNOWN"
+      ]
+    },
+    {
+      "name": "GR-06 rejects unknown ID in nested prose",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /reference_note/owner: unknown all reference BLK-UNREGISTERED-99"
+      ]
+    },
+    {
+      "name": "GR-06 rejects nested unsupported authority",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /settings/authority: unsupported authority mode UNRESTRICTED"
+      ]
+    },
+    {
+      "name": "GR03 rejects nearby unknown dependency",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /system_objects/shared_ui/3: unknown all reference UI-NAV-CONTROLS-99",
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /system_objects/shared_ui/3: unknown components reference UI-NAV-CONTROLS-99"
+      ]
+    },
+    {
+      "name": "GR03 alias cannot move to another slot",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /system_objects/shared_ui/0: unknown all reference UI-NAV-CONTROLS-01",
+        "prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /system_objects/shared_ui/0: unknown components reference UI-NAV-CONTROLS-01"
+      ]
+    },
+    {
+      "name": "GR06 nested variant validation",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /objects/composition_variant: unknown composition variant BAD for CMP-EVIDENCE-DECISION-01"
+      ]
+    },
+    {
+      "name": "GR06 nested build authority validation",
+      "passed": true,
+      "details": [
+        "prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json: /contract/build_mode: unsupported build mode BAD"
+      ]
+    },
+    {
+      "name": "unknown explicit null variant",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /composition_variant: unknown composition variant None for CMP-EVIDENCE-DECISION-01"
+      ]
+    },
+    {
+      "name": "conflicting template variants",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: /template_variant: conflicting variant declarations"
+      ]
+    },
+    {
+      "name": "missing frozen contract rejected",
+      "passed": true,
+      "details": [
+        "golden-references/GR-06/spec.yaml: missing/outside-repository prototype_contract ../../missing.json"
+      ]
+    },
+    {
+      "name": "registry mirror mismatch rejected",
+      "passed": true,
+      "details": [
+        "registries/components: JSON/YAML mismatch"
+      ]
+    },
+    {
+      "name": "unlinked frozen contracts are validated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "future reference missing brief rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "blank authoring template cannot masquerade as complete brief",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "complete test-only future brief accepted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires professional_capability",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires dominant_learner_action",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires emotional_cognitive_rhythm",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires visual_interaction_metaphor",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires density_scroll_expectation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires reference_work_balance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires authored_writing_burden",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires desktop_mobile_transformation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires magnetic_experience_moment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires reuse_rationale",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires difference_from_recent_references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires validation_baseline",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan U01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan U02",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan U03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan U04",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan U05",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan U06",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan U07",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan U08",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan C01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan C02",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan C03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan C04",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan C05",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan C06",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "brief requires applicability/plan C07",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "scope": "Permanent regression probes in temporary copies; no production registry/spec/contract mutation."
+}

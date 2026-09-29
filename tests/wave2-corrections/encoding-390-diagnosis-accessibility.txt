@@ -1,0 +1,126 @@
+- main:
+  - paragraph: DEEP BUILD / REPAIR STUDIO
+  - heading "Repair the market participation plan" [level=1]
+  - paragraph: Diagnose the evidence, write an improvement, then revise it under a practical constraint. Keep your two versions and explain your decisions.
+  - paragraph: Fictional training case · approximately 25–35 minutes. Use short phrases where they communicate your reasoning. This workspace checks structure; you review quality.
+  - navigation "Repair stages":
+    - button "1. Diagnose the note"
+    - text: Always available
+    - button "2. Write the repair" [disabled]
+    - text: Write after diagnosis
+    - button "3. Review draft 1" [disabled]
+    - text: Review a structurally complete draft
+    - button "4. Improve under constraint" [disabled]
+    - text: Complete the first criterion review first
+    - button "5. Compare and retain" [disabled]
+    - text: Revise under C01 and begin final review first
+  - complementary "Original note and case evidence":
+    - heading "The original and the evidence" [level=2]
+    - paragraph: Fictional training case · Jiru Amba
+    - paragraph: Awra is supporting consultation on a service-improvement plan in fictional Jiru Amba. Prepare a practical improvement note for the planning team. Focus on women vendors and persons with disabilities, while recognizing that the full case includes other groups. Show who can influence the decision, what access changes are needed, who responds, and what evidence would demonstrate an effect.
+    - group:
+      - text: Read the original note
+      - heading "Repaired objective" [level=3]
+      - paragraph: Improve market services by holding consultations and installing a feedback box.
+      - heading "Participation and access procedure" [level=3]
+      - paragraph: Invite everyone to one public meeting to rank the activities already selected by the planning team.
+      - heading "Responsibility and response pathway" [level=3]
+      - paragraph: Awra will collect concerns in the feedback box and handle all decisions after the meeting.
+      - heading "Sign of change and safe evidence" [level=3]
+      - paragraph: Report success using the number of people attending and the number of feedback boxes installed.
+    - group:
+      - text: Case evidence E01–E05
+      - paragraph: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - paragraph: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - paragraph: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - paragraph: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - paragraph: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+  - region "1. Diagnose the note":
+    - heading "1. Diagnose the note" [level=2]
+    - paragraph: Explain a weakness in each original section. Link your diagnosis to evidence; a clear short phrase is enough.
+    - heading "Repaired objective" [level=3]
+    - blockquote: Improve market services by holding consultations and installing a feedback box.
+    - text: "Repaired objective: what needs repair?"
+    - paragraph: Name the weakness and link it to case evidence. A concise phrase or sentence is enough.
+    - 'textbox "Repaired objective: what needs repair?"'
+    - paragraph: 0 / 50 words maximum · no minimum word count
+    - group "Link 1–3 evidence items":
+      - text: Link 1–3 evidence items
+      - checkbox "E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time."
+      - text: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - checkbox "E02 · Persons with disabilities face an inaccessible venue and long printed documents."
+      - text: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - checkbox "E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities."
+      - text: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - checkbox "E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response."
+      - text: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - checkbox "E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities."
+      - text: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+    - heading "Participation and access procedure" [level=3]
+    - blockquote: Invite everyone to one public meeting to rank the activities already selected by the planning team.
+    - text: "Participation and access procedure: what needs repair?"
+    - paragraph: Name the weakness and link it to case evidence. A concise phrase or sentence is enough.
+    - 'textbox "Participation and access procedure: what needs repair?"'
+    - paragraph: 0 / 50 words maximum · no minimum word count
+    - group "Link 1–3 evidence items":
+      - text: Link 1–3 evidence items
+      - checkbox "E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time."
+      - text: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - checkbox "E02 · Persons with disabilities face an inaccessible venue and long printed documents."
+      - text: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - checkbox "E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities."
+      - text: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - checkbox "E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response."
+      - text: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - checkbox "E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities."
+      - text: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+    - heading "Responsibility and response pathway" [level=3]
+    - blockquote: Awra will collect concerns in the feedback box and handle all decisions after the meeting.
+    - text: "Responsibility and response pathway: what needs repair?"
+    - paragraph: Name the weakness and link it to case evidence. A concise phrase or sentence is enough.
+    - 'textbox "Responsibility and response pathway: what needs repair?"'
+    - paragraph: 0 / 50 words maximum · no minimum word count
+    - group "Link 1–3 evidence items":
+      - text: Link 1–3 evidence items
+      - checkbox "E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time."
+      - text: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - checkbox "E02 · Persons with disabilities face an inaccessible venue and long printed documents."
+      - text: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - checkbox "E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities."
+      - text: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - checkbox "E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response."
+      - text: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - checkbox "E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities."
+      - text: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+    - heading "Sign of change and safe evidence" [level=3]
+    - blockquote: Report success using the number of people attending and the number of feedback boxes installed.
+    - text: "Sign of change and safe evidence: what needs repair?"
+    - paragraph: Name the weakness and link it to case evidence. A concise phrase or sentence is enough.
+    - 'textbox "Sign of change and safe evidence: what needs repair?"'
+    - paragraph: 0 / 50 words maximum · no minimum word count
+    - group "Link 1–3 evidence items":
+      - text: Link 1–3 evidence items
+      - checkbox "E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time."
+      - text: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - checkbox "E02 · Persons with disabilities face an inaccessible venue and long printed documents."
+      - text: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - checkbox "E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities."
+      - text: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - checkbox "E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response."
+      - text: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - checkbox "E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities."
+      - text: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+    - button "Write the repair"
+  - status
+  - region "Draft recovery and device saving":
+    - heading "Keep your work" [level=2]
+    - paragraph: Refresh recovery is automatic in this active session. To keep work after closing, choose Save on this device. On a shared device, other people may see a saved draft. Browser session restoration can also retain session data; use Clear this draft when needed.
+    - checkbox "Save on this device"
+    - text: Save on this device
+    - paragraph: No work checkpointed yet.
+    - paragraph: Save on this device is off.
+  - region "Retain your work":
+    - button "Show text to copy"
+    - button "Copy current work"
+    - button "Download text"
+    - button "Clear this draft"

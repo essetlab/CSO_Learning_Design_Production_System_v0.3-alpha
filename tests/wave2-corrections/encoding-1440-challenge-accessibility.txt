@@ -1,0 +1,128 @@
+- main:
+  - paragraph: DEEP BUILD / REPAIR STUDIO
+  - heading "Repair the market participation plan" [level=1]
+  - paragraph: Diagnose the evidence, write an improvement, then revise it under a practical constraint. Keep your two versions and explain your decisions.
+  - paragraph: Fictional training case · approximately 25–35 minutes. Use short phrases where they communicate your reasoning. This workspace checks structure; you review quality.
+  - navigation "Repair stages":
+    - button "1. Diagnose the note"
+    - text: Always available
+    - button "2. Write the repair"
+    - text: Write after diagnosis
+    - button "3. Review draft 1"
+    - text: Review a structurally complete draft
+    - button "4. Improve under constraint"
+    - text: Complete the first criterion review first
+    - button "5. Compare and retain" [disabled]
+    - text: Revise under C01 and begin final review first
+  - complementary "Original note and case evidence":
+    - heading "The original and the evidence" [level=2]
+    - paragraph: Fictional training case · Jiru Amba
+    - paragraph: Awra is supporting consultation on a service-improvement plan in fictional Jiru Amba. Prepare a practical improvement note for the planning team. Focus on women vendors and persons with disabilities, while recognizing that the full case includes other groups. Show who can influence the decision, what access changes are needed, who responds, and what evidence would demonstrate an effect.
+    - group:
+      - text: Read the original note
+      - heading "Repaired objective" [level=3]
+      - paragraph: Improve market services by holding consultations and installing a feedback box.
+      - heading "Participation and access procedure" [level=3]
+      - paragraph: Invite everyone to one public meeting to rank the activities already selected by the planning team.
+      - heading "Responsibility and response pathway" [level=3]
+      - paragraph: Awra will collect concerns in the feedback box and handle all decisions after the meeting.
+      - heading "Sign of change and safe evidence" [level=3]
+      - paragraph: Report success using the number of people attending and the number of feedback boxes installed.
+    - group:
+      - text: Case evidence E01–E05
+      - paragraph: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - paragraph: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - paragraph: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - paragraph: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - paragraph: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+  - region "4. Improve under constraint":
+    - heading "4. Improve under constraint" [level=2]
+    - complementary:
+      - heading "C01 · A feasibility constraint" [level=3]
+      - paragraph: For this exercise, the team cannot add a second large public meeting. Improve your note so affected groups can still influence priorities before the plan is finalized. Keep a feasible response and evidence pathway.
+    - text: Repaired objective
+    - paragraph: Name the groups, the barrier and the change in influence or response the plan should support. A concise sentence can be enough; name whose influence or response should change.
+    - textbox "Repaired objective": Enable women vendors and persons with disabilities to propose market priorities before the planning team finalizes decisions, and explain which proposals influenced the plan.
+    - paragraph: 24 / 70 words maximum · no minimum word count
+    - group: Read the original section
+    - group "Link 1–3 evidence items":
+      - text: Link 1–3 evidence items
+      - checkbox "E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time."
+      - text: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - checkbox "E02 · Persons with disabilities face an inaccessible venue and long printed documents."
+      - text: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - checkbox "E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities." [checked]
+      - text: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - checkbox "E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response." [checked]
+      - text: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - checkbox "E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities."
+      - text: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+    - text: Participation and access procedure
+    - paragraph: Describe how and when affected groups can shape priorities, including accessible information and an alternative to relying on the public meeting alone. Use short sentences or bullets explaining how input reaches the decision and what access changes.
+    - textbox "Participation and access procedure": Ask vendors about suitable times and participants about access needs. Hold an accessible discussion using spoken summaries. Invite additional priorities, including stall allocation and budget influence. Check proposed priorities with affected groups before decisions.
+    - paragraph: 34 / 110 words maximum · no minimum word count
+    - group: Read the original section
+    - group "Link 1–3 evidence items":
+      - text: Link 1–3 evidence items
+      - checkbox "E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time." [checked]
+      - text: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - checkbox "E02 · Persons with disabilities face an inaccessible venue and long printed documents." [checked]
+      - text: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - checkbox "E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities." [checked]
+      - text: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - checkbox "E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response."
+      - text: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - checkbox "E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities."
+      - text: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+    - text: Responsibility and response pathway
+    - paragraph: Separate the planning or market actor’s decision and response role from Awra’s facilitation role. Explain how people learn what changed without exposing individual concerns. Briefly separate the responding actor from Awra and explain the response route.
+    - textbox "Responsibility and response pathway": Awra facilitates input and records concerns with consent. Ask the responsible public planning officer to confirm a response date and explain decisions through accessible channels. Identify an escalation route with participants if no response arrives.
+    - paragraph: 35 / 100 words maximum · no minimum word count
+    - group: Read the original section
+    - group "Link 1–3 evidence items":
+      - text: Link 1–3 evidence items
+      - checkbox "E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time."
+      - text: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - checkbox "E02 · Persons with disabilities face an inaccessible venue and long printed documents."
+      - text: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - checkbox "E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities."
+      - text: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - checkbox "E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response." [checked]
+      - text: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - checkbox "E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities." [checked]
+      - text: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+    - text: Sign of change and safe evidence
+    - paragraph: Describe a sign of influence or response, the non-identifying evidence to check, who checks it and when. Do not invent a baseline or promise an outcome. Briefly name the sign of change, safe evidence and who checks it when.
+    - textbox "Sign of change and safe evidence": Record suggested priorities and resulting plan changes without identifying contributors. Ask participants privately whether they could influence choices. Track responses and unresolved concerns, with access limited to agreed staff.
+    - paragraph: 29 / 80 words maximum · no minimum word count
+    - group: Read the original section
+    - group "Link 1–3 evidence items":
+      - text: Link 1–3 evidence items
+      - checkbox "E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time."
+      - text: E01 · Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.
+      - checkbox "E02 · Persons with disabilities face an inaccessible venue and long printed documents." [checked]
+      - text: E02 · Persons with disabilities face an inaccessible venue and long printed documents.
+      - checkbox "E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities."
+      - text: E03 · Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.
+      - checkbox "E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response." [checked]
+      - text: E04 · The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.
+      - checkbox "E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities."
+      - text: E05 · Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.
+    - text: Explain your connected revision
+    - paragraph: Explain how the constraint changed your procedure and your response or evidence plan. State the remaining uncertainty. Briefly explain the changed procedure and response/evidence consequence; note any remaining uncertainty. Do not pad to a target.
+    - textbox "Explain your connected revision"
+    - paragraph: 0 / 70 words maximum · no minimum word count
+    - button "Compare and review this version"
+  - status: Current work needs review before Continue can enable. Your first reviewed draft is preserved.
+  - region "Draft recovery and device saving":
+    - heading "Keep your work" [level=2]
+    - paragraph: Refresh recovery is automatic in this active session. To keep work after closing, choose Save on this device. On a shared device, other people may see a saved draft. Browser session restoration can also retain session data; use Clear this draft when needed.
+    - checkbox "Save on this device"
+    - text: Save on this device
+    - paragraph: Recoverable after refresh in this session.
+    - paragraph: Save on this device is off.
+  - region "Retain your work":
+    - button "Show text to copy"
+    - button "Copy current work"
+    - button "Download text"
+    - button "Clear this draft"

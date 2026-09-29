@@ -1,0 +1,16 @@
+{
+  "reference": "GR-05",
+  "recorded_at_utc": "2026-09-28T20:56:33.841015+00:00",
+  "source": "Explicit user architectural-review message in this chat requesting a separate criterion-specific V25 semantic fixture",
+  "reported_by": "User in this chat",
+  "statement": "V05 and V25 PASS. The criterion-specific semantic fixture adequately demonstrates rights-holder specificity, feasible pre-decision influence, responsibility boundaries, safe evidence, meaningful response to C01, and candid unresolved follow-up; Q03 and Q04 appropriately remain needs_follow_up.",
+  "V05": "PASS",
+  "V25": "PASS",
+  "overall_status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+  "scope": "New criterion-specific synthetic responses only; all approved case/artifact content, production, candidates and existing automated regression fixture unchanged.",
+  "current_packet": "golden-references/GR-05/GR-05_V25_SEMANTIC_REVIEW_PACKET.md",
+  "historical_packet": "golden-references/GR-05/GR-05_V25_REVIEW_PACKET.md",
+  "prior_review_statement": "GR-05’s architecture and substantive learner artifact have passed review. V05 = PASS. V25 remains pending only because the existing synthetic criterion-review fixture uses the same generic reason and follow-up for Q01–Q04 in both review rounds.",
+  "reviewer": "ChatGPT architectural/HRBA review",
+  "decision_date": "2026-09-29"
+}

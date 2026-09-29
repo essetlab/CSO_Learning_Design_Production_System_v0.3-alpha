@@ -1,0 +1,64 @@
+{
+  "defects": [
+    {
+      "id": "TA-D01",
+      "class": "IMPLEMENTATION_INITIALIZATION",
+      "owner": "BLK-ASSESSMENT-BUNDLE-01 / INT-READINESS-REVIEW-01",
+      "finding": "Initial module syntax/initialization ordering prevented mount in the first smoke run.",
+      "correction": "Closed the representation function and initialized the DOM helper before mount.",
+      "evidence": [
+        "syntax.json",
+        "browser.json"
+      ],
+      "status": "FIXED_VERIFIED"
+    },
+    {
+      "id": "TA-D02",
+      "class": "SHARED_INTERACTION_STATE_PRESENTATION",
+      "owner": "INT-READINESS-REVIEW-01",
+      "finding": "Stale E03 link appeared empty, so choosing the already-empty option did not remove the old association.",
+      "correction": "Explicit disabled previous-version option; choosing current role or No association now dispatches a real change.",
+      "evidence": [
+        "model.json",
+        "browser.json"
+      ],
+      "status": "FIXED_VERIFIED"
+    },
+    {
+      "id": "TA-D03",
+      "class": "SHARED_INTERACTION_INVALIDATION_PRESENTATION",
+      "owner": "INT-READINESS-REVIEW-01",
+      "finding": "Text edit invalidated the model but could leave old current-feedback controls visible until a full render.",
+      "correction": "Immediately hide stale current outcome, label review needed and clear visible criterion confirmations; Continue remains disabled.",
+      "evidence": [
+        "browser.json"
+      ],
+      "status": "FIXED_VERIFIED"
+    },
+    {
+      "id": "TA-D04",
+      "class": "SHARED_INTERACTION_STRUCTURAL_RECONSIDERATION",
+      "owner": "INT-READINESS-REVIEW-01",
+      "finding": "Association ordering could count as a substantive amend without changed judgment.",
+      "correction": "Canonicalize gap/link ordering when comparing substantive meaning; source version alone and whitespace do not qualify as amendment.",
+      "evidence": [
+        "model.json"
+      ],
+      "status": "FIXED_VERIFIED"
+    },
+    {
+      "id": "TA-D05",
+      "class": "SHARED_INTERACTION_INPUT_RESILIENCE",
+      "owner": "INT-READINESS-REVIEW-01",
+      "finding": "Composition event property assignments did not bind browser IME provisional events, so provisional state was not marked.",
+      "correction": "Use explicit compositionstart/compositionend event listeners; preserve provisional draft and block recording/completion.",
+      "evidence": [
+        "resilience.json",
+        "model.json"
+      ],
+      "status": "FIXED_VERIFIED"
+    }
+  ],
+  "prior_reference_defects_introduced": [],
+  "compatibility_system_gap": null
+}

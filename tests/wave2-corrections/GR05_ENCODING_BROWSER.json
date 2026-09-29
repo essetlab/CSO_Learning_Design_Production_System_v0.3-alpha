@@ -1,0 +1,138 @@
+{
+  "provenance": "Automated headless Chrome text/accessibility-tree and screenshot checks; no new human attestation",
+  "checks": [
+    {
+      "name": "1440 UTF-8 document title",
+      "passed": true
+    },
+    {
+      "name": "1440 visible duration and punctuation",
+      "passed": true
+    },
+    {
+      "name": "1440 diagnosis visible text and accessible snapshot free of corrected mojibake",
+      "passed": true
+    },
+    {
+      "name": "1440 diagnosis no document horizontal scroll",
+      "passed": true
+    },
+    {
+      "name": "1440 diagnosis authored control labels resolve",
+      "passed": true
+    },
+    {
+      "name": "1440 first-review visible text and accessible snapshot free of corrected mojibake",
+      "passed": true
+    },
+    {
+      "name": "1440 first-review no document horizontal scroll",
+      "passed": true
+    },
+    {
+      "name": "1440 first-review authored control labels resolve",
+      "passed": true
+    },
+    {
+      "name": "1440 challenge visible text and accessible snapshot free of corrected mojibake",
+      "passed": true
+    },
+    {
+      "name": "1440 challenge no document horizontal scroll",
+      "passed": true
+    },
+    {
+      "name": "1440 challenge authored control labels resolve",
+      "passed": true
+    },
+    {
+      "name": "1440 comparison visible text and accessible snapshot free of corrected mojibake",
+      "passed": true
+    },
+    {
+      "name": "1440 comparison no document horizontal scroll",
+      "passed": true
+    },
+    {
+      "name": "1440 comparison authored control labels resolve",
+      "passed": true
+    },
+    {
+      "name": "1440 preserved v1 label corrected",
+      "passed": true
+    },
+    {
+      "name": "390 UTF-8 document title",
+      "passed": true
+    },
+    {
+      "name": "390 visible duration and punctuation",
+      "passed": true
+    },
+    {
+      "name": "390 diagnosis visible text and accessible snapshot free of corrected mojibake",
+      "passed": true
+    },
+    {
+      "name": "390 diagnosis no document horizontal scroll",
+      "passed": true
+    },
+    {
+      "name": "390 diagnosis authored control labels resolve",
+      "passed": true
+    },
+    {
+      "name": "390 first-review visible text and accessible snapshot free of corrected mojibake",
+      "passed": true
+    },
+    {
+      "name": "390 first-review no document horizontal scroll",
+      "passed": true
+    },
+    {
+      "name": "390 first-review authored control labels resolve",
+      "passed": true
+    },
+    {
+      "name": "390 challenge visible text and accessible snapshot free of corrected mojibake",
+      "passed": true
+    },
+    {
+      "name": "390 challenge no document horizontal scroll",
+      "passed": true
+    },
+    {
+      "name": "390 challenge authored control labels resolve",
+      "passed": true
+    },
+    {
+      "name": "390 comparison visible text and accessible snapshot free of corrected mojibake",
+      "passed": true
+    },
+    {
+      "name": "390 comparison no document horizontal scroll",
+      "passed": true
+    },
+    {
+      "name": "390 comparison authored control labels resolve",
+      "passed": true
+    },
+    {
+      "name": "390 preserved v1 label corrected",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "tests/wave2-corrections/encoding-1440-diagnosis.png",
+    "tests/wave2-corrections/encoding-1440-first-review.png",
+    "tests/wave2-corrections/encoding-1440-challenge.png",
+    "tests/wave2-corrections/encoding-1440-comparison.png",
+    "tests/wave2-corrections/encoding-390-diagnosis.png",
+    "tests/wave2-corrections/encoding-390-first-review.png",
+    "tests/wave2-corrections/encoding-390-challenge.png",
+    "tests/wave2-corrections/encoding-390-comparison.png"
+  ],
+  "errors": [],
+  "browser": "154.0.8037.58",
+  "passed": true
+}

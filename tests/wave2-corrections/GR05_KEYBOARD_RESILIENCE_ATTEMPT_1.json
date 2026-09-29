@@ -1,0 +1,285 @@
+{
+  "checks": [
+    {
+      "name": "V22 tab reaches to-draft",
+      "passed": true
+    },
+    {
+      "name": "V22 first invalid field focus",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches diagnosis-objective",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches diagnosis-evidence-objective-E03",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches diagnosis-participation",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches diagnosis-evidence-participation-E01",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches diagnosis-accountability",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches diagnosis-evidence-accountability-E04",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches diagnosis-evidence",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches diagnosis-evidence-evidence-E02",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches to-draft",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-objective",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-evidence-objective-E03",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-participation",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-evidence-participation-E01",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-accountability",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-evidence-accountability-E04",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-evidence",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-evidence-evidence-E02",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches review-first",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q01-judgment",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q01-reason",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q01-followUp",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q02-judgment",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q02-reason",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q02-followUp",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q03-judgment",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q03-reason",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q03-followUp",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q04-judgment",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q04-reason",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches firstCriterionReview-Q04-followUp",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches to-challenge",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-participation",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches draft-evidence",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches revision-note",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches review-final",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q01-judgment",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q01-reason",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q01-followUp",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q02-judgment",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q02-reason",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q02-followUp",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q03-judgment",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q03-reason",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q03-followUp",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q04-judgment",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q04-reason",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches finalCriterionReview-Q04-followUp",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches acknowledge",
+      "passed": true
+    },
+    {
+      "name": "V22 keyboard-only deep flow enables Continue",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches continueButton",
+      "passed": true
+    },
+    {
+      "name": "V22 focused Continue unobscured",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches revise",
+      "passed": true
+    },
+    {
+      "name": "V22 keyboard revise disables",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches review-final",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches acknowledge",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches show-text",
+      "passed": true
+    },
+    {
+      "name": "V22 export focused and complete",
+      "passed": true
+    },
+    {
+      "name": "V14 UTF-8 download equals selectable representation",
+      "passed": true
+    },
+    {
+      "name": "V14 retained sections in frozen order",
+      "passed": true
+    },
+    {
+      "name": "V14 denied clipboard offers selectable text without success claim",
+      "passed": true
+    },
+    {
+      "name": "V23 structural labels/bounds/required relationships",
+      "passed": true
+    },
+    {
+      "name": "V24 IME provisional input retained without completion",
+      "passed": true
+    },
+    {
+      "name": "V24 committed IME still requires acknowledgment",
+      "passed": true
+    },
+    {
+      "name": "V24 committed IME can be acknowledged",
+      "passed": true
+    },
+    {
+      "name": "V22 tab reaches clear-draft",
+      "passed": true
+    },
+    {
+      "name": "V22 keyboard reset cancel retains",
+      "passed": true
+    },
+    {
+      "name": "V07 overmax optional note visible and focused",
+      "passed": true
+    }
+  ],
+  "errors": [
+    "locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#diagnosis-objective')\u001b[22m\n\n    at D:\\CSO_Learning_Design_Production_System_v0.3-alpha\\tests\\run_gr05_keyboard_resilience.cjs:29:526"
+  ],
+  "manualScreenReader": false,
+  "passed": false
+}

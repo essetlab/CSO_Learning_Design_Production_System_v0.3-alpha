@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Governed status consistent",
+      "passed": true
+    },
+    {
+      "name": "Exact pending direct/independent matrix",
+      "passed": true
+    },
+    {
+      "name": "No fabricated human provenance",
+      "passed": true
+    },
+    {
+      "name": "H01-H10 pending independent judgment",
+      "passed": true
+    },
+    {
+      "name": "No acceptance/certification/Track B",
+      "passed": true
+    },
+    {
+      "name": "Evidence exists model.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence hash current model.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence exists state.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence hash current state.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence exists browser.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence hash current browser.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence exists resilience.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence hash current resilience.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence exists ownership.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence hash current ownership.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence exists syntax.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence hash current syntax.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence exists regression-structural.json",
+      "passed": true
+    },
+    {
+      "name": "Regression commands pass regression-structural.json",
+      "passed": true
+    },
+    {
+      "name": "Evidence exists regression-browser.json",
+      "passed": true
+    },
+    {
+      "name": "Regression commands pass regression-browser.json",
+      "passed": true
+    },
+    {
+      "name": "Authority hash current governance/TRACK_A_FREEZE_AUTHORITY.json",
+      "passed": true
+    },
+    {
+      "name": "Authority hash current prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "Authority hash current prototype-specs/TRACK_A_VALIDATION_MATRIX_v0.1.md",
+      "passed": true
+    },
+    {
+      "name": "Authority hash current tests/track-a-implementation/VALIDATION_RESULT.json",
+      "passed": true
+    },
+    {
+      "name": "Exact semantic fixture hash disclosed",
+      "passed": true
+    },
+    {
+      "name": "Four positives/eight negatives copied exactly",
+      "passed": true
+    },
+    {
+      "name": "Fixture isolated from runtime",
+      "passed": true
+    },
+    {
+      "name": "BLK-ASSESSMENT-BUNDLE-01 remains PROTOTYPE",
+      "passed": true
+    },
+    {
+      "name": "INT-READINESS-REVIEW-01 remains PROTOTYPE",
+      "passed": true
+    },
+    {
+      "name": "IP-READINESS-GATE-01 remains PROTOTYPE",
+      "passed": true
+    },
+    {
+      "name": "Earlier GR06 direct/semantic provenance unchanged",
+      "passed": true
+    }
+  ]
+}

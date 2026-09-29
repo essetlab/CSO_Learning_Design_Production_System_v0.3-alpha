@@ -1,0 +1,164 @@
+{
+  "registry_version": "0.3.0-alpha",
+  "objects": [
+    {
+      "id": "SHELL-GR-W1-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "shell"
+    },
+    {
+      "id": "UI-BUTTON-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "ui"
+    },
+    {
+      "id": "UI-LINK-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "ui"
+    },
+    {
+      "id": "UI-OPTION-GROUP-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "ui"
+    },
+    {
+      "id": "UI-STATUS-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "ui"
+    },
+    {
+      "id": "UI-SAVE-STATE-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "ui"
+    },
+    {
+      "id": "UI-PROGRESS-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "ui"
+    },
+    {
+      "id": "BLK-QUESTION-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "block"
+    },
+    {
+      "id": "BLK-EXPLAIN-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "block"
+    },
+    {
+      "id": "BLK-CASE-EVIDENCE-01",
+      "version": "0.2.0-alpha",
+      "status": "prototype",
+      "type": "block"
+    },
+    {
+      "id": "BLK-VISUAL-MODEL-01",
+      "version": "0.2.0-alpha",
+      "status": "prototype",
+      "type": "block"
+    },
+    {
+      "id": "BLK-FEEDBACK-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "block"
+    },
+    {
+      "id": "BLK-TAKEAWAY-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "block"
+    },
+    {
+      "id": "INT-CHOICE-01",
+      "version": "0.2.0-alpha",
+      "status": "repo-alpha-ready",
+      "type": "interaction"
+    },
+    {
+      "id": "INT-JUDGMENT-01",
+      "version": "0.2.0-alpha",
+      "status": "prototype",
+      "type": "interaction",
+      "cross_course_validation": "not-yet-tested"
+    },
+    {
+      "id": "PRA-FOCUS-01",
+      "version": "0.2.0-alpha",
+      "status": "prototype",
+      "type": "practice"
+    },
+    {
+      "id": "BLK-PERSPECTIVE-01",
+      "version": "0.3.0-alpha",
+      "status": "prototype",
+      "type": "block"
+    },
+    {
+      "id": "INT-LABELED-GRAPHIC-01",
+      "version": "0.3.0-alpha",
+      "status": "prototype",
+      "type": "interaction",
+      "cross_course_validation": "not-yet-tested"
+    },
+    {
+      "id": "BLK-WORK-ARTIFACT-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "block",
+      "implementation": "learning-blocks/work-artifact/manifest.yaml"
+    },
+    {
+      "id": "INT-BUILD-REPAIR-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "interaction",
+      "implementation": "interactions/build-repair/manifest.yaml"
+    },
+    {
+      "id": "SVC-LEARNING-STATE-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "service",
+      "implementation": "state/learning-state/manifest.yaml"
+    },
+    {
+      "id": "BLK-EVIDENCE-LEDGER-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "block",
+      "implementation": "learning-blocks/evidence-ledger/manifest.yaml"
+    },
+    {
+      "id": "INT-EVIDENCE-DECISION-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "interaction",
+      "implementation": "interactions/evidence-decision/manifest.yaml"
+    },
+    {
+      "id": "BLK-ASSESSMENT-BUNDLE-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "block",
+      "implementation": "learning-blocks/assessment-bundle/manifest.yaml"
+    },
+    {
+      "id": "INT-READINESS-REVIEW-01",
+      "version": "0.3.0-alpha",
+      "status": "PROTOTYPE",
+      "type": "interaction",
+      "implementation": "interactions/readiness-review/manifest.yaml"
+    }
+  ]
+}

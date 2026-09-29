@@ -1,0 +1,22 @@
+id: GR-03
+system_version: 0.3-alpha
+build_mode: CONSTRAINED_BUILD
+instructional_pattern: IP-INTERPRET-01
+supporting_pattern: IP-PERSPECTIVE-01
+template:
+  id: TPL-CONCEPT-01
+composition: CMP-PERSPECTIVE-01
+components:
+- SHELL-GR-W1-01
+- BLK-PERSPECTIVE-01
+- BLK-QUESTION-01
+- UI-OPTION-GROUP-01
+- INT-LABELED-GRAPHIC-01
+- BLK-FEEDBACK-01
+- BLK-TAKEAWAY-01
+completion: all-perspectives-plus-feedback-viewed
+assets:
+- AST-HRBA-GR03-VOICE-SAFETY-EXISTING-01
+prototype_contract: ../../prototype-specs/GR-03_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+local_css_allowed: false
+candidate_objects_status: prototype

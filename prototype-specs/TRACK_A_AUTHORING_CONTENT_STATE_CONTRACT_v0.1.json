@@ -1,0 +1,462 @@
+{
+  "contract": {
+    "id": "TRACK-A-DESIGN-PROPOSAL",
+    "reference": "TRACK-A",
+    "version": "0.1",
+    "revision": 1,
+    "status": "FROZEN_FOR_PROTOTYPE_IMPLEMENTATION",
+    "prototype_implementation_authorized": true,
+    "numbering": "Capability grouping only; no GR number assigned",
+    "title": "Is this work ready for the next supervised step?"
+  },
+  "build_mode": "CONSTRAINED_BUILD",
+  "authority": {
+    "LOCKED": [
+      "Existing frozen GR01–06, registry statuses, tokens, breakpoints and state service remain unchanged",
+      "No runtime, registration, Track B, PM stress or HRBA reconstruction in this task",
+      "Readiness assessment is distinct from interaction completion, public approval and certification",
+      "Two authored fields only; no keyword/AI/word-count grading or minimum word counts",
+      "Track A is an assessment/readiness rehearsal, not an independent competence-certification system. The learner/reviewer produces a readiness recommendation against transparent criteria. Runtime structural completion, route selection or deterministic feedback must never be represented as independent professional competence judgment, certification, organizational authorization, public-plan approval or formal assessor decision. A simulated/deterministic reviewer may demonstrate the assessment contract only when clearly labelled as simulated."
+    ],
+    "CONSTRAINED": [
+      "Candidate names, proposed variants and synthetic content require architectural freeze",
+      "Use a compact review dossier with three criterion rows and progressive source disclosure",
+      "All future shared extensions must preserve default GR04/05/06 behavior and locks"
+    ],
+    "EXPLORATORY": [
+      "Architectural reviewers may revise candidate allocation, criterion wording and burden targets before freeze; no silent runtime experimentation"
+    ]
+  },
+  "capability": "Review a bounded body of practice work against explicit capability criteria, distinguish sufficient evidence from missing or contradictory evidence, and record an accountable recommendation for the next supervised step with proportionate follow-up.",
+  "distinction": {
+    "GR06": "What should we do, given this evidence?",
+    "TRACK_A": "Does this body of work demonstrate enough capability/readiness for the defined next step, and what still needs attention?",
+    "not_proved": [
+      "Independent assessment of the runtime learner",
+      "Legal compliance",
+      "Professional project approval",
+      "Credential issuance",
+      "Live cross-course portfolio or Hub integration"
+    ]
+  },
+  "case": {
+    "id": "TA-REVIEW-DOSSIER",
+    "version": "0.1",
+    "designation": "Entirely synthetic learning evidence, not actual participant records or a model answer",
+    "brief": "You are practising as a peer reviewer of one fictional learner’s HRBA work about market participation in Jiru Amba. Recommend whether this work is ready for a supervised rehearsal of an accessible account-back conversation. This is not permission to collect real complaints, approve a public plan or certify the author. Review the work, its rehearsal evidence and its limits; the learner can challenge your recommendation or provide clarification.",
+    "next_step": "Supervised rehearsal of an accessible account-back conversation using fictional concerns; no live implementation or public authorization.",
+    "bundle_id": "TA-B01",
+    "initial_version": 1,
+    "artifacts": [
+      {
+        "id": "TA-E01",
+        "version": 1,
+        "type": "authored_plan_excerpt",
+        "title": "Repaired participation note",
+        "source": "Fictional learner draft; self-authored plan, not observed delivery",
+        "text": "Women vendors and persons with disabilities should influence market priorities before the planning team finalizes the plan. Offer short visits at agreed times, spoken summaries and an accessible small conversation. Record which proposal changes the draft and explain any proposal the planning team cannot take forward.",
+        "limitation": "A proposed method demonstrates planning, not successful participation or confirmed influence in practice."
+      },
+      {
+        "id": "TA-E02",
+        "version": 1,
+        "type": "rehearsal_observation",
+        "title": "Observation from the practice conversation",
+        "source": "Synthetic peer observation of a role-play, not field monitoring",
+        "text": "In the role-play, the learner offered a spoken summary and asked the vendor role about a suitable time. A suggestion to move the practice conversation earlier was added to the draft before the mock decision. The observer did not test access with a disability role or check that an explanation reached anyone.",
+        "limitation": "One rehearsal supports a bounded capability claim. It does not establish population coverage, consistent performance or real-world receipt."
+      },
+      {
+        "id": "TA-E03",
+        "version": 1,
+        "type": "learner_self_review",
+        "title": "Learner’s readiness claim",
+        "source": "Synthetic self-review attached to the draft",
+        "text": "All planned activities are complete, so the work is ready. Awra has approved the final public plan. The explanation was prepared, which means everyone received a response.",
+        "limitation": "This is the learner’s claim. Compare it with the observed rehearsal and the response check; do not treat confidence or completion as corroboration."
+      },
+      {
+        "id": "TA-E04",
+        "version": 1,
+        "type": "role_and_response_check",
+        "title": "Responsibility and response check",
+        "source": "Synthetic tutor checklist for this practice bundle; not independent certification",
+        "text": "The planning team holds public decision authority. Awra can support dialogue and refer concerns; it cannot approve the public plan. The rehearsal produced an explanation draft, but no delivery or receipt check is recorded. The next supervised exercise can practise accessible account-back without claiming that real concerns have been resolved.",
+        "limitation": "This checklist clarifies roles and the record’s limits. It does not prove that the learner can carry out the next step without supervision."
+      }
+    ],
+    "update": {
+      "id": "TA-U01",
+      "release": "Only after an initial structurally valid recommendation is recorded and its consequence/contrast note is inspected. Learner selects Request clarification and reconsider; this releases pre-authored synthetic clarification, not a live assessor response.",
+      "bundle_version": 2,
+      "replaces_id": "TA-E03",
+      "replacement_version": 2,
+      "title": "Learner’s clarification after review",
+      "text": "I confused a prepared explanation with confirmed receipt. The planning team decides; Awra supports the conversation and referral. Before any real use, I will ask the planning team to check the explanation and agree a safe response route. In the next supervised rehearsal, I will use a spoken summary and check understanding with the participant role.",
+      "limitation": "This correction improves the account and proposes a feasible next check. It is still self-reported intention, not proof of real delivery or receipt.",
+      "provenance": "Authored synthetic clarification for the proposed exercise; not newly recovered case evidence."
+    }
+  },
+  "criteria": [
+    {
+      "id": "TA-K01",
+      "label": "Specific, accessible participation planning",
+      "question": "Does the work connect named rights-holders, a practical access adjustment and an opportunity to influence a decision?",
+      "sufficiency_anchor": "A specific plan plus a bounded illustration can support readiness for a supervised rehearsal, without claiming universal access or delivery."
+    },
+    {
+      "id": "TA-K02",
+      "label": "Evidence of influence, with limits",
+      "question": "Does the bundle show a proposal affecting a draft before a decision, and distinguish this from attendance or activity completion?",
+      "sufficiency_anchor": "Trace a particular change to rehearsal evidence and keep its scope visible; artifact count is not sufficiency."
+    },
+    {
+      "id": "TA-K03",
+      "label": "Responsible account-back within authority",
+      "question": "Does the learner distinguish preparation, delivery and receipt, respect the planning team’s authority and identify a safe next account-back check?",
+      "sufficiency_anchor": "A coherent role boundary and feasible supervised next check can support this limited next step. Actual response or public approval cannot be inferred."
+    }
+  ],
+  "mapping": {
+    "states": [
+      "sufficient",
+      "insufficient",
+      "conflicting",
+      "missing"
+    ],
+    "link_roles": [
+      "supports",
+      "limits_or_contradicts"
+    ],
+    "rules": {
+      "all_criteria_required": true,
+      "unique_artifacts_per_criterion": true,
+      "max_links_per_criterion": 4,
+      "sufficient": "At least one current supports link; show source limitations regardless of state. This is a reviewer judgment, not a machine correctness test.",
+      "insufficient": "At least one current link plus at least one gap marker.",
+      "conflicting": "At least two distinct current artifact links, including supports and limits_or_contradicts roles; at least one gap marker.",
+      "missing": "No supports link; zero or more limits links; at least one gap marker. Explicit absence is valid, not an unfilled criterion.",
+      "gap_marker_for_non_sufficient": true,
+      "cross_artifact_rule": "Across all criteria, reference at least two distinct current artifacts. This checks integrated mapping, never quality or competence."
+    },
+    "gap_markers": [
+      "access_not_tested",
+      "influence_not_demonstrated",
+      "claim_conflicts_with_record",
+      "receipt_unverified",
+      "authority_unclear",
+      "evidence_scope_limited"
+    ],
+    "max_gap_markers_per_criterion": 3,
+    "gap_priority": [
+      "before_next_step",
+      "during_supervised_step",
+      "before_real_use"
+    ],
+    "gap_priority_rule": "Every criterion with gap markers needs one priority; preserve unresolved gaps in all routes, including proceed."
+  },
+  "decision_routes": [
+    {
+      "id": "proceed",
+      "label": "Proceed to the supervised step",
+      "consequence": "Your recommendation is for a supervised fictional rehearsal only. Keep any remaining checks visible; this does not approve the public plan or certify capability."
+    },
+    {
+      "id": "revise",
+      "label": "Revise the work first",
+      "consequence": "Retain the current bundle and name the focused repair or verification needed. The learner can return with a clarification; not yet is a route forward."
+    },
+    {
+      "id": "seek_review",
+      "label": "Seek review / authorization",
+      "consequence": "Identify the boundary needing a tutor or responsible planning-team review. Local navigation sends no request and grants no authorization. Safe preparation may continue within the stated boundary."
+    },
+    {
+      "id": "defer",
+      "label": "Defer the readiness decision",
+      "consequence": "Preserve the work and state what would make reconsideration possible. Delay is not a failure, but an unspecified wait is not a useful next step."
+    }
+  ],
+  "authoring": {
+    "fields": [
+      {
+        "id": "rationale",
+        "label": "Why this readiness recommendation?",
+        "max_words": 45,
+        "required": true,
+        "guidance": "A short phrase or sentence can be enough. Refer to your criterion mappings and the defined next step."
+      },
+      {
+        "id": "next_step_note",
+        "label": "What should happen next?",
+        "max_words": 35,
+        "required_when": "route != proceed OR any gap marker OR any criterion != sufficient",
+        "guidance": "Name the priority repair/check, who should address it and when to reconsider. This is one combined note, not a note per criterion."
+      }
+    ],
+    "word_minima": null,
+    "structural_rule_T": "After Unicode normalization and trimming, at least two Unicode Letter/Number code points; no language/keyword/rhetorical test. Count maximum words as nonempty whitespace-delimited units. Preserve over-limit text but block recording; IME provisional text is retained, not evaluated as committed.",
+    "hard_character_limit_per_field": 600,
+    "plain_text_only": true,
+    "maximum_current_words": 80,
+    "maximum_authored_words_across_two_required_records": 160,
+    "maximum_text_fields_visible": 2,
+    "forced_rewrite": false,
+    "note": "Two reusable fields, not four new fields. Reconsideration may retain text after explicit review if still justified; quality is judged independently."
+  },
+  "roles": {
+    "runtime": "Learner practising peer review of a supplied fictional author’s work; not an authenticated assessor. Original author self-review is evidence, not authority.",
+    "simulated_feedback": "Authored route consequence and common contrast note, clearly labelled exercise guidance, not a real assessor or personalized grade.",
+    "real_assessment": "Independent human review of this reference/fixtures is separate evidence; runtime cannot mark the learner competent.",
+    "progression": "Learner may acknowledge completion of this practice review. A responsible tutor would authorize an actual supervised learning step outside the prototype; only the relevant public body can authorize real public action.",
+    "authorization_record": null,
+    "credential": null
+  },
+  "feedback": {
+    "common_contrast": "Compare TA-E03’s claim with TA-E02’s observation and TA-E04’s response check. A prepared explanation is not evidence of receipt, and completing activities does not establish the authority to approve a public plan. Decide what this means for the limited supervised next step.",
+    "rule": "Reveal route consequence and the same contrast note after any initial recommendation; no correctness flag, points, preferred-route lock or semantic text parsing. The reconsideration is about current evidence, not guessing a hidden answer.",
+    "challenge_options": [
+      "retain_recommendation",
+      "amend_recommendation"
+    ],
+    "challenge_rule": "Request clarification preserves the initial record. On current-bundle review choose retain/amend; amend requires a substantive mapping/state/priority/route/text change beyond whitespace. Retain requires current evidence links and explicit re-confirmation, but no invented rewrite."
+  },
+  "sequence": [
+    {
+      "id": "scan_map",
+      "action": "Inspect four source records and complete three criterion rows on one review page. Source details and mappings remain in context; no nested stage tabs.",
+      "exit": "E && M"
+    },
+    {
+      "id": "recommend",
+      "action": "Choose route, author rationale and conditional next-step note; record immutable initial recommendation.",
+      "exit": "J; then inspect authored consequence and common contrast note (C)."
+    },
+    {
+      "id": "reconsider",
+      "action": "Request the synthetic clarification; replace E03 version 1 with version 2 in the current bundle. Retain historical record and show what changed. Re-review all three rows and the two retained text fields; choose retain/amend.",
+      "exit": "U && M && J && R"
+    },
+    {
+      "id": "acknowledge",
+      "action": "Inspect current recommendation, gaps and historical/current comparison; acknowledge that this is a practice recommendation, not certification.",
+      "exit": "F; Continue is practice navigation only."
+    }
+  ],
+  "state": {
+    "identity": [
+      "activityId=TRACK-A (proposal identity, no GR number)",
+      "contractVersion=0.1",
+      "contractRevision=1",
+      "caseVersion=0.1",
+      "draftId"
+    ],
+    "data": [
+      "openedArtifactVersions",
+      "bundleVersion",
+      "artifactVersions",
+      "criterionMappings",
+      "criterionStates",
+      "gapMarkers",
+      "gapPriorities",
+      "route",
+      "rationale",
+      "nextStepNote",
+      "contentRevision",
+      "firstRecord",
+      "consequenceViewedFor",
+      "updateReleased",
+      "reconsiderationDisposition",
+      "criterionReviewedFor",
+      "currentRecord",
+      "acknowledgedFor"
+    ],
+    "initial": "All selections/text/review markers empty; bundle v1; no firstRecord/currentRecord; Continue disabled.",
+    "snapshot": "firstRecord is immutable: exact bundle version/artifact IDs+versions, mappings, states, priorities, route, text and source content fingerprints. Current record uses the same shape, bound to contentRevision and current evidence version. No mutation of historical v1.",
+    "transitions": [
+      {
+        "event": "record_initial",
+        "requires": "E && M && J && no firstRecord",
+        "effect": "Freeze firstRecord; reveal route consequence/common contrast. No completion."
+      },
+      {
+        "event": "request_clarification",
+        "requires": "firstRecord && C",
+        "effect": "Set bundle v2 once; retain E03v1 only in history; release E03v2 and limitation; invalidate current review, record and acknowledgment. Preserve authored text and visible old links marked stale."
+      },
+      {
+        "event": "substantive_edit",
+        "requires": "Any source version, mapping, state, gap, priority, route or committed text changes",
+        "effect": "Increment contentRevision; clear all criterionReviewedFor, currentRecord and acknowledgment; keep firstRecord and drafts. Continue disables immediately. Whitespace-equivalent text does not bump revision."
+      },
+      {
+        "event": "re_review",
+        "requires": "Current E/M/J; all three criterion confirmations bound to current contentRevision/bundle; retain/amend disposition valid",
+        "effect": "Create currentRecord; show consequence again plus first/current change summary; no automatic acknowledgment."
+      },
+      {
+        "event": "acknowledge",
+        "requires": "E && M && J && C && U && R",
+        "effect": "Bind F to exact current record, contentRevision and bundleVersion; navigation only."
+      },
+      {
+        "event": "revise",
+        "requires": "Current record or acknowledgment exists",
+        "effect": "Invalidate current review/ack immediately even before editing; preserve work."
+      },
+      {
+        "event": "clear",
+        "requires": "Explicit confirmation",
+        "effect": "Clear only this activity via shared service, reset state, consent and snapshots; report failed deletion truthfully."
+      }
+    ],
+    "retention": {
+      "service_id": "SVC-LEARNING-STATE-01",
+      "unchanged": true,
+      "automatic_session_recovery": true,
+      "durable_default": false,
+      "durable_label": "Save on this device",
+      "rule": "Use existing generic service only. Validate envelope/activity/contract/case, artifact-version set, links, snapshots and revision binding; recompute predicates in interaction. Corruption or conflict cannot overwrite or complete. Denial retains live work and offers plain-text export. Completion ignores storage choice/success. Do not store or infer authorization/credentials."
+    }
+  },
+  "predicates": {
+    "E": "Each current artifact version inspected, including new E03v2 after release. Inspection alone never completes.",
+    "M": "All three criterion mappings, states and gap priorities satisfy structural mapping rules using current versions, including explicit missing; two distinct current artifacts across the bundle.",
+    "J": "One permitted route; T-valid rationale <=45 words/600 characters; conditional next-step note T-valid <=35 words/600 characters, optional retained text also capped. No route is automatically correct.",
+    "C": "Initial route consequence and common contrast acknowledged against immutable firstRecord.",
+    "U": "Synthetic clarification released; current bundle is v2 and E03v1 is historical only.",
+    "R": "A current re-review record is bound to exact current bundle/contentRevision, all three criterion confirmations and a valid retain/amend disposition; latest consequence/compare inspected.",
+    "F": "Explicit practice-only acknowledgment bound to currentRecord and revision."
+  },
+  "completion": {
+    "expression": "E && M && J && C && U && R && F",
+    "meaning": "Practice review cycle recorded; not capability pass or progression authorization",
+    "requires_proceed": false,
+    "requires_all_sufficient": false,
+    "requires_no_gaps": false,
+    "requires_storage": false,
+    "requires_export": false,
+    "semantic_grading": false
+  },
+  "representation": {
+    "order": [
+      "Synthetic designation and next-step scope",
+      "Current bundle/source versions and limitations",
+      "Current criterion-to-evidence links, states and unresolved gaps/priorities",
+      "Current recommendation, rationale and next action",
+      "Initial immutable recommendation",
+      "Change and reconsideration disposition",
+      "Practice completion versus authorization boundary"
+    ],
+    "export": "Plain selectable/copy/download text through shared service adapters; no submission or Hub receipt claim."
+  },
+  "responsive": {
+    "metaphor": "Review dossier, criterion rows and a short decision memo; not a five-stage writing studio",
+    "desktop": "Source summaries beside three criterion rows; expand sources in place. One decision panel below. No kanban, drag wires or multi-column scoring matrix.",
+    "mobile": "One-column criterion-first outline with inline source excerpts, source labels/version on every link, open/return preserving focus; comparison pairs stack. No horizontal matrix or nested tab navigation.",
+    "breakpoints_rem": "Use only existing 64,48,30rem if required; no new tokens/breakpoints",
+    "density": "At most three collapsed criterion summaries, four collapsed source summaries and one decision region on the initial page; only one criterion mapping editor open by default, user may open more. Never duplicate full sources in every row. Max-content tests must still permit full expansion.",
+    "time_target_minutes": [
+      8,
+      12
+    ],
+    "time_target_status": "Design hypothesis, not measured; human usability review must reject excessive density even if structural checks pass."
+  },
+  "content_maxima": {
+    "artifacts_initial": 4,
+    "criteria": 3,
+    "source_title_words": 12,
+    "source_text_words": 70,
+    "source_limitation_words": 35,
+    "criterion_label_words": 10,
+    "criterion_question_words": 35,
+    "criterion_anchor_words": 40,
+    "route_consequence_words": 45,
+    "update_text_words": 75,
+    "common_contrast_words": 65,
+    "long_label_test_characters": 180
+  },
+  "objects": {
+    "reuse": [
+      "SHELL-GR-W1-01",
+      "UI-BUTTON-01",
+      "UI-OPTION-GROUP-01",
+      "UI-STATUS-01",
+      "UI-SAVE-STATE-01",
+      "SVC-LEARNING-STATE-01"
+    ],
+    "proposed_candidates": [
+      {
+        "id": "BLK-ASSESSMENT-BUNDLE-01",
+        "status": "PROPOSED_NOT_REGISTERED",
+        "owner": "learning-blocks/assessment-bundle/",
+        "responsibility": "Artifact identity/version/provenance, criterion links, gap representation, comparison and export. No assessment outcome or completion authority."
+      },
+      {
+        "id": "INT-READINESS-REVIEW-01",
+        "status": "PROPOSED_NOT_REGISTERED",
+        "owner": "interactions/readiness-review/",
+        "responsibility": "Mapping validity, immutable initial record, current assessment/revision binding, stale invalidation, reconsideration and practice acknowledgment. No credential or public authority."
+      },
+      {
+        "id": "IP-READINESS-GATE-01",
+        "status": "PROPOSED_NOT_REGISTERED",
+        "owner": "docs/patterns/readiness-gate/",
+        "responsibility": "Readiness evidence review, proportionate decision, remediation and reconsideration instructional sequence."
+      }
+    ],
+    "proposed_variants": [
+      {
+        "owner_id": "CMP-EVIDENCE-DECISION-01",
+        "variant": "readiness-review",
+        "status": "PROPOSED_NOT_REGISTERED",
+        "responsibility": "Compact dossier/criterion/decision arrangement only; preserve locked GR04 and existing GR06 variant."
+      },
+      {
+        "owner_id": "TPL-SCENARIO-01",
+        "variant": "readiness-review",
+        "status": "PROPOSED_NOT_REGISTERED",
+        "responsibility": "Opt-in region/configuration contract for assessment-bundle plus readiness interaction; preserve all default/locked labels, selectors and behavior."
+      }
+    ],
+    "not_reused_as_semantic_owners": [
+      "INT-JUDGMENT-01",
+      "INT-BUILD-REPAIR-01",
+      "INT-EVIDENCE-DECISION-01",
+      "TPL-DEEP-WORKSPACE-01"
+    ],
+    "system_gaps": [
+      {
+        "id": "TA-G01",
+        "need": "Versioned cross-artifact criterion evidence representation",
+        "why_existing_insufficient": "Case evidence is presentational; evidence ledger is hard-wired to GR06 source/interpretation/decision fields; work-artifact assumes repair fields. No generic assessment-bundle contract exists.",
+        "proposal": "BLK-ASSESSMENT-BUNDLE-01",
+        "blocks": "Implementation until approval/registration; not a blocker to reviewing this proposal."
+      },
+      {
+        "id": "TA-G02",
+        "need": "Readiness record, reviewer boundary, reconsideration and stale-assessment invalidation",
+        "why_existing_insufficient": "Judgment interaction completes on selected feedback; repair/evidence-decision models own different learning predicates and must not be overloaded.",
+        "proposal": "INT-READINESS-REVIEW-01 and IP-READINESS-GATE-01",
+        "blocks": "Implementation until approved."
+      },
+      {
+        "id": "TA-G03",
+        "need": "Compact assessment arrangement without studio default",
+        "why_existing_insufficient": "Scenario currently declares only INT-JUDGMENT-01 compatibility. Reuse cannot be claimed without an approved opt-in variant/compatibility contract.",
+        "proposal": "Two proposed readiness-review variants; central arrangement only, no reference-local workaround.",
+        "blocks": "Prototype freeze must accept scope; exact compatibility must be demonstrated in implementation. If impossible, return System Gap rather than alter GR04."
+      }
+    ]
+  },
+  "validation_matrix": "TRACK_A_VALIDATION_MATRIX_v0.1.md",
+  "experience_differentiation_brief": "prototype-specs/TRACK_A_EXPERIENCE_DIFFERENTIATION_BRIEF_v0.1.json",
+  "specification_only": true,
+  "freeze_authority": {
+    "source": "Explicit user architectural freeze and prototype implementation authorization",
+    "revision": 1,
+    "boundary": "Track A is an assessment/readiness rehearsal, not an independent competence-certification system. The learner/reviewer produces a readiness recommendation against transparent criteria. Runtime structural completion, route selection or deterministic feedback must never be represented as independent professional competence judgment, certification, organizational authorization, public-plan approval or formal assessor decision. A simulated/deterministic reviewer may demonstrate the assessment contract only when clearly labelled as simulated.",
+    "content_change": "Only the explicit LOCKED assessment boundary; otherwise approved Revision 1 unchanged.",
+    "decision": "TRACK_A_REVISION_1_FROZEN_FOR_PROTOTYPE_IMPLEMENTATION"
+  }
+}

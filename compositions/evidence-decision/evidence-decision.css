@@ -1,0 +1,3 @@
+.cso-evidence-decision { display:grid; grid-template-columns:minmax(18rem,.76fr) minmax(0,1.24fr); min-height:46rem; overflow:hidden; border:var(--border-standard) solid var(--color-border-soft); border-radius:var(--radius-feature); background:var(--color-surface-paper); box-shadow:var(--shadow-subtle); }
+@media(max-width:64rem){ .cso-evidence-decision{grid-template-columns:1fr;min-height:0;} }
+@media(max-width:48rem){ .cso-evidence-decision{border-radius:var(--radius-surface);} }

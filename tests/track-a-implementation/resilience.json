@@ -1,0 +1,67 @@
+{
+  "provenance": "Automated headless Chrome; direct human checks not performed",
+  "checks": [
+    {
+      "name": "IME provisional retained without completion",
+      "passed": true
+    },
+    {
+      "name": "IME refresh retains exact draft and no completion",
+      "passed": true
+    },
+    {
+      "name": "reduced motion active and blocked-font input usable",
+      "passed": true
+    },
+    {
+      "name": "keyboard focus has visible shared outline",
+      "passed": true
+    },
+    {
+      "name": "existing text/control/focus palette meets contrast bounds",
+      "passed": true
+    },
+    {
+      "name": "download exactly matches selectable current representation",
+      "passed": true
+    },
+    {
+      "name": "clipboard denial truthful selectable fallback",
+      "passed": true
+    },
+    {
+      "name": "clear cancellation preserves work",
+      "passed": true
+    },
+    {
+      "name": "quota denial truthful and live work retained",
+      "passed": true
+    },
+    {
+      "name": "browser corrupt identity.caseVersion is not overwritten",
+      "passed": true
+    },
+    {
+      "name": "browser corrupt identity.contractVersion is not overwritten",
+      "passed": true
+    },
+    {
+      "name": "browser corrupt root.schemaVersion is not overwritten",
+      "passed": true
+    },
+    {
+      "name": "browser corrupt payload.complete is not overwritten",
+      "passed": true
+    },
+    {
+      "name": "browser corrupt payload.firstRecord is not overwritten",
+      "passed": true
+    },
+    {
+      "name": "real divergent tabs pause without overwrite",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

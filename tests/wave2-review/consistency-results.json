@@ -1,0 +1,279 @@
+{
+  "status": "PASS",
+  "scope": "Review consistency and non-mutation verification. Existing browser evidence inspected; no new browser/manual/semantic pass generated.",
+  "checks": [
+    {
+      "name": "Existing implementation, frozen contracts, registries and evidence remain unchanged",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Branch unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Current repository schema/template checks pass",
+      "passed": true,
+      "details": {
+        "status": "pass",
+        "checked": [
+          "GR-01",
+          "GR-02",
+          "GR-03",
+          "GR-04",
+          "GR-05",
+          "GR-06"
+        ],
+        "locked_checked": [
+          "GR-01",
+          "GR-04"
+        ],
+        "schema": "schemas/golden-reference.schema.json",
+        "legacy_template_strings": [
+          "GR-02"
+        ],
+        "external_python_packages_required": true,
+        "python_packages": [
+          "PyYAML",
+          "jsonschema"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "components registry JSON/YAML parity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "patterns registry JSON/YAML parity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compositions registry JSON/YAML parity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "templates registry JSON/YAML parity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing GR03 contract navigation dependency gap accurately identified",
+      "passed": true,
+      "details": [
+        "UI-NAV-CONTROLS-01"
+      ]
+    },
+    {
+      "name": "GR-03 actual spec IDs resolve",
+      "passed": true,
+      "details": [
+        "SHELL-GR-W1-01",
+        "BLK-PERSPECTIVE-01",
+        "BLK-QUESTION-01",
+        "UI-OPTION-GROUP-01",
+        "INT-LABELED-GRAPHIC-01",
+        "BLK-FEEDBACK-01",
+        "BLK-TAKEAWAY-01",
+        "IP-INTERPRET-01",
+        "CMP-PERSPECTIVE-01",
+        "TPL-CONCEPT-01",
+        "IP-PERSPECTIVE-01"
+      ]
+    },
+    {
+      "name": "GR-05 actual spec IDs resolve",
+      "passed": true,
+      "details": [
+        "SHELL-GR-W1-01",
+        "UI-SAVE-STATE-01",
+        "BLK-WORK-ARTIFACT-01",
+        "INT-BUILD-REPAIR-01",
+        "SVC-LEARNING-STATE-01",
+        "IP-BUILD-REPAIR-01",
+        "CMP-REPAIR-STUDIO-01",
+        "TPL-DEEP-WORKSPACE-01"
+      ]
+    },
+    {
+      "name": "GR-06 actual spec IDs resolve",
+      "passed": true,
+      "details": [
+        "SHELL-GR-W1-01",
+        "UI-SAVE-STATE-01",
+        "BLK-EVIDENCE-LEDGER-01",
+        "INT-EVIDENCE-DECISION-01",
+        "SVC-LEARNING-STATE-01",
+        "IP-EVIDENCE-DECISION-01",
+        "CMP-EVIDENCE-DECISION-01",
+        "TPL-DEEP-WORKSPACE-01"
+      ]
+    },
+    {
+      "name": "GR-06 actual composition variant resolves",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporary probe baseline passes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Validator blind spots reproduced, not falsely reported as production failures",
+      "passed": true,
+      "details": [
+        {
+          "name": "unknown component",
+          "validator_status": "pass",
+          "errors": []
+        },
+        {
+          "name": "unknown composition",
+          "validator_status": "pass",
+          "errors": []
+        },
+        {
+          "name": "unknown pattern",
+          "validator_status": "pass",
+          "errors": []
+        },
+        {
+          "name": "unknown supporting pattern",
+          "validator_status": "pass",
+          "errors": []
+        },
+        {
+          "name": "unknown composition variant",
+          "validator_status": "pass",
+          "errors": []
+        },
+        {
+          "name": "unknown build mode",
+          "validator_status": "pass",
+          "errors": []
+        },
+        {
+          "name": "unknown template control",
+          "validator_status": "fail",
+          "errors": [
+            "GR-06/spec.yaml: template: unknown template UNKNOWN-TEMPLATE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GR06 direct manual checks remain pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "tests/GR05_VALIDATION_RESULT.json automated evidence passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "tests/GR06_VALIDATION_RESULT.json automated evidence passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Governed bounded outcome without promotion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "All 15 reviewed object IDs resolve; literal statuses unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Recommendations use requested disposition vocabulary",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "All evidence paths and recorded hashes current",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Every correction has class, timing, owner and acceptance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Cross-reference architecture map complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Deliverable exists WAVE_2_CONSOLIDATED_SYSTEM_REVIEW_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Deliverable exists WAVE_2_OBJECT_DISPOSITION_MATRIX_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Deliverable exists WAVE_2_REMAINING_COVERAGE_AND_NEXT_REFERENCES_v0.1.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Deliverable exists WAVE_2_SYSTEM_REVIEW.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Review Markdown evidence links resolve",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "validator_mutation_probes": [
+    {
+      "name": "unknown component",
+      "validator_status": "pass",
+      "errors": []
+    },
+    {
+      "name": "unknown composition",
+      "validator_status": "pass",
+      "errors": []
+    },
+    {
+      "name": "unknown pattern",
+      "validator_status": "pass",
+      "errors": []
+    },
+    {
+      "name": "unknown supporting pattern",
+      "validator_status": "pass",
+      "errors": []
+    },
+    {
+      "name": "unknown composition variant",
+      "validator_status": "pass",
+      "errors": []
+    },
+    {
+      "name": "unknown build mode",
+      "validator_status": "pass",
+      "errors": []
+    },
+    {
+      "name": "unknown template control",
+      "validator_status": "fail",
+      "errors": [
+        "GR-06/spec.yaml: template: unknown template UNKNOWN-TEMPLATE"
+      ]
+    }
+  ]
+}

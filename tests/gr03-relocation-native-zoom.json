@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-28",
+  "status": "PASS",
+  "full_flow_complete": true,
+  "native_zoom_demonstrated": true,
+  "zoom_percent": 200,
+  "method": "User-performed genuine Chrome 200% manual validation on current GR-03; accepted user report in this chat. Not an agent-run native test.",
+  "checks": [
+    {
+      "name": "Genuine native Chrome zoom set to 200%",
+      "passed": true,
+      "source": "user manual validation report"
+    },
+    {
+      "name": "Presence → Agenda → Voice → interpretation → Review Interpretation completed",
+      "passed": true,
+      "source": "user manual validation report"
+    },
+    {
+      "name": "Interpretation choices readable; feedback complete and readable",
+      "passed": true,
+      "source": "user manual validation report"
+    },
+    {
+      "name": "Continue reachable and enabled after review",
+      "passed": true,
+      "source": "user manual validation report"
+    },
+    {
+      "name": "Revise closes feedback and disables Continue",
+      "passed": true,
+      "source": "user manual validation report"
+    },
+    {
+      "name": "Re-review enables Continue again and it remains reachable",
+      "passed": true,
+      "source": "user manual validation report"
+    },
+    {
+      "name": "No document-level horizontal scrolling",
+      "passed": true,
+      "source": "user manual validation report"
+    },
+    {
+      "name": "No clipping or destructive overlap",
+      "passed": true,
+      "source": "user manual validation report"
+    },
+    {
+      "name": "No unreadable answer/feedback text or unreachable controls",
+      "passed": true,
+      "source": "user manual validation report"
+    }
+  ],
+  "screenshot_provenance": {
+    "user_reports_supplied_screenshots": true,
+    "reported_coverage": [
+      "native Chrome 200% indicator",
+      "choices",
+      "feedback",
+      "revision",
+      "final re-review state"
+    ],
+    "new_screenshot_paths": [],
+    "independently_inspected_by_agent": false,
+    "note": "No new screenshot attachment or identifiable new local screenshot was available in this turn. Pass records the explicit user attestation; older partial screenshots are not relabeled as new final-code evidence."
+  },
+  "remaining": [],
+  "governed_status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+  "golden_reference_accepted": false,
+  "candidate_promotion": false,
+  "historical_attempt": {
+    "date": "2026-09-28",
+    "root": "D:\\CSO_Learning_Design_Production_System_v0.3-alpha",
+    "status": "PENDING",
+    "full_flow_complete": false,
+    "current_native_evidence": [],
+    "result": "NOT_EXECUTED_NATIVE_CONTROL_UNAVAILABLE",
+    "reason": "No compatible desktop-control tool exposed; prior @oai/sky package absent in current runtime. Historical partial native screenshots retained, not accepted as final-code validation.",
+    "historical_evidence": "tests/gr03-native-zoom-validation.json",
+    "manual_steps": "tests/gr03-relocation-audit.md"
+  }
+}

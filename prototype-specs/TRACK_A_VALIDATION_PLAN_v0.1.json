@@ -1,0 +1,198 @@
+{
+  "tests": [
+    {
+      "id": "V01",
+      "title": "Frozen-input and object authority",
+      "requirement": "Exact approved proposal content/field limits; candidate/variant registration only after authorization; no new tokens, breakpoints, reference-local logic or artwork.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V02",
+      "title": "Blank and source provenance",
+      "requirement": "No preselected mappings/route/text; four source versions/limits visible; inspections alone cannot complete; synthetic designation persistent.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V03",
+      "title": "Criterion mapping structural bounds",
+      "requirement": "All four states; missing with explicit gap and zero supports accepted; unknown/stale/duplicate links rejected; conflicting requires distinct support/limiting records; two-artifact integration is not a quality score.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V04",
+      "title": "Text and route boundaries",
+      "requirement": "Four routes structurally recordable; 45/46 and 35/36 words, 600/601 characters, empty/punctuation/one/two Letter-Number T boundaries; over-limit retained; no route correctness, word minima or keywords.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V05",
+      "title": "Initial immutable recommendation",
+      "requirement": "Capture exact evidence versions, mappings, route/text once; earlier record unchanged by later edits; inspect exact route consequence/common contrast.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V06",
+      "title": "Clarification timing and consequences",
+      "requirement": "No U01 before firstRecord+C; release exactly once; E03v1 historical and E03v2 current; no fake live request/assessor attribution; unresolved limitations retained.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V07",
+      "title": "Invalidation matrix",
+      "requirement": "Change every substantive source/link/state/gap/priority/route/text; immediately clear current review/ack, preserve initial; whitespace equivalent no bump; explicit Revise invalidates before edit.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V08",
+      "title": "Reconsideration and challenge",
+      "requirement": "Retain and amend both supported; current version confirmation for three criteria required; changed route optional; retain does not force new prose; amend cannot be whitespace-only. No stale mapping can silently become current.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V09",
+      "title": "Completion truth",
+      "requirement": "Each E/M/J/C/U/R/F individually necessary; not yet outcomes complete practice; storage/export/all-sufficient not required; no public approval/credential fields become true.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V10",
+      "title": "Automatic recovery",
+      "requirement": "Refresh after every mapping/text/decision/review update including incomplete/over-limit/IME content; reconstruct current/historical versions and recompute completion; forged completion bit ignored.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V11",
+      "title": "Opt-in, corrupt/conflicting restore",
+      "requirement": "Explicit Save on this device; real profile restart, explicit resume; deny/quota, wrong schema/case/contract, stale snapshot, divergent tiers/tabs, clear cancellation/failure; no overwrite or completion; other activities untouched.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V12",
+      "title": "Retained representation",
+      "requirement": "Selectable/copy/download includes exact dossier versions, criteria/limits/gaps, first/current judgments, rationale/next action and practice-only status; failures truthful; no Hub receipt.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V13",
+      "title": "Responsive/max-content",
+      "requirement": "1920x1080,1440x900,1024x768,768x1024,390x844,320x568,844x390; all maxima, 180-character labels, long tokens, all disclosures expanded; no horizontal page scrolling/clipping/destructive overlap; row-to-source return and comparison reachability.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V14",
+      "title": "Keyboard/focus/non-color",
+      "requirement": "Full native-control flow without pointer/drag; logical reading/tab order, source return focus, first invalid field association, no trapped disclosure, states labelled by text; contrast and motion checks.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V15",
+      "title": "Genuine Chrome 200% — direct",
+      "requirement": "Native indicator plus full map→recommend→consequence→U01→reconsider→ack→revise/re-review flow; inspect full feedback and reachable Continue; user/direct evidence only.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V16",
+      "title": "Actual screen reader — direct",
+      "requirement": "Reader/OS/browser/version/performer; criterion/source reading order, link roles, changed version, missing/conflicting state, gap priority, not-yet consequence, current/historical outcomes, truthful practice completion.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V17",
+      "title": "Physical-mobile keyboard — direct",
+      "requirement": "Device/OS/browser/performer; two text fields, caret/focus/scroll under software keyboard, long paste, error, dismissal, reconsideration and Continue reachability.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V18",
+      "title": "Resilience",
+      "requirement": "Reduced motion, blocked fonts, offline after load, missing JS honest dossier fallback, Unicode/IME/pasted HTML inert, storage/clipboard denial. No source-media dependency.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V19",
+      "title": "Burden and differentiation — human",
+      "requirement": "Observe 8–12 minute hypothesis and two-field/80-word current ceiling; record actual navigation/effort. Reject nested stage tabs, repeated criterion essays or studio-like scrolling even if tests pass.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V20",
+      "title": "Independent semantic H01–H10",
+      "requirement": "Human review each positive fixture and negative counterexample; no automated semantic PASS. All ten dimensions require verdict/rationale and exact fixture hash.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V21",
+      "title": "Evidence provenance",
+      "requirement": "Automated, user-attested and independent/ChatGPT review separate. GR06 200% attestation does not transfer. Pending checks stay pending; target after automation is IMPLEMENTED_PENDING_MANUAL_VALIDATION.",
+      "status": "PLANNED_NOT_EXECUTED"
+    },
+    {
+      "id": "V22",
+      "title": "System compatibility/integrity",
+      "requirement": "Repository/schema/registry, GR01/04 exact locks, GR03 423, complete GR05/GR06 suites; new candidate/model/service binding tests, all syntax, default/variant compatibility and package ZIP. Service unchanged; fail extensions as TA-G03, no local workaround.",
+      "status": "PLANNED_NOT_EXECUTED"
+    }
+  ],
+  "human_rubric": [
+    {
+      "id": "H01",
+      "title": "Evidence-to-criterion fit",
+      "requirement": "Each link actually supports or limits its own criterion, not a convenient document count.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    },
+    {
+      "id": "H02",
+      "title": "Contradiction and absence",
+      "requirement": "Unsupported receipt/approval claims and untested access remain visible; missing is not forced into sufficient.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    },
+    {
+      "id": "H03",
+      "title": "Quality versus completion",
+      "requirement": "Four artifacts, opened sources and valid fields do not establish capability.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    },
+    {
+      "id": "H04",
+      "title": "Uncertainty and scope",
+      "requirement": "A synthetic rehearsal and clarification support only bounded claims; no population or delivery inference.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    },
+    {
+      "id": "H05",
+      "title": "Authority",
+      "requirement": "Peer practice, author self-review, tutor review, public decision authority and credentials remain distinct.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    },
+    {
+      "id": "H06",
+      "title": "Proportionate next step",
+      "requirement": "Remediation is feasible, owned and matched to the gap, with a point for reconsideration.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    },
+    {
+      "id": "H07",
+      "title": "Version-dependent assessment",
+      "requirement": "New E03 invalidates the current outcome; old reasoning is retained as history, never silently current.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    },
+    {
+      "id": "H08",
+      "title": "Agency in not yet",
+      "requirement": "Revise, defer and seek review are legitimate; work is preserved and the next route is understandable.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    },
+    {
+      "id": "H09",
+      "title": "Concise meaningful reasoning",
+      "requirement": "The two brief fields explain enough without filler; structured mappings reduce burden. No generic repeated boilerplate.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    },
+    {
+      "id": "H10",
+      "title": "Honest completion and differentiation",
+      "requirement": "Practice completion is not competence judgment; no keyword/minimum-word grading; experience is substantially lighter than GR05/06.",
+      "status": "PENDING_ARCHITECTURAL_REVIEW"
+    }
+  ]
+}

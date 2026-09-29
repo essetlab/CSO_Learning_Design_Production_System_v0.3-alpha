@@ -1,0 +1,573 @@
+{
+  "contract": {
+    "id": "GR05-DESIGN-PROPOSAL-01",
+    "version": "0.1",
+    "reference": "GR-05",
+    "title": "Deep Build / Repair Studio — Repair the market participation plan",
+    "status": "FROZEN_FOR_PROTOTYPE_IMPLEMENTATION",
+    "prototype_implementation_authorized": true,
+    "system_version": "0.3-alpha",
+    "source_inventory": "GR-05_RESOURCE_INVENTORY_v0.1.json",
+    "revision": 2,
+    "architecture_change_record": "GR-05_ARCHITECTURAL_CORRECTIONS_AND_CANDIDATES_v0.1.md"
+  },
+  "authority": {
+    "LOCKED": [
+      "User scope: deep diagnosis, authored repair, comparison, improvement and retained output",
+      "No prototype implementation before architectural review",
+      "Existing token, registry, schema and locked-reference authority",
+      "No candidate promotion or runtime source dependencies",
+      "Fictional case designation and provenance boundaries",
+      "Architectural review accepts capability, sequence, original note, E01–E05, C01, immutable v1, review invalidation and structural-versus-self-review distinction",
+      "Automatic recovery across refresh in the active browser session; durable persistence only through explicit Save on this device opt-in",
+      "Maximum word bounds stay hard; lower word counts are not gates; authored work and revision depth remain required"
+    ],
+    "CONSTRAINED": [
+      "Reuse current global shell and semantic tokens",
+      "Use inspected resources with explicit dispositions",
+      "Maintain plain-language prompts and bounded authoring",
+      "Any implementation after approval is shared-system work, not reference-local styling/logic"
+    ],
+    "EXPLORATORY": [
+      "Final candidate IDs, service ownership interfaces and operational edge-case detail below await final freeze",
+      "The concrete minimal authored-text rule and soft writing prompts await final freeze; no prototype authorization is implied"
+    ]
+  },
+  "learning": {
+    "learner": "Local CSO project officer or facilitator with introductory HRBA understanding",
+    "capability": "Diagnose a participation plan against evidence and author a feasible, rights-holder-focused improvement note that connects access, influence, responsible response and safe evidence.",
+    "success_evidence": "An evidence-linked diagnosis, learner-written v1, reviewed weaknesses, a revised v2 responding to a feasibility constraint, and an inspectable rationale for changed fields.",
+    "duration_minutes_estimate": [
+      25,
+      35
+    ],
+    "not_assessed": "Professional certification, legal compliance, real-world project approval or automated semantic correctness."
+  },
+  "case": {
+    "source": "R13",
+    "type": "Fictional training case adapted from HRBA Jiru Amba; no real people or project data",
+    "scope": "Market participation and response arrangements before priorities are finalized; not a whole logframe or project redesign",
+    "brief": "Awra is supporting consultation on a service-improvement plan in fictional Jiru Amba. Prepare a practical improvement note for the planning team. Focus on women vendors and persons with disabilities, while recognizing that the full case includes other groups. Show who can influence the decision, what access changes are needed, who responds, and what evidence would demonstrate an effect.",
+    "evidence": [
+      {
+        "id": "E01",
+        "text": "Women vendors leave discussions early because trading, care and household responsibilities compete with meeting time.",
+        "source_basis": "R13, case paragraph 3"
+      },
+      {
+        "id": "E02",
+        "text": "Persons with disabilities face an inaccessible venue and long printed documents.",
+        "source_basis": "R13, case paragraph 3"
+      },
+      {
+        "id": "E03",
+        "text": "Participants rank activity cards already chosen by the planning team; transparent stall allocation and influence over market budgets are not available as added priorities.",
+        "source_basis": "R13, case paragraph 4"
+      },
+      {
+        "id": "E04",
+        "text": "The plan counts meetings and feedback boxes but does not show whether rights-holders gained influence or received a response.",
+        "source_basis": "R13, case paragraph 4"
+      },
+      {
+        "id": "E05",
+        "text": "Awra supports analysis, facilitation, community voice and accountability; it does not replace public authorities.",
+        "source_basis": "R13, case paragraph 6"
+      }
+    ],
+    "original_note_provenance": "Deliberately weak exercise adaptation; the four sentences below are proposed GR-05 content, not verbatim approved course text.",
+    "original_note": {
+      "objective": "Improve market services by holding consultations and installing a feedback box.",
+      "participation": "Invite everyone to one public meeting to rank the activities already selected by the planning team.",
+      "accountability": "Awra will collect concerns in the feedback box and handle all decisions after the meeting.",
+      "evidence": "Report success using the number of people attending and the number of feedback boxes installed."
+    },
+    "challenge": {
+      "id": "C01",
+      "release": "After first review and all four v1 rubric responses",
+      "text": "For this exercise, the team cannot add a second large public meeting. Improve your note so affected groups can still influence priorities before the plan is finalized. Keep a feasible response and evidence pathway.",
+      "provenance": "New bounded GR-05 exercise constraint proposed for approval; not an asserted fact from the source case."
+    },
+    "opening_instruction": "Repair this note so affected groups can influence market decisions and receive a response. Use the evidence, write your own improvements, then test and revise your work."
+  },
+  "authoring": {
+    "word_count_rule": "Trim; split on one or more Unicode whitespace characters; discard empty tokens. Punctuation does not add words. Count rule is validation convention, not semantic grading.",
+    "limits_authority": "Architectural correction 2: retain original hard maximums; remove every hard minimum word count. Required authored-text structure and review remain.",
+    "fields": [
+      {
+        "id": "objective",
+        "label": "Repaired objective",
+        "max_words": 70,
+        "prompt": "Name the groups, the barrier and the change in influence or response the plan should support.",
+        "criterion": "Q01",
+        "required_text_rule": "T",
+        "soft_guidance": "A concise sentence can be enough; name whose influence or response should change."
+      },
+      {
+        "id": "participation",
+        "label": "Participation and access procedure",
+        "max_words": 110,
+        "prompt": "Describe how and when affected groups can shape priorities, including accessible information and an alternative to relying on the public meeting alone.",
+        "criterion": "Q02",
+        "required_text_rule": "T",
+        "soft_guidance": "Use short sentences or bullets explaining how input reaches the decision and what access changes."
+      },
+      {
+        "id": "accountability",
+        "label": "Responsibility and response pathway",
+        "max_words": 100,
+        "prompt": "Separate the planning or market actor’s decision and response role from Awra’s facilitation role. Explain how people learn what changed without exposing individual concerns.",
+        "criterion": "Q03",
+        "required_text_rule": "T",
+        "soft_guidance": "Briefly separate the responding actor from Awra and explain the response route."
+      },
+      {
+        "id": "evidence",
+        "label": "Sign of change and safe evidence",
+        "max_words": 80,
+        "prompt": "Describe a sign of influence or response, the non-identifying evidence to check, who checks it and when. Do not invent a baseline or promise an outcome.",
+        "criterion": "Q04",
+        "required_text_rule": "T",
+        "soft_guidance": "Briefly name the sign of change, safe evidence and who checks it when."
+      }
+    ],
+    "diagnosis": {
+      "required_rows": 4,
+      "one_row_per_field": true,
+      "per_row": {
+        "evidence_ids": "1–3 distinct IDs from E01–E05",
+        "explanation_max_words": 50,
+        "required_text_rule": "T",
+        "soft_guidance": "A short phrase or sentence naming the weakness and its evidence link is enough if clear."
+      },
+      "no_answer_preselection": true
+    },
+    "review": {
+      "criterion_ids": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04"
+      ],
+      "allowed_judgments": [
+        "addressed",
+        "needs_follow_up"
+      ],
+      "one_judgment_per_criterion": true,
+      "justification_max_words": 35,
+      "follow_up_required_if": "needs_follow_up",
+      "follow_up_max_words": 35,
+      "required_text_rule": "T",
+      "soft_guidance": "Give a concise reason; for needs_follow_up, add one specific next action. Bullets or short phrases are acceptable."
+    },
+    "revision_note": {
+      "max_words": 70,
+      "prompt": "Explain how the constraint changed your procedure and your response or evidence plan. State the remaining uncertainty.",
+      "required_text_rule": "T",
+      "soft_guidance": "Briefly explain the changed procedure and response/evidence consequence; note any remaining uncertainty. Do not pad to a target."
+    },
+    "input_rendering": "Plain text; never interpret learner HTML or Markdown as executable markup. Do not silently trim, overwrite or truncate saved work.",
+    "field_evidence_ids": {
+      "minimum": 1,
+      "maximum": 3,
+      "distinct": true,
+      "allowed": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05"
+      ]
+    },
+    "authored_text_rule": {
+      "id": "T",
+      "applies_to": [
+        "all four artifact sections",
+        "each diagnosis explanation",
+        "each criterion justification",
+        "required follow-up notes",
+        "revision rationale"
+      ],
+      "hard_rule": "After trimming Unicode whitespace, contain at least two Unicode code points in general categories Letter (L*) or Number (N*). Other content is preserved but does not count toward this minimal check.",
+      "minimum_letter_or_number_codepoints": 2,
+      "minimum_words": null,
+      "purpose": "Reject empty, punctuation-only and single-character placeholders without judging language, grammar or semantic quality.",
+      "soft_guidance_is_a_gate": false,
+      "limitations": "Short responses, fragments and bullets are allowed. Passing T does not prove meaningful reasoning; sufficient evidence and improvement are assessed by the retained rubric and human Golden Reference review, never AI or keyword grading."
+    }
+  },
+  "criteria": [
+    {
+      "id": "Q01",
+      "field": "objective",
+      "question": "Does the objective connect specific rights-holders and barriers to influence or response, rather than only listing activities?",
+      "guidance": "Name whose influence changes and the barrier addressed. Holding another meeting is not, by itself, the change sought."
+    },
+    {
+      "id": "Q02",
+      "field": "participation",
+      "question": "Can the named groups influence priorities before decisions are finalized, with workable timing and accessible information?",
+      "guidance": "Use early accessible information and a feasible small-group or other safe input route. Explain how that input reaches the decision, not just how people attend."
+    },
+    {
+      "id": "Q03",
+      "field": "accountability",
+      "question": "Is a responsible actor distinct from Awra, with a safe response route and a way to communicate what changed?",
+      "guidance": "Do not promise that Awra can make public decisions. Identify the relevant planning or market actor and a non-identifying response process."
+    },
+    {
+      "id": "Q04",
+      "field": "evidence",
+      "question": "Would the evidence show influence or response without identifying people, and can the proposed team check it?",
+      "guidance": "Link a sign of change to a decision or response and an appropriate review point. Counts of attendance or boxes alone are insufficient."
+    }
+  ],
+  "stages": [
+    {
+      "id": "S1",
+      "label": "Diagnose the note",
+      "available_when": "always",
+      "leave_when": "D",
+      "work": "Read the four original sections and evidence; author one linked diagnosis for each."
+    },
+    {
+      "id": "S2",
+      "label": "Write the repair",
+      "available_when": "D or existing draft",
+      "leave_when": "A",
+      "work": "Write all four repaired sections; original and evidence remain reachable."
+    },
+    {
+      "id": "S3",
+      "label": "Review draft 1",
+      "available_when": "A",
+      "leave_when": "R1",
+      "work": "Create immutable first-review snapshot; compare original/v1; complete all four criterion responses."
+    },
+    {
+      "id": "S4",
+      "label": "Improve under constraint",
+      "available_when": "R1",
+      "leave_when": "A and C",
+      "work": "Reveal C01; edit participation and accountability or evidence, retaining the frozen v1; write a revision explanation."
+    },
+    {
+      "id": "S5",
+      "label": "Compare and retain",
+      "available_when": "R1 and A and C",
+      "leave_when": "COMPLETE",
+      "work": "Review current version against all four criteria, compare v1/v2, acknowledge final package; copy/download are optional."
+    }
+  ],
+  "predicates": {
+    "D": "Four diagnosis rows, one per field, each with 1–3 valid distinct evidence IDs and an explanation satisfying T and the 50-word maximum.",
+    "A": "D is true. Every draft field satisfies T and its hard maximum, has 1–3 valid distinct evidence IDs, and differs from its original after trim/whitespace-collapse normalization.",
+    "R1": "Immutable firstReviewSnapshot exists; all four judgments and justifications satisfy T and their maximum; each needs_follow_up has a follow-up satisfying T and its maximum, bound to that snapshot.",
+    "C": "challengeRevealed && participation_changed_since_v1 && (accountability_changed_since_v1 || evidence_changed_since_v1) && revision_note_satisfies_T_and_70_word_maximum.",
+    "R2": "All four current criterion judgments/justifications and required follow-ups satisfy T and maxima and are bound to current contentRevision.",
+    "F": "Final package acknowledgment is bound to current contentRevision and current finalCriterionReview responses, includes current diagnosis, draft, criterion responses, revision_note, source IDs and C01.",
+    "COMPLETE": "D && A && R1 && C && R2 && F",
+    "note": "C means participation_changed && (accountability_changed || evidence_changed). Whitespace-only edits do not count. This is a structural revision requirement, not a semantic-quality test. No score, preferred phrase or correct option gate.",
+    "T": "Required authored text contains at least two Unicode Letter/Number code points after trimming; no minimum words, grammar check or preferred phrasing."
+  },
+  "state": {
+    "schema_version": "proposed-gr05-draft-v1",
+    "identity": [
+      "activityId=GR-05",
+      "contractVersion=0.1",
+      "contractRevision=2",
+      "caseVersion=0.1",
+      "draftId (local opaque identifier)"
+    ],
+    "data": [
+      "currentStage",
+      "diagnoses",
+      "draftFields",
+      "fieldEvidenceIds",
+      "contentRevision (monotonic integer)",
+      "firstReviewSnapshot (immutable content/diagnosis snapshot)",
+      "firstCriterionReview",
+      "challengeRevealed",
+      "revisionNote",
+      "finalCriterionReview (bound revision)",
+      "finalAcknowledgment (bound revision)",
+      "durableOptIn (default false)",
+      "sessionRecoveryStatus",
+      "devicePersistenceStatus",
+      "sessionRecordRevision",
+      "deviceRecordRevision",
+      "lastSuccessfulWriteRevision per tier",
+      "writer/session identity and conflict marker"
+    ],
+    "transitions": [
+      {
+        "event": "edit diagnosis, field, evidence binding or revision note",
+        "effect": "Increment contentRevision; preserve text and immutable v1; invalidate finalCriterionReview and finalAcknowledgment; disable Continue immediately. No change on normalized-equivalent edits. Recompute D/A/C."
+      },
+      {
+        "event": "first review",
+        "effect": "Only if A; create firstReviewSnapshot once. Later revisits never overwrite it. Show criteria and original/v1 side by side or stacked."
+      },
+      {
+        "event": "complete v1 rubric",
+        "effect": "Bind firstCriterionReview to firstReviewSnapshot; set challengeRevealed. Later changes to current diagnosis do not rewrite historical v1."
+      },
+      {
+        "event": "review current draft",
+        "effect": "Only if D/A/R1/C; snapshot current revision for final rubric. Edit during review invalidates that review."
+      },
+      {
+        "event": "acknowledge final package",
+        "effect": "Only if R2 and all structural predicates hold; bind F to current revision and enable Continue."
+      },
+      {
+        "event": "edit final criterion responses",
+        "effect": "Clear finalAcknowledgment and disable Continue; recompute R2. Preserve all draft content and previous snapshot."
+      },
+      {
+        "event": "edit first-review rubric",
+        "effect": "Recompute R1 against immutable v1; clear finalAcknowledgment. If R1 becomes incomplete, invalidate finalCriterionReview and disable Continue; preserve challengeRevealed and all text."
+      },
+      {
+        "event": "revise after completion",
+        "effect": "Keep draft and v1; clear finalCriterionReview and finalAcknowledgment and disable Continue, even before new edits."
+      },
+      {
+        "event": "reset",
+        "effect": "Explicit confirmation naming loss of both versions; clear this draft in memory and both storage tiers through the shared service, clear consent and report any failed removal. Cancel leaves all work untouched; other drafts/activities unaffected."
+      }
+    ],
+    "retention_architecture": {
+      "gap": "G05-03",
+      "owner_candidate": "SVC-LEARNING-STATE-01",
+      "status": "TWO_TIER_RULE_ACCEPTED; candidate interfaces and details pending final freeze",
+      "completion_independent_of_storage": true,
+      "tier_1_session": {
+        "automatic": true,
+        "requires_opt_in": false,
+        "purpose": "Recover the complete in-progress artifact across refresh in the active browser page session, including unfinished/over-limit text, diagnoses, immutable v1, reviews, C01 state and rationale.",
+        "proposed_backend": "Shared service sessionStorage adapter, keyed by activity/contract/case/draft and session context; never GR-05-local storage code.",
+        "write_boundary": "Checkpoint each accepted input/state change before the next refresh can rely on it; do not defer all saving to blur, stage navigation or unload. Preserve IME text without evaluating composition as final; update completion on committed edits.",
+        "scope": "Same active page session, including reload. Independent tabs are separate session drafts; duplicated tabs must not imply a shared writable draft. Tab-close/reopen/browser session restoration is not a guaranteed privacy erasure or an accepted substitute for tier 2.",
+        "message_after_success": "Recoverable after refresh in this session.",
+        "failure": "If unavailable/full, retain live memory, mark session recovery unavailable and offer copy/export immediately. Do not pretend refresh protection works or silently write to durable storage. Session recovery failure is an explicit degraded condition, not the normal default."
+      },
+      "tier_2_device": {
+        "automatic_without_consent": false,
+        "default_opt_in": false,
+        "label": "Save on this device",
+        "purpose": "Retain this draft beyond page/browser session closure only after explicit opt-in, explaining shared-device visibility.",
+        "proposed_backend": "Shared service localStorage adapter with versioned envelope; no cloud/account storage.",
+        "enable": "Explicit consent applies to this draft. Write the current snapshot immediately; show saved only after success and keep tier 1 active.",
+        "resume": "When no session draft exists, offer an available valid device draft for explicit resume; validate and recompute predicates. Preserve its recorded durable opt-in only on explicit resume, not merely visiting the page.",
+        "disable": "Stop further durable writes immediately and remove this activity/draft device copy; retain session recovery and live work. If removal fails, report that the old device copy remains; never claim deletion succeeded.",
+        "message_after_success": "Saved on this device.",
+        "failure": "Report device save failure separately; if tier 1 succeeded, say refresh recovery still works but newer edits are not saved across closure."
+      },
+      "restore": {
+        "validation": [
+          "storage envelope schema and allowed keys/types",
+          "activity/draft identity",
+          "contract version and revision",
+          "case version",
+          "snapshot and review revision consistency",
+          "known evidence/criterion/field IDs"
+        ],
+        "policy": "Load both tiers without modifying either. Prefer a valid matching session record only if no divergent device revision conflicts with it. Recompute D/A/R1/C/R2/F from the validated payload; never trust a stored complete flag. Draft content may be incomplete/over-limit and must still recover. A stale review clears completion while preserving work. Missing/inconsistent snapshot structure is a recovery error, not an excuse to synthesize v1.",
+        "corruption_version": "Do not auto-migrate, erase, overwrite or silently downgrade to an older record. Preserve records, show affected tier and recovery choices; allow selectable export of recoverable plain text or confirmed discard/new draft. A valid alternate tier is offered with provenance before loading it."
+      },
+      "conflict": "Divergent device and session branches or a changed durable revision from another tab pause affected writes. Retain local work; show source/version and offer copy/export, explicit load-other-version, or explicit keep-local as a new draft. Do not compare wall-clock times as authority, auto-merge, or silently last-write-win. A conflict is not a new completion gate for in-memory work.",
+      "status_truth": "Track success/failure and last saved revision separately per tier. Clear success when a newer edit is not checkpointed. UI-SAVE-STATE-01 displays service receipts, never optimistic success.",
+      "privacy_scope": "Automatic tier 1 is recovery, not opt-in durable retention. Some browsers restore page-session data after restart; do not promise secure erasure on close. Provide explicit Clear this draft, removing both tiers for this draft with truthful failure reporting. No learner personal or complaint data is requested.",
+      "reset": "Confirmed reset/clear removes both session and device records for this draft and clears its consent; deletion failure is reported. Other drafts/courses remain untouched.",
+      "service_boundary": "Generic versioned envelopes, per-tier receipts, restore/conflict/reset and plain-text serialization hooks are shared. INT-BUILD-REPAIR-01 supplies the activity reducer and completion recomputation; the service never knows HRBA answers or grants completion."
+    }
+  },
+  "output": {
+    "name": "Jiru Amba market participation improvement note",
+    "retained_sections": [
+      "Fictional-case label and source/evidence IDs",
+      "Original four-section note",
+      "Evidence-linked diagnosis",
+      "Frozen draft 1",
+      "Current/final draft",
+      "Field-aligned v1/current comparison with changed/unchanged labels",
+      "Both criterion reviews including unresolved follow-ups",
+      "C01 challenge and revision explanation",
+      "Contract/case version and completion status"
+    ],
+    "format": "On-page semantic document plus optional UTF-8 plain-text download and selectable copy fallback; no PDF/DOCX requirement or upload.",
+    "copy_or_download_gates_completion": false,
+    "quality_label": "Reviewed training draft — not approved for real-world use",
+    "revision_retention": "Only first reviewed snapshot and current version required; unlimited undo/history is not proposed."
+  },
+  "required_existing_objects": [
+    "SHELL-GR-W1-01",
+    "UI-BUTTON-01",
+    "UI-LINK-01",
+    "UI-STATUS-01",
+    "UI-PROGRESS-01",
+    "UI-SAVE-STATE-01",
+    "BLK-EXPLAIN-01",
+    "BLK-CASE-EVIDENCE-01",
+    "BLK-FEEDBACK-01",
+    "BLK-TAKEAWAY-01"
+  ],
+  "system_gaps": [
+    {
+      "id": "G05-01",
+      "need": "Bounded learner-authored artifact, evidence bindings, snapshot comparison and revision-bound review",
+      "proposed_ownership": "IP-BUILD-REPAIR-01 + BLK-WORK-ARTIFACT-01 + INT-BUILD-REPAIR-01; shared pattern, artifact presentation and review reducer.",
+      "existing_insufficiency": "Question/choice/perspective blocks do not own editable artifact versions; source HRBA/PM mechanics are not registered here.",
+      "acceptance": "Keyboard editing, plain-text rendering, structural checks, immutable v1, retained v2, immediate invalidation, no keyword grading."
+    },
+    {
+      "id": "G05-02",
+      "need": "Deep-workspace composition and template",
+      "proposed_ownership": "CMP-REPAIR-STUDIO-01 + TPL-DEEP-WORKSPACE-01; shared composition and template, no state persistence ownership.",
+      "existing_insufficiency": "Concept/scenario templates do not define document workspace, criterion review and narrow-screen before/after reading order.",
+      "acceptance": "Current work stays primary; evidence/original reachable; mobile field-aligned comparison; no nested scroll traps or new unapproved tokens."
+    },
+    {
+      "id": "G05-03",
+      "need": "Versioned draft retention and truthful save/recovery/export service",
+      "proposed_ownership": "SVC-LEARNING-STATE-01; shared state/learning-state service, not golden-references/GR-05.",
+      "existing_insufficiency": "Current save-state UI is CSS; practice-focus persists a single value. External state stores are precedents, not authority.",
+      "acceptance": "Automatic session recovery; explicit opt-in durable persistence; independent truthful receipts; validated restore/recomputed completion; no silent conflict/corruption overwrite; safe clear and plain-text export."
+    }
+  ],
+  "responsive": {
+    "wide": "One active work stage with original/evidence in an adjacent reference region; no four-column dashboard. Comparison is field-aligned original/v1/current as needed; limit to two versions at once.",
+    "tablet": "Stack reference then work when comfortable reading widths cannot be retained; preserve reference links and stage position.",
+    "mobile": "Single DOM reading order: brief/stage heading, reference summary with access to full evidence, current inputs, review/action/status. Compare each field as Before then After with repeated labels; no horizontal table scrolling.",
+    "breakpoints": "Use existing shared 64rem/48rem/30rem transformation conventions; details constrained after G05-02 approval.",
+    "no_new_visual_tokens": true
+  },
+  "accessibility_resilience": [
+    "Native labeled textarea/select/checkbox/button semantics; instructions and word counts associated by IDs",
+    "Stage buttons use aria-current=step; locked stages explain unmet prerequisites; no drag-only workflow",
+    "Errors summarized with links and inline descriptions; first invalid field receives focus after explicit review action",
+    "No feedback or stage jump on every keystroke; polite live status only on meaningful save/review outcomes",
+    "Plain-language changed/unchanged labels; color never sole diff/status signal",
+    "Document scroll; no fixed-height text clipping; focus/IME/mobile keyboard not obscured by sticky shell/actions",
+    "Genuine Chrome 200% flow, keyboard-only flow, reduced motion, screen-reader reading/order and error checks",
+    "Local static assets only; system-font and missing-image fallbacks; no network/AI backend required",
+    "Render learner input safely as text; no real personal or complaint data requested",
+    "No JavaScript: visible brief/original and a clear unavailable-workspace notice with a plain-text exercise fallback; do not display false completion"
+  ],
+  "approval_required": [
+    "Final freeze of revision 2 and the concrete T non-triviality rule without hard minimum words",
+    "Confirm six proposed IDs, shared ownership/service type and future paths",
+    "Freeze two-tier adapter/restore/conflict detail consistent with accepted architecture",
+    "Explicitly authorize shared-system prototype implementation and validation; absent now"
+  ],
+  "structural_feedback": {
+    "required_blank": "Write your {field label} before reviewing this draft.",
+    "evidence_binding": "Link this section to 1–3 evidence items from the case.",
+    "unchanged_original": "This section still matches the original. Write your repair before reviewing.",
+    "incomplete_criterion": "Review {criterion label} and explain your judgment.",
+    "follow_up_missing": "Record one next action for the point that still needs follow-up.",
+    "revision_absent": "Revise the participation procedure and the response or evidence plan, then explain what changed.",
+    "stale_review": "Your work changed after review. Review this version before continuing.",
+    "word_maximum": "Keep {field label} to {maximum} words or fewer. Your work is retained.",
+    "non_trivial_text": "Add a brief note for {field label}; words or short phrases are enough."
+  },
+  "proposed_shared_candidates": [
+    {
+      "gap": "G05-01",
+      "id": "IP-BUILD-REPAIR-01",
+      "name": "Deep Build / Repair",
+      "type": "instructional pattern",
+      "version": "0.1.0-proposed",
+      "status": "PROPOSED_NOT_REGISTERED",
+      "scope": "shared-cso-system",
+      "proposed_registry": "registries/patterns.json",
+      "proposed_location": "docs/patterns/build-repair/",
+      "owner": "Learning architecture",
+      "responsibility": "Capability, authored artifact, diagnose/build/review/revise cycle; no storage or view code"
+    },
+    {
+      "gap": "G05-01",
+      "id": "BLK-WORK-ARTIFACT-01",
+      "name": "Working Artifact",
+      "type": "block",
+      "version": "0.1.0-proposed",
+      "status": "PROPOSED_NOT_REGISTERED",
+      "scope": "shared-cso-system",
+      "proposed_registry": "registries/components.json",
+      "proposed_location": "learning-blocks/work-artifact/",
+      "owner": "Shared learning-block maintainer",
+      "responsibility": "Labeled authored fields, evidence association, semantic before/after and output serialization; no direct storage calls or grading"
+    },
+    {
+      "gap": "G05-01",
+      "id": "INT-BUILD-REPAIR-01",
+      "name": "Build / Repair Review",
+      "type": "interaction",
+      "version": "0.1.0-proposed",
+      "status": "PROPOSED_NOT_REGISTERED",
+      "scope": "shared-cso-system",
+      "proposed_registry": "registries/components.json",
+      "proposed_location": "interactions/build-repair/",
+      "owner": "Shared interaction/state maintainer",
+      "responsibility": "Immutable v1, activity predicates/reducer, stale-review invalidation and revision-bound acknowledgment; calls shared state service"
+    },
+    {
+      "gap": "G05-02",
+      "id": "CMP-REPAIR-STUDIO-01",
+      "name": "Repair Studio",
+      "type": "composition",
+      "version": "0.1.0-proposed",
+      "status": "PROPOSED_NOT_REGISTERED",
+      "scope": "shared-cso-system",
+      "proposed_registry": "registries/compositions.json",
+      "proposed_location": "compositions/repair-studio/",
+      "owner": "Shared composition/accessibility maintainer",
+      "responsibility": "Responsive document/reference/stage layout; existing tokens; no persistence or completion logic"
+    },
+    {
+      "gap": "G05-02",
+      "id": "TPL-DEEP-WORKSPACE-01",
+      "name": "Deep Workspace",
+      "type": "template",
+      "version": "0.1.0-proposed",
+      "status": "PROPOSED_NOT_REGISTERED",
+      "scope": "shared-cso-system",
+      "proposed_registry": "registries/templates.json",
+      "proposed_location": "templates/deep-workspace/",
+      "owner": "Shared template/authoring maintainer",
+      "responsibility": "Assemble shell, studio and artifact contract; validate required slots; no case-specific behavior"
+    },
+    {
+      "gap": "G05-03",
+      "id": "SVC-LEARNING-STATE-01",
+      "name": "Shared Learning State and Recovery",
+      "type": "service",
+      "version": "0.1.0-proposed",
+      "status": "PROPOSED_NOT_REGISTERED",
+      "scope": "shared-cso-system",
+      "proposed_registry": "registries/components.json",
+      "proposed_location": "state/learning-state/",
+      "owner": "Shared learning-state architecture maintainer",
+      "responsibility": "Two-tier persistence, envelopes, receipts, schema/version recovery, conflicts and clear/export hooks; reducer callbacks own learning completion"
+    }
+  ],
+  "candidate_registry_note": "IDs are final naming proposals, not registrations or implemented objects. SVC-LEARNING-STATE-01 proposes an explicit service type in the existing components registry and a shared state/ root; these ownership choices require final freeze. No new registry schema/category is silently installed.",
+  "architectural_changes": {
+    "revision": 2,
+    "source": "User architectural review in this chat, 2026-09-28",
+    "correction_1": "Replace memory-only refresh loss with automatic shared session recovery plus opt-in cross-session device persistence.",
+    "correction_2": "Remove all hard word minima, preserve maxima and required authored/review/revision structure; T is minimal structure, not a semantic grade.",
+    "preserved_section_hashes": {
+      "learning": "fcbe4a030f1b3035e7290102935773f43f8da60a4e9359afe3cee8815b25a18e",
+      "case": "b923dc4af821a1a693f541088cb6508c1efe8c69a3ca45ab1f94d89893601005",
+      "criteria": "a689d1230b0149e2b5b1d8801353bac301c5688d66b59aa2189e47ad3ca700c1",
+      "stages": "f0ccf7b5f9d7469804cbdb41ae0a579a4d1bcf099c2351ba1c53e3537513847f",
+      "output": "cd28bf5cecc447aced31aa05fb8948960e6b76862fea818ab89bc778a1893393",
+      "responsive": "d3b043fb4bbf03623b412a9df2ab3a52cd63170fe8704c74d2e5e8bdfe3e7bbc",
+      "accessibility_resilience": "4b55621a40f9e52ff0a02abf3c8447ce2ef9d86fcec13b4b6e715baf03b4ac12"
+    },
+    "implementation_authorized": true
+  },
+  "freeze_authority": "User final architectural approval in this chat; revision 2 frozen; six shared objects PROTOTYPE only; no GR-06."
+}

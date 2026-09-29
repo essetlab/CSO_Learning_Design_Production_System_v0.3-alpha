@@ -1,0 +1,45 @@
+GR-06 · SYNTHETIC TRAINING EXERCISE
+
+Before the next market consultation round in fictional Jiru Amba, review what the first-round records do and do not show. Recommend a feasible step to improve influence and response before priorities are finalized. Later verification will test your reasoning.
+
+G6-E01 | Fictional round-1 facilitation log | One consultation round; attendance only
+The log records 40 attendees, including 24 women vendors. It does not record who influenced priorities or who left early.
+Limitation: Attendance is not influence; no denominator for all eligible vendors or comparable prior-round count.
+
+G6-E02 | Fictional facilitator summary of six voluntary comments | Six self-selected comments; no population estimate
+Four of the six comments mention leaving before priorities were discussed because trading time was affected. The other two comments do not address timing.
+Limitation: Do not infer that four out of six represents all vendors, or infer the identities of commenters.
+
+G6-E03 | Fictional pre-meeting access checklist | Venue and materials check only
+The entrance was accessible on the day checked. The circulated priority list was available only as a long printed document. No check of alternative formats is recorded.
+Limitation: An accessible entrance does not establish usable information or access for every participant.
+
+G6-E04 | Fictional planning-team summary | Eight general suggestions; administrative status
+Eight suggestions were logged. Six are marked closed and two pending. The summary does not say whether closed means a decision was explained to the people who raised a suggestion.
+Limitation: Closure does not establish response receipt or that a proposal influenced a decision.
+
+G6-E05 | Fictional exercise brief | Boundary for this exercise; not a legal mandate
+The next priorities have not yet been finalized. Awra can facilitate input and request explanations; the public planning team makes the planning decisions. No new large meeting is available before finalization.
+Limitation: Awra cannot promise a public decision. Proposed alternatives need feasible access and a route into the decision.
+
+TASK: Write a source note for each record (30 words maximum), then a primary interpretation and an alternative or unresolved interpretation. Link informing and limiting evidence; state uncertainty. No equal likelihood is implied.
+
+Choose trial, verify, retain or escalate. Write a reason, alternative, action, responsibility boundary, verification and account-back plan. Preserve this first version before reading the later update.
+
+LATER UPDATE — read after preserving decision v1
+
+A later check of the same eight suggestions finds that only two of the six marked closed have a recorded explanation sent back. The other four were closed after internal discussion, without a recorded account-back step. Receipt of the two sent explanations is still unverified.
+
+This clarifies recorded process, not whether people received or understood a response or whether decisions were fair. No identities or complaint details are supplied.
+
+Adapt an interpretation and action, verification or account-back; link U01 and explain the change. The route may stay the same. Compare both versions and review each criterion.
+
+Q01: Do you distinguish findings from explanations, consider a grounded alternative or unresolved interpretation without false symmetry, and avoid prevalence claims from limited evidence?
+
+Q02: Is your decision proportionate to the evidence and uncertainty, with a feasible alternative and an explicit authority or escalation boundary?
+
+Q03: Do you distinguish administrative closure, an explanation sent and confirmed receipt, with responsible roles and an accessible account-back plan?
+
+Q04: Does U01 meaningfully change interpretation and follow-up, with safe verification of influence or response and candid unresolved actions?
+
+Record addressed or needs_follow_up, a reason and any unresolved action. This text fallback does not grant completion. Retain your own document.

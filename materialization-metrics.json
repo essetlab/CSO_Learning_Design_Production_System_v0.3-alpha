@@ -1,0 +1,29 @@
+{
+  "GR-02": {
+    "old_reference_owned_css_js_bytes": 22084,
+    "new_reference_owned_css_js_bytes": 4971,
+    "reduction_bytes": 17113,
+    "reduction_percent": 77.5
+  },
+  "GR-04": {
+    "old_reference_owned_css_js_bytes": 26015,
+    "new_reference_owned_css_js_bytes": 5401,
+    "reduction_bytes": 20614,
+    "reduction_percent": 79.2
+  },
+  "GR-01": {
+    "old_reference_owned_css_js_bytes": 22634,
+    "new_reference_owned_css_js_bytes": 7530,
+    "reduction_bytes": 15104,
+    "reduction_percent": 66.7
+  },
+  "repository": {
+    "file_count": 86,
+    "shared_system_file_count": 65,
+    "golden_reference_count": 3,
+    "central_token_sources": 1,
+    "shared_shell_implementations": 1,
+    "shared_interaction_engine_files": 2,
+    "note": "Choice and judgement currently expose separate registered interaction IDs while using the same underlying single-choice feedback engine implementation."
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "reference": "GR-06",
+  "date": "2026-09-29",
+  "status": "RESOURCE_PREFLIGHT_FOR_ARCHITECTURAL_REVIEW",
+  "baseline_commit": "a3e131d8f1ec36631b06f8a10be892f2f3a99257",
+  "branch": "gate8/wave2/gr06-evidence-to-decision",
+  "external_roots_read_only": [
+    {
+      "path": "D:/templates_elearning_resource_pack",
+      "head": "e5569a9097091cab97f2c57ddadfa9fa69e07743"
+    },
+    {
+      "path": "D:/eLearn_CDP_Lg",
+      "head": "de8a8857f27a903662c417998f73a09bbf1cdc9d"
+    },
+    {
+      "path": "D:/pm-certified-release-20260924",
+      "head": "8a6dabd3e8e8dc763eb3289a57472edc7d575871"
+    }
+  ],
+  "resources": [
+    {
+      "id": "R01",
+      "disposition": "REUSE DIRECTLY",
+      "title": "Shared visual and accessibility baseline",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/tokens/tokens.css",
+          "bytes": 1924,
+          "sha256": "723c3f989b8be2c2a489a3bd4ca99603754c94e40e69abad250f79cc4258beb5"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/foundations/accessibility.css",
+          "bytes": 746,
+          "sha256": "e14e5979cd6fcf02a45fa0e0ee55d7cfdf8e111280bea88741921ec34205205e"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/foundations/motion.css",
+          "bytes": 245,
+          "sha256": "5b29a9f1b5a895f24192e01673a106165157e8d5d7807c81ce6d3d6e7b583444"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/shell/course-shell.js",
+          "bytes": 4811,
+          "sha256": "2b62eafb0f1006caf75e4862457db6e496334b4d160931800b353f92764155fa"
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "disposition": "HARVEST PATTERN",
+      "title": "GR03 observation/interpretation and accepted evidence",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/golden-references/GR-03/spec.yaml",
+          "bytes": 607,
+          "sha256": "bfeef93a30b8883df0969b8c18686c2c94216326951b32f21ac2001b6355bcce"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/golden-references/GR-03/GR-03_BUILD_MANIFEST.json",
+          "bytes": 3057,
+          "sha256": "63e5aef3655fda90f68a2fcbb5b3e26d6f750bba013d6af5d59763aa298c004f"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/labeled-graphic/labeled-graphic.js",
+          "bytes": 8257,
+          "sha256": "932193f0422046292bb61f55450b3dbcbff72150470b644cb4db265f617dbce6"
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "disposition": "ADAPT",
+      "title": "GR05 shared artifact/model and governed lessons",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/build-repair/model.js",
+          "bytes": 9579,
+          "sha256": "c3b276f2a64afab9c40485daa79170a76fd550343e92334b261f0153bb25ae7b"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/work-artifact/work-artifact.js",
+          "bytes": 7846,
+          "sha256": "1eac985a2829d83eb67ff0088528dbb02c365b380e22dcbd59d8fed88f860bac"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/golden-references/GR-05/GR-05_BUILD_MANIFEST.json",
+          "bytes": 3158,
+          "sha256": "2a649d7f0a4ef57b2c04fc83f33a0d9cfc069301b6f3240e38a663eb5ff1a68b"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/tests/gr05-defect-log.md",
+          "bytes": 5113,
+          "sha256": "a074c256bd9c10ab4a649cc401c474eca3fc11d9425b00377d6dd7ac0b06c53a"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/tests/GR05_ARCHITECTURAL_REVIEW_DECISION.json",
+          "bytes": 1370,
+          "sha256": "1ba943a3a23961e52dc04ca9fa78106f249ffe990a7e8d4de33c44558213a0c4"
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "disposition": "REUSE DIRECTLY",
+      "title": "Generic recovery and receipts",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/state/learning-state/README.md",
+          "bytes": 1805,
+          "sha256": "94afa40f307507e23b7fc47df9dfda475c9e617d3957a59cbe2068f17d3cbdbf"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/state/learning-state/learning-state.js",
+          "bytes": 10564,
+          "sha256": "5afd6b227811aab27fc42f0f7736bbb81909b04e3f9bc10d81ee4e13f3643fd3"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/ui/save-state/manifest.yaml",
+          "bytes": 112,
+          "sha256": "11a6aa599b4f51244eb4aae854a3a265a8dd28e000b2e92c2b00f55e737c16bd"
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "disposition": "ADAPT",
+      "title": "Existing evidence/feedback candidates",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/case-evidence/manifest.yaml",
+          "bytes": 89,
+          "sha256": "a4a0a08658fc3f69981e4ef608688af212c7a72019bf9e9c25f25a8b470740fe"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/feedback/manifest.yaml",
+          "bytes": 91,
+          "sha256": "7aa84d834961b8fd72cdacd70b4dc882700c41c6a494807531ba223356397e63"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/takeaway/manifest.yaml",
+          "bytes": 91,
+          "sha256": "e900f0f51820aabc5da75e3f274c9edf6485140b524d7053cfc2775cf7255b30"
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "disposition": "REFERENCE ONLY",
+      "title": "Mighty catalog/selection/provenance",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/01-template-catalog-detailed.md",
+          "bytes": 139913,
+          "sha256": "84b4b666c830073bc6a597beac5de762b13a007db6e545caee063683917654c3"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/02-template-selection-matrix.md",
+          "bytes": 3459,
+          "sha256": "f3f7e6dc6ff787432c7c38e4ce58a21f2a8190ab8dbea11f3cbf29138e3081ad"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/03-hrba-use-case-map.md",
+          "bytes": 4421,
+          "sha256": "f42ef78c9e55130556301eae8cd6b39d789d944b763d24e9ca5c34e198af47b2"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/reports/final-readiness-report.md",
+          "bytes": 4576,
+          "sha256": "b60abde7f888593af7b5e02a60a23d97c51ea8c8c121fdd2eac74db3253aa333"
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "disposition": "HARVEST PATTERN",
+      "title": "Mighty images visually inspected",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/images/layouts/TPL-LAY-003-content-rows.png",
+          "bytes": 29818,
+          "sha256": "bce54ba5db37f6a293b92a8a7d0dd2f098e429b6f2aa1a168d546f66bed929c7"
+        },
+        {
+          "path": "D:/templates_elearning_resource_pack/images/tabs-accordions/TPL-ACC-008-reveal-table-content.jfif",
+          "bytes": 77412,
+          "sha256": "f9761329d5cad1a8e97ed9972d7b7fd3dba77fc22f782b2b1e64f70138477530"
+        }
+      ]
+    },
+    {
+      "id": "R08",
+      "disposition": "HARVEST PATTERN",
+      "title": "Reflection and guided-scenario catalog sections",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/templates_elearning_resource_pack/docs/01-template-catalog-detailed.md",
+          "bytes": 139913,
+          "sha256": "84b4b666c830073bc6a597beac5de762b13a007db6e545caee063683917654c3"
+        }
+      ]
+    },
+    {
+      "id": "R09",
+      "disposition": "HARVEST PATTERN",
+      "title": "HRBA Module5 evidence/accountability/canvas source excerpts",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/src/components/course/Module5EnhancedJourney.tsx",
+          "bytes": 40028,
+          "sha256": "dd0a922ba518291e0bed6d62f71b7fd6023a5f5adfa7d59dbd4d1a4a91a5bd24"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/src/components/course/Module5Renderer.tsx",
+          "bytes": 345151,
+          "sha256": "c12f7ccfdfa9fe5327840e89f97a996c03b6e5389fc9d9c025ba4ad569b52f06"
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "disposition": "REFERENCE ONLY",
+      "title": "Fictional setting source",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/eLearn_CDP_Lg/src/data/module3/jiruAmbaCaseNarrative.ts",
+          "bytes": 5462,
+          "sha256": "96a38c7a8e058fded0d9c4ccfd50e2f543646a3cb1263b32bd45b32426b2deda"
+        }
+      ]
+    },
+    {
+      "id": "R11",
+      "disposition": "HARVEST PATTERN",
+      "title": "PM adaptive review and current-source authority",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/module4/PmM406AdaptiveReview.tsx",
+          "bytes": 17643,
+          "sha256": "40b1b57dc0d6b1e88150615d4fd6f38f0dcf82453b16b4873d85572b3e208a35"
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/config/screens.json",
+          "bytes": 61348,
+          "sha256": "9e7759f30dd4fea09424bf7ee25a2d107d535754850c259a93f421ee8729ec37"
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/docs/00-project/source-authority.md",
+          "bytes": 3265,
+          "sha256": "7abfc7142ac1575a5fe9cc9f15c684324776b48d7f651be061d77d25fb7f3297"
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "disposition": "HARVEST PATTERN",
+      "title": "PM change-control source",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/module4/PmM403ChangeControl.tsx",
+          "bytes": 14267,
+          "sha256": "bf1ec3cad0c16d47054815aed47efffc3911d3a171b7207035da997661fd18dc"
+        }
+      ]
+    },
+    {
+      "id": "R13",
+      "disposition": "REJECT",
+      "title": "Prescribed answers and prefilled output as main completion",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/choice/single-choice-feedback.js",
+          "bytes": 3587,
+          "sha256": "576e555fda0a0e14797cef59488c66a0025ccf71581a78c00aa0ae0fc4d24a1b"
+        },
+        {
+          "path": "D:/pm-certified-release-20260924/app/src/screens/module4/PmM406AdaptiveReview.tsx",
+          "bytes": 17643,
+          "sha256": "40b1b57dc0d6b1e88150615d4fd6f38f0dcf82453b16b4873d85572b3e208a35"
+        },
+        {
+          "path": "D:/eLearn_CDP_Lg/src/components/course/Module5EnhancedJourney.tsx",
+          "bytes": 40028,
+          "sha256": "dd0a922ba518291e0bed6d62f71b7fd6023a5f5adfa7d59dbd4d1a4a91a5bd24"
+        }
+      ]
+    },
+    {
+      "id": "R14",
+      "disposition": "REFERENCE ONLY",
+      "title": "Existing illustrations; no new art justified",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/assets.json",
+          "bytes": 755,
+          "sha256": "3448c238571d87cceb950a6b9c70838c2db1411d35477e82cdc81c18e3e5195f"
+        }
+      ]
+    },
+    {
+      "id": "G06-01",
+      "disposition": "SYSTEM GAP",
+      "title": "Typed source/claim/decision ledger absent",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/components.json",
+          "bytes": 3278,
+          "sha256": "d660be6d6bc28bab50e714a8d9be8463dcb020fd88d2d22ef51ba8522157eb6a"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/case-evidence/manifest.yaml",
+          "bytes": 89,
+          "sha256": "a4a0a08658fc3f69981e4ef608688af212c7a72019bf9e9c25f25a8b470740fe"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/docs/system-gap-process.md",
+          "bytes": 310,
+          "sha256": "1166162e73538e9ab90497801c739e019fd66382c32b2f750afea663a63dfa64"
+        }
+      ]
+    },
+    {
+      "id": "G06-02",
+      "disposition": "SYSTEM GAP",
+      "title": "Evidence-update decision lifecycle absent",
+      "inspection": "Relevant source sections/manifests or explicitly named image inspection; not a complete external runtime QA audit",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/patterns.json",
+          "bytes": 713,
+          "sha256": "bf6b1d6ad0cce2f21acb093b98b9005db11f43a4f95a0e534e551fdb44248b89"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/templates.json",
+          "bytes": 878,
+          "sha256": "97cc1d72afed70948905a7dd3863f467e906c87e07d9bf1c6ac9c528ac4c6c0e"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/registries/compositions.json",
+          "bytes": 628,
+          "sha256": "b7f133da947086c3ae68422589d9f0fa23e8fc77b43d39e6b044d0acb1ce82e4"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/interactions/build-repair/model.js",
+          "bytes": 9579,
+          "sha256": "c3b276f2a64afab9c40485daa79170a76fd550343e92334b261f0153bb25ae7b"
+        }
+      ]
+    },
+    {
+      "id": "R15",
+      "disposition": "REFERENCE ONLY",
+      "title": "Research/guidance",
+      "files": [],
+      "web_sources": [
+        {
+          "url": "https://www.cdc.gov/evaluation/php/evaluation-framework-action-guide/step-5-generate-and-support-conclusions.html",
+          "access": "Full HTML read"
+        },
+        {
+          "url": "https://www.ohchr.org/sites/default/files/Documents/Issues/HRIndicators/Summary_en.pdf",
+          "access": "Official indexed extract only; direct PDF 403"
+        },
+        {
+          "url": "https://www.cs.cmu.edu/~rwylie/papers/CogSci-2009-wylie_koedinger_mitamura.pdf",
+          "access": "Primary paper abstract/method/results read"
+        }
+      ]
+    },
+    {
+      "id": "R16",
+      "disposition": "ADAPT",
+      "title": "Existing evidence-decision composition and template boundaries",
+      "inspection": "Read existing arrangement CSS, scenario compatibility and hard-coded deep-workspace labels",
+      "files": [
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/compositions/evidence-decision/manifest.yaml",
+          "bytes": 109,
+          "sha256": "87dfd7c662aa263c2972a1ce721e2e6794e3134fb1a54549892cf37441dc7382"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/compositions/evidence-decision/evidence-decision.css",
+          "bytes": 486,
+          "sha256": "4cd6fab6c3b6a41c0cbfe0b080dd82673750a1af693917b3c3a804607961e87c"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/templates/scenario/manifest.yaml",
+          "bytes": 566,
+          "sha256": "9ad77b875cd4b523ab522ad12d047cc339c03e23a79bc3c675f530d08ca573af"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/templates/deep-workspace/deep-workspace.js",
+          "bytes": 571,
+          "sha256": "62a3403beeea8bc68ecb41d0355b888308aa98d47166d419524957ae4d597a8a"
+        },
+        {
+          "path": "D:/CSO_Learning_Design_Production_System_v0.3-alpha/learning-blocks/work-artifact/manifest.yaml",
+          "bytes": 348,
+          "sha256": "e950eece83e4ffa6d5a29bf499ece682679b315bad1a973e587f388ae6de6a53"
+        }
+      ],
+      "decision": "Opt-in CMP-EVIDENCE-DECISION-01 lifecycle variant; configurable TPL-DEEP-WORKSPACE-01 variant; GR04/GR05 defaults preserved. TPL-SCENARIO-01 remains reference-only."
+    }
+  ],
+  "limitations": "No source copied into runtime. Web research retrieval scopes explicit. Hashes establish inspected bytes, not acceptance. New case facts are proposed synthetic content.",
+  "specification_revision": 2
+}

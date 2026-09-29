@@ -1,0 +1,1536 @@
+{
+  "date": "2026-09-29T03:07:28.061Z",
+  "provenance": "Automated headless Google Chrome; no native zoom, actual screen reader, physical keyboard or human semantic pass claimed",
+  "checks": [
+    {
+      "name": "V22 GR05 exact default DOM unchanged",
+      "passed": true
+    },
+    {
+      "name": "V22 GR05 exact default render pixel bytes unchanged",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V02 blank",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "bad": []
+      }
+    },
+    {
+      "name": "1920x1080 error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "bad": []
+      }
+    },
+    {
+      "name": "1920x1080 adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V10 completion",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "bad": []
+      }
+    },
+    {
+      "name": "1920x1080 final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440x900 V02 blank",
+      "passed": true
+    },
+    {
+      "name": "1440x900 V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "1440x900 V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "1440x900 error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "bad": []
+      }
+    },
+    {
+      "name": "1440x900 error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "1440x900 error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1440x900 error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "1440x900 error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "1440x900 evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900 interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900 decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900 V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "1440x900 V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "1440x900 adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "bad": []
+      }
+    },
+    {
+      "name": "1440x900 adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "1440x900 adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1440x900 adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "1440x900 adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "1440x900 adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900 V10 completion",
+      "passed": true
+    },
+    {
+      "name": "1440x900 V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "1440x900 final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "bad": []
+      }
+    },
+    {
+      "name": "1440x900 final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1440x900 final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "1440x900 final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1440x900 final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "1440x900 final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "1440x900 final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1440x900 V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "1440x900 V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "1440x900 V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "1440x900 no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024x768 V02 blank",
+      "passed": true
+    },
+    {
+      "name": "1024x768 V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "1024x768 V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "1024x768 error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "bad": []
+      }
+    },
+    {
+      "name": "1024x768 error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "1024x768 error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1024x768 error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "1024x768 error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "1024x768 evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768 interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768 decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768 V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "1024x768 V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "1024x768 adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "bad": []
+      }
+    },
+    {
+      "name": "1024x768 adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "1024x768 adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1024x768 adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "1024x768 adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "1024x768 adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768 V10 completion",
+      "passed": true
+    },
+    {
+      "name": "1024x768 V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "1024x768 final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "bad": []
+      }
+    },
+    {
+      "name": "1024x768 final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "1024x768 final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "1024x768 final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "1024x768 final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "1024x768 final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "1024x768 final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "1024x768 V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "1024x768 V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "1024x768 V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "1024x768 no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768x1024 V02 blank",
+      "passed": true
+    },
+    {
+      "name": "768x1024 V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "768x1024 V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "768x1024 error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "bad": []
+      }
+    },
+    {
+      "name": "768x1024 error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "768x1024 error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "768x1024 error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "768x1024 error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "768x1024 evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024 interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024 decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024 V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "768x1024 V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "768x1024 adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "bad": []
+      }
+    },
+    {
+      "name": "768x1024 adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "768x1024 adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "768x1024 adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "768x1024 adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "768x1024 adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024 V10 completion",
+      "passed": true
+    },
+    {
+      "name": "768x1024 V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "768x1024 final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "bad": []
+      }
+    },
+    {
+      "name": "768x1024 final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "768x1024 final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "768x1024 final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "768x1024 final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "768x1024 final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "768x1024 final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "768x1024 V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "768x1024 V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "768x1024 V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "768x1024 no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390x844 V02 blank",
+      "passed": true
+    },
+    {
+      "name": "390x844 V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "390x844 V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "390x844 error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "bad": []
+      }
+    },
+    {
+      "name": "390x844 error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "390x844 error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "390x844 error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "390x844 error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "390x844 evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844 interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844 decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844 V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "390x844 V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "390x844 adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "bad": []
+      }
+    },
+    {
+      "name": "390x844 adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "390x844 adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "390x844 adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "390x844 adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "390x844 adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844 V10 completion",
+      "passed": true
+    },
+    {
+      "name": "390x844 V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "390x844 final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "bad": []
+      }
+    },
+    {
+      "name": "390x844 final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "390x844 final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "390x844 final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "390x844 final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "390x844 final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "390x844 final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "390x844 V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "390x844 V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "390x844 V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "390x844 no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "320x568 V02 blank",
+      "passed": true
+    },
+    {
+      "name": "320x568 V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "320x568 V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "320x568 error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "bad": []
+      }
+    },
+    {
+      "name": "320x568 error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "320x568 error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "320x568 error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "320x568 error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "320x568 evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568 interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568 decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568 V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "320x568 V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "320x568 adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "bad": []
+      }
+    },
+    {
+      "name": "320x568 adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "320x568 adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "320x568 adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "320x568 adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "320x568 adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568 V10 completion",
+      "passed": true
+    },
+    {
+      "name": "320x568 V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "320x568 final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "bad": []
+      }
+    },
+    {
+      "name": "320x568 final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "320x568 final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "320x568 final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "320x568 final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "320x568 final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "320x568 final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "320x568 V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "320x568 V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "320x568 V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "320x568 no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "844x390 V02 blank",
+      "passed": true
+    },
+    {
+      "name": "844x390 V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "844x390 V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "844x390 error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "scroll": 844,
+        "bad": []
+      }
+    },
+    {
+      "name": "844x390 error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "844x390 error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "844x390 error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "844x390 error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "844x390 evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390 interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390 decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390 V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "844x390 V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "844x390 adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "scroll": 844,
+        "bad": []
+      }
+    },
+    {
+      "name": "844x390 adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "844x390 adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "844x390 adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "844x390 adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "844x390 adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390 V10 completion",
+      "passed": true
+    },
+    {
+      "name": "844x390 V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "844x390 final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 844,
+        "scroll": 844,
+        "bad": []
+      }
+    },
+    {
+      "name": "844x390 final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "844x390 final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "844x390 final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "844x390 final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "844x390 final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "844x390 final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "844x390 V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "844x390 V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "844x390 V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "844x390 no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "stress-320 V02 blank",
+      "passed": true
+    },
+    {
+      "name": "stress-320 V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "stress-320 V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "stress-320 error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "bad": []
+      }
+    },
+    {
+      "name": "stress-320 error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "stress-320 error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "stress-320 error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "stress-320 error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "stress-320 evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-320 interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-320 decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-320 V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "stress-320 V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "stress-320 adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "bad": []
+      }
+    },
+    {
+      "name": "stress-320 adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "stress-320 adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "stress-320 adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "stress-320 adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "stress-320 adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-320 V10 completion",
+      "passed": true
+    },
+    {
+      "name": "stress-320 V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "stress-320 final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "bad": []
+      }
+    },
+    {
+      "name": "stress-320 final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "stress-320 final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "stress-320 final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "stress-320 final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "stress-320 final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "stress-320 final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-320 V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "stress-320 V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "stress-320 V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "stress-320 no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "stress-1440 V02 blank",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "bad": []
+      }
+    },
+    {
+      "name": "stress-1440 error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "bad": []
+      }
+    },
+    {
+      "name": "stress-1440 adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 V10 completion",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "bad": []
+      }
+    },
+    {
+      "name": "stress-1440 final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "stress-1440 no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "keyboard V02 blank",
+      "passed": true
+    },
+    {
+      "name": "keyboard V07 U01 absent",
+      "passed": true
+    },
+    {
+      "name": "keyboard V12 error focus and association",
+      "passed": true
+    },
+    {
+      "name": "keyboard error no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "bad": []
+      }
+    },
+    {
+      "name": "keyboard error reachable to-interpretation",
+      "passed": true
+    },
+    {
+      "name": "keyboard error reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "keyboard error reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "keyboard error reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "keyboard evidence exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "keyboard interpretation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "keyboard decision exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "keyboard V06 exact v1",
+      "passed": true
+    },
+    {
+      "name": "keyboard V07 update exact",
+      "passed": true
+    },
+    {
+      "name": "keyboard adaptation no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "bad": []
+      }
+    },
+    {
+      "name": "keyboard adaptation reachable review-current",
+      "passed": true
+    },
+    {
+      "name": "keyboard adaptation reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "keyboard adaptation reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "keyboard adaptation reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "keyboard adaptation exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "keyboard V10 completion",
+      "passed": true
+    },
+    {
+      "name": "keyboard V06 immutable",
+      "passed": true
+    },
+    {
+      "name": "keyboard final no document overflow or clipping",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "bad": []
+      }
+    },
+    {
+      "name": "keyboard final reachable acknowledge",
+      "passed": true
+    },
+    {
+      "name": "keyboard final reachable revise",
+      "passed": true
+    },
+    {
+      "name": "keyboard final reachable continueButton",
+      "passed": true
+    },
+    {
+      "name": "keyboard final reachable show-text",
+      "passed": true
+    },
+    {
+      "name": "keyboard final reachable device-consent",
+      "passed": true
+    },
+    {
+      "name": "keyboard final exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "keyboard V11 revise disables",
+      "passed": true
+    },
+    {
+      "name": "keyboard V11 re-review enables",
+      "passed": true
+    },
+    {
+      "name": "keyboard V13 export focus and content",
+      "passed": true
+    },
+    {
+      "name": "keyboard no script errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "V19 keyboard Continue focus",
+      "passed": true
+    },
+    {
+      "name": "V13 download exact representation",
+      "passed": true
+    },
+    {
+      "name": "V20 denied clipboard truthful",
+      "passed": true
+    },
+    {
+      "name": "V20 offline multilingual pasted HTML inert",
+      "passed": true
+    },
+    {
+      "name": "V14 IME provisional checkpoint",
+      "passed": true
+    },
+    {
+      "name": "IME exact refresh recovery",
+      "passed": true
+    },
+    {
+      "name": "V16 clear isolates GR05",
+      "passed": true
+    },
+    {
+      "name": "V20 denied session truthful and live retained",
+      "passed": true
+    },
+    {
+      "name": "V20 no-JS honest fallback",
+      "passed": true
+    },
+    {
+      "name": "V14 no implicit durable record",
+      "passed": true
+    },
+    {
+      "name": "V15 opt-in receipt",
+      "passed": true
+    },
+    {
+      "name": "V15 actual browser closure explicit resume",
+      "passed": true
+    },
+    {
+      "name": "V15 opt-out retains session",
+      "passed": true
+    },
+    {
+      "name": "V16 corruption not silently overwritten",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "tests/track-a-implementation/gr06-screenshots/1920x1080-update.png",
+    "tests/track-a-implementation/gr06-screenshots/1920x1080-final.png",
+    "tests/track-a-implementation/gr06-screenshots/1440x900-update.png",
+    "tests/track-a-implementation/gr06-screenshots/1440x900-final.png",
+    "tests/track-a-implementation/gr06-screenshots/1024x768-update.png",
+    "tests/track-a-implementation/gr06-screenshots/1024x768-final.png",
+    "tests/track-a-implementation/gr06-screenshots/768x1024-update.png",
+    "tests/track-a-implementation/gr06-screenshots/768x1024-final.png",
+    "tests/track-a-implementation/gr06-screenshots/390x844-update.png",
+    "tests/track-a-implementation/gr06-screenshots/390x844-final.png",
+    "tests/track-a-implementation/gr06-screenshots/320x568-update.png",
+    "tests/track-a-implementation/gr06-screenshots/320x568-final.png",
+    "tests/track-a-implementation/gr06-screenshots/844x390-update.png",
+    "tests/track-a-implementation/gr06-screenshots/844x390-final.png",
+    "tests/track-a-implementation/gr06-screenshots/stress-320-update.png",
+    "tests/track-a-implementation/gr06-screenshots/stress-320-final.png",
+    "tests/track-a-implementation/gr06-screenshots/stress-1440-update.png",
+    "tests/track-a-implementation/gr06-screenshots/stress-1440-final.png",
+    "tests/track-a-implementation/gr06-screenshots/keyboard-update.png",
+    "tests/track-a-implementation/gr06-screenshots/keyboard-final.png"
+  ],
+  "browserVersion": "154.0.8037.58",
+  "temporaryProfile": "C:\\Users\\Omen\\AppData\\Local\\Temp\\gr06-browser-17SkAO",
+  "passed": true
+}

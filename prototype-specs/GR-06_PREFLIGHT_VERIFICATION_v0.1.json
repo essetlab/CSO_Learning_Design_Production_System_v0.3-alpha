@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "scope": "Specification/source/production-preservation checks only; no GR06 prototype validation performed.",
+  "checks": [
+    {
+      "name": "proposal only, no implementation authorization",
+      "passed": true
+    },
+    {
+      "name": "all authority tiers explicit",
+      "passed": true
+    },
+    {
+      "name": "five unique initial evidence IDs",
+      "passed": true
+    },
+    {
+      "name": "update ID separate from initial batch",
+      "passed": true
+    },
+    {
+      "name": "all sources carry scope/provenance limitations",
+      "passed": true
+    },
+    {
+      "name": "differentiated interpretation roles and decision links",
+      "passed": true
+    },
+    {
+      "name": "role prompts and no false symmetry explicit",
+      "passed": true
+    },
+    {
+      "name": "four decision routes with no automatic correctness",
+      "passed": true
+    },
+    {
+      "name": "all nine human rubric dimensions present",
+      "passed": true
+    },
+    {
+      "name": "case and U01 preserved from revision 1",
+      "passed": true
+    },
+    {
+      "name": "decision maxima preserved",
+      "passed": true
+    },
+    {
+      "name": "semantic composition and configurable template variants",
+      "passed": true
+    },
+    {
+      "name": "all new candidates explicitly proposed not registered",
+      "passed": true
+    },
+    {
+      "name": "maxima positive and no hard minima",
+      "passed": true
+    },
+    {
+      "name": "completion predicates complete",
+      "passed": true
+    },
+    {
+      "name": "completion independent of saving",
+      "passed": true
+    },
+    {
+      "name": "existing breakpoints/no new tokens",
+      "passed": true
+    },
+    {
+      "name": "all proposed reused/adapted IDs exist",
+      "passed": true
+    },
+    {
+      "name": "new proposals unregistered and unmaterialized",
+      "passed": true
+    },
+    {
+      "name": "all dispositions governed",
+      "passed": true
+    },
+    {
+      "name": "inspected source hashes unchanged",
+      "passed": true
+    },
+    {
+      "name": "22 unique future validation rows",
+      "passed": true
+    },
+    {
+      "name": "no GR06 Golden Reference built",
+      "passed": true
+    },
+    {
+      "name": "production and shared candidates unchanged since GR05 checkpoint",
+      "passed": true
+    },
+    {
+      "name": "GR05 pass and manual provenance preserved",
+      "passed": true
+    },
+    {
+      "name": "GR05 six candidates still PROTOTYPE",
+      "passed": true
+    },
+    {
+      "name": "repository and canonical schema regression",
+      "passed": true
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "python",
+        "validators/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"checked\": [\n    \"GR-01\",\n    \"GR-02\",\n    \"GR-03\",\n    \"GR-04\",\n    \"GR-05\"\n  ],\n  \"locked_checked\": [\n    \"GR-01\",\n    \"GR-04\"\n  ],\n  \"schema\": \"schemas/golden-reference.schema.json\",\n  \"legacy_template_strings\": [\n    \"GR-02\"\n  ],\n  \"external_python_packages_required\": true,\n  \"python_packages\": [\n    \"PyYAML\",\n    \"jsonschema\"\n  ],\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_template_schema.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.251s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "tools/validate_locked_build.py",
+        "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json",
+        "golden-references/GR-04/index.html"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"reference\": \"GR-04\",\n  \"exact_locked_render_match\": true,\n  \"candidate_sha256\": \"dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193\",\n  \"expected_sha256\": \"dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193\",\n  \"external_python_packages_required\": false,\n  \"errors\": []\n}\n",
+      "stderr": ""
+    }
+  ],
+  "source_mismatches": [],
+  "baseline_commit": "a3e131d8f1ec36631b06f8a10be892f2f3a99257"
+}

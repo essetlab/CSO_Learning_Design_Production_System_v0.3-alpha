@@ -1,0 +1,73 @@
+{
+  "checks": [
+    {
+      "name": "V15 immediate session checkpoint; no opt-in no durable write",
+      "passed": true
+    },
+    {
+      "name": "V16 independent session failure retains durable success",
+      "passed": true
+    },
+    {
+      "name": "V16 independent device failure retains session",
+      "passed": true
+    },
+    {
+      "name": "V16 both failures truthful",
+      "passed": true
+    },
+    {
+      "name": "V17 corrupt session never overwritten until explicit fork",
+      "passed": true
+    },
+    {
+      "name": "V17 contract/case/envelope mismatch preserved",
+      "passed": true
+    },
+    {
+      "name": "V27 durable opt-in, new-session explicit restore",
+      "passed": true
+    },
+    {
+      "name": "V28 opt-out removes durable only and retains refresh protection",
+      "passed": true
+    },
+    {
+      "name": "V28 removal failure reports device copy remains",
+      "passed": true
+    },
+    {
+      "name": "V17 concurrent writers cannot overwrite, explicit fork preserves both",
+      "passed": true
+    },
+    {
+      "name": "V17 divergence and invalid alternate tier never silently restore",
+      "passed": true
+    },
+    {
+      "name": "V18 clear affects selected draft only",
+      "passed": true
+    },
+    {
+      "name": "V18 clear failures report both tiers",
+      "passed": true
+    },
+    {
+      "name": "V17 clear cannot delete a newer conflicting device version",
+      "passed": true
+    },
+    {
+      "name": "V17 explicit discard removes only inspected incompatible data",
+      "passed": true
+    },
+    {
+      "name": "V17 discard preserves incompatible record changed since inspection",
+      "passed": true
+    },
+    {
+      "name": "V30 shared service rejects invalid caller payload",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

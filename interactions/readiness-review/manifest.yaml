@@ -1,0 +1,10 @@
+id: INT-READINESS-REVIEW-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: interaction
+ownership: Mapping validity, immutable initial record, current assessment/revision
+  binding, stale invalidation, reconsideration and practice acknowledgment. No credential
+  or public authority.
+frozen_contract: prototype-specs/TRACK_A_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+engine: readiness-review.js
+model: model.js

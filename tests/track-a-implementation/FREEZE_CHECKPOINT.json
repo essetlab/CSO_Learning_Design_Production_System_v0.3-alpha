@@ -1,0 +1,5 @@
+{
+  "commit": "d4e72e3a898e63ec084288925155781c4c58fce3",
+  "branch": "gate8/wave2/gr06-evidence-to-decision",
+  "scope": "Complete prior validated repository plus approved Track A specification and explicit LOCKED boundary; no Track A runtime yet."
+}

@@ -1,0 +1,27 @@
+:focus-visible {
+  outline: var(--focus-width) solid var(--color-focus-default);
+  outline-offset: var(--focus-offset);
+}
+.skip-link {
+  position: fixed;
+  top: var(--space-2);
+  left: var(--space-2);
+  z-index: 100;
+  transform: translateY(-220%);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-control);
+  background: var(--color-surface-paper);
+  color: var(--color-brand-navy);
+}
+.skip-link:focus { transform: translateY(0); }
+.visually-hidden, .sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}

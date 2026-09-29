@@ -1,0 +1,9 @@
+id: IP-BUILD-REPAIR-01
+version: 0.3.0-alpha
+status: PROTOTYPE
+type: pattern
+ownership: Evidence-linked diagnosis, authored repair, immutable review, constrained
+  revision and comparison.
+cross_course_validation: not-yet-tested
+frozen_contract: prototype-specs/GR-05_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json
+implementation: README.md

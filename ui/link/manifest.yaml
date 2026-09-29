@@ -1,0 +1,5 @@
+id: UI-LINK-01
+version: 0.2.0-alpha
+status: repo-alpha-ready
+scope: global
+implementation: link.css

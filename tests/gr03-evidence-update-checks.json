@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-28",
+  "status": "PASS",
+  "protected_production_contract_registry_schema_and_test_source_files_unchanged": 56,
+  "native_records_pass": true,
+  "browser_records_423_checks_unchanged_and_passing": true,
+  "governed_status": "PASS_FOR_WAVE_2_SYSTEM_REVIEW",
+  "candidate_status": "PROTOTYPE",
+  "production_code_changed": false,
+  "rerun_commands": [
+    {
+      "arguments": [
+        "validators/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"checked\": [\n    \"GR-01\",\n    \"GR-04\"\n  ],\n  \"external_python_packages_required\": false,\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "validators/validate_gr03.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"h1_count\": 1,\n  \"perspective_controls\": 3,\n  \"perspective_panels\": 3,\n  \"interpretation_options\": 4,\n  \"local_css_empty\": true,\n  \"shell_placeholder\": true,\n  \"content_limits\": {\n    \"perspective_label\": 8,\n    \"observation\": 45,\n    \"interpretation\": 45,\n    \"limitation\": 35,\n    \"answer_option\": 28,\n    \"feedback\": 65\n  },\n  \"content_word_counts\": {\n    \"perspective_label\": [\n      1,\n      1,\n      1\n    ],\n    \"observation\": [\n      16,\n      25,\n      23\n    ],\n    \"interpretation\": [\n      23,\n      14,\n      14\n    ],\n    \"limitation\": [\n      20,\n      13,\n      15\n    ],\n    \"answer_option\": [\n      15,\n      9,\n      15,\n      18\n    ],\n    \"feedback\": [\n      29,\n      40,\n      27,\n      36\n    ]\n  },\n  \"status\": \"pass\",\n  \"errors\": []\n}\n",
+      "stderr": ""
+    }
+  ],
+  "cross_record_consistency": "PASS",
+  "full_browser_rerun": "Not required: only evidence/status/docs changed; existing 423-check results preserved."
+}

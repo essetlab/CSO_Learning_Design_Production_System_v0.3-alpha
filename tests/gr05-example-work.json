@@ -1,0 +1,23 @@
+{
+  "purpose": "Test-only authored example for human semantic review; never offered as a learner answer.",
+  "diagnoses": {
+    "objective": "Meetings count activity, not whose priorities influence decisions.",
+    "participation": "Timing and inaccessible documents exclude vendors and disabled participants; preset options prevent influence.",
+    "accountability": "Awra cannot replace public decision-makers; concerns need a named response route.",
+    "evidence": "Attendance cannot show influence, safe access or whether concerns received responses."
+  },
+  "links": {"objective": ["E03", "E04"], "participation": ["E01", "E02", "E03"], "accountability": ["E04", "E05"], "evidence": ["E02", "E04"]},
+  "draft": {
+    "objective": "Enable women vendors and persons with disabilities to propose market priorities before the planning team finalizes decisions, and explain which proposals influenced the plan.",
+    "participation": "Ask vendors about suitable times and participants about access needs. Hold an accessible discussion using spoken summaries. Invite additional priorities, including stall allocation and budget influence. Check proposed priorities with affected groups before decisions.",
+    "accountability": "Awra facilitates input and records concerns with consent. Ask the responsible public planning officer to confirm a response date and explain decisions through accessible channels. Identify an escalation route with participants if no response arrives.",
+    "evidence": "Record suggested priorities and resulting plan changes without identifying contributors. Ask participants privately whether they could influence choices. Track responses and unresolved concerns, with access limited to agreed staff."
+  },
+  "revision": {
+    "participation": "Use short visits at vendor-agreed times and accessible small conversations before finalization, without a second large meeting. Offer spoken summaries and a confidential way to add priorities. Ask women vendors and disabled participants to check the combined priorities before the planning team decides.",
+    "evidence": "Keep a de-identified proposal-to-decision record from the visits and small conversations. Ask each group whether the summary reflects its priorities. Track the officer's response and unresolved points; agree access and deletion arrangements before collecting sensitive details."
+  },
+  "rationale": "Short visits replace another large meeting while preserving pre-decision influence. The revised evidence record links those conversations to decisions and responses; consent and deletion arrangements still need confirmation.",
+  "reason": "The note connects group input to decisions; confirm practical access arrangements with participants.",
+  "followUp": "Confirm accessible channels, response date and safe record retention with participants and the responsible officer."
+}

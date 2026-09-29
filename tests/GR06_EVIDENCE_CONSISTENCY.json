@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "status remains implemented pending manual",
+      "passed": true
+    },
+    {
+      "name": "all 22 matrix IDs present once",
+      "passed": true
+    },
+    {
+      "name": "two direct technical categories explicitly pending",
+      "passed": true
+    },
+    {
+      "name": "ChatGPT semantic PASS explicitly reported by user, not independently performed by Codex",
+      "passed": true
+    },
+    {
+      "name": "V09 and V21 current semantic outcome updated",
+      "passed": true
+    },
+    {
+      "name": "exact reviewed content preserved tests/gr06-semantic-fixtures.json",
+      "passed": true
+    },
+    {
+      "name": "exact reviewed content preserved golden-references/GR-06/GR-06_SEMANTIC_REVIEW_PACKET.md",
+      "passed": true
+    },
+    {
+      "name": "no promotion or Golden Reference acceptance",
+      "passed": true
+    },
+    {
+      "name": "checkpoint and branch preserved",
+      "passed": true
+    },
+    {
+      "name": "model exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "state_integration exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "browser exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "recovery exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "static exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "commands exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "GR03_browser exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "GR05_browser exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "GR05_keyboard_resilience exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "GR05_model exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "shared_state_service exact counts and successful automated evidence",
+      "passed": true
+    },
+    {
+      "name": "current source hash interactions/evidence-decision/evidence-decision.js",
+      "passed": true
+    },
+    {
+      "name": "current source hash interactions/evidence-decision/manifest.yaml",
+      "passed": true
+    },
+    {
+      "name": "current source hash interactions/evidence-decision/model.js",
+      "passed": true
+    },
+    {
+      "name": "current source hash interactions/evidence-decision/README.md",
+      "passed": true
+    },
+    {
+      "name": "current source hash learning-blocks/evidence-ledger/evidence-ledger.js",
+      "passed": true
+    },
+    {
+      "name": "current source hash learning-blocks/evidence-ledger/manifest.yaml",
+      "passed": true
+    },
+    {
+      "name": "current source hash learning-blocks/evidence-ledger/README.md",
+      "passed": true
+    },
+    {
+      "name": "current source hash docs/patterns/evidence-decision/manifest.yaml",
+      "passed": true
+    },
+    {
+      "name": "current source hash docs/patterns/evidence-decision/README.md",
+      "passed": true
+    },
+    {
+      "name": "current source hash state/learning-state/learning-state.js",
+      "passed": true
+    },
+    {
+      "name": "current source hash state/learning-state/manifest.yaml",
+      "passed": true
+    },
+    {
+      "name": "current source hash state/learning-state/README.md",
+      "passed": true
+    },
+    {
+      "name": "current source hash templates/deep-workspace/deep-workspace.js",
+      "passed": true
+    },
+    {
+      "name": "current source hash templates/deep-workspace/manifest.yaml",
+      "passed": true
+    },
+    {
+      "name": "current source hash templates/deep-workspace/README.md",
+      "passed": true
+    },
+    {
+      "name": "current source hash compositions/evidence-decision/evidence-decision.css",
+      "passed": true
+    },
+    {
+      "name": "current source hash compositions/evidence-decision/source-interpretation-decision-update.css",
+      "passed": true
+    },
+    {
+      "name": "current source hash compositions/evidence-decision/manifest.yaml",
+      "passed": true
+    },
+    {
+      "name": "current source hash prototype-specs/GR-06_AUTHORING_CONTENT_STATE_CONTRACT_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "current source hash prototype-specs/GR-06_VALIDATION_MATRIX_v0.1.md",
+      "passed": true
+    },
+    {
+      "name": "current source hash golden-references/GR-06/index.html",
+      "passed": true
+    },
+    {
+      "name": "current source hash golden-references/GR-06/spec.yaml",
+      "passed": true
+    },
+    {
+      "name": "current source hash tests/gr06-semantic-fixtures.json",
+      "passed": true
+    },
+    {
+      "name": "current source hash golden-references/GR-06/GR-06_SEMANTIC_REVIEW_PACKET.md",
+      "passed": true
+    },
+    {
+      "name": "screenshots exist",
+      "passed": true
+    },
+    {
+      "name": "manual checklist and review packet exist",
+      "passed": true
+    }
+  ]
+}

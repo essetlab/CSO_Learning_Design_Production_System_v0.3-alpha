@@ -1,0 +1,22 @@
+/* Opt-in CMP-EVIDENCE-DECISION-01 variant; no default GR04 selectors changed. */
+.evidence-cycle {max-width:var(--width-wide);margin:auto;padding:var(--space-8) var(--space-5) var(--space-20);}
+.evidence-cycle>header {max-width:var(--width-reading);}
+.evidence-cycle h1 {font:700 var(--type-episode-heading)/1.1 var(--font-display);color:var(--color-brand-navy);}
+.evidence-stages {display:flex;flex-wrap:wrap;gap:var(--space-2);margin-block:var(--space-5);}
+.evidence-stages [aria-current] {background:var(--color-surface-blue-soft);border-color:var(--color-brand-teal);}
+.cso-evidence-decision--source-interpretation-decision-update {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:var(--space-8);align-items:start;}
+.evidence-reference {background:var(--color-surface-cream);padding:var(--space-5);border-radius:var(--radius-surface);}
+.evidence-reference details {padding-block:var(--space-3);border-bottom:var(--border-standard) solid var(--color-border-soft);}
+.evidence-cycle summary {cursor:pointer;font-weight:700;min-height:var(--touch-minimum);}
+.evidence-work {min-width:0;}
+.evidence-actions {display:flex;flex-wrap:wrap;gap:var(--space-3);margin-block:var(--space-5);}
+.evidence-status,.evidence-save {border:var(--border-standard) solid var(--color-border-soft);padding:var(--space-4);margin-block:var(--space-5);border-radius:var(--radius-control);}
+.evidence-errors,.evidence-update {background:var(--color-feedback-review-surface);padding:var(--space-4);border-left:var(--space-1) solid var(--color-brand-teal);}
+.ledger-link {display:flex;align-items:flex-start;gap:var(--space-3);padding-block:var(--space-3);min-height:var(--touch-minimum);}
+.ledger-link input {flex:none;margin-top:var(--space-1);}
+.evidence-cycle [hidden] {display:none!important;}
+.evidence-cycle :is(p,li,legend,label,button,a,summary,h1,h2,h3,h4) {overflow-wrap:anywhere;}
+.evidence-cycle :is(textarea,select,button,input,a,summary,[tabindex]) {scroll-margin-block:var(--space-20);}
+@media(max-width:64rem){.cso-evidence-decision--source-interpretation-decision-update {gap:var(--space-5);}}
+@media(max-width:48rem){.cso-evidence-decision--source-interpretation-decision-update {grid-template-columns:minmax(0,1fr);}.evidence-cycle {padding-inline:var(--space-4);}}
+@media(max-width:30rem){.evidence-cycle {padding-inline:var(--space-3);}.evidence-actions>.button {width:100%;}}

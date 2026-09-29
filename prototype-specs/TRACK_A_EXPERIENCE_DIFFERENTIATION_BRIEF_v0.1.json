@@ -1,0 +1,124 @@
+{
+  "reference": "TRACK-A",
+  "professional_capability": "Review a bounded body of practice work against explicit capability criteria, distinguish sufficient evidence from missing or contradictory evidence, and record an accountable recommendation for the next supervised step with proportionate follow-up.",
+  "dominant_learner_action": "Inspect, map and judge a bounded body of work against criteria; concise writing supports judgment, never dominates.",
+  "emotional_cognitive_rhythm": "Orientation and scan → focused criterion mapping → accountable recommendation → a visible contradiction and consequence → clarification → reconsideration and calm closure. One review page with inline disclosure, no nested stage tabs.",
+  "visual_interaction_metaphor": "A compact review dossier with three criterion rows and a decision memo. Existing shell/tokens; sources are traceable documents, not selectable quiz answer cards.",
+  "density_scroll_expectation": "At most three collapsed criterion summaries, four collapsed source summaries and one decision region on the initial page; only one criterion mapping editor open by default, user may open more. Never duplicate full sources in every row. Max-content tests must still permit full expansion. Initial collapsible outline targets two desktop or four narrow-mobile viewport heights; this is a usability review target, not permission to clip content. 8–12 minute hypothesis; measure at implementation.",
+  "reference_work_balance": "Read mostly supplied work. Source excerpts stay one disclosure away from each criterion; source links return focus to the mapping row. Avoid a permanently expanded long reference column on mobile.",
+  "authored_writing_burden": "Two fields total: rationale ≤45 words and next-step note ≤35 when route/gaps require it; ≤600 characters each; no word minimum. Reuse the same fields during reconsideration; no per-source note, per-criterion reason, four-section repair or separate revision essay. Current record ≤80 words; two-record maximum ≤160 words even if both are wholly rewritten. GR05 has diagnoses, four repaired sections, eight review rounds’ criterion responses and a revision rationale; GR06 has five source notes, two interpretation/limitation pairs, six decision fields and update/review writing. Track A replaces that repeated authoring with three structured mapping rows. Aim 25–50 words per recommendation as optional guidance only.",
+  "desktop_mobile_transformation": "Source summaries beside three criterion rows; expand sources in place. One decision panel below. No kanban, drag wires or multi-column scoring matrix. One-column criterion-first outline with inline source excerpts, source labels/version on every link, open/return preserving focus; comparison pairs stack. No horizontal matrix or nested tab navigation.",
+  "magnetic_experience_moment": "A confident “all activities complete” claim looks ready until its evidence links expose prepared-not-received and unsupported authority. The learner can record not yet without failing, then see exactly what a clarification changes—and what it still does not prove.",
+  "reuse_rationale": "Reuse shell/basic UI and unchanged generic recovery. Harvest immutable version and traceability principles without importing the deep-workspace models. Propose a genuinely typed assessment bundle and readiness interaction, with opt-in scenario/composition variants; no objects registered. Mighty content rows inform scanning only; no vendor CSS or new visual system.",
+  "difference_from_recent_references": "GR05: author and repair four sections, long studio drafting rhythm, paired artifact comparison. GR06: source-note/interpretation/decision authoring with U01, dense multi-stage workspace; user review sets it as the upper burden bound, not the next template. Track A: compact dossier, three review rows, four supplied artifacts, two concise fields, visible readiness consequence and a short current-version reconsideration. Mobile uses criterion-linked inline evidence rather than nested stage tabs or horizontal matrices. Novelty comes from assessment sufficiency and agency in not yet, not a color/layout variation.",
+  "validation_baseline": {
+    "id": "W2-ACCESSIBILITY-RESILIENCE-BASELINE",
+    "universal": {
+      "U01": {
+        "method": "Spec/schema/registry checks, exact default/locked compatibility and full prior reference regression before any build pass.",
+        "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V01,V22 (planned, not executed)",
+        "owner": "Future implementation validator and independent reviewer; direct performer identified in evidence"
+      },
+      "U02": {
+        "method": "Keyboard mapping via native checkboxes/radio/select and disclosure controls; focus return, clear names/roles/states, no drag-only interaction.",
+        "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V14 (planned, not executed)",
+        "owner": "Future implementation validator and independent reviewer; direct performer identified in evidence"
+      },
+      "U03": {
+        "method": "Actual screen-reader full flow: criterion→source→return, uncertainty/gap labels, stale versions, feedback and practice-only Continue.",
+        "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V16 (planned, not executed)",
+        "owner": "Future implementation validator and independent reviewer; direct performer identified in evidence"
+      },
+      "U04": {
+        "method": "Seven frozen viewport sizes, maximum-content/long labels, genuine native Chrome 200% with indicator captured; no substitution by CSS zoom.",
+        "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V13,V15 (planned, not executed)",
+        "owner": "Future implementation validator and independent reviewer; direct performer identified in evidence"
+      },
+      "U05": {
+        "method": "Text/icon state labels plus color, readable contrast, focus visibility, reduced motion and font fallback.",
+        "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V14,V18 (planned, not executed)",
+        "owner": "Future implementation validator and independent reviewer; direct performer identified in evidence"
+      },
+      "U06": {
+        "method": "Offline after load, failed storage/export, honest no-JS text dossier and no completion claim; preserve live work.",
+        "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V18 (planned, not executed)",
+        "owner": "Future implementation validator and independent reviewer; direct performer identified in evidence"
+      },
+      "U07": {
+        "method": "Separate automated, user-attested and ChatGPT/independent human evidence; no inherited GR06 native-zoom or other direct pass.",
+        "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V21 (planned, not executed)",
+        "owner": "Future implementation validator and independent reviewer; direct performer identified in evidence"
+      },
+      "U08": {
+        "method": "Independent semantic rubric H01–H10 and burden review on exact synthetic fixtures and negatives.",
+        "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V20 (planned, not executed)",
+        "owner": "Future implementation validator and independent reviewer; direct performer identified in evidence"
+      }
+    },
+    "conditional": {
+      "C01": {
+        "applies": true,
+        "rationale": "Two concise text fields remain; physical keyboard/IME/paste testing is still required.",
+        "validation": {
+          "method": "Execute applicable contract checks",
+          "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V17,V18 (planned)",
+          "owner": "Architectural reviewer and future implementation validator"
+        }
+      },
+      "C02": {
+        "applies": true,
+        "rationale": "Authored review and versioned outcomes require automatic refresh recovery and explicit opt-in durability through unchanged shared service.",
+        "validation": {
+          "method": "Execute applicable contract checks",
+          "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V10,V11 (planned)",
+          "owner": "Architectural reviewer and future implementation validator"
+        }
+      },
+      "C03": {
+        "applies": false,
+        "rationale": "No new illustration, audio or video. Existing shell identity is retained; text and system-font fallbacks are included. Reassess if media is proposed.",
+        "validation": {
+          "method": "Independent review confirms exclusion; reject silent addition",
+          "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V01,V18 (planned)",
+          "owner": "Architectural reviewer and future implementation validator"
+        }
+      },
+      "C04": {
+        "applies": true,
+        "rationale": "Evidence/criterion mappings and initial/current comparison must linearize without horizontal matrix dependence.",
+        "validation": {
+          "method": "Execute applicable contract checks",
+          "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V13,V14,V16 (planned)",
+          "owner": "Architectural reviewer and future implementation validator"
+        }
+      },
+      "C05": {
+        "applies": true,
+        "rationale": "This is an assessment/readiness practice gate; all outcomes, remediation, invalidation and honest completion signals are core.",
+        "validation": {
+          "method": "Execute applicable contract checks",
+          "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V03–V09,V20 (planned)",
+          "owner": "Architectural reviewer and future implementation validator"
+        }
+      },
+      "C06": {
+        "applies": true,
+        "rationale": "Optional local plain-text review export with truthful clipboard/download failure. No remote delivery.",
+        "validation": {
+          "method": "Execute applicable contract checks",
+          "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V12 (planned)",
+          "owner": "Architectural reviewer and future implementation validator"
+        }
+      },
+      "C07": {
+        "applies": false,
+        "rationale": "No timed, audio, drag or motion-dependent tasks. Native controls and untimed review are the only proposal; architectural return required if changed.",
+        "validation": {
+          "method": "Independent review confirms exclusion; reject silent addition",
+          "evidence": "TRACK_A_VALIDATION_MATRIX_v0.1.md V01,V14,V18 (planned)",
+          "owner": "Architectural reviewer and future implementation validator"
+        }
+      }
+    }
+  }
+}

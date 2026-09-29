@@ -1,0 +1,25 @@
+> Current governed result — 2026-09-29: **PASS_FOR_WAVE_2_SYSTEM_REVIEW**. V05 and V25 passed ChatGPT architectural/HRBA review, explicitly communicated by the user. V21, V23 and physical-mobile V22 passed by user attestation; Codex did not independently perform those checks. Automated evidence remains separate. No manual requirements remain open. Q03/Q04 needs_follow_up are valid unresolved actions in the synthetic artifact, not validation failures. All six candidates remain PROTOTYPE; no Golden Reference acceptance. Earlier pending statements below are retained chronological history and superseded by this notice. GR-06 is authorized for preflight/specification only after the GR-05 checkpoint.
+
+# GR-05 implementation defect register
+
+Classes here are descriptive: **shared-system**, **reference/build**, **validation tooling**, **manual evidence**. Severity is stated separately; these are not promotions or new governance categories.
+
+| ID | Class | Finding | Correction / verification |
+| --- | --- | --- | --- |
+| G05-D01 | shared-system — data protection | Opt-out/clear could delete a newer durable version from another tab. | SVC-LEARNING-STATE-01 now compares the stored version inside the shared lock before removal. State-service tests verify preservation and truthful failure. |
+| G05-D02 | shared-system — recovery | Incompatible records could be preserved and forked but not explicitly discarded through the interface. | Shared service offers explicit discard of inspected incompatible records, preserving any changed record and all valid/other drafts. Confirmation belongs to the interaction. Tests cover removal and concurrent change. |
+| G05-D03 | shared-system — authoring boundary | Changing a judgment to addressed could leave an over-limit follow-up outside the hard maximum check. | Interaction enforces the 35-word maximum even for retained optional text. Artifact keeps that text visible for correction; linked error focuses it. Model and browser checks cover it. |
+| G05-D04 | shared-system — accessibility | Errors originally focused the summary and lacked inline associations, contrary to the frozen contract. | Interaction supplies linked summaries, inline descriptions and aria-invalid; focuses the first invalid control after explicit action. Browser/keyboard checks cover it. Artifact marks required fields programmatically. |
+| G05-D05 | reference/build — resilience | No-JavaScript fallback showed the brief but not the original note. | Deterministic page generator now includes both and a plain-text exercise. Browser verifies visible fallback. |
+| G05-D06 | shared-system — export contract | Version/completion metadata preceded retained sections. | Artifact representation now places versions/status last, matching the frozen retained-section order. Download equality/order and clipboard-denial checks cover it. |
+| G05-D07 | shared-system — input resilience | Initial input handling did not distinguish an in-progress IME composition from committed text. | Artifact forwards composition state; interaction checkpoints provisional text without granting completion and updates on commitment. Browser tests verify recovery text and the acknowledgment gate. Existing UI-SAVE-STATE-01 styling is also wired to the shared receipts, as frozen. |
+| G05-T01 | validation tooling | Playwright text locator ignored noscript descendants, giving one false failure in the initial 321-check run. | Explicit noscript heading locator and visible original-note assertion. Initial report retained. |
+| G05-T02 | validation tooling | Immediate keyboard assertion raced the next animation-frame focus transfer. | Wait for the actual first-invalid-field focus before asserting associations. Final focused suite passes. |
+| G05-M01 | manual evidence — pending | Genuine Chrome 200%, screen-reader use, physical mobile keyboard and human instructional/HRBA assessment have no new direct evidence. | User explicitly requested return with these checks pending. Checklist in GR-05/MANUAL_VALIDATION.md. No pass claimed for them. |
+
+
+## Subsequent user attestation and V25 packet handoff
+
+The user explicitly reported PASS for V21 genuine Chrome 200%, V23 actual screen-reader walkthrough and the physical-mobile software-keyboard portion of V22. These are user-attested checks, not Codex-performed or independently verified results. See `tests/GR05_USER_ATTESTED_MANUAL_EVIDENCE.json`. This update supersedes the earlier technical-pending portion of G05-M01; earlier execution history and automated evidence remain intact.
+
+The exact existing non-stress synthetic example has been expanded into `golden-references/GR-05/GR-05_V25_REVIEW_PACKET.md`, using the unchanged fixture and browser test procedure. Repeated reasons, all `needs_follow_up` judgments and unresolved actions are preserved. V25 and its related V05 instructional-depth review remain pending. Overall status remains `IMPLEMENTED_PENDING_MANUAL_VALIDATION`. No production, candidate-object, content or state-logic changes were made in this evidence-only update; no GR-06 work started.

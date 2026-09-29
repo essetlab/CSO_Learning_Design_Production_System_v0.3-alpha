@@ -1,0 +1,91 @@
+{
+  "scope": "Evidence closure and relevant static/schema/model/state/locked regressions; browser evidence unchanged.",
+  "passed": true,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "validators/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"checked\": [\n    \"GR-01\",\n    \"GR-02\",\n    \"GR-03\",\n    \"GR-04\",\n    \"GR-05\"\n  ],\n  \"locked_checked\": [\n    \"GR-01\",\n    \"GR-04\"\n  ],\n  \"schema\": \"schemas/golden-reference.schema.json\",\n  \"legacy_template_strings\": [\n    \"GR-02\"\n  ],\n  \"external_python_packages_required\": true,\n  \"python_packages\": [\n    \"PyYAML\",\n    \"jsonschema\"\n  ],\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "validators/validate_gr05.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"contract_sha256\": \"66259ff7de0dc0abab37b26f8a1f0984ac40470fe5389b705e781c84272de7f6\",\n  \"checks\": [\n    {\n      \"name\": \"frozen revision 2 embedded exactly\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"no reference-local script or styles\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"all runtime dependencies local and available\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"patterns JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"IP-BUILD-REPAIR-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"components JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"BLK-WORK-ARTIFACT-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"components JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"INT-BUILD-REPAIR-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"compositions JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"CMP-REPAIR-STUDIO-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"templates JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"TPL-DEEP-WORKSPACE-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"components JSON/YAML parity\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"SVC-LEARNING-STATE-01 registered PROTOTYPE in approved shared location\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"no reference/view storage APIs\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"generic service contains no activity completion predicate\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"learning-blocks/work-artifact/work-artifact.css uses only existing tokens\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"learning-blocks/work-artifact/work-artifact.css existing responsive breakpoints\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"compositions/repair-studio/repair-studio.css uses only existing tokens\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"compositions/repair-studio/repair-studio.css existing responsive breakpoints\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"GR01\\u201304 and locked shared production preserved from freeze\",\n      \"passed\": true\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "validators/validate_gr03.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"h1_count\": 1,\n  \"perspective_controls\": 3,\n  \"perspective_panels\": 3,\n  \"interpretation_options\": 4,\n  \"local_css_empty\": true,\n  \"shell_placeholder\": true,\n  \"content_limits\": {\n    \"perspective_label\": 8,\n    \"observation\": 45,\n    \"interpretation\": 45,\n    \"limitation\": 35,\n    \"answer_option\": 28,\n    \"feedback\": 65\n  },\n  \"content_word_counts\": {\n    \"perspective_label\": [\n      1,\n      1,\n      1\n    ],\n    \"observation\": [\n      16,\n      25,\n      23\n    ],\n    \"interpretation\": [\n      23,\n      14,\n      14\n    ],\n    \"limitation\": [\n      20,\n      13,\n      15\n    ],\n    \"answer_option\": [\n      15,\n      9,\n      15,\n      18\n    ],\n    \"feedback\": [\n      29,\n      40,\n      27,\n      36\n    ]\n  },\n  \"status\": \"pass\",\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_template_schema.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.230s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "tools/validate_locked_build.py",
+        "locked-build-specs/GR-01_LOCKED_BUILD_v0.1.json",
+        "golden-references/GR-01/index.html"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"reference\": \"GR-01\",\n  \"exact_locked_render_match\": true,\n  \"candidate_sha256\": \"27fc55b9471e09d2c9f245b9cb0116592e2340668056ddbdf181b0548d096da2\",\n  \"expected_sha256\": \"27fc55b9471e09d2c9f245b9cb0116592e2340668056ddbdf181b0548d096da2\",\n  \"external_python_packages_required\": false,\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tools/validate_locked_build.py",
+        "locked-build-specs/GR-04_LOCKED_BUILD_v0.1.json",
+        "golden-references/GR-04/index.html"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"reference\": \"GR-04\",\n  \"exact_locked_render_match\": true,\n  \"candidate_sha256\": \"dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193\",\n  \"expected_sha256\": \"dd6df39daa7ae59089b868b1866c208f8c2923c6e3c62f0c3ce11eba20f8f193\",\n  \"external_python_packages_required\": false,\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_gr05_model.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 31,\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_learning_state.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 17,\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/check_gr05_v25_semantic_fixture.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 47,\n  \"failures\": []\n}\n",
+      "stderr": ""
+    }
+  ]
+}

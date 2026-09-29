@@ -1,0 +1,190 @@
+{
+  "checks": [
+    {
+      "path": "shell/course-shell.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/check_gr05_encoding.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/check_gr05_v25_semantic_fixture.mjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/gr03_content_stress.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/run_gr03_browser_validation.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/run_gr05_browser_validation.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/run_gr05_keyboard_resilience.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/run_gr06_browser.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/run_gr06_recovery.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/run_track_a_browser.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/run_track_a_resilience.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/test_gr05_model.mjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/test_gr06_model.mjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/test_gr06_state.mjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/test_learning_state.mjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/test_track_a_model.mjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/test_track_a_state.mjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/wave2-corrections/baseline/tests/run_gr05_keyboard_resilience.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/wave2-corrections/baseline/tests/run_gr06_browser.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/wave2-corrections/baseline/tests/run_gr06_recovery.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "tests/wave2-corrections/baseline/interactions/build-repair/build-repair.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "templates/deep-workspace/deep-workspace.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "templates/scenario/readiness-review.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "state/learning-state/learning-state.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "practice/practice-focus/practice-focus.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "learning-blocks/assessment-bundle/assessment-bundle.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "learning-blocks/evidence-ledger/evidence-ledger.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "learning-blocks/work-artifact/work-artifact.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "interactions/build-repair/build-repair.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "interactions/build-repair/model.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "interactions/choice/single-choice-feedback.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "interactions/evidence-decision/evidence-decision.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "interactions/evidence-decision/model.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "interactions/judgement/single-choice-feedback.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "interactions/labeled-graphic/labeled-graphic.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "interactions/readiness-review/model.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "path": "interactions/readiness-review/readiness-review.js",
+      "passed": true,
+      "error": null
+    }
+  ],
+  "passed": true
+}

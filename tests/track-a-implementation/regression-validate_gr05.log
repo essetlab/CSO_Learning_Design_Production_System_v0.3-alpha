@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "contract_sha256": "66259ff7de0dc0abab37b26f8a1f0984ac40470fe5389b705e781c84272de7f6",
+  "checks": [
+    {
+      "name": "frozen revision 2 embedded exactly",
+      "passed": true
+    },
+    {
+      "name": "no reference-local script or styles",
+      "passed": true
+    },
+    {
+      "name": "all runtime dependencies local and available",
+      "passed": true
+    },
+    {
+      "name": "patterns JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "IP-BUILD-REPAIR-01 registered PROTOTYPE in approved shared location",
+      "passed": true
+    },
+    {
+      "name": "components JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "BLK-WORK-ARTIFACT-01 registered PROTOTYPE in approved shared location",
+      "passed": true
+    },
+    {
+      "name": "components JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "INT-BUILD-REPAIR-01 registered PROTOTYPE in approved shared location",
+      "passed": true
+    },
+    {
+      "name": "compositions JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "CMP-REPAIR-STUDIO-01 registered PROTOTYPE in approved shared location",
+      "passed": true
+    },
+    {
+      "name": "templates JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "TPL-DEEP-WORKSPACE-01 registered PROTOTYPE in approved shared location",
+      "passed": true
+    },
+    {
+      "name": "components JSON/YAML parity",
+      "passed": true
+    },
+    {
+      "name": "SVC-LEARNING-STATE-01 registered PROTOTYPE in approved shared location",
+      "passed": true
+    },
+    {
+      "name": "no reference/view storage APIs",
+      "passed": true
+    },
+    {
+      "name": "generic service contains no activity completion predicate",
+      "passed": true
+    },
+    {
+      "name": "learning-blocks/work-artifact/work-artifact.css uses only existing tokens",
+      "passed": true
+    },
+    {
+      "name": "learning-blocks/work-artifact/work-artifact.css existing responsive breakpoints",
+      "passed": true
+    },
+    {
+      "name": "compositions/repair-studio/repair-studio.css uses only existing tokens",
+      "passed": true
+    },
+    {
+      "name": "compositions/repair-studio/repair-studio.css existing responsive breakpoints",
+      "passed": true
+    },
+    {
+      "name": "GR01\u201304 and locked shared production preserved from freeze",
+      "passed": true
+    }
+  ]
+}
+
